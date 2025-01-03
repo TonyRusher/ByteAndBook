@@ -37,7 +37,7 @@
 					$base = new Conexion();
 					$conn = $base->getConn();
 					
-					if(isset($_SESSION["TYPE"]) && $_SESSION["TYPE"] == 1){
+					if(isset($_SESSION["TYPE"]) && $_SESSION["TYPE"] == 2){
 						$idUsuario = $_SESSION["ID_USUARIO"];
 						$nombre = $_SESSION["NOMBRE"];
 						$apellido1 = $_SESSION["APELLIDO_1"];

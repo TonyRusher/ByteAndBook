@@ -13,42 +13,49 @@
 		require_once('Constantes.php');
 		$header = new Constantes();
 		$header->getImports();
-		session_start();
-		if(isset($_SESSION["TYPE"]) ){
-			header("Location: ../usuario_global/index.php");
-			exit();
-		}
 		?>
 	</head>
 	<body class="is-preload">
+        <?php
+			session_start();
+				if(isset($_SESSION["TYPE"]) && $_SESSION["TYPE"] == 2){
+					$TYPE = $_SESSION["TYPE"];
+				}else{
+					header("Location: ../usuario_global/index.php");
+					exit();
+				}
+			require_once('Constantes.php');
+    		$header = new Constantes();
+			$header->getHeader($TYPE);
+		?>
 		<?PHP
 			require_once('../usuario_global/Conexion.php');
 			$base = new Conexion();
 			$conn = $base->getConn();
 
-			$nombre = $_POST["Nombre"];
-			$apellido1 = $_POST["Apellido_1"];
-			$apellido2 = $_POST["Apellido_2"];
-			$telefono = $_POST["Telefono"];
+			$nombre = $_POST["Nombre"] ?? null;
+			$apellido1 = $_POST["Apellido_1"] ?? null;
+			$apellido2 = $_POST["Apellido_2"] ?? null;
+			$telefono = $_POST["Telefono"] ?? null;
 
-			$calle = $_POST["calle"];
-			$numeroExt = $_POST["numeroExt"];
-			$numeroInt = $_POST["numeroInt"];
-			$colonia = $_POST["colonia"];
-			$alcaldia = $_POST["alcaldia"];
-			$codigo_postal = $_POST["codigo_postal"];
+			$calle = $_POST["calle"] ?? null;
+			$numeroExt = $_POST["numeroExt"] ?? null;
+			$numeroInt = $_POST["numeroInt"] ?? null;
+			$colonia = $_POST["colonia"] ?? null;
+			$alcaldia = $_POST["alcaldia"] ?? null;
+			$codigo_postal = $_POST["codigo_postal"] ?? null;
 
-			$fechaNacimiento = $_POST["fechaNacimiento"];
-			$correo = $_POST["correo"];
-			$pass1 = $_POST["pass1"];
-			$pass2 = $_POST["pass2"];
+			$fechaNacimiento = $_POST["fechaNacimiento"] ?? null;
+			$correo = $_POST["correo"] ?? null;
+			$pass1 = $_POST["pass1"] ?? null;
+			$pass2 = $_POST["pass2"] ?? null;
 		?>
 		<!-- Wrapper -->
 			<div id="wrapper">
 				<article class= "post">
 				<section>
-						<h3>Bienvenido!</h3>
-						<form method="post" action="registro.php">
+						<h3>Registrar Usuarios</h3>
+						<form method="post" action="registrar_usuarios.php">
 							<div class="row gtr-uniform">
 								<div class="col-12">
 									<?php
@@ -147,7 +154,6 @@
 									<ul class="actions">
 										<li>Esta pagina es creada con fines académicos, tus datos serán usados unicamente de prueba</li>
 										<li><input type="submit" value="Registrar" name = "Registrar" /></li>
-										<li><a href="index.php" class="button">Iniciar sesión</a></li>
 									</ul>
 								</div>
 							</div>
