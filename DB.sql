@@ -225,7 +225,9 @@ insert into datos_personales (NOMBRE, APELLIDO_1, APELLIDO_2, TELEFONO) values
 ('Carlos', 'Gomez', 'Garcia', '5512345678'),
 ('Fernanda', 'Martinez', 'Lopez', '5512345678'),
 ('Jorge', 'Lopez', 'Gomez', '5512345678'),
-('Diana', 'Garcia', 'Hernandez', '5512345678');
+('Diana', 'Garcia', 'Hernandez', '5512345678'),
+('Jose', 'Martinez', 'Sanchez', '5512345678'),
+('Julian', 'Rodriguez', 'Torres', '5512345678');
 
 insert into direcciones (CALLE, NUMERO_EXT, NUMERO_INT, COLONIA, ALCALDIA, CODIGO_POSTAL) values 
 ('Calle 1', 123, 'A', 'Colonia 1', 'Alcaldia 1', '12345'),
@@ -237,7 +239,9 @@ insert into direcciones (CALLE, NUMERO_EXT, NUMERO_INT, COLONIA, ALCALDIA, CODIG
 ('Calle 7', 123, 'G', 'Colonia 7', 'Alcaldia 7', '12345'),
 ('Calle 8', 123, 'H', 'Colonia 8', 'Alcaldia 8', '12345'),
 ('Calle 9', 123, 'I', 'Colonia 9', 'Alcaldia 9', '12345'),
-('Calle 10', 123, 'J', 'Colonia 10', 'Alcaldia 10', '12345');
+('Calle 10', 123, 'J', 'Colonia 10', 'Alcaldia 10', '12345'),
+('Calle 11', 123, 'K', 'Colonia 11', 'Alcaldia 11', '12345'),
+('Calle 12', 123, 'L', 'Colonia 12', 'Alcaldia 12', '12345');
 
 insert into usuarios (ID_DATOS_PERSONALES, ID_DIRECCION, FECHA_NACIMIENTO, CORREO, CONTRASENA, TIPO_USUARIO) values 
 (1, 1, '1990-01-01', 'juan@mail.com', '123456', 1),
@@ -249,7 +253,9 @@ insert into usuarios (ID_DATOS_PERSONALES, ID_DIRECCION, FECHA_NACIMIENTO, CORRE
 (7, 7, '1990-01-01', 'carlos@mail.com', '123456', 1),
 (8, 8, '1990-01-01', 'fernanda@mail.com', '123456', 1),
 (9, 9, '1990-01-01', 'jorge@mail.com', '123456', 1),
-(10, 10, '1990-01-01', 'diana@mail.com', '123456', 1);
+(10, 10, '1990-01-01', 'diana@mail.com', '123456', 1),
+(11, 11, '1990-01-01', 'jose@mail.com',123456,2),
+(12, 12, '1990-01-01', 'julian@mail.com',123456,3);
 
 insert into catalogo_generos (NOMBRE_GENERO) values 
 ('Accion'),

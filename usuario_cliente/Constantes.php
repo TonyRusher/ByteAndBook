@@ -10,7 +10,7 @@
 							<li><a href='adeudos.php'>Adeudos</a></li>
 							<li><a href='historial.php'>Historial</a></li>
 							<li><a href='plus.php'>Plus</a></li>
-							<li><a href='cerrarSesion.php'>Cerrar sesión</a></li>
+							<li><a href='../usuario_global/cerrarSesion.php'>Cerrar sesión</a></li>
 						</ul>
 					</nav>";
 		
@@ -56,7 +56,7 @@
 										</a>
 									</li>
 									<li>
-										<a href='cerrarSesion.php'>
+										<a href='../usuario_global/cerrarSesion.php'>
 											<h3>Cerrar sesión</h3>
 											<p>Finaliza tu sesión</p>
 										</a>
