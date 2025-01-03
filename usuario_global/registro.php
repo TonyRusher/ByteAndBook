@@ -26,22 +26,22 @@
 			$base = new Conexion();
 			$conn = $base->getConn();
 
-			$nombre = $_POST["Nombre"];
-			$apellido1 = $_POST["Apellido_1"];
-			$apellido2 = $_POST["Apellido_2"];
-			$telefono = $_POST["Telefono"];
+			$nombre = $_POST["nombre"] ?? null;
+			$apellido1 = $_POST["apellido1"] ?? null;
+			$apellido2 = $_POST["apellido2"] ?? null;
+			$telefono = $_POST["telefono"] ?? null;
 
-			$calle = $_POST["calle"];
-			$numeroExt = $_POST["numeroExt"];
-			$numeroInt = $_POST["numeroInt"];
-			$colonia = $_POST["colonia"];
-			$alcaldia = $_POST["alcaldia"];
-			$codigo_postal = $_POST["codigo_postal"];
+			$calle = $_POST["calle"] ?? null;
+			$numeroExt = $_POST["numeroExt"] ?? null;
+			$numeroInt = $_POST["numeroInt"] ?? null;
+			$colonia = $_POST["colonia"] ?? null;
+			$alcaldia = $_POST["alcaldia"] ?? null;
+			$codigo_postal = $_POST["codigo_postal"] ?? null;
 
-			$fechaNacimiento = $_POST["fechaNacimiento"];
-			$correo = $_POST["correo"];
-			$pass1 = $_POST["pass1"];
-			$pass2 = $_POST["pass2"];
+			$fechaNacimiento = $_POST["fechaNacimiento"] ?? null;
+			$correo = $_POST["correo"] ?? null;
+			$pass1 = $_POST["pass1"] ?? null;
+			$pass2 = $_POST["pass2"] ?? null;
 		?>
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -54,7 +54,8 @@
 									<?php
 										if (isset($_POST["Registrar"])) {
 											if (empty($nombre) || empty($apellido1) || empty($apellido2) || empty($correo) || empty($pass1) || empty($pass2) || empty($telefono) || empty($calle) || empty($numeroExt) || empty($colonia) || empty($alcaldia) || empty($codigo_postal) || empty($fechaNacimiento)) {
-												echo "<script>Swal.fire('Por favor llena todos los campos');</script>";
+												echo "<script>Swal.fire('Por favor llena todos los campos ($nombre)');</script>";
+
 											} elseif (!is_numeric($telefono) || strlen($telefono) != 10) {
 												echo "<script>Swal.fire('Por favor ingresa un número de teléfono válido');</script>";
 											} elseif (!is_numeric($numeroExt)) {
@@ -99,10 +100,10 @@
 									<input type="text" name="nombre" id="nombre" value="<?php echo $nombre;?>" placeholder="Nombre" />
 								</div>
 								<div class="col-4 col-12-small">
-									<input type="text" name="apellido1" id="apellido1" value="<?php echo $apellido1;?>" placeholder="Primer apellido" />
+									<input type="text" name="apellido1" id="apellido_1" value="<?php echo $apellido1;?>" placeholder="Primer apellido" />
 								</div>
 								<div class="col-4 col-12-small">
-									<input type="text" name="apellido2" id="apellido2" value="<?php echo $apellido2;?>" placeholder="Segundo apellido" />
+									<input type="text" name="apellido2" id="apellido_2" value="<?php echo $apellido2;?>" placeholder="Segundo apellido" />
 								</div>
 								<div class="col-4 col-12-small">
 									<input type="email" name="correo" id="correo" value="<?php echo $correo;?>" placeholder="correo electrónico" />

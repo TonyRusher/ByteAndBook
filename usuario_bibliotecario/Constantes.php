@@ -7,7 +7,7 @@
 		public $navBibliotecario = "<nav class='links'>
 						<ul>
 							<li><a href='registrar_prestamo.php'>Préstamos</a></li>
-							<li><a href='registrar_prestamo.php'>Devoluciones</a></li>
+							<li><a href='registrar_devolucion.php'>Devoluciones</a></li>
 							<li><a href='registrar_usuarios.php'>Registrar usuario</a></li>
 							<li><a href='busqueda_usuarios.php'>Buscar usuarios</a></li>
 							<li><a href='busqueda_libros.php'>Buscar libros</a></li>
@@ -22,7 +22,7 @@
 		
 							
 		
-		public $menuUsuario = "<nav class='main'>
+		public $menuBibliotecario = "<nav class='main'>
 									<ul>
 										<li class='menu'>
 											<a class='fa-bars' href='#menu'>Menu</a>
@@ -33,9 +33,15 @@
 							<section>
 								<ul class='links'>
 									<li>
-										<a href='mi_cuenta_bibliotecario.php'>
-											<h3>Mi cuenta</h3>
-											<p>Visualiza tus datos</p>
+										<a href='registrar_prestamo.php'>
+											<h3>Préstamos</h3>
+											<p>Registra los préstamos</p>
+										</a>
+									</li>
+									<li>
+										<a href='registrar_devolucion.php'>
+											<h3>Devoluciones</h3>
+											<p>Registra las devoluciones</p>
 										</a>
 									</li>
 									<li>
@@ -71,7 +77,7 @@
 			if($tipo == 2){
 				echo $this->header;
 				echo $this->navBibliotecario;
-				echo $this->menuUsuario;
+				echo $this->menuBibliotecario;
 				echo $this->headerEnd;
 			}else{
 				echo $this->header;
@@ -84,7 +90,7 @@
 			
 		public function getImports(){
 			echo "<link rel='stylesheet' href='../assets/css/main.css' />
-			<link rel='stylesheet' href='style.css' />
+			<link rel='stylesheet' href='../style.css' />
 		<script src='https://cdn.jsdelivr.net/npm/sweetalert2@11'></script>
 		<script>
 			import Swal from 'sweetalert2/dist/sweetalert2.js'
