@@ -33,9 +33,9 @@
 			$header = new Constantes();
 			$header->getHeader($TYPE);
 			
-			$numero = $_POST['numero'];
-			$fecha = $_POST['fecha'];
-			$cvv = $_POST['cvv'];
+			$numero = $_POST['numero'] ?? null;
+			$fecha = $_POST['fecha'] ?? null;
+			$cvv = $_POST['cvv'] ?? null;
 			if($numero != null && $fecha != null && $cvv != null){
 				$stmt = $conn->prepare("CALL AgregarTarjeta(?, ?, ?, ?)");
 				$stmt->bind_param("ssss", $_SESSION["ID_USUARIO"], $numero, $fecha, $cvv);
@@ -57,7 +57,7 @@
 		<!-- Wrapper -->
 			<div id="wrapper">
 			<?php
-					session_start();
+					//session_start();
 					$TYPE = $_SESSION["TYPE"];
 					
 					require_once('Constantes.php');
@@ -95,7 +95,7 @@
 				</article>
 				<section id="sidebar">
 					<?php
-						$file_contents = file_get_contents('footer.txt');
+						$file_contents = file_get_contents('../footer.txt');
 						echo $file_contents;
 					?>
 				</section>
