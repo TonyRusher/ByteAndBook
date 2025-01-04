@@ -39,9 +39,9 @@
 		$userMail = $_POST['userMail'] ?? null;
 		$userPassword = $_POST['userPassword'] ?? null; 
 		if($userMail != "" && $userPassword != ""){
-			// echo "Datos recibidos\n";
-			// echo $userMail.'\n';
-			// echo $userPassword.'\n';
+			echo "Datos recibidos\n";
+			echo $userMail.'\n';
+			echo $userPassword.'\n';
 			try{
 				// 	$stmt = $conn->prepare("CALL ObtenerContrasena(?)");
 				// 	$stmt->bind_param("s", $userMail);
@@ -52,7 +52,7 @@
 				$stmt->bind_param("ss", $userMail, $userPassword);
 				$stmt->execute();
 				$result = $stmt->get_result();
-				// echo "Consulta realizada\n";
+				echo "Consulta realizada\n";
 			}catch(Exception $e){
 				// echo "Error en la consulta".$e;
 			}
@@ -79,7 +79,7 @@
 				echo "Datos obtenidos";
 				
 				
-				// echo "Objetos creados";
+				echo "Objetos creados";
 				$_SESSION["ID_USUARIO"] = $idUsuario;
 				$_SESSION["NOMBRE"] = $nombre;
 				$_SESSION["APELLIDO_1"] = $apellido1;
