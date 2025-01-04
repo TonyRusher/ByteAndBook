@@ -6,168 +6,137 @@
 -->
 <html>
 	<head>
-		<title>Registrar Prestamo</title>
+		<title>Registrar Usuarios</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<?php
 		require_once('Constantes.php');
 		$header = new Constantes();
 		$header->getImports();
-		session_start();
-		if(isset($_SESSION["TYPE"]) ){
-			header("Location: ../usuario_global/index.php");
-			exit();
-		}
 		?>
 	</head>
 	<body class="is-preload">
-		<?PHP
-			require_once('../usuario_global/Conexion.php');
-			$base = new Conexion();
-			$conn = $base->getConn();
-
-			$nombre = $_POST["Nombre"];
-			$apellido1 = $_POST["Apellido_1"];
-			$apellido2 = $_POST["Apellido_2"];
-			$telefono = $_POST["Telefono"];
-
-			$calle = $_POST["calle"];
-			$numeroExt = $_POST["numeroExt"];
-			$numeroInt = $_POST["numeroInt"];
-			$colonia = $_POST["colonia"];
-			$alcaldia = $_POST["alcaldia"];
-			$codigo_postal = $_POST["codigo_postal"];
-
-			$fechaNacimiento = $_POST["fechaNacimiento"];
-			$correo = $_POST["correo"];
-			$pass1 = $_POST["pass1"];
-			$pass2 = $_POST["pass2"];
+        <?php
+			session_start();
+				if(isset($_SESSION["TYPE"]) && $_SESSION["TYPE"] == 2){
+					$TYPE = $_SESSION["TYPE"];
+				}else{
+					header("Location: ../usuario_global/index.php");
+					exit();
+				}
+			require_once('Constantes.php');
+    		$header = new Constantes();
+			$header->getHeader($TYPE);
 		?>
-		<!-- Wrapper -->
-			<div id="wrapper">
-				<article class= "post">
-				<section>
-						<h3>Bienvenido!</h3>
-						<form method="post" action="registro.php">
-							<div class="row gtr-uniform">
-								<div class="col-12">
-									<?php
-										if (isset($_POST["Registrar"])) {
-											if (empty($nombre) || empty($apellido1) || empty($apellido2) || empty($correo) || empty($pass1) || empty($pass2) || empty($telefono) || empty($calle) || empty($numeroExt) || empty($colonia) || empty($alcaldia) || empty($codigo_postal) || empty($fechaNacimiento)) {
-												echo "<script>Swal.fire('Por favor llena todos los campos');</script>";
-											} elseif (!is_numeric($telefono) || strlen($telefono) != 10) {
-												echo "<script>Swal.fire('Por favor ingresa un número de teléfono válido');</script>";
-											} elseif (!is_numeric($numeroExt)) {
-												echo "<script>Swal.fire('Por favor ingresa un número exterior válido');</script>";
-											} elseif (!is_numeric($codigo_postal) || strlen($codigo_postal) != 5) {
-												echo "<script>Swal.fire('Por favor ingresa un código postal válido');</script>";
-											} elseif ($pass1 != $pass2) {
-												echo "<script>Swal.fire('Las contraseñas no coinciden');</script>";
-											} else {
-												$numeroInt = !empty($numeroInt) ? $numeroInt : NULL;
-										
-												$sql = "SELECT * FROM USUARIOS WHERE CORREO = ?";
-												$stmt = $conn->prepare($sql);
-												$stmt->bind_param("s", $correo);
-												$stmt->execute();
-												$result = $stmt->get_result();
-										
-												if ($result->num_rows > 0) {
-													echo "<script>Swal.fire('Ese correo ya está registrado');</script>";
-												} else {
-													
-													$qry = "CALL RegistrarUsuario('$nombre', '$apellido1', '$apellido2', '$telefono', '$calle', '$numeroExt', '$numeroInt', '$colonia', '$alcaldia', '$codigo_postal', '$fechaNacimiento', '$correo', '$pass1', 1 )";
-													$stmt = $conn->prepare($qry);
-													
-													if ($stmt->execute()) {
-														echo "<script>Swal.fire({
-															title: 'Registro exitoso',
-															text: 'Bienvenido a Aqua Expert Pro',
-															icon: 'success',
-															confirmButtonText: '<a href=\"index.php\">Aceptar</a>',
-																								
-														});</script>";
-													} else {
-														echo "<script>Swal.fire('Error: " . $stmt->error . "');</script>";
-													}
-												}
-											}
-										}
-									?>
-								</div>
-								<div class="col-4 col-12-small">
-									<input type="text" name="nombre" id="nombre" value="<?php echo $nombre;?>" placeholder="Nombre" />
-								</div>
-								<div class="col-4 col-12-small">
-									<input type="text" name="apellido1" id="apellido1" value="<?php echo $apellido1;?>" placeholder="Primer apellido" />
-								</div>
-								<div class="col-4 col-12-small">
-									<input type="text" name="apellido2" id="apellido2" value="<?php echo $apellido2;?>" placeholder="Segundo apellido" />
-								</div>
-								<div class="col-4 col-12-small">
-									<input type="email" name="correo" id="correo" value="<?php echo $correo;?>" placeholder="correo electrónico" />
-								</div>
-								<div class="col-4 col-12-small">
-									<input type="password" name="pass1" id="pass1" value="<?php echo $pass1;?>" placeholder="Contraseña" />
-								</div>
-								<div class="col-4 col-12-small">
-									<input type="password" name="pass2" id="pass2" value="<?php echo $pass2;?>" placeholder="Confirmar contraseña" />
-								</div>
-								<div class = "col-4 col-12-small">
-									<input type="tel" name="telefono" id="telefono" value="<?php echo $telefono;?>" placeholder="Teléfono" />
-								</div>
-								<div class = "col-4 col-12-small">
-									<input type="date" name="fechaNacimiento" id="fechaNacimiento" value="<?php echo $fechaNacimiento;?>" placeholder="fecha de nacimiento" />
-								</div>
-								<div class = "col-12">
-									<h4>Ingresa tu dirección</h4>
-								</div>
-							
-								<div class = "col-6 col-12-small">
-									<input type="text" name="calle" id="calle" value="<?php echo $calle;?>" placeholder="Calle" />
-								</div>
-								<div class = "col-2 col-6-small">
-									<input type="text" name="numeroExt" id="numeroExt" value="<?php echo $numeroExt;?>" placeholder="Número exterior" />
-								</div>
-								<div class = "col-2 col-6-small">
-									<input type="text" name="numeroInt" id="numeroInt" value="<?php echo $numeroInt;?>" placeholder="Número interior" />
-								</div>
-								<div class = "col-2 col-6-small">
-									<input type="text" name="codigo_postal" id="codigo_postal" value="<?php echo $codigo_postal;?>" placeholder="Código postal" />
-								</div>
-								
-								<div class = "col-6">
-									<input type="text" name="colonia" id="colonia" value="<?php echo $colonia;?>" placeholder="colonia" />
-								</div>
-								
-								<div class = "col-6">
-									<input type="text" name="alcaldia" id="alcaldia" value="<?php echo $alcaldia;?>" placeholder="alcaldia" />
-								</div>
-								<div class="col-12">
-									<ul class="actions">
-										<li>Esta pagina es creada con fines académicos, tus datos serán usados unicamente de prueba</li>
-										<li><input type="submit" value="Registrar" name = "Registrar" /></li>
-										<li><a href="index.php" class="button">Iniciar sesión</a></li>
-									</ul>
-								</div>
-							</div>
-						</form>
-					</section>
-				</article>
-				<section id="sidebar">
-					<?php
-						$file_contents = file_get_contents('../footer.txt');
-						echo $file_contents;
-					?>
-				</section>
-					
-			</div>
+		<?PHP
+        require_once('../usuario_global/Conexion.php');
+        $base = new Conexion();
+        $conn = $base->getConn();
 
-		<!-- Scripts -->
-			<script src="../assets/js/jquery.min.js"></script>
-			<script src="../assets/js/browser.min.js"></script>
-			<script src="../assets/js/breakpoints.min.js"></script>
-			<script src="../assets/js/util.js"></script>
-			<script src="../assets/js/main.js"></script>
+        $idlibro = $_POST["Id_libro_fisico"] ?? null;
+        $idusuario = $_POST["Id_usuario"] ?? null;
+        $fechaPrestamo = $_POST["Fecha_Prestamo"] ?? null;
+        $fechaEntrega = $_POST["Fecha_Entrega"] ?? null;
+        ?>
+        <!-- Wrapper -->
+        <div id="wrapper">
+            <article class="post">
+                <section>
+                    <h3>Registrar Prestamo</h3>
+                    <form method="post" action="registrar_prestamo.php">
+                        <div class="row gtr-uniform">
+                            <div class="col-12">
+                                <?php
+                                if (isset($_POST["Registrar"])) {
+                                    if (empty($idlibro) || empty($idusuario) || empty($fechaPrestamo) || empty($fechaEntrega)) {
+                                        echo "<script>Swal.fire('Por favor llena todos los campos');</script>";
+                                    } else {
+                                        // Validar que la fecha de préstamo sea menor a la fecha de entrega
+                                        $sql = "SELECT CASE WHEN ? < ? THEN 1 ELSE 0 END AS fecha_valida";
+                                        $stmt = $conn->prepare($sql);
+                                        $stmt->bind_param("ss", $fechaPrestamo, $fechaEntrega);
+                                        $stmt->execute();
+                                        $result = $stmt->get_result();
+                                        $row = $result->fetch_assoc();
+
+                                        if ($row["fecha_valida"] == 0) {
+                                            echo "<script>Swal.fire('La fecha de préstamo debe ser anterior a la fecha de entrega');</script>";
+                                        } else {
+                                            $result->free();
+                                            while ($conn->next_result()) {
+                                                $conn->store_result();
+                                            }
+                                        
+                                            // Llamada al segundo procedimiento
+                                            $qry = "CALL ObtenerDisponibilidadLibro(?)";
+                                            $stmt = $conn->prepare($qry);
+                                            $stmt->bind_param("i", $idlibro);
+                                            $stmt->execute();
+                                            $result = $stmt->get_result();
+                                        
+                                            if ($result->num_rows <= 0) {
+                                                echo "<script>Swal.fire('El libro no está disponible');</script>";
+                                            } else {
+                                                $result->free();
+                                                while ($conn->next_result()) {
+                                                    $conn->store_result();
+                                                }
+                                                    $qry1 = "CALL RegistrarPrestamo(?, ?, ?, ?, 1)";
+                                                    $stmt1 = $conn->prepare($qry1);
+                                                    $stmt1->bind_param("iiss", $idlibro, $idusuario, $fechaPrestamo, $fechaEntrega);
+
+                                                    if ($stmt1->execute()) {
+                                                        echo "<script>Swal.fire({
+                                                            title: 'Registro exitoso',
+                                                            text: 'El préstamo se ha registrado correctamente',
+                                                            icon: 'success',
+                                                            confirmButtonText: '<a href=\"inicio_bibliotecario.php\">Aceptar</a>',
+                                                        });</script>";
+                                                    } else {
+                                                        echo "<script>Swal.fire('Error: " . $stmt1->error . "');</script>";
+                                                    }
+                                            }
+                                        }
+                                    }
+                                }
+                                ?>
+                            </div>
+                            <div class="col-6 col-12-small">
+                                <input type="text" name="Id_libro_fisico" id="idlibro" value="<?php echo $idlibro; ?>" placeholder="ISBN del Libro" />
+                            </div>
+                            <div class="col-6 col-12-small">
+                                <input type="text" name="Id_usuario" id="idusuario" value="<?php echo $idusuario; ?>" placeholder="No. Credencial Usuario" />
+                            </div>
+                            <div class="col-12">
+                                <h4>Ingresa el intervalo del préstamo</h4>
+                            </div>
+                            <div class="col-6 col-12-small">
+                                <input type="date" name="Fecha_Prestamo" id="fechaPrestamo" value="<?php echo $fechaPrestamo; ?>" placeholder="Fecha de Préstamo" />
+                            </div>
+                            <div class="col-6 col-12-small">
+                                <input type="date" name="Fecha_Entrega" id="fechaEntrega" value="<?php echo $fechaEntrega; ?>" placeholder="Fecha de Entrega" />
+                            </div>
+                            <div class="col-12">
+                                <input type="submit" value="Registrar" name="Registrar" />
+                            </div>
+                        </div>
+                    </form>
+                </section>
+            </article>
+            <section id="sidebar">
+                <?php
+                $file_contents = file_get_contents('../footer.txt');
+                echo $file_contents;
+                ?>
+            </section>
+        </div>
+
+        <!-- Scripts -->
+        <script src="../assets/js/jquery.min.js"></script>
+        <script src="../assets/js/browser.min.js"></script>
+        <script src="../assets/js/breakpoints.min.js"></script>
+        <script src="../assets/js/util.js"></script>
+        <script src="../assets/js/main.js"></script>
+
 	</body>
 </html>

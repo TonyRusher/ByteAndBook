@@ -27,7 +27,7 @@
 				
 				require_once('../usuario_cliente/Constantes.php');
 				$header = new Constantes();
-				$header->getHeader($TYPE);
+				$header->getHeader(0);
 				$userMail = $_POST['userMail'] ?? null;
 				if($userMail != ""){
 					

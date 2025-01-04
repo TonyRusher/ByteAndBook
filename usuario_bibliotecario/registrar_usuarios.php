@@ -91,7 +91,7 @@
 															title: 'Registro exitoso',
 															text: 'Bienvenido a Aqua Expert Pro',
 															icon: 'success',
-															confirmButtonText: '<a href=\"index.php\">Aceptar</a>',
+															confirmButtonText: '<a href=\"inicio_bibliotecario.php\">Aceptar</a>',
 																								
 														});</script>";
 													} else {

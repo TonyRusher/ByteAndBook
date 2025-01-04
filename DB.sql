@@ -213,6 +213,66 @@ DELIMITER ;
 
 DELIMITER //
 
+CREATE PROCEDURE RegistrarPrestamo(
+    IN p_id_libro_fisico INT,
+    IN p_id_usuario INT,
+    IN p_fecha_prestamo DATE,
+    IN p_fecha_entrega DATE,
+    IN p_estado INT
+)
+BEGIN
+    -- Inserta en la tabla PRESTAMOS
+    INSERT INTO PRESTAMOS (ID_LIBRO_FISICO, ID_USUARIO, FECHA_PRESTAMO, FECHA_ENTREGA, ESTADO)
+    VALUES (p_id_libro_fisico, p_id_usuario, p_fecha_prestamo, p_fecha_entrega, p_estado);
+
+    -- Actualiza el número de libros disponibles en la tabla LIBROS
+    UPDATE LIBRO_FISICO
+    SET DISPONIBILIDAD = DISPONIBILIDAD - 1
+    WHERE ID_LIBRO = p_id_libro_fisico;
+END //
+
+DELIMITER ;
+
+DELIMITER //
+CREATE PROCEDURE ActualizarPrestamo(
+	IN p_id_prestamo INT,
+	IN p_id_libro_fisico INT,
+	IN p_id_usuario INT,
+	IN p_fecha_prestamo DATE,
+	IN p_fecha_entrega DATE,
+	IN p_estado INT
+)
+BEGIN
+	UPDATE PRESTAMOS
+	SET ID_LIBRO_FISICO = p_id_libro_fisico, ID_USUARIO = p_id_usuario, FECHA_PRESTAMO = p_fecha_prestamo, FECHA_ENTREGA = p_fecha_entrega, ESTADO = p_estado
+	WHERE ID_PRESTAMO = p_id_prestamo;
+END //
+
+DELIMITER ;
+
+DELIMITER //
+CREATE PROCEDURE ObtenerPrestamosUsuario(
+	IN p_id_usuario INT
+)
+BEGIN
+	SELECT p.ID_PRESTAMO, p.ID_LIBRO_FISICO, p.FECHA_PRESTAMO, p.FECHA_ENTREGA, p.ESTADO
+	FROM PRESTAMOS p
+	WHERE p.ID_USUARIO = p_id_usuario;
+END //
+
+DELIMITER ;
+
+DELIMITER //
+CREATE PROCEDURE ObtenerDisponibilidadLibro(
+	IN p_id_libro INT
+)
+BEGIN
+	SELECT DISPONIBILIDAD
+	FROM LIBRO_FISICO
+	WHERE ID_LIBRO_FISICO = p_id_libro;
+END //
+
+DELIMITER ;
 
 
 insert into datos_personales (NOMBRE, APELLIDO_1, APELLIDO_2, TELEFONO) values 
