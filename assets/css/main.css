@@ -2691,7 +2691,7 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
-		@media screen and (max-width: 1280px) {
+		/* @media screen and (max-width: 1280px) {
 
 			.mini-posts {
 				display: -moz-flex;
@@ -2714,9 +2714,9 @@ input, select, textarea {
 					margin-top: 0;
 				}
 
-		}
+		} */
 
-		@media screen and (max-width: 480px) {
+		/* @media screen and (max-width: 480px) {
 
 			.mini-posts {
 				display: block;
@@ -2728,7 +2728,7 @@ input, select, textarea {
 					width: 100%;
 				}
 
-		}
+		} */
 
 /* Post */
 

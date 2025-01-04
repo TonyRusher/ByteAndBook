@@ -1,4 +1,8 @@
 
+DROP DATABASE IF EXISTS BYTEANDBOOK;
+CREATE DATABASE byteandbook;
+use byteandbook;
+
 
 CREATE TABLE DATOS_PERSONALES (
 	ID_DATOS_PERSONALES INT PRIMARY KEY AUTO_INCREMENT,
@@ -41,7 +45,7 @@ CREATE TABLE DATOS_LIBRO(
 	TITULO VARCHAR(100),
 	EDITORIAL VARCHAR(100),
 	EDICION INT,
-	
+	FECHA_PUBLICACION DATE,
 	FOREIGN KEY (ID_GENERO) REFERENCES CATALOGO_GENEROS(ID_GENERO)
 );
 
@@ -213,6 +217,43 @@ DELIMITER ;
 
 DELIMITER //
 
+CREATE PROCEDURE AgregarTarjeta(
+	IN p_id_usuario INT,
+	IN p_numero_tarjeta VARCHAR(16),
+	IN p_fecha_vencimiento DATE,
+	IN p_cvv VARCHAR(3)
+)
+BEGIN
+	INSERT INTO TARJETAS (ID_USUARIO, NUMERO_TARJETA, FECHA_VENCIMIENTO, CVV)
+	VALUES (p_id_usuario, p_numero_tarjeta, p_fecha_vencimiento, p_cvv);
+END //
+
+DELIMITER ;
+
+
+CREATE VIEW VistaLibrosVirtuales AS
+SELECT dl.ID_DATOS_LIBRO, dl.TITULO, dl.EDITORIAL, dl.EDICION, lv.LINK_ARCHIVO, lv.RESUMEN, lv.ID_LIBRO_VIRTUAL, dl.FECHA_PUBLICACION, cg.NOMBRE_GENERO
+FROM DATOS_LIBRO dl
+JOIN LIBRO_VIRTUAL lv ON dl.ID_DATOS_LIBRO = lv.ID_DATOS_LIBRO
+JOIN CATALOGO_GENEROS cg ON dl.ID_GENERO = cg.ID_GENERO;
+
+
+DELIMITER //
+
+CREATE PROCEDURE ObtenerAutoresPorLibro(
+	IN p_id_libro INT
+)
+BEGIN
+	SELECT dp.ID_DATOS_PERSONALES, dp.NOMBRE, dp.APELLIDO_1, dp.APELLIDO_2
+	FROM LIBROS_AUTORES la
+	JOIN DATOS_PERSONALES dp ON la.ID_DATOS_PERSONALES = dp.ID_DATOS_PERSONALES
+	WHERE la.ID_DATOS_LIBRO = p_id_libro;
+END //
+
+DELIMITER ;
+
+
+
 CREATE PROCEDURE RegistrarPrestamo(
     IN p_id_libro_fisico INT,
     IN p_id_usuario INT,
@@ -329,5 +370,36 @@ insert into catalogo_generos (NOMBRE_GENERO) values
 ('Romance'),
 ('Suspenso');
 
+
+insert into datos_libro (ID_GENERO, TITULO, EDITORIAL, EDICION, FECHA_PUBLICACION) values 
+(1, 'Procesamiento digital de imagenes', 'Editorial 1', 1, '2021-01-01'),
+(2, 'Advance Amateur Astronomy', 'Editorial 2', 1, '2021-04-12'),
+(3, 'Competitive programming handbook', 'Editorial 3', 1, '2005-05-25'),
+(4, 'Introduction to algorithms', 'Editorial 4', 1, '2001-05-31'),
+(5, 'Automata theory', 'Editorial 5', 1, '2021-01-01'),
+(6, 'Libro de Historia 1', 'Editorial 6', 1, '2021-01-01'),
+(7, 'Libro de Horror 1', 'Editorial 7', 1, '2021-01-01'),
+(8, 'Libro de Misterio 1', 'Editorial 8', 1, '2021-01-01'),
+(9, 'Libro de Romance 1', 'Editorial 9', 1, '2021-01-01'),
+(10, 'Libro de Suspenso 1', 'Editorial 10', 1, '2021-01-01');
+
+insert into libro_fisico (ID_DATOS_LIBRO, NUMERO_EJEMPLARES, DISPONIBILIDAD, PASILLO, ESTANTE) values 
+(1, 10, 10, 1, 1),
+(2, 8, 8, 1, 2),
+(3, 5, 5, 1, 3),
+(4, 7, 7, 1, 4),
+(5, 6, 6, 1, 5);
+
+insert into libro_virtual (ID_DATOS_LIBRO, LINK_ARCHIVO, RESUMEN) values 
+(1, 'https://drive.google.com/file/d/1cXzGaBeERFnH5Dw_Z9zXUMbLTUjRrtUG/view?usp=sharing', 'Resumen del libro de Accion 1'),
+(2, 'https://drive.google.com/file/d/1VioZAHp1dGZ8R1aRCtuyPztGHSLzySdt/view?usp=sharing', 'Resumen del libro de Aventura 1'),
+(3, 'https://drive.google.com/file/d/17J-c4x4WUl4OJUhd3LrMvsqQmxpIHeeW/view?usp=sharing', 'Resumen del libro de Comedia 1'),
+(4, 'https://drive.google.com/file/d/1bcm9jvMYf78IyyGeSaREVjd9S8do5dOj/view?usp=sharing', 'Resumen del libro de Drama 1'),
+(5, 'https://drive.google.com/file/d/159QBQt8nc5h_0SEI6J0rXYz01ZHTyG4s/view?usp=sharing', 'Resumen del libro de Fantasia 1');
+
+
+
+
+select * from DATOS_LIBRO;
 
 
