@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Mi cuenta usuario</title>
+		<title>Plus</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<?php
@@ -78,57 +78,28 @@
 									if($result->num_rows > 0){
 										while($row = $result->fetch_assoc()){
 											$idLibro = $row['ID_DATOS_LIBRO'];
+											$idLibroVirtual = $row['ID_LIBRO_VIRTUAL'];
 											$titulo = $row['TITULO'];
 											$editorial = $row['EDITORIAL'];
 											$edicion = $row['EDICION'];
-											$link = $row['LINK_ARCHIVO'];
+											$link = "actualizar_historial.php?id=$idLibroVirtual";
 											$resumen = $row['RESUMEN'];
 											$fecha = $row['FECHA_PUBLICACION'];
 											$genero = $row['NOMBRE_GENERO'];
 											$autores = "ninguno";
-
-											
-											
-											
-											
-											
-											
-											
-											
-											
 											
 											echo "<article class='mini-post' data-title='$titulo' data-author='$autores' data-published='$fecha' data-description='$resumen' data-link='$link' data-genero='$genero'>
 												<header>
 													<h3><a href='#'>$titulo</a></h3>
 													<time class='published' datetime='2015-10-20'>$fecha</time>
-													<a href='#' class='author'><img src='images/avatar.jpg' alt='' /></a>
+													<img src='../usuario_global/imagen.php?id=$idLibroVirtual' alt='' />
 												</header>
-												<a href='#' class='image'><img src='images/pic04.jpg' alt='' /></a>
 											</article>";
 										}
 									}
 								
 								?>
-								<!-- Mini Post 1 -->
-								<article class="mini-post" data-title="Vitae sed condimentum" data-author="John Doe" data-published="October 20, 2015" data-description="This is a detailed description of the book Vitae sed condimentum.">
-									<header>
-										<h3><a href="#">Vitae sed condimentum</a></h3>
-										<time class="published" datetime="2015-10-20">October 20, 2015</time>
-										<a href="#" class="author"><img src="images/avatar.jpg" alt="" /></a>
-									</header>
-									<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-								</article>
-
-								<!-- Mini Post 2 -->
-								<article class="mini-post" data-title="Aliquam tincidunt" data-author="Jane Smith" data-published="November 1, 2015" data-description="This is a detailed description of the book Aliquam tincidunt.">
-									<header>
-										<h3><a href="#">Aliquam tincidunt</a></h3>
-										<time class="published" datetime="2015-11-01">November 1, 2015</time>
-										<a href="#" class="author"><img src="images/avatar.jpg" alt="" /></a>
-									</header>
-									<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
-								</article>
-								<!-- Add more articles here -->
+								
 							</div>
 						</div>
 									
@@ -148,18 +119,18 @@
 			<div id="modal" class="modal">
 				<div class="modal-content">
 					<span class="close">&times;</span>
-					<h2 id="modal-title"></h2>
-					<p><strong>Author:</strong> <span id="modal-author"></span></p>
-					<p><strong>Published:</strong> <span id="modal-published"></span></p>
-					<p><strong>Género:</strong> <span id="modal-genero"></span></p>
-					<p id="modal-description-summary"></p>
+					<h2 id="modal-title">Book Title</h2>
+					<p><strong>Author:</strong> <span id="modal-author">Author Name</span></p>
+					<p><strong>Published:</strong> <span id="modal-published">Date</span></p>
+					<p><strong>Género:</strong> <span id="modal-genero">Genre</span></p>
+					<p id="modal-description-summary">
+						This is a long description to test scrolling. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
 					<button id="read-more-btn">Read More</button>
-					<p id="modal-full-description" style="display: none;"></p> <!-- Hidden initially -->
-					<!-- Image in the modal -->
-					<img id="modal-image" src="" alt="Book Image" style="width: 100%; margin-top: 20px;" />
+					<p id="modal-full-description" style="display: none;">This is the full description of the book...</p>
+					<img id="modal-image" src="https://via.placeholder.com/400x300" alt="Book Image" />
 				</div>
 			</div>
-			
 			<script>
 								// Get the slider and the buttons
 				const slider = document.querySelector('.slider');

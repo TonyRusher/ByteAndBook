@@ -164,13 +164,13 @@
 					
 				</div>
 				
-				<section id="sidebar">
+				<!-- <section id="sidebar"> -->
 				
 					<?php
-						$file_contents = file_get_contents('../footer.txt');
-						echo $file_contents;
+						// $file_contents = file_get_contents('../footer.txt');
+						// echo $file_contents;
 					?>
-				</section>
+				<!-- </section> -->
 					
 			</div>
 			
