@@ -4,13 +4,10 @@
 							<p class='copyright'>&copy; Untitled. Design: <a href='http://html5up.net'>HTML5 UP</a>.</p>
 						</section>";
 		
-		public $navBibliotecario = "<nav class='links'>
+		public $navAdmin = "<nav class='links'>
 						<ul>
-							<li><a href='registrar_prestamo.php'>Préstamos</a></li>
-							<li><a href='registrar_devolucion.php'>Devoluciones</a></li>
-							<li><a href='registrar_usuarios.php'>Registrar usuario</a></li>
-							<li><a href='busqueda_usuarios.php'>Buscar usuarios</a></li>
-							<li><a href='busqueda_libros.php'>Buscar libros</a></li>
+							<li><a href='registrar_bibliotecario.php'>Registrar</a></li>
+							<li><a href='buscar_bibliotecario.php'>Buscar</a></li>
 							<li><a href='../usuario_global/cerrarSesion.php'>Cerrar sesión</a></li>
 						</ul>
 					</nav>";
@@ -22,7 +19,7 @@
 		
 							
 		
-		public $menuBibliotecario = "<nav class='main'>
+		public $menuAdmin = "<nav class='main'>
 									<ul>
 										<li class='menu'>
 											<a class='fa-bars' href='#menu'>Menu</a>
@@ -33,33 +30,15 @@
 							<section>
 								<ul class='links'>
 									<li>
-										<a href='registrar_prestamo.php'>
-											<h3>Préstamos</h3>
-											<p>Registra los préstamos</p>
+										<a href='registrar_bibliotecario.php'>
+											<h3>Registrar</h3>
+											<p>Registra a los nuevos bibliotecarios</p>
 										</a>
 									</li>
 									<li>
-										<a href='registrar_devolucion.php'>
-											<h3>Devoluciones</h3>
-											<p>Registra las devoluciones</p>
-										</a>
-									</li>
-									<li>
-										<a href='registrar_usuarios.php'>
-											<h3>Registrar Usuarios</h3>
-											<p>Registra a los nuevos usuarios</p>
-										</a>
-									</li>
-									<li>
-										<a href='busqueda_usuario.php'>
-											<h3>Buscar usuarios</h3>
-											<p>Revisa y actualiza el perfil de los usuarios</p>
-										</a>
-									</li>
-									<li>
-										<a href='busqueda_libros.php'>
-											<h3>Buscar Libros</h3>
-											<p>Accede a la disponibilidad de los libros</p>
+										<a href='buscar_bibliotecario.php'>
+											<h3>Buscar</h3>
+											<p>Revisa y actualiza el perfil de los bibliotecarios</p>
 										</a>
 									</li>
 									<li>
@@ -74,10 +53,10 @@
 									
 		public function getHeader($tipo){
 			$ans = "";
-			if($tipo == 2){
+			if($tipo == 3){
 				echo $this->header;
-				echo $this->navBibliotecario;
-				echo $this->menuBibliotecario;
+				echo $this->navAdmin;
+				echo $this->menuAdmin;
 				echo $this->headerEnd;
 			}else{
 				echo $this->header;
