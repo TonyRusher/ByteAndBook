@@ -32,7 +32,7 @@
 			header("Location: ../usuario_bibliotecario/inicio_bibliotecario.php");
 			exit();
 		}else if(isset($_SESSION["TYPE"]) && $_SESSION["TYPE"] == 3){
-			header("Location: ../usuario_admin/inicio_administrador.php");
+			header("Location: ../usuario_administrador/inicio_administrador.php");
 			exit();
 		}
 		

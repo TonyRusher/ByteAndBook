@@ -4,13 +4,14 @@
 							<p class='copyright'>&copy; Untitled. Design: <a href='http://html5up.net'>HTML5 UP</a>.</p>
 						</section>";
 		
-		public $navUsuario = "<nav class='links'>
+		public $navBibliotecario = "<nav class='links'>
 						<ul>
-							<li><a href='mi_cuenta_usuario.php'>Mi cuenta</a></li>
-							<li><a href='adeudos.php'>Adeudos</a></li>
-							<li><a href='historial.php'>Historial</a></li>
-							<li><a href='plus.php'>Plus</a></li>
-							<li><a href='cerrarSesion.php'>Cerrar sesión</a></li>
+							<li><a href='registrar_prestamo.php'>Préstamos</a></li>
+							<li><a href='registrar_devolucion.php'>Devoluciones</a></li>
+							<li><a href='registrar_usuarios.php'>Registrar usuario</a></li>
+							<li><a href='busqueda_usuarios.php'>Buscar usuarios</a></li>
+							<li><a href='busqueda_libros.php'>Buscar libros</a></li>
+							<li><a href='../usuario_global/cerrarSesion.php'>Cerrar sesión</a></li>
 						</ul>
 					</nav>";
 		
@@ -21,7 +22,7 @@
 		
 							
 		
-		public $menuUsuario = "<nav class='main'>
+		public $menuBibliotecario = "<nav class='main'>
 									<ul>
 										<li class='menu'>
 											<a class='fa-bars' href='#menu'>Menu</a>
@@ -32,31 +33,37 @@
 							<section>
 								<ul class='links'>
 									<li>
-										<a href='mi_cuenta_usuario.php'>
-											<h3>Mi cuenta</h3>
-											<p>Visualiza tus datos</p>
+										<a href='registrar_prestamo.php'>
+											<h3>Préstamos</h3>
+											<p>Registra los préstamos</p>
 										</a>
 									</li>
 									<li>
-										<a href='adeudos.php'>
-											<h3>Adeudos</h3>
-											<p>Checa tus adeudos</p>
+										<a href='registrar_devolucion.php'>
+											<h3>Devoluciones</h3>
+											<p>Registra las devoluciones</p>
 										</a>
 									</li>
 									<li>
-										<a href='historial.php'>
-											<h3>Historial</h3>
-											<p>Ve tu historial de libros</p>
+										<a href='registrar_usuarios.php'>
+											<h3>Registrar Usuarios</h3>
+											<p>Registra a los nuevos usuarios</p>
 										</a>
 									</li>
 									<li>
-										<a href='plus.php'>
-											<h3>Version plus</h3>
-											<p>Accede a libros digitales con recomendaciones</p>
+										<a href='busqueda_usuario.php'>
+											<h3>Buscar usuarios</h3>
+											<p>Revisa y actualiza el perfil de los usuarios</p>
 										</a>
 									</li>
 									<li>
-										<a href='cerrarSesion.php'>
+										<a href='busqueda_libros.php'>
+											<h3>Buscar Libros</h3>
+											<p>Accede a la disponibilidad de los libros</p>
+										</a>
+									</li>
+									<li>
+										<a href='../usuario_global/cerrarSesion.php'>
 											<h3>Cerrar sesión</h3>
 											<p>Finaliza tu sesión</p>
 										</a>
@@ -67,10 +74,10 @@
 									
 		public function getHeader($tipo){
 			$ans = "";
-			if($tipo == 1){
+			if($tipo == 2){
 				echo $this->header;
-				echo $this->navUsuario;
-				echo $this->menuUsuario;
+				echo $this->navBibliotecario;
+				echo $this->menuBibliotecario;
 				echo $this->headerEnd;
 			}else{
 				echo $this->header;
@@ -83,7 +90,7 @@
 			
 		public function getImports(){
 			echo "<link rel='stylesheet' href='../assets/css/main.css' />
-			<link rel='stylesheet' href='style.css' />
+			<link rel='stylesheet' href='../style.css' />
 		<script src='https://cdn.jsdelivr.net/npm/sweetalert2@11'></script>
 		<script>
 			import Swal from 'sweetalert2/dist/sweetalert2.js'
