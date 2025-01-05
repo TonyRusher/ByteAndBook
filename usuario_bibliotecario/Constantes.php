@@ -7,7 +7,7 @@
 		public $navBibliotecario = "<nav class='links'>
 						<ul>
 							<li><a href='registrar_prestamo.php'>Préstamos</a></li>
-							<li><a href='registrar_devolucion.php'>Devoluciones</a></li>
+							<li><a href='registrar_libro.php'>Libros</a></li>
 							<li><a href='registrar_usuarios.php'>Registrar usuario</a></li>
 							<li><a href='busqueda_usuarios.php'>Buscar usuarios</a></li>
 							<li><a href='busqueda_libros.php'>Buscar libros</a></li>

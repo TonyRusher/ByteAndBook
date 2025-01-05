@@ -37,19 +37,22 @@
         $idusuario = $_POST["Id_usuario"] ?? null;
         $fechaPrestamo = $_POST["Fecha_Prestamo"] ?? null;
         $fechaEntrega = $_POST["Fecha_Entrega"] ?? null;
+        $idlibro1 = $_POST["Id_libro_fisico_1"] ?? null;
+        $idusuario1 = $_POST["Id_usuario_1"] ?? null;
+        $fechaDevolucion = $_POST["Fecha_Devolucion"] ?? null;
         ?>
         <!-- Wrapper -->
         <div id="wrapper">
             <article class="post">
                 <section>
                     <h3>Registrar Prestamo</h3>
-                    <form method="post" action="registrar_prestamo.php">
+                    <form method="post" action="registrar_prestamo.php" id="registrar_prestamo">
                         <div class="row gtr-uniform">
                             <div class="col-12">
                                 <?php
                                 if (isset($_POST["Registrar"])) {
                                     if (empty($idlibro) || empty($idusuario) || empty($fechaPrestamo) || empty($fechaEntrega)) {
-                                        echo "<script>Swal.fire('Por favor llena todos los campos');</script>";
+                                        echo "<script>Swal.fire('Por favor llena todos los campos Prestamo');</script>";
                                     } else {
                                         // Validar que la fecha de préstamo sea menor a la fecha de entrega
                                         $sql = "SELECT CASE WHEN ? < ? THEN 1 ELSE 0 END AS fecha_valida";
@@ -147,6 +150,58 @@
                             </div>
                             <div class="col-12">
                                 <input type="submit" value="Registrar" name="Registrar" />
+                            </div>
+                        </div>
+                    </form>
+                </section>
+            </article>
+            <article class="post">
+                <section>
+                    <h3>Registrar Devolucion</h3>
+                    <form method="post" action="registrar_prestamo.php" id="formDevolucion">
+                        <div class="row gtr-uniform">
+                            <div class="col-12">
+                                <?php
+                                if (isset($_POST["RegistrarDevolucion"])) {
+                                    if (empty($idlibro1) || empty($idusuario1) || empty($fechaDevolucion) ) {
+                                        echo "<script>Swal.fire('Por favor llena todos los campos Devolucion');</script>";
+                                    } else {
+                                        $sql = "CALL VerificarDevolucionConPrestamo(?,?,?)";
+                                        $stmt = $conn->prepare($sql);
+                                        $stmt->bind_param("sss", $idlibro1, $idusuario1, $fechaDevolucion);
+                                        $stmt->execute();
+                                        $result = $stmt->get_result();
+                                        if ($result->num_rows !=0){
+                                            echo "<script>Swal.fire('No puede ingresar una fecha devolucion anterior a la fecha de prestamo');</script>";
+                                        }else{
+                                            $result->free();
+                                            while ($conn->next_result()) {
+                                               $conn->store_result();
+                                            }
+                                            $query = "CALL ActualizarDevolucion(?,?,?)";
+                                            $stmt = $conn->prepare($query);
+                                            $stmt->bind_param("sss", $idlibro1, $idusuario1, $fechaDevolucion);
+                                            $stmt->execute();
+                                            echo "<script>Swal.fire('Devolucion efectuada con éxito');</script>";
+                                        } 
+                                    }
+                                }
+                                ?>
+                            </div>
+                            <div class="col-6 col-12-small">
+                                <input type="text" name="Id_libro_fisico_1" id="idlibro1" value="<?php echo $idlibro1; ?>" placeholder="ISBN del Libro" />
+                            </div>
+                            <div class="col-6 col-12-small">
+                                <input type="text" name="Id_usuario_1" id="idusuario1" value="<?php echo $idusuario1; ?>" placeholder="No. Credencial Usuario" />
+                            </div>
+                            <div class="col-12">
+                                <h4>Fecha de Devolución</h4>
+                            </div>
+                            <div class="col-6 col-12-small">
+                                <input type="date" name="Fecha_Devolucion" id="fechaDevolucion" value="<?php echo $fechaDevolucion; ?>" placeholder="Fecha de Devolución" />
+                            </div>
+                            <div class="col-12">
+                                <input type="submit" value="Registrar" name="RegistrarDevolucion" />
                             </div>
                         </div>
                     </form>

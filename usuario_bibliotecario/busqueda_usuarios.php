@@ -33,10 +33,31 @@
         $base = new Conexion();
         $conn = $base->getConn();
 
-        $idlibro = $_POST["Id_libro_fisico"] ?? null;
+        $nombreusuario = $_POST["nombre_usuario"] ?? null;
         $idusuario = $_POST["Id_usuario"] ?? null;
-        $fechaDevolucion = $_POST["Fecha_Devolucion"] ?? null;
         ?>
+		<article class= "post">
+			<section>
+				<h3>Busqueda de Usuarios</h3>
+					<form id="search" action="busqueda_usuarios.php" method="post" enctype="multipart/form-data">
+						<div class="row gtr-uniform">
+						<div class="col-12">
+								
+						</div>
+						<div class="col-6 col-12-xsmall">
+							<input type="text" name="Id_libro_fisico" id="Id_libro_fisico" value="" placeholder="Id libro fisico" />
+						</div>
+						</div>
+					</form>
+			</section>
+						
+			<section id="sidebar">
+				<?php
+					$file_contents = file_get_contents('../footer.txt');
+					echo $file_contents;
+				?>
+			</section>
+		</article>
 
         <!-- Scripts -->
         <script src="../assets/js/jquery.min.js"></script>
