@@ -81,20 +81,46 @@
                                                 while ($conn->next_result()) {
                                                     $conn->store_result();
                                                 }
-                                                    $qry1 = "CALL RegistrarPrestamo(?, ?, ?, ?, 1)";
-                                                    $stmt1 = $conn->prepare($qry1);
-                                                    $stmt1->bind_param("iiss", $idlibro, $idusuario, $fechaPrestamo, $fechaEntrega);
-
-                                                    if ($stmt1->execute()) {
-                                                        echo "<script>Swal.fire({
-                                                            title: 'Registro exitoso',
-                                                            text: 'El préstamo se ha registrado correctamente',
-                                                            icon: 'success',
-                                                            confirmButtonText: '<a href=\"inicio_bibliotecario.php\">Aceptar</a>',
-                                                        });</script>";
-                                                    } else {
-                                                        echo "<script>Swal.fire('Error: " . $stmt1->error . "');</script>";
+                                                $qry1 = "CALL ObtenerPrestamosUsuario(?)";
+                                                $stmt1 = $conn->prepare($qry1);
+                                                $stmt1->bind_param("i", $idusuario);
+                                                $stmt1->execute();
+                                                $result1 = $stmt1->get_result();
+                                                if ($result1->num_rows >= 3) {
+                                                    echo "<script>Swal.fire('El usuario ya tiene 3 libros prestados');</script>";
+                                                } else {
+                                                    $result1->free();
+                                                    while ($conn->next_result()) {
+                                                        $conn->store_result();
                                                     }
+                                                    $qry1 = "CALL VerificarPrestamo(?, ?)";
+                                                    $stmt1 = $conn->prepare($qry1);
+                                                    $stmt1->bind_param("ii", $idlibro, $idusuario);
+                                                    $stmt1->execute();
+                                                    $result1 = $stmt1->get_result();
+                                                    if ($result1->num_rows > 0) {
+                                                        echo "<script>Swal.fire('El usuario ya tiene prestado este libro');</script>";
+                                                    } else {
+                                                        $result1->free();
+                                                        while ($conn->next_result()) {
+                                                            $conn->store_result();
+                                                        }
+                                                        $qry1 = "CALL RegistrarPrestamo(?, ?, ?, ?, 1)";
+                                                        $stmt1 = $conn->prepare($qry1);
+                                                        $stmt1->bind_param("iiss", $idlibro, $idusuario, $fechaPrestamo, $fechaEntrega);
+
+                                                        if ($stmt1->execute()) {
+                                                            echo "<script>Swal.fire({
+                                                                title: 'Registro exitoso',
+                                                                text: 'El préstamo se ha registrado correctamente',
+                                                                icon: 'success',
+                                                                confirmButtonText: '<a href=\"inicio_bibliotecario.php\">Aceptar</a>',
+                                                            });</script>";
+                                                        } else {
+                                                            echo "<script>Swal.fire('Error: " . $stmt1->error . "');</script>";
+                                                        }
+                                                    }
+                                                }
                                             }
                                         }
                                     }
@@ -107,8 +133,11 @@
                             <div class="col-6 col-12-small">
                                 <input type="text" name="Id_usuario" id="idusuario" value="<?php echo $idusuario; ?>" placeholder="No. Credencial Usuario" />
                             </div>
-                            <div class="col-12">
-                                <h4>Ingresa el intervalo del préstamo</h4>
+                            <div class="col-6 col-12-small">
+                                <h5>Fecha Prestamo</h5>
+                            </div>
+                            <div class="col-6 col-12-small">
+                                <h5>Fecha Entrega</h5>
                             </div>
                             <div class="col-6 col-12-small">
                                 <input type="date" name="Fecha_Prestamo" id="fechaPrestamo" value="<?php echo $fechaPrestamo; ?>" placeholder="Fecha de Préstamo" />

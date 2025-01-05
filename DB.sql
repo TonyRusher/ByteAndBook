@@ -91,10 +91,13 @@ CREATE TABLE PRESTAMOS(
 	ID_USUARIO INT,
 	FECHA_PRESTAMO DATE,
 	FECHA_ENTREGA DATE,
+	FECHA_DEVOLUCION DATE,
 	ESTADO INT,
 	FOREIGN KEY (ID_LIBRO_FISICO) REFERENCES LIBRO_FISICO(ID_LIBRO_FISICO),
 	FOREIGN KEY (ID_USUARIO) REFERENCES USUARIOS(ID_USUARIO)
 );
+
+--Alter table PRESTAMOS add column FECHA_DEVOLUCION DATE;
 
 CREATE TABLE TARJETAS(
 	ID_TARJETA INT PRIMARY KEY AUTO_INCREMENT,
@@ -269,7 +272,7 @@ BEGIN
     -- Actualiza el número de libros disponibles en la tabla LIBROS
     UPDATE LIBRO_FISICO
     SET DISPONIBILIDAD = DISPONIBILIDAD - 1
-    WHERE ID_LIBRO = p_id_libro_fisico;
+    WHERE ID_LIBRO_FISICO = p_id_libro_fisico;
 END //
 
 DELIMITER ;
@@ -298,7 +301,7 @@ CREATE PROCEDURE ObtenerPrestamosUsuario(
 BEGIN
 	SELECT p.ID_PRESTAMO, p.ID_LIBRO_FISICO, p.FECHA_PRESTAMO, p.FECHA_ENTREGA, p.ESTADO
 	FROM PRESTAMOS p
-	WHERE p.ID_USUARIO = p_id_usuario;
+	WHERE p.ID_USUARIO = p_id_usuario AND p.ESTADO != 0;
 END //
 
 DELIMITER ;
@@ -315,6 +318,63 @@ END //
 
 DELIMITER ;
 
+DELIMITER //
+CREATE PROCEDURE VerificarPrestamo(
+	IN p_id_libro_fisico INT,
+	IN p_id_usuario INT
+)
+BEGIN
+	SELECT *
+	FROM PRESTAMOS
+	WHERE ID_LIBRO_FISICO = p_id_libro_fisico AND ID_USUARIO = p_id_usuario AND (ESTADO = 1 OR ESTADO = 2);
+END //
+
+DELIMITER ;
+
+DELIMITER //
+CREATE PROCEDURE ActualizarDevolucion(
+	IN p_id_libro_fisico INT,
+	IN p_id_usuario INT,
+	IN p_fecha_devolucion DATE
+)
+BEGIN
+	UPDATE PRESTAMOS
+	SET FECHA_DEVOLUCION = p_fecha_devolucion
+	WHERE ID_LIBRO_FISICO = p_id_libro_fisico AND ID_USUARIO = p_id_usuario AND (ESTADO = 1 OR ESTADO = 2);
+
+	UPDATE PRESTAMOS
+    SET ESTADO = 
+        CASE 
+            WHEN p_fecha_devolucion > FECHA_ENTREGA THEN 3  
+            ELSE 0                                        
+        END
+    WHERE ID_LIBRO_FISICO = p_id_libro_fisico 
+      AND ID_USUARIO = p_id_usuario
+	  AND (ESTADO = 1 OR ESTADO = 2);
+	
+	UPDATE LIBRO_FISICO
+	SET DISPONIBILIDAD = DISPONIBILIDAD + 1
+	WHERE ID_LIBRO_FISICO = p_id_libro_fisico;
+END //
+
+DELIMITER ;
+
+DELIMITER //
+CREATE PROCEDURE VerificarDevolucionConPrestamo(
+	IN p_id_libro_fisico INT,
+	IN p_id_usuario INT,
+	IN p_fecha_devolucion DATE
+)
+BEGIN
+	SELECT * 
+	FROM PRESTAMOS
+	WHERE ID_LIBRO_FISICO = p_id_libro_fisico AND 
+	ID_USUARIO = p_id_usuario AND 
+	FECHA_PRESTAMO <= p_fecha_devolucion AND 
+	FECHA_ENTREGA IS NULL;
+END //
+
+DELIMITER ;
 
 insert into datos_personales (NOMBRE, APELLIDO_1, APELLIDO_2, TELEFONO) values 
 ('Juan', 'Perez', 'Gomez', '5512345678'),
