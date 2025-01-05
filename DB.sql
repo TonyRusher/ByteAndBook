@@ -376,6 +376,14 @@ END //
 
 DELIMITER ;
 
+CREATE EVENT actualizar_estado_prestamos
+ON SCHEDULE EVERY 1 DAY
+STARTS CURRENT_TIMESTAMP
+DO
+    UPDATE PRESTAMOS
+    SET ESTADO = 2
+    WHERE CURDATE() > FECHA_ENTREGA AND ESTADO == 1;
+
 insert into datos_personales (NOMBRE, APELLIDO_1, APELLIDO_2, TELEFONO) values 
 ('Juan', 'Perez', 'Gomez', '5512345678'),
 ('Maria', 'Gonzalez', 'Lopez', '5512345678'),
