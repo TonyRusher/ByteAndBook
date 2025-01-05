@@ -70,23 +70,32 @@ input[type="date"], input[type="time"], input[type="number"] {
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 1000; /* Sit on top of everything */
+    z-index: 1000; /* Sit on top */
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-    backdrop-filter: blur(5px); /* Background blur */
-    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+    overflow: hidden; /* Prevent the background from scrolling */
 }
 
 .modal-content {
-    background-color: white;
+    position: relative;
+    margin: auto; /* Center the modal */
+    background: white;
+    width: 90%; /* Adjust the width */
+    max-width: 600px; /* Optional max width */
     padding: 20px;
-    margin: auto;
-    border-radius: 8px;
-    width: 60%; /* Adjust the size of the modal */
-    max-width: 600px; /* Max width */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-height: 80vh; /* Limit the height to 80% of the viewport */
+    overflow-y: auto; /* Add vertical scrolling if content overflows */
+}
+
+.modal-content img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
 }
 
 .close {

@@ -1,8 +1,11 @@
 
+--============================================= CREAR BASE =============================================--
+
 DROP DATABASE IF EXISTS BYTEANDBOOK;
 CREATE DATABASE byteandbook;
 use byteandbook;
 
+--============================================= INICIO DE TABLAS =============================================--
 
 CREATE TABLE DATOS_PERSONALES (
 	ID_DATOS_PERSONALES INT PRIMARY KEY AUTO_INCREMENT,
@@ -41,20 +44,15 @@ CREATE TABLE CATALOGO_GENEROS(
 
 CREATE TABLE DATOS_LIBRO(
 	ID_DATOS_LIBRO INT PRIMARY KEY AUTO_INCREMENT,
+	ISBN VARCHAR(13),
 	ID_GENERO INT,
 	TITULO VARCHAR(100),
 	EDITORIAL VARCHAR(100),
 	EDICION INT,
 	FECHA_PUBLICACION DATE,
+	IDIOMA VARCHAR(50),
+	AUTORES VARCHAR(500),
 	FOREIGN KEY (ID_GENERO) REFERENCES CATALOGO_GENEROS(ID_GENERO)
-);
-
-CREATE TABLE LIBROS_AUTORES(
-	ID_LIBRO_AUTOR INT PRIMARY KEY AUTO_INCREMENT,
-	ID_DATOS_LIBRO INT,
-	ID_DATOS_PERSONALES INT,
-	FOREIGN KEY (ID_DATOS_LIBRO) REFERENCES DATOS_LIBRO(ID_DATOS_LIBRO),
-	FOREIGN KEY (ID_DATOS_PERSONALES) REFERENCES DATOS_PERSONALES(ID_DATOS_PERSONALES)
 );
 
 CREATE TABLE LIBRO_FISICO(
@@ -70,8 +68,9 @@ CREATE TABLE LIBRO_FISICO(
 CREATE TABLE LIBRO_VIRTUAL(
 	ID_LIBRO_VIRTUAL INT PRIMARY KEY AUTO_INCREMENT,
 	ID_DATOS_LIBRO INT,
-	LINK_ARCHIVO VARCHAR(500),
 	RESUMEN VARCHAR(500),
+	ARCHIVO LONGBLOB,
+	IMAGEN LONGBLOB,
 	FOREIGN KEY (ID_DATOS_LIBRO) REFERENCES DATOS_LIBRO(ID_DATOS_LIBRO)
 );
 
@@ -97,7 +96,7 @@ CREATE TABLE PRESTAMOS(
 	FOREIGN KEY (ID_USUARIO) REFERENCES USUARIOS(ID_USUARIO)
 );
 
---Alter table PRESTAMOS add column FECHA_DEVOLUCION DATE;
+
 
 CREATE TABLE TARJETAS(
 	ID_TARJETA INT PRIMARY KEY AUTO_INCREMENT,
@@ -108,6 +107,10 @@ CREATE TABLE TARJETAS(
 	FOREIGN KEY (ID_USUARIO) REFERENCES USUARIOS(ID_USUARIO)
 );
 
+--============================================= FIN TABLAS =============================================--
+
+
+--============================================= INICIO DE LOS PROCEDIMIENTOS =============================================--
 
 DELIMITER //
 
@@ -143,9 +146,7 @@ BEGIN
 	VALUES (v_id_datos_personales, v_id_direccion, p_fecha_nacimiento, p_correo, p_contrasena, p_tipo_usuario);
 END //
 
-DELIMITER ;
 
-DELIMITER //
 
 CREATE PROCEDURE ActualizarDatosUsuario(
 	IN p_id_usuario INT,
@@ -185,9 +186,7 @@ BEGIN
 	WHERE ID_USUARIO = p_id_usuario;
 END //
 
-DELIMITER ;
 
-DELIMITER //
 
 CREATE PROCEDURE ObtenerDatosUsuario(
 	IN p_correo VARCHAR(100),
@@ -203,9 +202,7 @@ BEGIN
 	WHERE u.CORREO = p_correo AND u.CONTRASENA = p_contrasena;
 END //
 
-DELIMITER ;
 
-DELIMITER //
 
 CREATE PROCEDURE ObtenerContrasena(
 	IN p_correo VARCHAR(100)
@@ -216,9 +213,7 @@ BEGIN
 	WHERE CORREO = p_correo;
 END //
 
-DELIMITER ;
 
-DELIMITER //
 
 CREATE PROCEDURE AgregarTarjeta(
 	IN p_id_usuario INT,
@@ -231,17 +226,6 @@ BEGIN
 	VALUES (p_id_usuario, p_numero_tarjeta, p_fecha_vencimiento, p_cvv);
 END //
 
-DELIMITER ;
-
-
-CREATE VIEW VistaLibrosVirtuales AS
-SELECT dl.ID_DATOS_LIBRO, dl.TITULO, dl.EDITORIAL, dl.EDICION, lv.LINK_ARCHIVO, lv.RESUMEN, lv.ID_LIBRO_VIRTUAL, dl.FECHA_PUBLICACION, cg.NOMBRE_GENERO
-FROM DATOS_LIBRO dl
-JOIN LIBRO_VIRTUAL lv ON dl.ID_DATOS_LIBRO = lv.ID_DATOS_LIBRO
-JOIN CATALOGO_GENEROS cg ON dl.ID_GENERO = cg.ID_GENERO;
-
-
-DELIMITER //
 
 CREATE PROCEDURE ObtenerAutoresPorLibro(
 	IN p_id_libro INT
@@ -252,9 +236,6 @@ BEGIN
 	JOIN DATOS_PERSONALES dp ON la.ID_DATOS_PERSONALES = dp.ID_DATOS_PERSONALES
 	WHERE la.ID_DATOS_LIBRO = p_id_libro;
 END //
-
-DELIMITER ;
-
 
 
 CREATE PROCEDURE RegistrarPrestamo(
@@ -275,9 +256,6 @@ BEGIN
     WHERE ID_LIBRO_FISICO = p_id_libro_fisico;
 END //
 
-DELIMITER ;
-
-DELIMITER //
 CREATE PROCEDURE ActualizarPrestamo(
 	IN p_id_prestamo INT,
 	IN p_id_libro_fisico INT,
@@ -292,9 +270,6 @@ BEGIN
 	WHERE ID_PRESTAMO = p_id_prestamo;
 END //
 
-DELIMITER ;
-
-DELIMITER //
 CREATE PROCEDURE ObtenerPrestamosUsuario(
 	IN p_id_usuario INT
 )
@@ -304,9 +279,7 @@ BEGIN
 	WHERE p.ID_USUARIO = p_id_usuario AND p.ESTADO != 0;
 END //
 
-DELIMITER ;
 
-DELIMITER //
 CREATE PROCEDURE ObtenerDisponibilidadLibro(
 	IN p_id_libro INT
 )
@@ -316,9 +289,6 @@ BEGIN
 	WHERE ID_LIBRO_FISICO = p_id_libro;
 END //
 
-DELIMITER ;
-
-DELIMITER //
 CREATE PROCEDURE VerificarPrestamo(
 	IN p_id_libro_fisico INT,
 	IN p_id_usuario INT
@@ -329,9 +299,7 @@ BEGIN
 	WHERE ID_LIBRO_FISICO = p_id_libro_fisico AND ID_USUARIO = p_id_usuario AND (ESTADO = 1 OR ESTADO = 2);
 END //
 
-DELIMITER ;
 
-DELIMITER //
 CREATE PROCEDURE ActualizarDevolucion(
 	IN p_id_libro_fisico INT,
 	IN p_id_usuario INT,
@@ -357,9 +325,6 @@ BEGIN
 	WHERE ID_LIBRO_FISICO = p_id_libro_fisico;
 END //
 
-DELIMITER ;
-
-DELIMITER //
 CREATE PROCEDURE VerificarDevolucionConPrestamo(
 	IN p_id_libro_fisico INT,
 	IN p_id_usuario INT,
@@ -374,7 +339,88 @@ BEGIN
 	FECHA_ENTREGA IS NULL;
 END //
 
+
+
+CREATE PROCEDURE CrearLibroVirtual(
+	IN p_isbn VARCHAR(13),
+	IN p_id_genero INT,
+	IN p_titulo VARCHAR(100),
+	IN p_editorial VARCHAR(100),
+	IN p_edicion INT,
+	IN p_fecha_publicacion DATE,
+	IN p_idioma VARCHAR(50),
+	IN p_autores VARCHAR(500),
+	IN p_resumen VARCHAR(500),
+	IN p_archivo LONGBLOB,
+	IN p_imagen LONGBLOB
+)
+BEGIN
+	DECLARE v_id_datos_libro INT;
+
+	INSERT INTO DATOS_LIBRO (ISBN, ID_GENERO, TITULO, EDITORIAL, EDICION, FECHA_PUBLICACION, IDIOMA, AUTORES)
+	VALUES (p_isbn, p_id_genero, p_titulo, p_editorial, p_edicion, p_fecha_publicacion, p_idioma, p_autores);
+	SET v_id_datos_libro = LAST_INSERT_ID();
+
+	INSERT INTO LIBRO_VIRTUAL (ID_DATOS_LIBRO, RESUMEN, ARCHIVO, IMAGEN)
+	VALUES (v_id_datos_libro, p_resumen, p_archivo, p_imagen);
+END //
+
+CREATE PROCEDURE AgregarValoracionLibro(
+	IN p_id_datos_libro INT,
+	IN p_id_usuario INT
+)
+BEGIN
+	IF NOT EXISTS (
+		SELECT 1 
+		FROM VALORACIONES_LIBROS 
+		WHERE ID_DATOS_LIBRO = p_id_datos_libro AND ID_USUARIO = p_id_usuario
+	) THEN
+		INSERT INTO VALORACIONES_LIBROS (ID_DATOS_LIBRO, ID_USUARIO)
+		VALUES (p_id_datos_libro, p_id_usuario);
+	END IF;
+END //
+
+CREATE PROCEDURE AgregarValoracionYComentario(
+	IN p_id_datos_libro INT,
+	IN p_id_usuario INT,
+	IN p_valoracion INT,
+	IN p_comentario VARCHAR(500)
+)
+BEGIN
+	IF EXISTS (
+		SELECT 1 
+		FROM VALORACIONES_LIBROS 
+		WHERE ID_DATOS_LIBRO = p_id_datos_libro AND ID_USUARIO = p_id_usuario
+	) THEN
+		UPDATE VALORACIONES_LIBROS
+		SET VALORACION = p_valoracion, COMENTARIO = p_comentario
+		WHERE ID_DATOS_LIBRO = p_id_datos_libro AND ID_USUARIO = p_id_usuario;
+	ELSE
+		INSERT INTO VALORACIONES_LIBROS (ID_DATOS_LIBRO, ID_USUARIO, VALORACION, COMENTARIO)
+		VALUES (p_id_datos_libro, p_id_usuario, p_valoracion, p_comentario);
+	END IF;
+END //
+
+
+CREATE PROCEDURE ObtenerLibrosValorados(
+	IN p_id_usuario INT
+)
+BEGIN
+	SELECT dl.TITULO, dl.AUTORES, vl.VALORACION, vl.COMENTARIO, vl.ID_VALORACION, lv.ID_LIBRO_VIRTUAL
+	FROM VALORACIONES_LIBROS vl
+	JOIN LIBRO_VIRTUAL lv ON vl.ID_DATOS_LIBRO = lv.ID_LIBRO_VIRTUAL
+	JOIN DATOS_LIBRO dl ON lv.ID_DATOS_LIBRO = dl.ID_DATOS_LIBRO
+	WHERE vl.ID_USUARIO = p_id_usuario;
+END //
+
+
+
+
+--============================================= FIN DE LOS PROCEDIMIENTOS =============================================--
 DELIMITER ;
+
+
+--============================================= INICIO EVENTOS =============================================--
 
 CREATE EVENT actualizar_estado_prestamos
 ON SCHEDULE EVERY 1 DAY
@@ -382,7 +428,21 @@ STARTS CURRENT_TIMESTAMP
 DO
     UPDATE PRESTAMOS
     SET ESTADO = 2
-    WHERE CURDATE() > FECHA_ENTREGA AND ESTADO == 1;
+    WHERE CURDATE() > FECHA_ENTREGA AND ESTADO = 1;
+--============================================= FIN EVENTOS =============================================--
+
+--============================================= INICIO VISTAS =============================================--
+	
+CREATE VIEW VistaLibrosVirtuales AS
+SELECT dl.ID_DATOS_LIBRO, dl.TITULO, dl.EDITORIAL, dl.EDICION, lv.RESUMEN, lv.ID_LIBRO_VIRTUAL, dl.FECHA_PUBLICACION, cg.NOMBRE_GENERO, lv.archivo, lv.imagen
+FROM DATOS_LIBRO dl
+JOIN LIBRO_VIRTUAL lv ON dl.ID_DATOS_LIBRO = lv.ID_DATOS_LIBRO
+JOIN CATALOGO_GENEROS cg ON dl.ID_GENERO = cg.ID_GENERO;
+
+--============================================= FIN VISTAS =============================================--
+
+--============================================= INICIO DATOS =============================================--
+	
 
 insert into datos_personales (NOMBRE, APELLIDO_1, APELLIDO_2, TELEFONO) values 
 ('Juan', 'Perez', 'Gomez', '5512345678'),
@@ -458,16 +518,18 @@ insert into libro_fisico (ID_DATOS_LIBRO, NUMERO_EJEMPLARES, DISPONIBILIDAD, PAS
 (4, 7, 7, 1, 4),
 (5, 6, 6, 1, 5);
 
-insert into libro_virtual (ID_DATOS_LIBRO, LINK_ARCHIVO, RESUMEN) values 
-(1, 'https://drive.google.com/file/d/1cXzGaBeERFnH5Dw_Z9zXUMbLTUjRrtUG/view?usp=sharing', 'Resumen del libro de Accion 1'),
-(2, 'https://drive.google.com/file/d/1VioZAHp1dGZ8R1aRCtuyPztGHSLzySdt/view?usp=sharing', 'Resumen del libro de Aventura 1'),
-(3, 'https://drive.google.com/file/d/17J-c4x4WUl4OJUhd3LrMvsqQmxpIHeeW/view?usp=sharing', 'Resumen del libro de Comedia 1'),
-(4, 'https://drive.google.com/file/d/1bcm9jvMYf78IyyGeSaREVjd9S8do5dOj/view?usp=sharing', 'Resumen del libro de Drama 1'),
-(5, 'https://drive.google.com/file/d/159QBQt8nc5h_0SEI6J0rXYz01ZHTyG4s/view?usp=sharing', 'Resumen del libro de Fantasia 1');
+insert into libro_virtual (ID_DATOS_LIBRO, RESUMEN) values 
+(1, 'Resumen del libro de Accion 1'),
+(2, 'Resumen del libro de Aventura 1'),
+(3, 'Resumen del libro de Comedia 1'),
+(4, 'Resumen del libro de Drama 1'),
+(5, 'Resumen del libro de Fantasia 1');
 
-
+--============================================= FIN DATOS =============================================--
 
 
 select * from DATOS_LIBRO;
+
+
 
 
