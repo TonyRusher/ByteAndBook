@@ -7,10 +7,9 @@
 		public $navBibliotecario = "<nav class='links'>
 						<ul>
 							<li><a href='registrar_prestamo.php'>Préstamos</a></li>
-							<li><a href='registrar_libro.php'>Libros</a></li>
+							<li><a href='libros.php'>Libros</a></li>
 							<li><a href='registrar_usuarios.php'>Registrar usuario</a></li>
 							<li><a href='busqueda_usuarios.php'>Buscar usuarios</a></li>
-							<li><a href='busqueda_libros.php'>Buscar libros</a></li>
 							<li><a href='../usuario_global/cerrarSesion.php'>Cerrar sesión</a></li>
 						</ul>
 					</nav>";
@@ -57,9 +56,9 @@
 										</a>
 									</li>
 									<li>
-										<a href='busqueda_libros.php'>
-											<h3>Buscar Libros</h3>
-											<p>Accede a la disponibilidad de los libros</p>
+										<a href='libros.php'>
+											<h3>Libros</h3>
+											<p>Agrega, modifica o visualiza los libros</p>
 										</a>
 									</li>
 									<li>

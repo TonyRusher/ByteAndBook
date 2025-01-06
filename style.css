@@ -81,14 +81,14 @@ input[type="date"], input[type="time"], input[type="number"] {
 
 .modal-content {
     position: relative;
-    margin: auto; /* Center the modal */
+    margin: calc(60px + 10px) auto; /* Adjust for the fixed bar height and add some spacing */
     background: white;
     width: 90%; /* Adjust the width */
     max-width: 600px; /* Optional max width */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    max-height: 80vh; /* Limit the height to 80% of the viewport */
+    max-height: calc(80vh - 50px); /* Reduce height by the fixed bar height */
     overflow-y: auto; /* Add vertical scrolling if content overflows */
 }
 

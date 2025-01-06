@@ -95,7 +95,7 @@
 						
 						if(in_array($imagen_actual_ext, $allowed) && in_array($pdf_actual_ext, $allowed_pdf)){
 							if($imagen_error === 0 && $pdf_error === 0){
-								if($imagen_size < 1000000 && $pdf_size < 1000000){
+								if($imagen_size < 64000000 && $pdf_size < 64000000){
 									// echo 'Imagen: '.$imagen_name;
 									$imageTmpName = $_FILES['imagen']['tmp_name'];
         							$imageData = file_get_contents($imageTmpName);
@@ -130,7 +130,7 @@
 					<article class= "post">
 						<header>
 							<div class="title">
-								<h2><a href="#">Subir libro </a></h2>
+								<h2><a href="#">Registrar libro </a></h2>
 							</div>
 						</header>
 						<form action="registrar_libro.php" method="post" enctype="multipart/form-data">

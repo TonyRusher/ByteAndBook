@@ -39,9 +39,9 @@
 		$userMail = $_POST['userMail'] ?? null;
 		$userPassword = $_POST['userPassword'] ?? null; 
 		if($userMail != "" && $userPassword != ""){
-			echo "Datos recibidos\n";
-			echo $userMail.'\n';
-			echo $userPassword.'\n';
+			// echo "Datos recibidos\n";
+			// echo $userMail.'\n';
+			// echo $userPassword.'\n';
 			try{
 				// 	$stmt = $conn->prepare("CALL ObtenerContrasena(?)");
 				// 	$stmt->bind_param("s", $userMail);
@@ -52,14 +52,14 @@
 				$stmt->bind_param("ss", $userMail, $userPassword);
 				$stmt->execute();
 				$result = $stmt->get_result();
-				echo "Consulta realizada\n";
+				// echo "Consulta realizada\n";
 			}catch(Exception $e){
 				// echo "Error en la consulta".$e;
 			}
 			
 			if ($result->num_rows == 1) {
 
-				echo "Datos encontrados";
+				// echo "Datos encontrados";
 				$row = $result->fetch_assoc();
 				
 				$idUsuario = $row["ID_USUARIO"];
@@ -76,10 +76,10 @@
 				$colonia = $row["COLONIA"];
 				$alcaldia = $row["ALCALDIA"];
 				$codigoPostal = $row["CODIGO_POSTAL"];
-				echo "Datos obtenidos";
+				// echo "Datos obtenidos";
 				
 				
-				echo "Objetos creados";
+				// echo "Objetos creados";
 				$_SESSION["ID_USUARIO"] = $idUsuario;
 				$_SESSION["NOMBRE"] = $nombre;
 				$_SESSION["APELLIDO_1"] = $apellido1;
@@ -115,7 +115,7 @@
 					exit();
 				}
 			} else {
-				echo "0 results";
+				// echo "0 results";
 				echo "<script>Swal.fire({
 					icon: 'error',
 					title: 'Oops...',

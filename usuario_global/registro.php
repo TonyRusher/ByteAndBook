@@ -38,7 +38,7 @@
 			$alcaldia = $_POST["alcaldia"] ?? null;
 			$codigo_postal = $_POST["codigo_postal"] ?? null;
 
-			$fechaNacimiento = $_POST["fechaNacimiento"] ?? null;
+			$fechaNacimiento = $_POST["fechaNacimiento"] ;
 			$correo = $_POST["correo"] ?? null;
 			$pass1 = $_POST["pass1"] ?? null;
 			$pass2 = $_POST["pass2"] ?? null;
@@ -46,6 +46,11 @@
 		<!-- Wrapper -->
 			<div id="wrapper">
 				<article class= "post">
+				<header>
+					<div class="title">
+						<h2><a >Registro de usuarios nuevos </a></h2>
+					</div>
+				</header>
 				<section>
 						<h3>Bienvenido!</h3>
 						<form method="post" action="registro.php">
@@ -97,51 +102,66 @@
 									?>
 								</div>
 								<div class="col-4 col-12-small">
+									<label for = "nombre">Nombre</label>
 									<input type="text" name="nombre" id="nombre" value="<?php echo $nombre;?>" placeholder="Nombre" />
 								</div>
 								<div class="col-4 col-12-small">
+									<label for = "apellido_1">Apellido paterno</label>
 									<input type="text" name="apellido1" id="apellido_1" value="<?php echo $apellido1;?>" placeholder="Primer apellido" />
 								</div>
 								<div class="col-4 col-12-small">
+									<label for = "apellido_2">Apellido materno</label>
 									<input type="text" name="apellido2" id="apellido_2" value="<?php echo $apellido2;?>" placeholder="Segundo apellido" />
 								</div>
 								<div class="col-4 col-12-small">
+									<label for = "correo">Correo</label>
 									<input type="email" name="correo" id="correo" value="<?php echo $correo;?>" placeholder="correo electrónico" />
 								</div>
 								<div class="col-4 col-12-small">
+									<label for = "pass1">Contraseña</label>
 									<input type="password" name="pass1" id="pass1" value="<?php echo $pass1;?>" placeholder="Contraseña" />
 								</div>
 								<div class="col-4 col-12-small">
+									<label for = "pass2">Confirmar contraseña</label>
 									<input type="password" name="pass2" id="pass2" value="<?php echo $pass2;?>" placeholder="Confirmar contraseña" />
 								</div>
 								<div class = "col-4 col-12-small">
+									<label for = "telefono">Teléfono</label>
 									<input type="tel" name="telefono" id="telefono" value="<?php echo $telefono;?>" placeholder="Teléfono" />
 								</div>
 								<div class = "col-4 col-12-small">
+									<label for = "fechaNacimiento">Fecha de nacimiento</label>
 									<input type="date" name="fechaNacimiento" id="fechaNacimiento" value="<?php echo $fechaNacimiento;?>" placeholder="fecha de nacimiento" />
 								</div>
 								<div class = "col-12">
+									
 									<h4>Ingresa tu dirección</h4>
 								</div>
 							
 								<div class = "col-6 col-12-small">
+									<label for = "calle">Calle</label>
 									<input type="text" name="calle" id="calle" value="<?php echo $calle;?>" placeholder="Calle" />
 								</div>
 								<div class = "col-2 col-6-small">
+									<label for = "numeroExt">Número exterior</label>
 									<input type="text" name="numeroExt" id="numeroExt" value="<?php echo $numeroExt;?>" placeholder="Número exterior" />
 								</div>
 								<div class = "col-2 col-6-small">
+									<label for = "numeroInt">Número interior</label>
 									<input type="text" name="numeroInt" id="numeroInt" value="<?php echo $numeroInt;?>" placeholder="Número interior" />
 								</div>
 								<div class = "col-2 col-6-small">
+									<label for = "codigo_postal">Código postal</label>
 									<input type="text" name="codigo_postal" id="codigo_postal" value="<?php echo $codigo_postal;?>" placeholder="Código postal" />
 								</div>
 								
 								<div class = "col-6">
+									<label for = "colonia">Colonia</label>
 									<input type="text" name="colonia" id="colonia" value="<?php echo $colonia;?>" placeholder="colonia" />
 								</div>
 								
 								<div class = "col-6">
+									<label for = "alcaldia">Alcaldía</label>
 									<input type="text" name="alcaldia" id="alcaldia" value="<?php echo $alcaldia;?>" placeholder="alcaldia" />
 								</div>
 								<div class="col-12">
@@ -155,12 +175,12 @@
 						</form>
 					</section>
 				</article>
-				<section id="sidebar">
+				<!-- <section id="sidebar"> -->
 					<?php
-						$file_contents = file_get_contents('../footer.txt');
-						echo $file_contents;
+						// $file_contents = file_get_contents('../footer.txt');
+						// echo $file_contents;
 					?>
-				</section>
+				<!-- </section> -->
 					
 			</div>
 

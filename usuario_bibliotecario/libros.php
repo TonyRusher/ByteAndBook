@@ -41,15 +41,21 @@
 		<div id="wrapper">
 		<article class= "post">
 			<section>
-				<h3>Busqueda de Usuarios</h3>
+				<h3>Busca un libro </h3>
 					<form id="search" action="busqueda_usuarios.php" method="post" enctype="multipart/form-data">
 						<div class="row gtr-uniform">
-						<div class="col-12">
-								
-						</div>
-						<div class="col-6 col-12-xsmall">
-							<input type="text" name="Id_libro_fisico" id="Id_libro_fisico" value="" placeholder="Id libro fisico" />
-						</div>
+							<div class="col-12">
+									
+							</div>
+							<div class="col-8 col-12-xsmall">
+								<input type="text" name="Id_libro_fisico" id="Id_libro_fisico" value="" placeholder="Ingresa el nombre o id del libro " />
+							</div>
+							<div class="col-1 col-6-xsmall">
+								<a type="submit" value="" class="button icon solid fa-search" ></a>	
+							</div>
+							<div class="col-3 col-6-small">
+							<a href="registrar_libro.php" class="button fit">Registrar libro </a>
+							</div>
 						</div>
 					</form>
 			</section>

@@ -63,7 +63,7 @@
 					<article class= "post">
 						<header>
 							<div class="title">
-								<h2><a href="#">Has leído estos libros</a></h2>
+								<h2><a href="#">Has leido estos libros </a></h2>
 							</div>
 							<!-- <div class="meta">
 								<h2 href="cambiarDatos.php" class="icon solid fa-pen"><span class="label">Twitter</span></h2>
@@ -72,31 +72,29 @@
 						</header>
 						<div class="slider-container">
 							<div class="slider">
-								
 								<?php 
-									$query = "CALL ObtenerLibrosValorados(?)";
-									$stmt = $conn->prepare($query);
-									$stmt->bind_param("i", $idUsuario);
-									$stmt->execute();
-									$result = $stmt->get_result();
-
+									$stmt = "CALL ObtenerLibrosValorados(?);";
+									$query = $conn->prepare($stmt);
+									$query->bind_param("i", $idUsuario);
+									$query->execute();
+									$result = $query->get_result();
 									if($result->num_rows > 0){
 										while($row = $result->fetch_assoc()){
-											$idValoracion = $row["ID_VALORACION"];
-											$idLibroVirtual = $row["ID_LIBRO_VIRTUAL"];
-											$titulo = $row["TITULO"];
-											$autores = $row["AUTORES"];
-											$valoracion = $row["VALORACION"];
-											$comentario = $row["COMENTARIO"];
+											$titulo = $row['TITULO'];
+											$autores = $row['AUTORES'];
+											$valoracion = $row['VALORACION'];
+											$comentario = $row['COMENTARIO'];
+											$idValoracion = $row['ID_VALORACION'];
+											$idLibroVirtual = $row['ID_LIBRO_VIRTUAL'];
 											
-											echo "<article class='mini-post' data-title='$titulo' data-author='$autores' data-rating='$valoracion' data-comment='$comentario'>
+											echo "<article class='mini-post' data-title='$titulo' data-author='$autores' 
+											data-valoracino = '$valoracion' data-comentario = '$comentario' data-id-valoracion = '$idValoracion' data-id-libro-virtual = '$idLibroVirtual'>
 												<header>
 													<h3><a href='#'>$titulo</a></h3>
 													<time class='published' datetime='2015-10-20'>$autores</time>
 													<img src='../usuario_global/imagen.php?id=$idLibroVirtual' alt='' />
 												</header>
 											</article>";
-											
 										}
 									}
 								
@@ -123,10 +121,9 @@
 					<span class="close">&times;</span>
 					<h2 id="modal-title">Book Title</h2>
 					<p><strong>Author:</strong> <span id="modal-author">Author Name</span></p>
-					<p><strong>valoracion:</strong> <span id="modal-valoracion">valoracion</span></p>
 					
 					<button id="read-more-btn">Read More</button>
-					<p id="modal-full-description" style="display: none;">This is the full description of the book...</p>
+					
 					<img id="modal-image" src="https://via.placeholder.com/400x300" alt="Book Image" />
 				</div>
 			</div>
@@ -171,8 +168,8 @@
 				const modal = document.getElementById("modal");
 				const closeButton = document.querySelector(".close");
 				const readMoreBtn = document.getElementById("read-more-btn");
-				const modalDescriptionSummary = document.getElementById("modal-description-summary");
-				const modalFullDescription = document.getElementById("modal-full-description");
+				// const modalDescriptionSummary = document.getElementById("modal-description-summary");
+				// const modalFullDescription = document.getElementById("modal-full-description");
 				const modalImage = document.getElementById("modal-image");
 
 				// Open modal when a mini-post is clicked
@@ -181,17 +178,22 @@
 					post.addEventListener('click', () => {
 						const title = post.getAttribute('data-title');
 						const author = post.getAttribute('data-author');
+						// const published = post.getAttribute('data-published');
+						// const description = post.getAttribute('data-description');
+						// const genero = post.getAttribute('data-genero');
 						const imageSrc = post.querySelector('img').src; // Get the image source
 						link = post.getAttribute('data-link');
 						// Set modal content
 						document.getElementById("modal-title").innerText = title;
 						document.getElementById("modal-author").innerText = author;
+						// document.getElementById("modal-published").innerText = published;
+						// document.getElementById("modal-genero").innerText = genero;
 						
 
 						// Show only the summary initially
-						const summary = description.substring(0, 150) + '...'; // Summary of first 150 characters
-						modalDescriptionSummary.innerText = summary;
-						modalFullDescription.innerText = description; // Full description
+						// const summary = description.substring(0, 150) + '...'; // Summary of first 150 characters
+						// modalDescriptionSummary.innerText = summary;
+						// modalFullDescription.innerText = description; // Full description
 
 						// Set the image for the modal
 						modalImage.src = imageSrc;

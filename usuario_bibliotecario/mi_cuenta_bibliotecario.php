@@ -60,7 +60,7 @@
 				?>
 					<article class= "post">
 						<header>
-							<div class="">
+							<div class="title">
 								<h2><a href="#">Datos personales</a></h2>
 							</div>
 						</header>
@@ -95,50 +95,7 @@
 							</div>
 						</div>
 					</article>
-					<article class= "post">
-						<header>
-							<div class="">
-								<h2><a href="#">Tarjetas</a></h2>
-							</div>
-						</header>
-						<div class = "row gtr-uniform">
-							<div class = "col-8">
-								
-							</div>
-							<div class = "col-4">
-								<button onclick="window.location.href='agregarTarjeta.php'">Agregar tarjeta</button>
-							</div>
-							<?php
-								$sql = "SELECT NUMERO_TARJETA, FECHA_VENCIMIENTO FROM TARJETAS  WHERE ID_USUARIO = $idUsuario";
-								$result = mysqli_query($conn, $sql);
-								while($row = mysqli_fetch_assoc($result)){
-									$numero = $row["NUMERO_TARJETA"];
-									$vencimiento = $row["FECHA_VENCIMIENTO"];
-									echo "<div class = 'col-12'>";
-									echo "<section>";
-									echo "<ul class='posts'>";
-									echo "<li>";
-									echo "<div class = 'row'>";
-									echo "<div class = 'col-4'>";
-									echo "<h4>Numero</h4>";
-									echo "<p>$numero</p>";
-									echo "</div>";
-									echo "<div class = 'col-4'>";
-									echo "<h4>Vencimiento</h4>";
-									echo "<p>$vencimiento</p>";
-									echo "</div>";
-									
-									echo "</div>";
-									echo "</li>";
-									echo "</ul>";
-									echo "</section>";
-									echo "</div>";
-								}
-							?>
-						</div>
-						
-						
-					</article>
+					
 					
 					
 				</div>
