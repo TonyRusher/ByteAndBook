@@ -16,6 +16,7 @@
 		?>
 	</head>
 	<body class="is-preload">
+		
         <?php
 			session_start();
 				if(isset($_SESSION["TYPE"]) && $_SESSION["TYPE"] == 2){

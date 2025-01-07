@@ -1,11 +1,11 @@
 
---============================================= CREAR BASE =============================================--
+#============================================= CREAR BASE =============================================#
 
 DROP DATABASE IF EXISTS BYTEANDBOOK;
 CREATE DATABASE byteandbook;
 use byteandbook;
 
---============================================= INICIO DE TABLAS =============================================--
+#============================================= INICIO DE TABLAS =============================================#
 
 CREATE TABLE DATOS_PERSONALES (
 	ID_DATOS_PERSONALES INT PRIMARY KEY AUTO_INCREMENT,
@@ -107,10 +107,10 @@ CREATE TABLE TARJETAS(
 	FOREIGN KEY (ID_USUARIO) REFERENCES USUARIOS(ID_USUARIO)
 );
 
---============================================= FIN TABLAS =============================================--
+#============================================= FIN TABLAS =============================================#
 
 
---============================================= INICIO DE LOS PROCEDIMIENTOS =============================================--
+#============================================= INICIO DE LOS PROCEDIMIENTOS =============================================#
 
 DELIMITER //
 
@@ -195,7 +195,7 @@ CREATE PROCEDURE ObtenerDatosUsuario(
 BEGIN
 	SELECT u.ID_USUARIO, dp.NOMBRE, dp.APELLIDO_1, dp.APELLIDO_2, dp.TELEFONO, 
 		   d.CALLE, d.NUMERO_EXT, d.NUMERO_INT, d.COLONIA, d.ALCALDIA, d.CODIGO_POSTAL, 
-		   u.FECHA_NACIMIENTO, u.CORREO, u.TIPO_USUARIO
+		   u.FECHA_NACIMIENTO, u.CORREO, u.TIPO_USUARIO, u.CONTRASENA
 	FROM USUARIOS u
 	JOIN DATOS_PERSONALES dp ON u.ID_DATOS_PERSONALES = dp.ID_DATOS_PERSONALES
 	JOIN DIRECCIONES d ON u.ID_DIRECCION = d.ID_DIRECCION
@@ -246,11 +246,11 @@ CREATE PROCEDURE RegistrarPrestamo(
     IN p_estado INT
 )
 BEGIN
-    -- Inserta en la tabla PRESTAMOS
+    # Inserta en la tabla PRESTAMOS
     INSERT INTO PRESTAMOS (ID_LIBRO_FISICO, ID_USUARIO, FECHA_PRESTAMO, FECHA_ENTREGA, ESTADO)
     VALUES (p_id_libro_fisico, p_id_usuario, p_fecha_prestamo, p_fecha_entrega, p_estado);
 
-    -- Actualiza el número de libros disponibles en la tabla LIBROS
+    # Actualiza el número de libros disponibles en la tabla LIBROS
     UPDATE LIBRO_FISICO
     SET DISPONIBILIDAD = DISPONIBILIDAD - 1
     WHERE ID_LIBRO_FISICO = p_id_libro_fisico;
@@ -459,11 +459,11 @@ END //
 
 
 
---============================================= FIN DE LOS PROCEDIMIENTOS =============================================--
+#============================================= FIN DE LOS PROCEDIMIENTOS =============================================#
 DELIMITER ;
 
 
---============================================= INICIO EVENTOS =============================================--
+#============================================= INICIO EVENTOS =============================================#
 
 CREATE EVENT actualizar_estado_prestamos
 ON SCHEDULE EVERY 1 DAY
@@ -472,9 +472,9 @@ DO
     UPDATE PRESTAMOS
     SET ESTADO = 2
     WHERE CURDATE() > FECHA_ENTREGA AND ESTADO = 1;
---============================================= FIN EVENTOS =============================================--
+#============================================= FIN EVENTOS =============================================#
 
---============================================= INICIO VISTAS =============================================--
+#============================================= INICIO VISTAS =============================================#
 	
 CREATE VIEW VistaLibrosVirtuales AS
 SELECT dl.ID_DATOS_LIBRO, dl.TITULO, dl.EDITORIAL, dl.EDICION, lv.RESUMEN, lv.ID_LIBRO_VIRTUAL, dl.FECHA_PUBLICACION, cg.NOMBRE_GENERO, lv.archivo, lv.imagen
@@ -482,9 +482,9 @@ FROM DATOS_LIBRO dl
 JOIN LIBRO_VIRTUAL lv ON dl.ID_DATOS_LIBRO = lv.ID_DATOS_LIBRO
 JOIN CATALOGO_GENEROS cg ON dl.ID_GENERO = cg.ID_GENERO;
 
---============================================= FIN VISTAS =============================================--
+#============================================= FIN VISTAS =============================================#
 
---============================================= INICIO DATOS =============================================--
+#============================================= INICIO DATOS =============================================#
 	
 
 insert into datos_personales (NOMBRE, APELLIDO_1, APELLIDO_2, TELEFONO) values 
@@ -568,7 +568,7 @@ insert into libro_virtual (ID_DATOS_LIBRO, RESUMEN) values
 (4, 'Resumen del libro de Drama 1'),
 (5, 'Resumen del libro de Fantasia 1');
 
---============================================= FIN DATOS =============================================--
+#============================================= FIN DATOS =============================================#
 
 
 select * from DATOS_LIBRO;
