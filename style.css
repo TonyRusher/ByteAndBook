@@ -119,11 +119,7 @@ input[type="date"], input[type="time"], input[type="number"] {
     border-radius: 10px;
     padding: 15px;
     margin-bottom: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
-.card-info {
-    flex: 1;
-    margin-left: 15px;
+th {
+    text-align: center;
 }

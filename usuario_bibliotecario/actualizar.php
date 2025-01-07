@@ -29,6 +29,15 @@ if (isset($_GET['id'])) {
         <input type="hidden" name="id_usuario" value="<?php echo $idUsuario; ?>" />
         <div class="row gtr-uniform">
             <div class="col-4 col-12-small">
+                <h4>Nombre</h4>
+            </div>
+            <div class="col-4 col-12-small">
+                <h4>Primer Apellido</h4>
+            </div>
+            <div class="col-4 col-12-small">
+                <h4>Segundo Apellido</h4>
+            </div>
+            <div class="col-4 col-12-small">
                 <input type="text" name="nombre" id="nombre" value="<?php echo htmlspecialchars($usuario['NOMBRE']); ?>" placeholder="Nombre" />
             </div>
             <div class="col-4 col-12-small">
@@ -36,6 +45,15 @@ if (isset($_GET['id'])) {
             </div>
             <div class="col-4 col-12-small">
                 <input type="text" name="apellido2" id="apellido2" value="<?php echo $usuario['APELLIDO_2']; ?>" placeholder="Segundo apellido" />
+            </div>
+            <div class="col-4 col-12-small">
+                <h4>Correo Electrónico</h4>
+            </div>
+            <div class="col-4 col-12-small">
+                <h4>Contraseña</h4>
+            </div>
+            <div class="col-4 col-12-small">
+                <h4>Confirmar Contraseña</h4>
             </div>
             <div class="col-4 col-12-small">
                 <input type="email" name="correo" id="correo" value="<?php echo $usuario['CORREO']; ?>" placeholder="Correo electrónico" />
@@ -47,6 +65,15 @@ if (isset($_GET['id'])) {
                 <input type="password" name="pass2" id="pass2" placeholder="Confirmar Contraseña" value="<?php echo $usuario['CONTRASENA']; ?>"/>
             </div>
             <div class="col-4 col-12-small">
+                <h4>Teléfono</h4>
+            </div>
+            <div class="col-4 col-12-small">
+                <h4>Fecha de Nacimiento</h4>
+            </div>
+            <div class="col-4 col-12-small">
+                <h4></h4>
+            </div>
+            <div class="col-4 col-12-small">
                 <input type="tel" name="telefono" id="telefono" value="<?php echo $usuario['TELEFONO']; ?>" placeholder="Teléfono" />
             </div>
             <div class="col-4 col-12-small">
@@ -54,6 +81,18 @@ if (isset($_GET['id'])) {
             </div>
             <div class="col-12">
                 <h4>Ingresa tu dirección</h4>
+            </div>
+            <div class="col-6 col-12-small">
+                <h4>Calle</h4>
+            </div>
+            <div class="col-2 col-6-small">
+                <h4>#Ext.</h4>
+            </div>
+            <div class="col-2 col-6-small">
+                <h4>#Int.</h4>
+            </div>
+            <div class="col-2 col-6-small">
+                <h4>C.P.</h4>
             </div>
             <div class="col-6 col-12-small">
                 <input type="text" name="calle" id="calle" value="<?php echo $usuario['CALLE']; ?>" placeholder="Calle" />
@@ -66,6 +105,12 @@ if (isset($_GET['id'])) {
             </div>
             <div class="col-2 col-6-small">
                 <input type="text" name="codigo_postal" id="codigo_postal" value="<?php echo $usuario['CODIGO_POSTAL']; ?>" placeholder="Código postal" />
+            </div>
+            <div class="col-6 col-12-small">
+                <h4>Colonia</h4>
+            </div>
+            <div class="col-6 col-12-small">
+                <h4>Alcaldía</h4>
             </div>
             <div class="col-6">
                 <input type="text" name="colonia" id="colonia" value="<?php echo $usuario['COLONIA']; ?>" placeholder="Colonia" />

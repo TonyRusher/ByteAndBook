@@ -40,14 +40,14 @@
 			<h1>Buscador de Usuarios</h1>
 			<div class="search-bar">
 				<form method="POST" action="busqueda_usuarios.php">
-			<div class="row gtr-uniform">
-				<div class = "col-9 col-12-small" >
-					<input type="text" name="search" placeholder="Buscar por nombre o apellido..." value="<?php echo isset($_POST['search']) ? htmlspecialchars($_POST['search']) : ''; ?>">
+				<div class="row gtr-uniform">
+					<div class = "col-9 col-12-small" >
+						<input type="text" name="search" placeholder="Buscar por nombre o apellido..." value="<?php echo isset($_POST['search']) ? htmlspecialchars($_POST['search']) : ''; ?>">
+					</div>
+					<div class = "col-3 col-12-small">
+						<button type="submit" class = "fit">Buscar</button>
+					</div>
 				</div>
-				<div class = "col-3 col-12-small">
-					<button type="submit" class = "fit">Buscar</button>
-				</div>
-			</div>
 				</form>
 			</div>
 			<div class="col-9 col-12-small">
@@ -69,26 +69,22 @@
 					$result = $stmt->get_result();
 					if ($result->num_rows > 0) {
 						while ($row = $result->fetch_assoc()) {
-							echo '
-							<div class="col-3 col-12-small">
+							echo '<div class="col-12">
 								<div class="card">
-								<div class="card-info">
-									<h3>' . htmlspecialchars($row["nombre_completo"]) . '</h3>
-								</div>
-									<div class="col-3 col-12-small">
-										<button onclick="abrirModal(\'actualizar\', ' . $row["ID_USUARIO"] . ')">Actualizar</button>
+								<div class="row gtr-uniform">
+									<div class="col-6 col-12-small">
+										<h3>' . htmlspecialchars($row["nombre_completo"]) . '</h3>
 									</div>
-									<div class="col-3 col-12-small">
-										<button onclick="abrirModal(\'prestamos\', ' . $row["ID_USUARIO"] . ')">Préstamos</button>
+									<div class="col-6 col-12-small">
+												<button onclick="abrirModal(\'actualizar\', ' . $row["ID_USUARIO"] . ')">Actualizar</button>
+												<button onclick="abrirModal(\'prestamos\', ' . $row["ID_USUARIO"] . ')">Préstamos</button>
+												<button onclick="abrirModal(\'adeudos\', ' . $row["ID_USUARIO"] . ')">Adeudos</button>
+												<button onclick="abrirModal(\'deudas\', ' . $row["ID_USUARIO"] . ')">Deudas</button>
 									</div>
-									<div class="col-3 col-12-small">
-										<button onclick="abrirModal(\'adeudos\', ' . $row["ID_USUARIO"] . ')">Adeudos</button>
-									</div>
-									<div class="col-3 col-12-small">
-										<button onclick="abrirModal(\'deudas\', ' . $row["ID_USUARIO"] . ')">Deudas</button>
 									</div>
 							</div>
 							</div>
+							
 							';
 						}
 					} else {
@@ -99,7 +95,6 @@
 				}
 				?>
 			</div>
-
 			<!-- Modal -->
 			<div id="modal" class="modal">
 				<div class="modal-content">
