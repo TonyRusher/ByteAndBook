@@ -76,6 +76,9 @@
 									<h3>' . htmlspecialchars($row["nombre_completo"]) . '</h3>
 								</div>
 									<div class="col-3 col-12-small">
+										<button onclick="abrirModal(\'actualizar\', ' . $row["ID_USUARIO"] . ')">Actualizar</button>
+									</div>
+									<div class="col-3 col-12-small">
 										<button onclick="abrirModal(\'prestamos\', ' . $row["ID_USUARIO"] . ')">Préstamos</button>
 									</div>
 									<div class="col-3 col-12-small">
