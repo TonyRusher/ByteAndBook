@@ -33,42 +33,118 @@
         require_once('../usuario_global/Conexion.php');
         $base = new Conexion();
         $conn = $base->getConn();
-
-        $nombreusuario = $_POST["nombre_usuario"] ?? null;
-        $idusuario = $_POST["Id_usuario"] ?? null;
         ?>
 		
 		<div id="wrapper">
 		<article class= "post">
 			<section>
 				<h3>Busca un libro </h3>
-					<form id="search" action="busqueda_usuarios.php" method="post" enctype="multipart/form-data">
+					<form id="search" action="libros.php" method="post">
 						<div class="row gtr-uniform">
-							<div class="col-12">
+							<div class="col-12"> 
 									
 							</div>
 							<div class="col-8 col-12-xsmall">
-								<input type="text" name="Id_libro_fisico" id="Id_libro_fisico" value="" placeholder="Ingresa el nombre o id del libro " />
+								<input type="text" name="search" id="search" value="<?php echo isset($_POST['search']) ? htmlspecialchars($_POST['search']) : ''; ?>" placeholder="Ingresa el nombre o id del libro " />
 							</div>
 							<div class="col-1 col-6-xsmall">
-								<a type="submit" value="" class="button icon solid fa-search" ></a>	
+								<button type="submit" value="" class="button icon solid fa-search" ></button>	
 							</div>
 							<div class="col-3 col-6-small">
 							<a href="registrar_libro.php" class="button fit">Registrar libro </a>
 							</div>
 						</div>
 					</form>
+			<div class="col-9 col-12-small">
+				<?php
+				require_once('../usuario_global/Conexion.php');
+				$base = new Conexion();
+				$conn = $base->getConn();
+				if ($_SERVER["REQUEST_METHOD"] === "POST" && !empty($_POST["search"])) {
+
+					if ($conn->connect_error) {
+						die("Error en la conexión: " . $conn->connect_error);
+					}
+
+					$search = $conn->real_escape_string($_POST["search"]);
+					$sql = "CALL BuscarLibros(?)";
+					$stmt = $conn->prepare($sql);
+					$stmt->bind_param("s", $search);
+					$stmt->execute();
+					$result = $stmt->get_result();
+					if ($result->num_rows > 0) {
+						while ($row = $result->fetch_assoc()) {
+							echo '<div class="col-12">
+								<div class="card">
+								<div class="row gtr-uniform">
+									<div class="col-7 col-12-small">
+										<h3>' . htmlspecialchars($row["TITULO"]) . '</h3>
+										<h5>Disponibilidad: ' . htmlspecialchars($row["DISPONIBILIDAD"]) . '</h4>
+									</div>
+									<div class="col-5 col-12-small">
+										<button onclick="abrirModal(\'infoprestamos\', ' . $row["ID_DATOS_LIBRO"] . ')">Prestamos</button>
+										<button onclick="abrirModal(\'ubicacion\', ' . $row["ID_DATOS_LIBRO"] . ')">Ubicacion</button>
+										<button onclick="abrirModal(\'informacion\', ' . $row["ID_DATOS_LIBRO"] . ')">Información</button>
+									</div>
+									</div>
+							</div>
+							</div>
+							
+							';
+						}
+					} else {
+						echo '<p>No se encontraron resultados.</p>';
+					}
+
+					$conn->close();
+				}
+				?>
+			</div>
+			<!-- Modal -->
+			<div id="modal" class="modal">
+				<div class="modal-content">
+					<span class="close" onclick="cerrarModal()">&times;</span>
+					<div id="modal-content"></div>
+				</div>
+			</div>
+
+			<script>
+				function abrirModal(tipo, idLibro) {
+					// Mostrar el modal
+					const modal = document.getElementById('modal');
+					const modalContent = document.getElementById('modal-content');
+					modal.style.display = 'block';
+
+					// Realizar una solicitud al servidor para obtener los datos del modal
+					fetch(`${tipo}.php?id=${idLibro}`)
+						.then(response => response.text())
+						.then(data => {
+							modalContent.innerHTML = data;
+						})
+						.catch(error => {
+							modalContent.innerHTML = '<p>Error al cargar los datos.</p>';
+						});
+				}
+
+				function cerrarModal() {
+					document.getElementById('modal').style.display = 'none';
+				}
+			</script>
 			</section>
-						
-			
 		</article>
-		</div>
+		<section id="sidebar">
+				<?php
+					$file_contents = file_get_contents('../footer.txt');
+					echo $file_contents;
+				?>
+		</section>
+
         <!-- Scripts -->
         <script src="../assets/js/jquery.min.js"></script>
         <script src="../assets/js/browser.min.js"></script>
         <script src="../assets/js/breakpoints.min.js"></script>
         <script src="../assets/js/util.js"></script>
         <script src="../assets/js/main.js"></script>
-
+			</div>
 	</body>
 </html>
