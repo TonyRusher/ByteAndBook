@@ -1,0 +1,1000 @@
+bookID,title,authors,average_rating,isbn,isbn13,language_code,num_pages,ratings_count,text_reviews_count,publication_date,publisher,resumen,ejemplares,disponibilidad,pasillo,estante
+1,Harry Potter and the Half-Blood Prince (Harry Potter  #6),J.K. Rowling/Mary GrandPré,4.57,439785960,9.78E+12,eng,652,2095690,27591,9/16/2006,Scholastic Inc.,Resumen de: Harry Potter and the Half-Blood Prince (Harry Potter  #6),4,1,7,1
+2,Harry Potter and the Order of the Phoenix (Harry Potter  #5),J.K. Rowling/Mary GrandPré,4.49,439358078,9.78E+12,eng,870,2153167,29221,09/01/04,Scholastic Inc.,Resumen de: Harry Potter and the Order of the Phoenix (Harry Potter  #5),2,2,1,1
+3,Harry Potter and the Chamber of Secrets (Harry Potter  #2),J.K. Rowling,4.42,439554896,9.78E+12,eng,352,6333,244,11/01/03,Scholastic,Resumen de: Harry Potter and the Chamber of Secrets (Harry Potter  #2),4,3,5,3
+4,Harry Potter and the Prisoner of Azkaban (Harry Potter  #3),J.K. Rowling/Mary GrandPré,4.56,043965548X,9.78E+12,eng,435,2339585,36325,05/01/04,Scholastic Inc.,Resumen de: Harry Potter and the Prisoner of Azkaban (Harry Potter  #3),2,1,10,1
+5,Harry Potter Boxed Set  Books 1-5 (Harry Potter  #1-5),J.K. Rowling/Mary GrandPré,4.78,439682584,9.78E+12,eng,2690,41428,164,9/13/2004,Scholastic,Resumen de: Harry Potter Boxed Set  Books 1-5 (Harry Potter  #1-5),1,1,1,2
+6,"Unauthorized Harry Potter Book Seven News: ""Half-Blood Prince"" Analysis and Speculation",W. Frederick Zimmerman,3.74,976540606,9.78E+12,en-US,152,19,1,4/26/2005,Nimble Books,"Resumen de: Unauthorized Harry Potter Book Seven News: ""Half-Blood Prince"" Analysis and Speculation",4,1,9,2
+7,Harry Potter Collection (Harry Potter  #1-6),J.K. Rowling,4.73,439827604,9.78E+12,eng,3342,28242,808,09/12/05,Scholastic,Resumen de: Harry Potter Collection (Harry Potter  #1-6),4,4,1,2
+8,The Ultimate Hitchhiker's Guide: Five Complete Novels and One Story (Hitchhiker's Guide to the Galaxy  #1-5),Douglas Adams,4.38,517226952,9.78E+12,eng,815,3628,254,11/01/05,Gramercy Books,Resumen de: The Ultimate Hitchhiker's Guide: Five Complete Novels and One Story (Hitchhiker's Guide to the Galaxy  #1-5),3,2,4,2
+9,The Ultimate Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy  #1-5),Douglas Adams,4.38,345453743,9.78E+12,eng,815,249558,4080,4/30/2002,Del Rey Books,Resumen de: The Ultimate Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy  #1-5),5,3,8,1
+10,The Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy  #1),Douglas Adams,4.22,1400052920,9.78E+12,eng,215,4930,460,08/03/04,Crown,Resumen de: The Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy  #1),2,2,4,2
+11,The Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy  #1),Douglas Adams/Stephen Fry,4.22,739322206,9.78E+12,eng,6,1266,253,3/23/2005,Random House Audio,Resumen de: The Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy  #1),2,2,2,2
+12,The Ultimate Hitchhiker's Guide (Hitchhiker's Guide to the Galaxy  #1-5),Douglas Adams,4.38,517149257,9.78E+12,eng,815,2877,195,1/17/1996,Wings Books,Resumen de: The Ultimate Hitchhiker's Guide (Hitchhiker's Guide to the Galaxy  #1-5),5,2,9,2
+13,A Short History of Nearly Everything,Bill Bryson,4.21,076790818X,9.78E+12,eng,544,248558,9396,9/14/2004,Broadway Books,Resumen de: A Short History of Nearly Everything,1,1,7,3
+14,Bill Bryson's African Diary,Bill Bryson,3.44,767915062,9.78E+12,eng,55,7270,499,12/03/02,Broadway Books,Resumen de: Bill Bryson's African Diary,4,1,10,3
+15,Bryson's Dictionary of Troublesome Words: A Writer's Guide to Getting It Right,Bill Bryson,3.87,767910435,9.78E+12,eng,256,2088,131,9/14/2004,Broadway Books,Resumen de: Bryson's Dictionary of Troublesome Words: A Writer's Guide to Getting It Right,4,4,2,3
+16,In a Sunburned Country,Bill Bryson,4.07,767903862,9.78E+12,eng,335,72451,4245,5/15/2001,Broadway Books,Resumen de: In a Sunburned Country,2,2,9,2
+17,I'm a Stranger Here Myself: Notes on Returning to America After Twenty Years Away,Bill Bryson,3.9,076790382X,9.78E+12,eng,304,49240,2211,6/28/2000,Broadway Books,Resumen de: I'm a Stranger Here Myself: Notes on Returning to America After Twenty Years Away,1,1,3,3
+18,The Lost Continent: Travels in Small Town America,Bill Bryson,3.83,60920084,9.78E+12,eng,299,45712,2257,8/28/1990,William Morrow Paperbacks,Resumen de: The Lost Continent: Travels in Small Town America,3,3,10,3
+19,Neither Here nor There: Travels in Europe,Bill Bryson,3.86,380713802,9.78E+12,eng,254,48701,2238,3/28/1993,William Morrow Paperbacks,Resumen de: Neither Here nor There: Travels in Europe,5,5,4,2
+20,Notes from a Small Island,Bill Bryson,3.91,380727501,9.78E+12,eng,324,80609,3301,5/28/1997,William Morrow Paperbacks,Resumen de: Notes from a Small Island,4,1,4,2
+21,The Mother Tongue: English and How It Got That Way,Bill Bryson,3.93,380715430,9.78E+12,eng,270,28489,2085,9/28/1991,William Morrow Paperbacks,Resumen de: The Mother Tongue: English and How It Got That Way,3,3,5,3
+22,J.R.R. Tolkien 4-Book Boxed Set: The Hobbit and The Lord of the Rings,J.R.R. Tolkien,4.59,345538374,9.78E+12,eng,1728,101233,1550,9/25/2012,Ballantine Books,Resumen de: J.R.R. Tolkien 4-Book Boxed Set: The Hobbit and The Lord of the Rings,4,2,5,1
+23,The Lord of the Rings (The Lord of the Rings  #1-3),J.R.R. Tolkien,4.5,618517650,9.78E+12,eng,1184,1710,91,10/21/2004,Houghton Mifflin Harcourt,Resumen de: The Lord of the Rings (The Lord of the Rings  #1-3),1,1,1,1
+24,The Fellowship of the Ring (The Lord of the Rings  #1),J.R.R. Tolkien,4.36,618346252,9.78E+12,eng,398,2128944,13670,09/05/03,Houghton Mifflin Harcourt,Resumen de: The Fellowship of the Ring (The Lord of the Rings  #1),5,3,1,3
+25,The Lord of the Rings (The Lord of the Rings  #1-3),J.R.R. Tolkien/Alan  Lee,4.5,618260587,9.78E+12,en-US,1216,1618,140,10/01/02,Houghton Mifflin Harcourt,Resumen de: The Lord of the Rings (The Lord of the Rings  #1-3),3,1,7,1
+26,The Lord of the Rings: Weapons and Warfare,Chris   Smith/Christopher  Lee/Richard Taylor,4.53,618391002,9.78E+12,eng,218,19822,46,11/05/03,Houghton Mifflin Harcourt,Resumen de: The Lord of the Rings: Weapons and Warfare,1,1,3,3
+27,The Lord of the Rings: Complete Visual Companion,Jude Fisher,4.5,618510826,9.78E+12,eng,224,359,6,11/15/2004,Houghton Mifflin Harcourt,Resumen de: The Lord of the Rings: Complete Visual Companion,4,4,1,1
+28,Agile Web Development with Rails: A Pragmatic Guide,Dave Thomas/David Heinemeier Hansson/Leon Breedt/Mike Clark/Thomas  Fuchs/Andreas  Schwarz,3.84,097669400X,9.78E+12,eng,558,1430,59,7/28/2005,Pragmatic Bookshelf,Resumen de: Agile Web Development with Rails: A Pragmatic Guide,4,2,2,1
+29,Hatchet (Brian's Saga  #1),Gary Paulsen,3.72,689840926,9.78E+12,eng,208,270244,12017,04/01/00,Atheneum Books for Young Readers: Richard Jackson Books,Resumen de: Hatchet (Brian's Saga  #1),3,1,9,2
+30,"Hatchet: A Guide for Using ""Hatchet"" in the Classroom",Donna Ickes/Edward Sciranko/Keith Vasconcelles,4,1557344493,9.78E+12,eng,48,36,2,8/28/1994,Teacher Created Resources,"Resumen de: Hatchet: A Guide for Using ""Hatchet"" in the Classroom",4,1,2,2
+31,Guts: The True Stories behind Hatchet and the Brian Books,Gary Paulsen,3.88,385326505,9.78E+12,eng,144,2067,334,1/23/2001,Delacorte Press,Resumen de: Guts: The True Stories behind Hatchet and the Brian Books,1,1,6,2
+32,Molly Hatchet - 5 of the Best,Molly Hatchet,4.33,1575606240,9.78E+12,eng,56,6,0,06/10/03,Cherry Lane Music Company,Resumen de: Molly Hatchet - 5 of the Best,2,1,6,3
+33,Hatchet Jobs: Writings on Contemporary Fiction,Dale Peck,3.45,1595580271,9.78E+12,en-US,228,99,16,11/01/05,The New Press,Resumen de: Hatchet Jobs: Writings on Contemporary Fiction,4,3,2,1
+34,A Changeling for All Seasons (Changeling Seasons #1),Angela Knight/Sahara Kelly/Judy Mays/Marteeka Karland/Kate Douglas/Shelby Morgen/Lacey Savage/Kate Hill/Willa Okati,3.76,1595962808,9.78E+12,eng,304,167,4,11/01/05,Changeling Press,Resumen de: A Changeling for All Seasons (Changeling Seasons #1),1,1,4,1
+35,Changeling (Changeling  #1),Delia Sherman,3.6,670059676,9.78E+12,eng,256,978,111,8/17/2006,Viking Juvenile,Resumen de: Changeling (Changeling  #1),1,1,6,3
+36,The Changeling Sea,Patricia A. McKillip,4.06,141312629,9.78E+12,eng,137,4454,302,4/14/2003,Firebird,Resumen de: The Changeling Sea,2,2,6,3
+37,The Changeling,Zilpha Keatley Snyder,4.17,595321801,9.78E+12,eng,228,1176,96,06/08/04,iUniverse,Resumen de: The Changeling,3,2,10,1
+38,The Changeling,Kate Horsley,3.55,1590301943,9.78E+12,eng,339,301,43,04/12/05,Shambhala,Resumen de: The Changeling,5,5,5,3
+39,The Changeling (Daughters of England  #15),Philippa Carr,3.98,449146979,9.78E+12,eng,369,345,12,8/28/1990,Ivy Books,Resumen de: The Changeling (Daughters of England  #15),5,2,4,3
+40,The Known World,Edward P. Jones,3.83,61159174,9.78E+12,eng,388,29686,2626,8/29/2006,Amistad,Resumen de: The Known World,3,1,10,2
+41,The Known World,Edward P. Jones/Kevin R. Free,3.83,006076273X,9.78E+12,en-US,14,55,12,6/15/2004,HarperAudio,Resumen de: The Known World,1,1,10,3
+42,The Known World,Edward P. Jones,3.83,60749911,9.78E+12,eng,576,22,3,6/15/2004,Harper,Resumen de: The Known World,2,2,2,2
+43,Traders  Guns & Money: Knowns and Unknowns in the Dazzling World of Derivatives,Satyajit Das,3.83,273704745,9.78E+12,eng,334,1456,82,5/15/2006,FT Press,Resumen de: Traders  Guns & Money: Knowns and Unknowns in the Dazzling World of Derivatives,2,2,1,1
+44,Artesia: Adventures in the Known World,Mark Smylie,4.13,1932386106,9.78E+12,eng,352,52,4,12/14/2005,Archaia,Resumen de: Artesia: Adventures in the Known World,5,1,7,2
+45,The John McPhee Reader (John McPhee Reader  #1),John McPhee/William Howarth,4.42,374517193,9.78E+12,eng,416,562,37,06/01/82,Farrar  Straus and Giroux,Resumen de: The John McPhee Reader (John McPhee Reader  #1),2,1,7,3
+46,Uncommon Carriers,John McPhee,3.95,374280398,9.78E+12,en-US,248,1630,203,5/16/2006,Farrar Straus Giroux,Resumen de: Uncommon Carriers,5,2,8,2
+47,Heirs of General Practice,John McPhee,4.17,374519749,9.78E+12,eng,128,268,22,04/01/86,Farrar  Straus and Giroux,Resumen de: Heirs of General Practice,4,3,10,2
+48,The Control of Nature,John McPhee,4.24,374522596,9.78E+12,en-US,288,3498,305,09/01/90,Farrar  Straus and Giroux,Resumen de: The Control of Nature,2,2,9,2
+49,Annals of the Former World,John McPhee,4.34,374518734,9.78E+12,eng,720,3115,228,01/06/99,Farrar  Straus and Giroux,Resumen de: Annals of the Former World,3,3,7,1
+50,Coming Into the Country,John McPhee,4.22,374522871,9.78E+12,eng,448,5704,261,04/01/91,Farrar  Straus and Giroux,Resumen de: Coming Into the Country,5,4,1,1
+51,La Place de la Concorde Suisse,John McPhee,3.92,374519323,9.78E+12,fre,160,698,52,04/01/94,Farrar  Straus and Giroux,Resumen de: La Place de la Concorde Suisse,4,3,5,1
+52,Giving Good Weight,John McPhee,4.23,374516006,9.78E+12,eng,288,542,36,04/01/94,Farrar  Straus and Giroux,Resumen de: Giving Good Weight,3,1,6,3
+53,Rising from the Plains,John McPhee,4.23,374520658,9.78E+12,eng,208,1341,98,11/01/87,Farrar  Straus and Giroux,Resumen de: Rising from the Plains,1,1,8,1
+54,The Heidi Chronicles,Wendy Wasserstein,3.75,822205106,9.78E+12,eng,81,1423,70,03/01/02,Dramatists Play Service,Resumen de: The Heidi Chronicles,3,2,10,2
+55,The Heidi Chronicles: Uncommon Women and Others & Isn't It Romantic,Wendy Wasserstein,3.84,679734996,9.78E+12,eng,249,2766,64,07/02/91,Vintage,Resumen de: The Heidi Chronicles: Uncommon Women and Others & Isn't It Romantic,4,3,10,3
+56,Active Literacy Across the Curriculum: Strategies for Reading  Writing  Speaking  and Listening,Heidi Hayes Jacobs,3.94,1596670231,9.78E+12,eng,138,31,1,3/29/2006,Routledge,Resumen de: Active Literacy Across the Curriculum: Strategies for Reading  Writing  Speaking  and Listening,5,5,9,2
+57,Simply Beautiful Beaded Jewelry,Heidi Boyd,3.77,1581807740,9.78E+12,en-US,128,62,4,3/14/2006,North Light Books,Resumen de: Simply Beautiful Beaded Jewelry,3,1,3,1
+58,Always Enough: God's Miraculous Provision Among the Poorest Children on Earth,Heidi Baker/Rolland Baker,4.46,800793617,9.78E+12,eng,192,860,53,09/01/03,Chosen Books,Resumen de: Always Enough: God's Miraculous Provision Among the Poorest Children on Earth,5,4,3,2
+59,Mapping the Big Picture: Integrating Curriculum & Assessment K-12,Heidi Hayes Jacobs,3.68,871202867,9.78E+12,en-US,108,77,2,1/28/1997,Association for Supervision & Curriculum Development,Resumen de: Mapping the Big Picture: Integrating Curriculum & Assessment K-12,2,2,1,3
+60,Heidi (Heidi  #1-2),Johanna Spyri/Beverly Cleary/Angelo  Rinaldi,3.99,753454947,9.78E+12,eng,352,153317,2257,11/15/2002,Kingfisher,Resumen de: Heidi (Heidi  #1-2),2,1,9,1
+61,Getting Results with Curriculum Mapping,Heidi Hayes Jacobs,3.25,871209993,9.78E+12,eng,192,55,5,11/15/2004,ASCD,Resumen de: Getting Results with Curriculum Mapping,1,1,6,1
+62,There's Always Enough: The Miraculous Move of God in Mozambique,Rolland Baker/Heidi Baker,4.46,1852402873,9.78E+12,eng,192,34,6,4/28/2003,Sovereign World,Resumen de: There's Always Enough: The Miraculous Move of God in Mozambique,2,2,9,2
+63,What to Expect the First Year (What to Expect),Heidi Murkoff/Sharon Mazel/Arlene Eisenberg/Sandee Hathaway/Mark D. Widome,3.89,761129588,9.78E+12,eng,832,11797,659,10/16/2003,Workman Publishing Company,Resumen de: What to Expect the First Year (What to Expect),3,2,3,1
+64,The Player's Handbook: The Ultimate Guide on Dating and Relationships,Heidi Fleiss/Libby Keatinge,3.82,972016414,9.78E+12,eng,123,34,8,05/10/04,One Hour Entertainment,Resumen de: The Player's Handbook: The Ultimate Guide on Dating and Relationships,1,1,6,2
+65,Simply Beautiful Beading: 53 Quick and Easy Projects,Heidi Boyd,3.78,1581805632,9.78E+12,en-US,128,78,4,8/19/2004,North Light Books,Resumen de: Simply Beautiful Beading: 53 Quick and Easy Projects,2,1,2,1
+66,God Emperor of Dune (Dune Chronicles  #4),Frank Herbert,3.84,441294677,9.78E+12,eng,423,2785,166,6/15/1987,Ace Books,Resumen de: God Emperor of Dune (Dune Chronicles  #4),3,1,2,1
+67,Chapterhouse: Dune (Dune Chronicles #6),Frank Herbert,3.91,441102670,9.78E+12,eng,436,38778,568,07/01/87,Ace Books,Resumen de: Chapterhouse: Dune (Dune Chronicles #6),4,1,3,2
+68,Dune Messiah (Dune Chronicles #2),Frank Herbert,3.88,441172695,9.78E+12,eng,331,97494,2359,7/15/1987,Ace Books,Resumen de: Dune Messiah (Dune Chronicles #2),1,1,9,1
+69,Dreamer of Dune: The Biography of Frank Herbert,Brian Herbert,4.01,765306476,9.78E+12,en-US,592,784,21,07/01/04,Tor Books,Resumen de: Dreamer of Dune: The Biography of Frank Herbert,5,1,7,2
+70,Heretics of Dune (Dune Chronicles  #5),Frank Herbert,3.86,399128980,9.78E+12,eng,480,272,20,4/16/1984,Putnam,Resumen de: Heretics of Dune (Dune Chronicles  #5),3,2,8,3
+71,The Road to Dune,Frank Herbert/Brian Herbert/Kevin J. Anderson,3.88,765353709,9.78E+12,eng,426,4789,83,8/29/2006,Tor Science Fiction,Resumen de: The Road to Dune,1,1,3,1
+72,Heretics of Dune (Dune Chronicles #5),Frank Herbert,3.86,441328008,9.78E+12,eng,471,45388,644,8/15/1987,Ace Books,Resumen de: Heretics of Dune (Dune Chronicles #5),5,2,7,2
+73,The Lord of the Rings: The Art of the Fellowship of the Ring,Gary Russell,4.59,618212906,9.78E+12,eng,192,26153,102,06/12/02,Houghton Mifflin Harcourt,Resumen de: The Lord of the Rings: The Art of the Fellowship of the Ring,1,1,10,2
+74,The Power of One (The Power of One  #1),Bryce Courtenay,4.35,034541005X,9.78E+12,eng,544,69167,4551,9/29/1996,Ballantine Books,Resumen de: The Power of One (The Power of One  #1),2,2,3,1
+75,The Power of One (The Power of One  #1),Bryce Courtenay,4.35,385732546,9.78E+12,eng,291,45,13,9/13/2005,Delacorte Books for Young Readers,Resumen de: The Power of One (The Power of One  #1),1,1,10,2
+76,The Power of One: One Person  One Rule  One Month,John C. Maxwell/Stephen R. Graves/Thomas G. Addington,4.28,785260056,9.78E+12,en-US,256,16,1,11/01/04,Thomas Nelson,Resumen de: The Power of One: One Person  One Rule  One Month,5,5,7,1
+77,Power of an Hour: Business and Life Mastery in One Hour a Week,Dave Lakhani,3.34,471780936,9.78E+12,eng,205,174,16,5/19/2006,Wiley,Resumen de: Power of an Hour: Business and Life Mastery in One Hour a Week,3,2,8,1
+78,The Power of One: The Solo Play for Playwrights  Actors  and Directors,Louis E. Catron,3.67,325001537,9.78E+12,eng,240,10,0,02/07/00,Heinemann Drama,Resumen de: The Power of One: The Solo Play for Playwrights  Actors  and Directors,2,1,3,2
+79,How to Buy  Sell & Profit on eBay: Kick-Start Your Home-Based Business in Just Thirty Days,Adam Ginsberg,3.48,006076287X,9.78E+12,eng,336,76,9,05/03/05,William Morrow Paperbacks,Resumen de: How to Buy  Sell & Profit on eBay: Kick-Start Your Home-Based Business in Just Thirty Days,3,3,5,3
+80,eBay for Dummies,Marsha Collier,3.5,470045299,9.78E+12,eng,386,111,9,10/30/2006,Wiley,Resumen de: eBay for Dummies,1,1,6,3
+81,What to Sell on ebay and Where to Get It: The Definitive Guide to Product Sourcing for eBay and Beyond,Chris Malta/Lisa Suttora,3.62,72262788,9.78E+12,eng,260,24,0,1/24/2006,McGraw-Hill,Resumen de: What to Sell on ebay and Where to Get It: The Definitive Guide to Product Sourcing for eBay and Beyond,3,2,3,2
+82,Starting an eBay Business for Dummies,Marsha Collier,3.55,764569244,9.78E+12,eng,384,55,4,9/17/2004,Wiley,Resumen de: Starting an eBay Business for Dummies,4,3,6,3
+83,eBay: Top 100 Simplified Tips & Tricks,Julia Wilkinson,4.27,471933821,9.78E+12,eng,260,9,0,06/06/06,Wiley,Resumen de: eBay: Top 100 Simplified Tips & Tricks,1,1,3,2
+84,ebay Timesaving Techniques for Dummies,Marsha Collier,3.39,764559915,9.78E+12,en-US,391,22,1,5/31/2004,Wiley,Resumen de: ebay Timesaving Techniques for Dummies,4,4,1,1
+85,eBay Business All-in-One Desk Reference for Dummies,Marsha Collier,3.89,764584383,9.78E+12,en-US,864,17,3,4/25/2005,Wiley,Resumen de: eBay Business All-in-One Desk Reference for Dummies,4,3,8,3
+86,Ruby Cookbook,Lucas Carlson/Leonard Richardson,3.84,596523696,9.78E+12,eng,873,166,4,7/29/2006,O'Reilly Media,Resumen de: Ruby Cookbook,3,3,1,3
+87,Ruby Ann's Down Home Trailer Park Cookbook,Ruby Ann Boxcar,4.12,806523492,9.78E+12,eng,240,50,5,05/03/05,Citadel,Resumen de: Ruby Ann's Down Home Trailer Park Cookbook,1,1,9,3
+88,Ruby Ann's Down Home Trailer Park BBQin' Cookbook,Ruby Ann Boxcar,4.08,806525363,9.78E+12,eng,206,13,2,05/03/05,Citadel,Resumen de: Ruby Ann's Down Home Trailer Park BBQin' Cookbook,3,2,9,2
+89,Rails Cookbook: Recipes for Rapid Web Development with Ruby,Rob Orsini,3.48,596527314,9.78E+12,eng,514,64,1,01/01/07,O'Reilly Media,Resumen de: Rails Cookbook: Recipes for Rapid Web Development with Ruby,2,2,7,2
+90,Anna Karenina,Leo Tolstoy/Richard Pevear/Larissa Volokhonsky,4.05,143035002,9.78E+12,eng,838,16643,1851,5/31/2004,Penguin Classics,Resumen de: Anna Karenina,1,1,9,1
+91,Anna Karenina,Leo Tolstoy/David Magarshack/Priscilla Meyer,4.05,451528611,9.78E+12,eng,960,109420,5696,11/05/02,Signet,Resumen de: Anna Karenina,2,1,8,1
+92,Anna Karenina,Leo Tolstoy/Richard Pevear/Larissa Volokhonsky/John Bayley,4.05,140449175,9.78E+12,eng,837,2904,309,1/30/2003,Penguin Books,Resumen de: Anna Karenina,1,1,6,1
+93,CliffsNotes on Tolstoy's Anna Karenina,Marianne Sturman/Leo Tolstoy,3.85,822001837,9.78E+12,eng,80,16,3,11/26/1965,Cliffs Notes,Resumen de: CliffsNotes on Tolstoy's Anna Karenina,1,1,1,2
+94,Anna Karenina,Leo Tolstoy/Amy Mandelker/Constance Garnett,4.05,1593080271,9.78E+12,eng,803,9564,726,07/01/03,Barnes & Noble Classics,Resumen de: Anna Karenina,3,3,1,1
+95,Anna Karenina,Leo Tolstoy/Louise Maude/Aylmer Maude,4.05,486437965,9.78E+12,eng,752,474,72,11/23/2004,Dover Publications,Resumen de: Anna Karenina,2,1,2,3
+96,Anna Karenina,Leo Tolstoy/Constance Garnett/Amy Mandelker,4.05,1593081774,9.78E+12,eng,803,303,48,8/26/2004,Barnes & Noble,Resumen de: Anna Karenina,4,4,1,1
+97,Dinner with Anna Karenina,Gloria Goldreich,2.99,778322270,9.78E+12,eng,360,411,65,1/28/2006,Mira Books,Resumen de: Dinner with Anna Karenina,3,3,5,1
+98,Tolstoy: Anna Karenina,Anthony Thorlby,4.19,521313252,9.78E+12,eng,128,1204,33,11/26/1987,Cambridge University Press,Resumen de: Tolstoy: Anna Karenina,3,1,2,1
+99,Untouchable,Mulk Raj Anand/E.M. Forster,3.71,140183957,9.78E+12,eng,160,3429,279,07/03/90,Penguin Books,Resumen de: Untouchable,1,1,7,2
+100,The Untouchable,John Banville,3.95,679767479,9.78E+12,eng,367,2163,216,6/30/1998,Vintage,Resumen de: The Untouchable,5,5,1,2
+101,The Untouchables,Eliot Ness/Oscar Fraley,3.89,1568491980,9.78E+12,eng,256,613,31,02/01/96,Buccaneer Books,Resumen de: The Untouchables,1,1,3,3
+102,Untouchables: My Family's Triumphant Journey Out of the Caste System in Modern India,Narendra Jadhav,3.82,743270797,9.78E+12,en-US,320,308,40,9/27/2005,Scribner,Resumen de: Untouchables: My Family's Triumphant Journey Out of the Caste System in Modern India,3,1,2,2
+103,Dalit: The Black Untaouchables of India,V.T. Rajshekar/Y.N. Kly,4.2,932863051,9.78E+12,eng,100,10,0,1/28/1995,Clarity Press,Resumen de: Dalit: The Black Untaouchables of India,1,1,8,2
+104,Growing Up Untouchable in India: A Dalit Autobiography,Vasant Moon/Gail Omvedt/Eleanor Zelliot,3.65,742508803,9.78E+12,eng,224,16,4,12/20/2000,Rowman & Littlefield Publishers,Resumen de: Growing Up Untouchable in India: A Dalit Autobiography,3,3,1,3
+105,The Evidence-Based Social Work Skills Book,Barry R. Cournoyer,3.4,205358624,9.78E+12,eng,216,10,0,9/22/2003,Pearson,Resumen de: The Evidence-Based Social Work Skills Book,4,2,2,3
+106,"A Wrinkle in Time: A Guide for Using ""A Wrinkle in Time"" in the Classroom",John Carratello/Patty Carratello/Theresa Wright,4,1557344035,9.78E+12,eng,48,17,0,9/28/1991,Teacher Created Resources,"Resumen de: A Wrinkle in Time: A Guide for Using ""A Wrinkle in Time"" in the Classroom",2,2,4,3
+107,Wrinkles in Time,George Smoot/Keay Davidson,4.01,380720442,9.78E+12,eng,360,1035,23,10/01/94,Harper Perennial,Resumen de: Wrinkles in Time,5,2,2,1
+108,A Wrinkle in Time: With Related Readings (A Wrinkle in Time Quintet #1),Madeleine L'Engle,4,821925326,9.78E+12,eng,250,36,6,05/01/02,EMC/Paradigm Publishing,Resumen de: A Wrinkle in Time: With Related Readings (A Wrinkle in Time Quintet #1),4,2,4,3
+109,Literature Circle Guide: A Wrinkle in Time,Tara MacCarthy,3.6,043927169X,9.78E+12,eng,32,15,0,01/01/02,Teaching Resources,Resumen de: Literature Circle Guide: A Wrinkle in Time,3,3,2,3
+110,Una arruga en el tiempo – A Wrinkle in Time,Madeleine L'Engle,4,606105263,9.78E+12,spa,205,6,1,06/01/84,Turtleback Books,Resumen de: Una arruga en el tiempo – A Wrinkle in Time,3,3,8,1
+111,The Long Shadow (The Morland Dynasty  #6),Cynthia Harrod-Eagles,4.12,751506435,9.78E+12,eng,367,376,17,06/01/94,Little  Brown Book Group,Resumen de: The Long Shadow (The Morland Dynasty  #6),3,1,6,2
+112,A Long Shadow (Inspector Ian Rutledge  #8),Charles Todd,4.11,006078671X,9.78E+12,eng,352,3086,237,01/03/06,William Morrow,Resumen de: A Long Shadow (Inspector Ian Rutledge  #8),1,1,5,3
+113,Long Way Round: Chasing Shadows Across the World,Ewan McGregor/Charley Boorman/Robert Uhlig,3.94,743499344,9.78E+12,en-US,320,352,44,11/01/05,Atria Books,Resumen de: Long Way Round: Chasing Shadows Across the World,4,1,2,1
+114,A Shadow in Summer (Long Price Quartet  #1),Daniel Abraham,3.6,765313405,9.78E+12,eng,331,9852,633,03/07/06,Tor Books,Resumen de: A Shadow in Summer (Long Price Quartet  #1),3,2,1,2
+115,New Hope for the Dead (Hoke Mosely #2),Charles Willeford/James Lee Burke,3.9,1400032490,9.78E+12,eng,244,821,78,08/10/04,Vintage Crime/Black Lizard,Resumen de: New Hope for the Dead (Hoke Mosely #2),2,1,10,3
+116,Sideswipe: A Hoke Moseley Novel,Charles Willeford/Lawrence Block,4.05,1400032482,9.78E+12,eng,215,731,72,03/08/05,Vintage Crime/Black Lizard,Resumen de: Sideswipe: A Hoke Moseley Novel,2,1,5,3
+117,Miami Blues (Hoke Moseley #1),Charles Willeford/Elmore Leonard,3.94,1400032466,9.78E+12,eng,191,2897,178,08/10/04,Vintage Crime/Black Lizard,Resumen de: Miami Blues (Hoke Moseley #1),3,1,5,1
+118,The Burnt Orange Heresy (Vintage Crime/Black Lizard),Charles Willeford,3.89,679732527,9.78E+12,eng,144,98,11,10/03/90,Vintage,Resumen de: The Burnt Orange Heresy (Vintage Crime/Black Lizard),5,4,5,2
+119,I am Charlotte Simmons,Tom Wolfe,3.42,312424442,9.78E+12,eng,738,20888,1688,8/30/2005,Picador USA,Resumen de: I am Charlotte Simmons,1,1,3,1
+120,Poetry for Young People: Edward Lear,Edward Lear/Laura Huliska-Beith/Edward Mendelson,3.91,806930772,9.78E+12,eng,48,66,19,10/01/01,Sterling,Resumen de: Poetry for Young People: Edward Lear,1,1,6,1
+121,The Puffin Book of Nonsense Verse,Quentin Blake,4.02,140366601,9.78E+12,eng,287,81,6,10/03/96,Puffin,Resumen de: The Puffin Book of Nonsense Verse,4,1,9,2
+122,Henry Miller on Writing,Henry Miller/Thomas H. Moore,4.22,811201120,9.78E+12,eng,217,981,52,02/01/64,New Directions Publishing,Resumen de: Henry Miller on Writing,4,2,6,1
+123,Quiet Days in Clichy,Henry Miller,3.69,080213016X,9.78E+12,eng,154,3381,141,1/13/1994,Grove Press,Resumen de: Quiet Days in Clichy,4,3,3,3
+124,Tropic of Cancer,Henry Miller/Jiří Níl,3.68,802131786,9.78E+12,eng,318,53206,2376,01/06/94,Grove Press,Resumen de: Tropic of Cancer,1,1,10,2
+125,Tropic of Capricorn,Henry Miller,3.78,802151825,9.78E+12,eng,348,14872,459,1/13/1994,Grove Press,Resumen de: Tropic of Capricorn,3,3,7,1
+126,Nexus (The Rosy Crucifixion  #3),Henry Miller,4.1,802151787,9.78E+12,eng,316,3261,58,1/13/1994,Grove Press,Resumen de: Nexus (The Rosy Crucifixion  #3),3,1,7,1
+127,Sexus (The Rosy Crucifixion  #1),Henry Miller,3.98,802151809,9.78E+12,eng,506,7805,251,01/12/94,Grove Press,Resumen de: Sexus (The Rosy Crucifixion  #1),3,2,9,2
+128,The Air-Conditioned Nightmare,Henry Miller,3.83,811201066,9.78E+12,eng,292,2699,142,1/17/1970,New Directions,Resumen de: The Air-Conditioned Nightmare,2,2,7,3
+129,The Portrait of a Lady,Henry James/Patricia Crick,3.78,141439637,9.78E+12,eng,797,61640,1951,9/30/2003,Penguin Classics,Resumen de: The Portrait of a Lady,3,2,9,1
+130,The Portrait of a Lady,Henry James/Gabriel Brownstein/Mary Cregan,3.78,1593080964,9.78E+12,eng,635,392,41,1/16/2004,Barnes  Noble Classics,Resumen de: The Portrait of a Lady,2,1,2,2
+131,Writing,Marguerite Duras,3.75,1571290532,9.78E+12,eng,91,778,44,05/06/99,Brookline Books,Resumen de: Writing,1,1,10,2
+132,The War,Marguerite Duras/Barbara Bray,3.85,1565842219,9.78E+12,eng,192,963,65,08/01/94,The New Press,Resumen de: The War,3,2,1,3
+133,The Ravishing of Lol Stein,Marguerite Duras/Richard Seever,3.66,394743040,9.78E+12,en-US,181,2057,128,03/12/86,Pantheon,Resumen de: The Ravishing of Lol Stein,3,2,5,1
+134,Love Letters,Kahlil Gibran/Suheil Bushrui/Salma H. Al-Kuzbari,3.68,1851681825,9.78E+12,eng,178,203,8,07/01/99,One World (UK),Resumen de: Love Letters,2,1,2,2
+135,Kahlil Gibran: His Life and World,Jean Gibran/جبران خليل جبران/Kahlil Gibran,4.21,156656249X,9.78E+12,eng,464,35,2,04/01/98,Interlink Publishing Group,Resumen de: Kahlil Gibran: His Life and World,4,1,4,3
+136,The Beloved: Reflections on the Path of the Heart,Kahlil Gibran/John Walbridge/Robin Waterfield,4.19,014019553X,9.78E+12,eng,102,328,16,01/01/98,Penguin Books,Resumen de: The Beloved: Reflections on the Path of the Heart,3,3,7,2
+137,Jesus the Son of Man,Kahlil Gibran/جبران خليل جبران,3.98,394431243,9.78E+12,eng,216,1308,82,2/21/1995,Knopf,Resumen de: Jesus the Son of Man,5,1,9,3
+138,The Broken Wings,Kahlil Gibran/جبران خليل جبران/Anthony Rizcallah Ferris,3.92,806501901,9.78E+12,eng,132,6432,517,03/03/03,Citadel,Resumen de: The Broken Wings,3,3,5,2
+139,Sand and Foam,Kahlil Gibran/جبران خليل جبران,4.08,067943920X,9.78E+12,eng,100,3015,217,6/14/2011,Knopf,Resumen de: Sand and Foam,3,3,1,3
+140,Treasure Island,Robert Louis Stevenson,3.83,753453800,9.78E+12,eng,311,318753,6734,9/15/2001,Kingfisher,Resumen de: Treasure Island,4,4,4,3
+141,Treasure Island,Robert Louis Stevenson/Scott McKowen,3.83,1402714572,9.78E+12,en-US,213,420,42,10/01/04,Sterling Children's Books,Resumen de: Treasure Island,1,1,9,3
+142,Treasure Island,Robert Louis Stevenson,3.83,1416500294,9.78E+12,eng,245,5967,276,06/01/05,Simon & Schuster,Resumen de: Treasure Island,1,1,10,2
+143,Treasure Island,Robert Louis Stevenson/N.C. Wyeth/Timothy Meis,3.83,689854684,9.78E+12,eng,64,104,14,07/01/03,Atheneum Books for Young Readers,Resumen de: Treasure Island,3,1,7,1
+144,Treasure Island,Robert Louis Stevenson/Milo Winter,3.83,517221144,9.78E+12,en-US,272,56,4,09/03/02,Gramercy Books,Resumen de: Treasure Island,2,1,5,3
+145,Treasure Island (Great Illustrated Classics),Deidre S. Laiken/A.J. McAllister/Robert Louis Stevenson,4.05,1577658051,9.78E+12,eng,232,91,16,1/31/2006,Abdo Publishing Company,Resumen de: Treasure Island (Great Illustrated Classics),4,2,5,3
+146,100 Years of Lynchings,Ralph Ginzburg,4.61,933121180,9.78E+12,eng,270,88,4,11/22/1996,Black Classic Press,Resumen de: 100 Years of Lynchings,1,1,10,3
+147,Cien años de soledad,Gabriel García Márquez,4.07,785950109,9.78E+12,spa,448,63,7,01/01/90,French & European,Resumen de: Cien años de soledad,5,3,2,1
+148,On Beyond Zebra!,Dr. Seuss,4.04,394800842,9.78E+12,eng,64,2815,164,09/12/55,Random House Books for Young Readers,Resumen de: On Beyond Zebra!,4,1,1,2
+149,The Wedding Clause,Debbie Raleigh,3.6,821778250,9.78E+12,eng,256,95,13,06/07/05,Zebra,Resumen de: The Wedding Clause,4,3,1,3
+150,The Zebra Wall,Kevin Henkes,3.44,60733039,9.78E+12,eng,147,217,24,2/15/2005,Greenwillow Books,Resumen de: The Zebra Wall,1,1,4,3
+151,El perfume: Historia de un asesino,Patrick Süskind,4.02,8432216062,9.79E+12,spa,239,4136,255,06/01/02,Booket,Resumen de: El perfume: Historia de un asesino,1,1,2,3
+152,The Door Into Summer,Robert A. Heinlein,4.01,345413997,9.78E+12,eng,304,17232,649,6/17/1997,Del Rey,Resumen de: The Door Into Summer,2,1,10,2
+153,Stranger in a Strange Land,Robert A. Heinlein,3.92,441788386,9.78E+12,eng,528,251872,6241,10/01/91,Ace,Resumen de: Stranger in a Strange Land,5,1,5,1
+154,To Sail Beyond the Sunset,Robert A. Heinlein,3.87,441748600,9.78E+12,en-US,434,10293,193,06/01/88,Ace Books,Resumen de: To Sail Beyond the Sunset,2,2,3,3
+155,Job: A Comedy of Justice,Robert A. Heinlein,3.78,345316509,9.78E+12,en-US,439,15970,438,10/12/85,Del Rey,Resumen de: Job: A Comedy of Justice,4,2,10,2
+156,Time for the Stars (Heinlein's Juveniles  #10),Robert A. Heinlein,3.97,765314932,9.78E+12,eng,256,6898,200,08/08/06,Tor Books,Resumen de: Time for the Stars (Heinlein's Juveniles  #10),3,3,9,3
+157,The Long Dark Tea-Time of the Soul (Dirk Gently  #2),Douglas Adams,4.06,671742515,9.78E+12,en-US,307,67803,1401,2/15/1991,Pocket Books,Resumen de: The Long Dark Tea-Time of the Soul (Dirk Gently  #2),3,3,1,1
+158,The Salmon of Doubt (Dirk Gently  #3),Douglas Adams,3.93,345455290,9.78E+12,eng,298,22091,746,4/26/2005,Del Rey,Resumen de: The Salmon of Doubt (Dirk Gently  #3),3,1,9,3
+159,Wish You Were Here: The Official Biography of Douglas Adams,Nick  Webb,4.14,345476514,9.78E+12,eng,368,2623,49,12/27/2005,Del Rey,Resumen de: Wish You Were Here: The Official Biography of Douglas Adams,2,2,6,1
+160,Douglas Adams's Starship Titanic,Terry Jones,3.6,345368436,9.78E+12,eng,256,885,84,10/27/1998,Ballantine Books,Resumen de: Douglas Adams's Starship Titanic,5,1,8,2
+161,Salmon of Doubt: Hitchhiking the Galaxy One Last Time,Douglas Adams/Christopher Cerf,3.93,1417622857,9.78E+12,eng,336,5,0,07/01/03,Turtleback Books,Resumen de: Salmon of Doubt: Hitchhiking the Galaxy One Last Time,3,3,1,1
+162,The Phantom Tollbooth: A Children's Play in Two Acts,Susan Nanus/Norton Juster,4.13,573650969,9.78E+12,eng,72,100,13,01/12/11,Samuel French  Inc.,Resumen de: The Phantom Tollbooth: A Children's Play in Two Acts,3,2,2,3
+163,On Bullshit,Harry G. Frankfurt,3.57,691122946,9.78E+12,eng,67,9358,995,1/30/2005,Princeton University Press,Resumen de: On Bullshit,1,1,10,3
+164,Another Bullshit Night in Suck City,Nick Flynn,3.78,393329402,9.78E+12,eng,347,9318,907,09/12/05,W. W. Norton & Company,Resumen de: Another Bullshit Night in Suck City,1,1,10,1
+165,Lincoln at Gettysburg: The Words That Remade America,Garry Wills,4.14,671867423,9.78E+12,en-US,317,120,15,06/12/93,Simon & Schuster,Resumen de: Lincoln at Gettysburg: The Words That Remade America,3,2,3,3
+166,The Gettysburg Address,Abraham Lincoln/Michael McCurdy,4.53,395883970,9.78E+12,eng,32,5239,76,02/02/98,HMH Books for Young Readers,Resumen de: The Gettysburg Address,1,1,7,1
+167,Underworld,Don DeLillo,3.92,684848155,9.78E+12,eng,827,1505,175,07/09/98,Scribner,Resumen de: Underworld,5,2,3,2
+168,Libra,Don DeLillo,3.99,140156046,9.78E+12,eng,480,11857,564,05/01/91,Penguin,Resumen de: Libra,5,4,4,2
+169,Americana,Don DeLillo,3.43,140119485,9.78E+12,eng,377,393,55,07/06/89,Penguin Books,Resumen de: Americana,3,1,6,2
+170,Running Dog,Don DeLillo,3.43,679722947,9.78E+12,eng,256,1356,72,7/17/1989,Vintage Contemporaries,Resumen de: Running Dog,1,1,2,2
+171,Cosmopolis,Don DeLillo,3.22,743244257,9.78E+12,eng,224,460,41,04/06/04,Scribner,Resumen de: Cosmopolis,2,1,5,2
+172,Great Jones Street,Don DeLillo,3.48,140179178,9.78E+12,eng,272,2492,145,01/01/94,Penguin Books,Resumen de: Great Jones Street,1,1,8,3
+173,The Names,Don DeLillo,3.64,679722955,9.78E+12,eng,339,3100,212,7/17/1989,Vintage,Resumen de: The Names,5,1,5,1
+174,Against the Day,Thomas Pynchon,4.13,159420120X,9.78E+12,eng,1085,5296,587,11/21/2006,Penguin Press,Resumen de: Against the Day,2,1,1,1
+175,V.,Thomas Pynchon,3.96,60930217,9.78E+12,eng,547,1415,177,07/05/05,Harper Perennial Modern Classics,Resumen de: V.,1,1,9,2
+176,The Crying of Lot 49,Thomas Pynchon,3.69,60931671,9.78E+12,eng,152,2161,230,04/01/99,Harper Perennial,Resumen de: The Crying of Lot 49,3,1,2,1
+177,Gravity's Rainbow,Thomas Pynchon,4.01,140283382,9.78E+12,eng,784,762,213,01/01/00,Penguin Books,Resumen de: Gravity's Rainbow,5,2,5,2
+178,Mason & Dixon,Thomas Pynchon/Christophe Claro/Brice Matthieussent,4.07,312423209,9.78E+12,eng,773,8086,602,01/03/04,Picador USA,Resumen de: Mason & Dixon,1,1,6,2
+179,Vineland,Thomas Pynchon,3.69,141180633,9.78E+12,en-US,385,702,69,09/01/97,Penguin Classics,Resumen de: Vineland,1,1,4,3
+180,Gravity's Rainbow,Thomas Pynchon,4.01,143039946,9.78E+12,eng,776,29764,2164,10/31/2006,Penguin Books,Resumen de: Gravity's Rainbow,4,2,8,3
+181,Slow Learner: Early Stories,Thomas Pynchon,3.5,316724432,9.78E+12,eng,193,334,34,4/30/1985,Back Bay Books,Resumen de: Slow Learner: Early Stories,5,1,10,1
+182,Been Down So Long It Looks Like Up To Me,Richard Fariña/Thomas Pynchon,3.8,140189300,9.78E+12,eng,352,2473,220,8/29/1996,Penguin Classics,Resumen de: Been Down So Long It Looks Like Up To Me,1,1,4,3
+183,The Year of Magical Thinking,Joan Didion,3.89,140004314X,9.78E+12,en-US,227,2656,336,10/04/05,Knopf Publishing Group,Resumen de: The Year of Magical Thinking,2,1,3,2
+184,The White Album,Joan Didion,4.17,374522219,9.78E+12,eng,222,11889,738,10/01/90,Farrar Straus Giroux,Resumen de: The White Album,3,3,3,1
+185,A Book of Common Prayer,Joan Didion,3.8,679754865,9.78E+12,eng,272,2962,255,04/11/95,Vintage International,Resumen de: A Book of Common Prayer,2,2,1,3
+186,Where I Was From,Joan Didion,3.86,679752862,9.78E+12,eng,240,2842,292,9/14/2004,Vintage,Resumen de: Where I Was From,4,2,3,2
+187,Slouching Towards Bethlehem,Joan Didion,4.21,374521727,9.78E+12,eng,238,26934,1825,10/01/90,Farrar Straus Giroux,Resumen de: Slouching Towards Bethlehem,1,1,1,1
+188,Democracy,Joan Didion,3.81,679754857,9.78E+12,en-US,234,2070,169,4/25/1995,Vintage International,Resumen de: Democracy,1,1,4,3
+189,We Tell Ourselves Stories in Order to Live: Collected Nonfiction,Joan Didion/John Leonard,4.5,307264874,9.78E+12,eng,1122,1564,108,10/17/2006,Everyman's Library,Resumen de: We Tell Ourselves Stories in Order to Live: Collected Nonfiction,1,1,7,2
+190,Play It As It Lays,Joan Didion/David Thomson,3.87,374529949,9.78E+12,eng,231,23656,1706,11/15/2005,Farrar  Straus and Giroux,Resumen de: Play It As It Lays,3,1,4,3
+191,The New York Trilogy,Paul Auster/Art Spiegelman/Luc Sante,3.89,143039830,9.78E+12,eng,308,43200,1873,3/28/2006,Penguin Classics,Resumen de: The New York Trilogy,4,4,6,1
+192,City of Glass (The New York Trilogy  #1),Paul Auster,3.79,140097317,9.78E+12,eng,203,12410,734,04/07/87,Penguin Books,Resumen de: City of Glass (The New York Trilogy  #1),2,1,1,1
+193,Ghosts (The New York Trilogy  #2),Paul Auster,3.64,014009735X,9.78E+12,eng,96,3672,195,07/07/87,Penguin Books,Resumen de: Ghosts (The New York Trilogy  #2),4,4,4,1
+194,The Locked Room (The New York Trilogy  #3),Paul Auster,3.89,940650762,9.78E+12,eng,179,2998,164,11/01/86,Sun and Moon Press,Resumen de: The Locked Room (The New York Trilogy  #3),2,2,7,3
+195,Pyramids of Montauk: Explorations in Consciousness,Peter Moon/Preston B. Nichols/Nina Helms,3.89,963188925,9.78E+12,eng,256,74,2,01/01/95,Sky Books (NY),Resumen de: Pyramids of Montauk: Explorations in Consciousness,3,2,2,3
+196,The Brooklyn Follies,Paul Auster,3.84,312426232,9.78E+12,eng,306,17977,1157,10/17/2006,Picador,Resumen de: The Brooklyn Follies,5,5,4,3
+197,Moon Palace,Paul Auster,3.94,140115854,9.78E+12,eng,320,16099,503,04/01/90,Penguin Books,Resumen de: Moon Palace,3,3,3,1
+198,The Music of Chance,Paul Auster,3.9,140154078,9.78E+12,en-US,217,361,36,12/01/91,Penguin Books,Resumen de: The Music of Chance,2,1,3,3
+199,Travels in the Scriptorium,Paul Auster,3.23,805081453,9.78E+12,eng,145,6688,562,1/23/2007,Henry Holt & Company,Resumen de: Travels in the Scriptorium,3,2,8,1
+200,Leviathan,Paul Auster,3.96,140178139,9.78E+12,eng,275,11744,443,09/01/93,Penguin Books,Resumen de: Leviathan,5,2,2,2
+201,The Red Notebook: True Stories,Paul Auster,3.77,811214982,9.78E+12,eng,104,2390,120,6/17/2002,New Directions,Resumen de: The Red Notebook: True Stories,3,1,3,3
+202,Timbuktu / Leviathan / Moon Palace,Paul Auster,4.38,2742741461,9.78E+12,fre,1075,21,1,11/07/02,Actes Sud,Resumen de: Timbuktu / Leviathan / Moon Palace,3,2,3,3
+203,Collapse: How Societies Choose to Fail or Succeed,Jared Diamond,3.93,143036556,9.78E+12,eng,608,52522,2780,12/27/2005,Penguin Books Ltd. (London),Resumen de: Collapse: How Societies Choose to Fail or Succeed,4,3,10,2
+204,The Coming Economic Collapse: How You Can Thrive When Oil Costs $200 a Barrel,Stephen Leeb/Glen C. Strathy,3.4,446579785,9.78E+12,en-US,211,213,26,02/01/06,Business Plus,Resumen de: The Coming Economic Collapse: How You Can Thrive When Oil Costs $200 a Barrel,3,3,3,2
+205,Collapse of Complex Societies,Joseph A. Tainter,4.15,052138673X,9.78E+12,eng,262,719,86,3/29/1990,Cambridge University Press,Resumen de: Collapse of Complex Societies,5,1,7,3
+206,Bowling Alone: The Collapse and Revival of American Community,Robert D. Putnam,3.8,743203046,9.78E+12,eng,544,4762,512,08/07/01,Simon  Schuster,Resumen de: Bowling Alone: The Collapse and Revival of American Community,5,4,10,3
+207,The Collapse of the Common Good: How America's Lawsuit Culture Undermines Our Freedom,Philip K. Howard,3.91,034543871X,9.78E+12,eng,272,62,4,1/29/2002,Ballantine Books,Resumen de: The Collapse of the Common Good: How America's Lawsuit Culture Undermines Our Freedom,3,3,4,3
+208,Reinventing the Enemy's Language: Contemporary Native Women's Writings of North America,Joy Harjo/Gloria Bird/Beth Cuthand/Valerie Martinez/Patricia Blanco,4.39,393318281,9.78E+12,eng,576,278,20,9/17/1998,W. W. Norton  Company,Resumen de: Reinventing the Enemy's Language: Contemporary Native Women's Writings of North America,4,1,1,1
+209,My Inventions,Nikola Tesla,4.01,1599869942,9.78E+12,eng,88,2862,262,5/17/2006,Filiquarian Publishing  LLC.,Resumen de: My Inventions,4,3,8,2
+210,Wizard: The Life and Times of Nikola Tesla: Biography of a Genius,Marc J.  Seifer/William H. Terbo,3.78,806519606,9.78E+12,eng,542,2829,334,02/01/01,Citadel,Resumen de: Wizard: The Life and Times of Nikola Tesla: Biography of a Genius,5,4,9,3
+211,Nikola Tesla: A Spark of Genius,Carol Dommermuth-Costa,3.93,822549204,9.78E+12,eng,144,105,5,10/01/94,Lerner Publications,Resumen de: Nikola Tesla: A Spark of Genius,4,3,9,2
+212,Tesla Papers,Nikola Tesla/David Hatcher Childress,4.13,932813860,9.78E+12,eng,100,102,2,12/01/00,Adventures Unlimited Press,Resumen de: Tesla Papers,1,1,1,2
+213,Boys of Summer,Julie Elizabeth Leto/Leslie Kelly/Kimberly Raye,3.77,373792689,9.78E+12,eng,249,478,12,6/27/2006,Harlequin Blaze,Resumen de: Boys of Summer,3,3,5,1
+214,Programming Ruby: The Pragmatic Programmers' Guide,Dave Thomas/Chad Fowler/Andy Hunt,4.03,974514055,9.78E+12,en-US,828,1577,49,10/11/04,Pragmatic Bookshelf,Resumen de: Programming Ruby: The Pragmatic Programmers' Guide,5,2,8,3
+215,Golding's Lord of the Flies (Cliffs Notes),Maureen Kelly/CliffsNotes/William Golding,3.95,764585975,9.78E+12,eng,112,73,8,6/13/2000,Cliffs Notes,Resumen de: Golding's Lord of the Flies (Cliffs Notes),4,3,2,2
+216,Lord of the Flies,William Golding,3.68,307281701,9.78E+12,eng,6,408,96,10/11/05,Listening Library (Audio),Resumen de: Lord of the Flies,3,2,4,2
+217,A War Like No Other: How the Athenians & Spartans Fought the Peloponnesian War,Victor Davis Hanson,4.11,812969707,9.78E+12,eng,397,1693,100,09/12/06,Random House,Resumen de: A War Like No Other: How the Athenians & Spartans Fought the Peloponnesian War,5,2,8,2
+218,We Were Not Like Other People,Ephraim Sevela/Antonina W. Bouis,4.14,60255080,9.78E+12,eng,216,1,0,01/01/89,HarperCollins Publishers,Resumen de: We Were Not Like Other People,4,2,9,3
+219,The Lovely Bones,Alice Sebold,3.81,330485385,9.78E+12,en-GB,328,6485,966,06/01/03,Picador,Resumen de: The Lovely Bones,2,2,8,2
+220,The Lovely Bones,Alice Sebold,3.81,159413023X,9.78E+12,en-US,532,367,73,04/01/04,Large Print Press,Resumen de: The Lovely Bones,4,4,7,3
+221,Lovely in Her Bones (Elizabeth MacPherson  #2),Sharyn McCrumb,3.8,345360354,9.78E+12,eng,224,1371,43,5/13/1990,Ballantine Books,Resumen de: Lovely in Her Bones (Elizabeth MacPherson  #2),2,1,5,3
+222,The Zen of CSS Design: Visual Enlightenment for the Web,Dave Shea/Molly E. Holzschlag,3.98,321303474,7.85E+11,en-US,296,793,28,2/17/2005,Peachpit Press,Resumen de: The Zen of CSS Design: Visual Enlightenment for the Web,2,1,4,3
+223,HTML  XHTML  and CSS (Visual Quickstart Guide),Elizabeth Castro,3.8,321430840,9.78E+12,en-US,456,549,42,08/01/06,Peachpit Press,Resumen de: HTML  XHTML  and CSS (Visual Quickstart Guide),5,5,7,2
+224,1000 Record Covers,Michael Ochs/Patrick Javault/Ulrike Wasel,3.85,3822840858,9.78E+12,mul,575,288,31,5/15/2005,Taschen,Resumen de: 1000 Record Covers,4,4,4,2
+225,Killing Yourself to Live: 85% of a True Story,Chuck Klosterman,3.81,743264460,9.78E+12,eng,245,26381,1109,6/13/2006,Scribner,Resumen de: Killing Yourself to Live: 85% of a True Story,5,3,9,3
+226,Sex  Drugs  and Cocoa Puffs: A Low Culture Manifesto,Chuck Klosterman,3.73,743236017,9.78E+12,eng,272,62089,3324,07/02/04,Scribner,Resumen de: Sex  Drugs  and Cocoa Puffs: A Low Culture Manifesto,4,4,6,1
+227,Vice (V  #8),Jane Feather,3.51,553572490,9.78E+12,eng,419,474,19,05/02/96,Bantam,Resumen de: Vice (V  #8),5,1,5,1
+228,Zen and the Art of Motorcycle Maintenance: An Inquiry Into Values (Phaedrus  #1),Robert M. Pirsig,3.77,60589469,9.78E+12,eng,540,166046,6446,4/25/2006,HarperTorch,Resumen de: Zen and the Art of Motorcycle Maintenance: An Inquiry Into Values (Phaedrus  #1),5,4,4,3
+229,Once Upon a Cool Motorcycle Dude,Kevin O'Malley/Carol Heyer/Scott Goto,4.08,802789471,9.78E+12,eng,32,1773,274,04/01/05,Walker & Company,Resumen de: Once Upon a Cool Motorcycle Dude,1,1,4,1
+230,Guidebook to Zen and the Art of Motorcycle Maintenance,Ronald L. DiSanto/Thomas J. Steele,3.72,688060692,9.78E+12,en-GB,408,286,10,11/19/1990,William Morrow Paperbacks,Resumen de: Guidebook to Zen and the Art of Motorcycle Maintenance,4,2,9,3
+231,Motorcycle Basics Techbook,John Harold Haynes,3.85,185960515X,9.78E+12,eng,222,40,2,07/05/02,Haynes Manuals N. America  Inc.,Resumen de: Motorcycle Basics Techbook,1,1,10,1
+232,LOGO Lounge: 2 000 International Identities by Leading Designers,Catharine M. Fishel/Bill Gardner,3.93,1592530877,9.78E+12,eng,191,27,0,09/01/04,Rockport Publishers,Resumen de: LOGO Lounge: 2 000 International Identities by Leading Designers,5,4,5,1
+233,The Death of Ivan Ilych And Other Stories,Leo Tolstoy/Hugh McLean,4.11,451528808,9.78E+12,eng,304,7300,266,04/01/03,Signet Classics,Resumen de: The Death of Ivan Ilych And Other Stories,1,1,8,3
+234,War and Peace,Leo Tolstoy/Henry Gifford/Aylmer Maude/Louise Maude,4.11,192833987,9.78E+12,eng,1392,211671,6245,6/25/1998,Oxford University Press,Resumen de: War and Peace,2,1,3,1
+235,The Kingdom of God Is Within You,Leo Tolstoy/Constance Garnett,4.13,486451380,9.78E+12,eng,352,2403,210,09/08/06,Dover Publications,Resumen de: The Kingdom of God Is Within You,1,1,2,2
+236,Atlas Shrugged,Ayn Rand/Leonard Peikoff,3.69,452011876,9.78E+12,eng,1168,322483,14702,08/01/99,Plume,Resumen de: Atlas Shrugged,5,2,9,3
+237,For the New Intellectual: The Philosophy of Ayn Rand,Ayn Rand,3.68,451163087,9.78E+12,eng,224,2750,108,12/01/63,Signet Book,Resumen de: For the New Intellectual: The Philosophy of Ayn Rand,1,1,10,2
+238,The Fountainhead,Ayn Rand,3.87,452286751,9.78E+12,en-US,752,1886,229,4/26/2005,Dutton,Resumen de: The Fountainhead,4,3,5,3
+239,The Virtue of Selfishness: A New Concept of Egoism,Ayn Rand/Nathaniel Branden,3.51,451163931,9.78E+12,eng,176,11462,467,11/01/64,Signet,Resumen de: The Virtue of Selfishness: A New Concept of Egoism,4,2,1,3
+240,Anthem,Ayn Rand,3.63,452281253,9.78E+12,eng,105,110952,7277,12/01/99,NAL,Resumen de: Anthem,4,3,1,1
+241,We the Living,Ayn Rand/Leonard Peikoff,3.91,451187849,9.78E+12,eng,464,23199,1086,01/01/96,Signet,Resumen de: We the Living,2,2,5,3
+242,Capitalism: The Unknown Ideal,Ayn Rand/Nathaniel Branden/Alan Greenspan/Robert Hessen,3.88,451147952,9.78E+12,eng,340,3501,153,7/15/1986,Signet,Resumen de: Capitalism: The Unknown Ideal,5,5,4,3
+243,Letters of Ayn Rand,Ayn Rand/Michael S. Berliner/Leonard Peikoff,3.96,452274044,9.78E+12,eng,681,18,2,02/01/97,NAL,Resumen de: Letters of Ayn Rand,3,3,7,2
+244,Sailing for Dummies,J.J. Isler/Peter Isler,3.95,471791431,9.78E+12,eng,416,150,7,06/01/06,For Dummies,Resumen de: Sailing for Dummies,3,1,4,3
+245,Sailing from Byzantium: How a Lost Empire Shaped the World,Colin  Wells,3.88,553803816,9.78E+12,eng,368,646,83,7/25/2006,Delacorte Press,Resumen de: Sailing from Byzantium: How a Lost Empire Shaped the World,2,1,10,2
+246,Sailing Alone Around the Room: New and Selected Poems,Billy Collins,4.23,375755195,9.78E+12,eng,192,12180,630,9/17/2002,Random House Trade Paperbacks,Resumen de: Sailing Alone Around the Room: New and Selected Poems,3,3,9,3
+247,The Greatest Sailing Stories Ever Told: Twenty-Seven Unforgettable Stories,Christopher Caswell,3.62,1592283195,9.78E+12,eng,286,51,5,04/01/04,Lyons Press,Resumen de: The Greatest Sailing Stories Ever Told: Twenty-Seven Unforgettable Stories,4,1,6,3
+248,"Natural Cures ""They"" Don't Want You to Know about",Kevin Trudeau,3.09,975599518,9.78E+12,en-US,571,1601,284,01/01/04,Alliance Publishing,"Resumen de: Natural Cures ""They"" Don't Want You to Know about",4,2,7,3
+249,The Natural,Bernard Malamud/Kevin Baker,3.63,374502005,9.78E+12,eng,231,8854,672,07/07/03,Farrar Straus Giroux,Resumen de: The Natural,2,2,2,2
+250,Digging to America,Anne Tyler,3.55,307263940,9.78E+12,eng,277,17155,1841,05/02/06,Alfred A. Knopf,Resumen de: Digging to America,2,1,9,2
+251,Rereading America: Cultural Contexts for Critical Thinking and Writing,Gary Colombo/Bonnie Lisle,3.77,312405545,9.78E+12,eng,826,44,3,1/21/2004,Bedford Books,Resumen de: Rereading America: Cultural Contexts for Critical Thinking and Writing,2,2,10,1
+252,Modern Latin America,Thomas E. Skidmore/Peter H. Smith,3.59,019517013X,9.78E+12,en-US,528,234,11,10/07/04,Oxford University Press  USA,Resumen de: Modern Latin America,3,3,7,1
+253,The Plot Against America,Philip Roth,3.77,1400079497,9.78E+12,eng,391,33321,2925,9/27/2005,Vintage International,Resumen de: The Plot Against America,3,2,3,3
+254,Naked Pictures of Famous People,Jon   Stewart,3.59,688171621,9.78E+12,en-GB,164,8703,417,9/22/1999,Dey Street Books,Resumen de: Naked Pictures of Famous People,3,1,5,3
+255,Collected Stories,Gabriel García Márquez/Gregory Rabassa/J.S. Bernstein,4.19,60932686,9.78E+12,eng,352,6375,179,5/13/2008,Harper Perennial Modern Classics,Resumen de: Collected Stories,2,1,2,2
+256,Crónica de una muerte anunciada,Gabriel García Márquez,3.97,1400034957,9.78E+12,spa,118,7888,411,10/14/2003,Vintage Espanol,Resumen de: Crónica de una muerte anunciada,1,1,2,1
+257,Cien años de soledad,Gabriel García Márquez,4.07,307350428,9.78E+12,spa,496,130,5,02/07/06,Plaza y Janes,Resumen de: Cien años de soledad,4,2,9,2
+258,Del amor y otros demonios,Gabriel García Márquez,3.98,307350444,9.78E+12,spa,176,4508,278,02/07/06,Plaza y Janes,Resumen de: Del amor y otros demonios,5,5,3,1
+259,Living to Tell the Tale,Gabriel García Márquez/Edith Grossman,3.99,140003454X,9.78E+12,eng,533,397,47,10/12/04,Vintage,Resumen de: Living to Tell the Tale,4,2,2,2
+260,Memoria de mis putas tristes,Gabriel García Márquez,3.6,1400095808,9.78E+12,spa,112,5856,377,10/19/2004,Vintage Espanol,Resumen de: Memoria de mis putas tristes,3,3,1,3
+261,The Elegant Universe: Superstrings  Hidden Dimensions  and the Quest for the Ultimate Theory,Brian Greene,4.07,375708111,9.78E+12,eng,425,32569,1058,09/02/04,Vintage Books USA,Resumen de: The Elegant Universe: Superstrings  Hidden Dimensions  and the Quest for the Ultimate Theory,1,1,8,1
+262,Pure and Simple: The Extraordinary Teachings of a Thai Buddhist Laywoman,Upasika Kee Nanayon/Thanissaro Bhikkhu,4.29,086171492X,9.78E+12,eng,288,37,6,5/15/2005,Wisdom Publications,Resumen de: Pure and Simple: The Extraordinary Teachings of a Thai Buddhist Laywoman,2,2,4,1
+263,The Mini Rough Guide to London,Rob Humphreys/Beth Chaplin/Rebecca Morrill,3.75,184353584X,9.78E+12,eng,363,1,0,04/01/06,Rough Guides,Resumen de: The Mini Rough Guide to London,3,2,2,3
+264,Best of London (Lonely Planet Best Of),Lonely Planet/Sarah Johnstone/Steve Fallon,3.83,1740594770,9.78E+12,eng,128,11,0,09/01/04,Lonely Planet,Resumen de: Best of London (Lonely Planet Best Of),4,2,6,1
+265,Lonely Planet Londres,Lonely Planet/Sarah Johnstone/Tom Masters,4.03,8408064762,9.79E+12,spa,480,0,0,05/01/06,Geoplaneta,Resumen de: Lonely Planet Londres,1,1,1,1
+266,Out to Eat London 2002 (Lonely Planet Out to Eat),Lonely Planet/Mark Honan,0,1740592050,9.78E+12,eng,295,0,0,09/01/01,Lonely Planet,Resumen de: Out to Eat London 2002 (Lonely Planet Out to Eat),4,2,4,2
+267,Three Nights in August: Strategy  Heartbreak  and Joy Inside the Mind of a Manager,H.G. Bissinger,3.88,618710531,9.78E+12,eng,287,6870,237,04/04/06,Mariner Books,Resumen de: Three Nights in August: Strategy  Heartbreak  and Joy Inside the Mind of a Manager,1,1,3,3
+268,Cryptonomicon,Neal Stephenson,4.25,60512806,9.78E+12,eng,1139,83184,4249,11/01/02,Avon,Resumen de: Cryptonomicon,5,1,3,3
+269,Le Réseau Kinakuta (Cryptonomicon  #2),Neal Stephenson,4.1,2228894168,9.78E+12,fre,418,5,0,3/31/2001,Payot,Resumen de: Le Réseau Kinakuta (Cryptonomicon  #2),5,2,5,1
+270,The Confusion (The Baroque Cycle  #2),Neal Stephenson,4.26,60733357,9.78E+12,en-US,815,19320,565,6/14/2005,William Morrow Paperbacks,Resumen de: The Confusion (The Baroque Cycle  #2),5,5,3,2
+271,Quicksilver (The Baroque Cycle  #1),Neal Stephenson,3.93,60593083,9.78E+12,eng,927,30872,1735,9/21/2004,HarperCollins Perennial,Resumen de: Quicksilver (The Baroque Cycle  #1),1,1,7,3
+272,The Cobweb,Neal Stephenson/J. Frederick George,3.61,553383442,9.78E+12,eng,448,2465,137,5/31/2005,Spectra Books,Resumen de: The Cobweb,2,1,4,2
+273,The Big U,Neal Stephenson,3.25,380816032,9.78E+12,en-US,308,4657,223,02/06/01,William Morrow Paperbacks,Resumen de: The Big U,3,3,2,3
+274,The Diamond Age: Or  A Young Lady's Illustrated Primer,Neal Stephenson/Pedro Jorge Romero,4.19,553380966,9.78E+12,eng,499,71042,2767,05/02/00,Spectra,Resumen de: The Diamond Age: Or  A Young Lady's Illustrated Primer,2,1,1,1
+275,Interface,Neal Stephenson/George F. Jewsbury/Stephen  Bury,3.68,553383434,9.78E+12,eng,640,4731,270,5/31/2005,Spectra,Resumen de: Interface,3,1,8,3
+276,Odalisque (The Baroque Cycle  Vol. 1  Book 3),Neal Stephenson,4.2,60833181,9.78E+12,en-US,464,1567,65,3/28/2006,HarperTorch,Resumen de: Odalisque (The Baroque Cycle  Vol. 1  Book 3),2,2,2,2
+277,Snow Crash,Neal Stephenson/Guy Abadia,4.03,553380958,9.78E+12,eng,438,188100,6612,08/02/00,Bantam Books,Resumen de: Snow Crash,1,1,8,2
+278,Harrington on Hold 'em: Expert Strategy for No-Limit Tournaments  Volume II: The Endgame,Dan Harrington/Bill Robertie,4.16,1880685353,9.78E+12,eng,450,1474,30,06/01/05,Two Plus Two Publishing LLC,Resumen de: Harrington on Hold 'em: Expert Strategy for No-Limit Tournaments  Volume II: The Endgame,3,2,1,3
+279,Harrington on Hold 'em: Expert Strategy for No-Limit Tournaments  Volume I: Strategic Play,Dan Harrington/Bill Robertie,4.24,1880685337,9.78E+12,eng,381,1929,72,12/01/04,Two Plus Two Publishing LLC,Resumen de: Harrington on Hold 'em: Expert Strategy for No-Limit Tournaments  Volume I: Strategic Play,5,4,9,3
+280,The Design of Everyday Things,Donald A. Norman,4.17,465067107,9.78E+12,eng,240,18602,1379,9/19/2002,Basic Books,Resumen de: The Design of Everyday Things,3,3,6,1
+281,Emotional Design: Why We Love (or Hate) Everyday Things,Donald A. Norman,3.95,465051367,9.78E+12,eng,272,3702,149,05/11/05,Basic Books,Resumen de: Emotional Design: Why We Love (or Hate) Everyday Things,5,2,10,2
+282,The Psychology of Everyday Things,Donald A. Norman,4.17,465067093,9.78E+12,eng,257,265,31,6/13/1988,Basic Books,Resumen de: The Psychology of Everyday Things,5,3,5,1
+283,No Price Too High: A Pentecostal Preacher Becomes Catholic - The Inspirational Story of Alex Jones as Told to Diane Hanson,Alex C. Jones/Diane M. Hanson/Stephen K. Ray,4.27,898709199,9.78E+12,en-GB,259,51,7,4/30/2006,Ignatius Press,Resumen de: No Price Too High: A Pentecostal Preacher Becomes Catholic - The Inspirational Story of Alex Jones as Told to Diane Hanson,4,2,9,3
+284,The Alchemist,Paulo Coelho/Alan R. Clarke/James Noel Smith,3.86,60887966,9.78E+12,eng,192,920,76,05/02/06,HarperOne,Resumen de: The Alchemist,1,1,4,1
+285,The Alchemist,Paulo Coelho/Alan R. Clarke/Özdemir İnce,3.86,61122416,9.78E+12,eng,197,1631221,55843,05/01/93,HarperCollins,Resumen de: The Alchemist,3,1,4,2
+286,Fullmetal Alchemist  Vol. 9 (Fullmetal Alchemist  #9),Hiromu Arakawa/Akira Watanabe,4.57,142150460X,9.78E+12,eng,192,9013,153,9/19/2006,VIZ Media LLC,Resumen de: Fullmetal Alchemist  Vol. 9 (Fullmetal Alchemist  #9),2,2,5,1
+287,Fullmetal Alchemist  Vol. 3 (Fullmetal Alchemist  #3),Hiromu Arakawa/Akira Watanabe,4.56,1591169259,9.78E+12,eng,192,16666,299,9/13/2005,VIZ Media LLC,Resumen de: Fullmetal Alchemist  Vol. 3 (Fullmetal Alchemist  #3),3,1,6,3
+288,Fullmetal Alchemist  Vol. 8 (Fullmetal Alchemist  #8),Hiromu Arakawa/Akira Watanabe,4.57,1421504596,9.78E+12,eng,192,11451,161,7/18/2006,VIZ Media LLC,Resumen de: Fullmetal Alchemist  Vol. 8 (Fullmetal Alchemist  #8),5,2,1,1
+289,Fullmetal Alchemist  Vol. 1 (Fullmetal Alchemist  #1),Hiromu Arakawa/Akira Watanabe,4.5,1591169208,9.78E+12,eng,192,111091,1427,05/03/05,VIZ Media LLC,Resumen de: Fullmetal Alchemist  Vol. 1 (Fullmetal Alchemist  #1),1,1,6,2
+290,Fullmetal Alchemist  Vol. 4 (Fullmetal Alchemist  #4),Hiromu Arakawa/Akira Watanabe,4.55,1591169291,9.78E+12,eng,200,10752,294,11/08/05,VIZ Media LLC,Resumen de: Fullmetal Alchemist  Vol. 4 (Fullmetal Alchemist  #4),4,4,6,2
+291,The Illustrated Alchemist: A Fable about Following Your Dream,Paulo Coelho/Alan R. Clarke/Mœbius,3.86,006019250X,9.78E+12,en-US,198,251,32,11/01/98,HarperCollins Publishers,Resumen de: The Illustrated Alchemist: A Fable about Following Your Dream,2,2,5,3
+292,Fullmetal Alchemist  Vol. 2 (Fullmetal Alchemist  #2),Hiromu Arakawa/Akira Watanabe,4.52,1591169232,9.78E+12,eng,192,14923,419,07/05/05,VIZ Media LLC,Resumen de: Fullmetal Alchemist  Vol. 2 (Fullmetal Alchemist  #2),4,2,5,1
+293,Pompeii,Robert   Harris,3.82,812974611,9.78E+12,eng,274,26922,1726,11/08/05,Random House Trade Paperbacks,Resumen de: Pompeii,2,2,4,2
+294,The Last Days of Pompeii,Edward Bulwer-Lytton/John Gregory Betancourt,3.6,158715739X,9.78E+12,eng,360,1156,68,12/03/02,Borgo Press,Resumen de: The Last Days of Pompeii,4,1,6,1
+295,Of Mice and Men,John Steinbeck,3.87,142000671,9.78E+12,eng,103,1755253,25554,01/08/02,Penguin Books,Resumen de: Of Mice and Men,4,3,6,3
+296,The Game: Penetrating the Secret Society of Pickup Artists,Neil Strauss,3.74,60554738,9.78E+12,en-US,464,20529,1592,09/06/05,It Books,Resumen de: The Game: Penetrating the Secret Society of Pickup Artists,3,3,3,1
+297,The Westing Game,Ellen Raskin,4.02,014240120X,9.78E+12,eng,182,142121,8782,04/12/04,Puffin,Resumen de: The Westing Game,1,1,2,3
+298,The Egypt Game,Zilpha Keatley Snyder,3.83,808553038,9.78E+12,eng,215,30231,1130,07/07/09,Turtleback Books,Resumen de: The Egypt Game,1,1,6,2
+299,Memoirs of a Geisha,Arthur Golden,4.11,1400096898,9.78E+12,eng,503,280309,3703,11/22/2005,Vintage Books USA,Resumen de: Memoirs of a Geisha,4,3,4,3
+300,Memoirs of a Geisha,Arthur Golden,4.11,739326228,9.78E+12,eng,434,1301083,19296,11/15/2005,Random House Large Print Publishing,Resumen de: Memoirs of a Geisha,5,5,9,2
+301,Memoirs of a Geisha,Arthur Golden,4.11,99498189,9.78E+12,en-US,497,2122,256,12/01/05,Vintage,Resumen de: Memoirs of a Geisha,1,1,2,2
+302,Memoirs of a Geisha: A Portrait of the Film,David        James/Peggy Mulloy/Rob Marshall/Arthur Golden,4.08,1557046832,9.78E+12,eng,144,145,8,10/20/2005,Newmarket Press,Resumen de: Memoirs of a Geisha: A Portrait of the Film,4,1,5,3
+303,Memoirs of a Geisha,Arthur Golden,4.11,99771519,9.78E+12,eng,497,4189,462,06/04/98,Vintage,Resumen de: Memoirs of a Geisha,4,2,10,2
+304,Geisha of Gion,Mineko Iwasaki/Rande Brown,3.93,074343059X,9.78E+12,eng,334,1556,158,05/06/03,Pocket Books,Resumen de: Geisha of Gion,4,2,3,3
+305,Love As A Foreign Language #5,J. Torres/Eric  Kim,3.44,1932664394,9.78E+12,eng,58,9,2,02/01/06,Oni Press,Resumen de: Love As A Foreign Language #5,4,3,7,2
+306,Jungle Love,Margaret Johnson/Philip Prowse,3.41,521750849,9.78E+12,eng,95,59,7,08/01/02,Cambridge University Press,Resumen de: Jungle Love,1,1,9,1
+307,The 5 Love Languages / The 5 Love Languages Journal,Gary Chapman,4.7,802415318,9.78E+12,eng,0,22,4,01/01/05,Moody Publishers,Resumen de: The 5 Love Languages / The 5 Love Languages Journal,2,2,5,2
+308,Angels & Demons (Robert Langdon  #1),Dan Brown,3.89,1416524797,9.78E+12,eng,736,2418736,21303,04/01/06,Pocket Books,Resumen de: Angels & Demons (Robert Langdon  #1),2,2,4,2
+309,Ángeles y demonios (Robert Langdon  #1),Dan Brown,3.89,849561877X,9.79E+12,spa,508,196,20,12/01/05,Umbriel,Resumen de: Ángeles y demonios (Robert Langdon  #1),4,3,8,3
+310,Angeles & Demonios,Dan Brown/Raúl Amundaray,3.89,972859896,9.78E+12,spa,18,65,7,12/01/05,FonoLibro,Resumen de: Angeles & Demonios,1,1,6,1
+311,The Da Vinci Code (Robert Langdon  #2),Dan Brown,3.84,307277674,9.78E+12,eng,489,1679706,35877,3/28/2006,Anchor,Resumen de: The Da Vinci Code (Robert Langdon  #2),3,3,6,1
+312,The Da Vinci Code,Dan Brown,3.84,076792603X,9.78E+12,eng,467,1120,105,3/28/2006,Broadway Books,Resumen de: The Da Vinci Code,3,2,10,3
+313,Da Vinci Code (Robert Langdon  #2),Dan Brown/Daniel Roche,3.84,2266144340,9.78E+12,fre,744,377,16,05/03/05,Pocket,Resumen de: Da Vinci Code (Robert Langdon  #2),5,2,4,2
+314,Deception Point,Dan Brown,3.71,1416524800,9.78E+12,eng,736,4919,410,04/01/06,Pocket Books,Resumen de: Deception Point,1,1,8,2
+315,Deception Point,Dan Brown,3.71,552151769,9.78E+12,eng,585,3353,183,05/01/04,Corgi Books,Resumen de: Deception Point,2,1,6,2
+316,Deception Point,Dan Brown,3.71,593055071,9.78E+12,eng,448,61,4,08/01/05,Bantam Press,Resumen de: Deception Point,3,3,10,1
+317,A Killing Rain (Louis Kincaid  #6),P.J. Parrish,4.04,078601606X,9.78E+12,eng,383,456,41,02/01/05,Pinnacle,Resumen de: A Killing Rain (Louis Kincaid  #6),3,2,1,3
+318,The Millionaire Next Door: The Surprising Secrets of America's Wealthy,Thomas J. Stanley/William D. Danko,4.03,671015206,9.78E+12,eng,258,61760,2600,10/01/98,Gallery Books,Resumen de: The Millionaire Next Door: The Surprising Secrets of America's Wealthy,3,3,4,1
+319,Think and Grow Rich: The Landmark Bestseller Now Revised and Updated for the 21st Century,Napoleon Hill,4.18,1585424331,9.78E+12,eng,320,88897,2334,09/01/05,Tarcherperigee,Resumen de: Think and Grow Rich: The Landmark Bestseller Now Revised and Updated for the 21st Century,2,1,1,3
+320,Think and Grow Rich,Napoleon Hill,4.18,1932429239,9.78E+12,eng,368,48,9,08/07/04,High Roads Media,Resumen de: Think and Grow Rich,5,3,8,2
+321,Pragmatic Version Control: Using Subversion (The Pragmatic Starter Kit Series),Mike   Mason,3.58,977616657,9.78E+12,eng,256,173,14,06/07/06,Pragmatic Bookshelf,Resumen de: Pragmatic Version Control: Using Subversion (The Pragmatic Starter Kit Series),2,2,6,3
+322,Read My Lips: Sexual Subversion and the End of Gender,Riki Anne Wilchins,3.95,1563410907,9.78E+12,en-US,288,253,17,06/01/05,Firebrand Books,Resumen de: Read My Lips: Sexual Subversion and the End of Gender,5,5,5,2
+323,Trump: The Art of the Deal,Donald J. Trump/Tony Schwartz,3.66,345479173,9.78E+12,en-US,384,12748,948,12/28/2004,Ballantine Books,Resumen de: Trump: The Art of the Deal,1,1,2,3
+324,The Richest Man in Babylon,George S. Clason,4.26,451205367,9.78E+12,eng,194,76451,3400,02/01/08,Berkley Books,Resumen de: The Richest Man in Babylon,5,1,7,2
+325,The Richest Man in Babylon,George S. Clason,4.26,1419349996,9.78E+12,eng,4,86,15,6/17/2005,Recorded Books  Inc.,Resumen de: The Richest Man in Babylon,1,1,3,1
+326,Shibumi,Trevanian/Gisela Stege,4.21,1400098033,9.78E+12,eng,480,9498,637,05/10/05,Broadway Books,Resumen de: Shibumi,3,2,8,2
+327,1776,David McCullough,4.07,743226720,9.78E+12,eng,386,166916,6243,07/04/06,Simon  Schuster,Resumen de: 1776,2,1,7,1
+328,1776,Peter  Stone/Sherman Edwards,4.22,140481397,9.78E+12,eng,192,1299,30,11/18/1976,Penguin Books,Resumen de: 1776,5,4,6,2
+329,The Crescent Obscured: The United States and the Muslim World  1776-1815,Robert J. Allison,3.62,226014908,9.78E+12,eng,284,31,5,7/15/2000,University of Chicago Press,Resumen de: The Crescent Obscured: The United States and the Muslim World  1776-1815,3,2,2,2
+330,The Good Earth (House of Earth  #1),Pearl S. Buck,3.98,1416500189,9.78E+12,eng,418,200744,7656,03/04/09,Howard Publishing Co,Resumen de: The Good Earth (House of Earth  #1),4,2,9,2
+331,Purpose Driven Life - For Commuters: What on Earth Am I Here For?,Rick Warren,3.93,310258979,9.78E+12,eng,5,26,2,3/15/2005,Zondervan,Resumen de: Purpose Driven Life - For Commuters: What on Earth Am I Here For?,5,2,6,2
+332,Fast Food Nation: The Dark Side of the All-American Meal,Eric Schlosser,3.74,60838582,9.78E+12,eng,399,190039,4922,07/05/05,Harper Perennial,Resumen de: Fast Food Nation: The Dark Side of the All-American Meal,1,1,1,3
+333,Fast Food Nation: What The All-American Meal is Doing to the World,Eric Schlosser,3.74,141006870,9.78E+12,eng,384,811,77,04/04/02,Penguin Books,Resumen de: Fast Food Nation: What The All-American Meal is Doing to the World,2,1,4,3
+334,Snow Flower and the Secret Fan,Lisa See,4.07,812968069,9.78E+12,eng,269,297533,14935,2/21/2006,Random House,Resumen de: Snow Flower and the Secret Fan,2,1,2,1
+335,The Broker,John Grisham,3.78,385340540,9.78E+12,eng,422,72361,2334,9/26/2006,Delta,Resumen de: The Broker,5,4,3,3
+336,The Power Broker: Robert Moses and the Fall of New York,Robert A. Caro,4.51,394720245,9.78E+12,eng,1344,11208,1237,07/12/75,Vintage,Resumen de: The Power Broker: Robert Moses and the Fall of New York,5,3,1,2
+337,The Power Broker: A Novel (Christian Gillette  #3),Stephen W. Frey,3.75,345480600,9.78E+12,eng,320,28,1,7/25/2006,Ballantine Books,Resumen de: The Power Broker: A Novel (Christian Gillette  #3),4,4,6,3
+338,Body For Life: 12 Weeks to Mental and Physical Strength,Bill Phillips/Michael D'Orso,3.74,60193395,9.78E+12,en-US,201,3877,275,06/10/99,HarperCollins Publishers  Inc.,Resumen de: Body For Life: 12 Weeks to Mental and Physical Strength,1,1,8,3
+339,Body for Life for Women: A Woman's Plan for Physical and Mental Transformation,Pamela Peeke/Cindy Crawford,3.65,1579546013,9.78E+12,en-US,288,401,63,04/01/05,Rodale Books,Resumen de: Body for Life for Women: A Woman's Plan for Physical and Mental Transformation,3,2,10,2
+340,Eating for Life: Your Guide to Great Health  Fat Loss and Increased Energy!,Bill Phillips,3.95,972018417,9.78E+12,eng,405,814,51,11/26/2003,High Point Media,Resumen de: Eating for Life: Your Guide to Great Health  Fat Loss and Increased Energy!,2,1,3,1
+341,The Warren Buffett Way,Robert G. Hagstrom/Bill Miller/Kenneth L. Fisher,4.13,471743674,9.78E+12,en-US,245,228,16,10/01/05,John Wiley & Sons,Resumen de: The Warren Buffett Way,2,2,10,3
+342,The Warren Buffett CEO: Secrets from the Berkshire Hathaway Managers,Robert P. Miles/Tom Osborne,4.07,471430455,9.78E+12,eng,432,39,1,4/18/2003,Wiley,Resumen de: The Warren Buffett CEO: Secrets from the Berkshire Hathaway Managers,2,2,8,1
+343,Monkey Business: True Story of the Scopes Trial,Marvin N. Olasky/John R. Perry,3.15,805431578,9.78E+12,eng,368,26,8,5/15/2005,B Books,Resumen de: Monkey Business: True Story of the Scopes Trial,4,3,8,2
+344,Junie B. Jones and a Little Monkey Business (Junie B. Jones  #2),Barbara Park/Denise Brunkus,3.99,679838864,9.78E+12,en-US,68,11178,623,2/16/1993,Random House Books for Young Readers,Resumen de: Junie B. Jones and a Little Monkey Business (Junie B. Jones  #2),3,2,4,2
+345,Monkey Business,Sarah Mlynowski,3.67,373250711,9.78E+12,eng,392,3379,67,9/24/2004,Red Dress Ink,Resumen de: Monkey Business,3,1,4,1
+346,Liar's Poker,Michael   Lewis,4.15,140143459,9.78E+12,eng,256,22843,936,10/01/90,Penguin Books,Resumen de: Liar's Poker,1,1,7,2
+347,Liar's Poker: A Harry Garnish Mystery,Frank McConnell,3.31,802732291,9.78E+12,eng,214,13,1,06/01/93,Walker & Company,Resumen de: Liar's Poker: A Harry Garnish Mystery,5,1,5,1
+348,Risotto: 30 Simply Delicious Vegetarian Recipes from an Italian Kitchen,Ursula Ferrigno/Jason Lowe/Maxine  Clark,4.08,1841721476,6.94E+11,eng,64,8,2,03/01/01,Ryland Peters & Small,Resumen de: Risotto: 30 Simply Delicious Vegetarian Recipes from an Italian Kitchen,4,1,8,1
+349,Giada's Family Dinners,Giada De Laurentiis/Victoria Pearson,3.96,030723827X,9.78E+12,eng,256,14103,74,04/04/06,Clarkson Potter,Resumen de: Giada's Family Dinners,1,1,9,3
+350,Everyday Italian: 125 Simple and Delicious Recipes,Giada De Laurentiis,3.95,1400052580,9.78E+12,eng,256,40125,217,2/22/2005,Clarkson Potter,Resumen de: Everyday Italian: 125 Simple and Delicious Recipes,5,3,6,2
+351,Everyday Pasta,Giada De Laurentiis/Victoria Pearson,4.09,307346587,9.78E+12,eng,240,8822,55,04/03/07,Clarkson Potter,Resumen de: Everyday Pasta,4,3,4,2
+352,Tyler's Ultimate: Brilliant Simple Food to Make Any Time,Tyler Florence/Petrina Tinslay,4.09,1400052386,9.78E+12,eng,256,3697,34,9/26/2006,Clarkson Potter,Resumen de: Tyler's Ultimate: Brilliant Simple Food to Make Any Time,4,1,8,2
+353,Tyler Florence's Real Kitchen: An Indespensible Guide for Anybody Who Likes to Cook,Tyler Florence/JoAnn Cianciulli/Bill Bettencourt/Bobby Flay,4.06,609609971,9.78E+12,eng,304,1426,16,3/25/2003,Clarkson Potter Publishers,Resumen de: Tyler Florence's Real Kitchen: An Indespensible Guide for Anybody Who Likes to Cook,3,2,8,3
+354,Eat This Book: Cooking with Global Fresh Flavors,Tyler Florence/Petrina Tinslay,3.92,1400052378,9.78E+12,eng,287,275,15,10/01/04,Clarkson Potter Publishers,Resumen de: Eat This Book: Cooking with Global Fresh Flavors,4,2,3,3
+355,Freakonomics: A Rogue Economist Explores the Hidden Side of Everything,Steven D. Levitt/Stephen J. Dubner,3.97,61234001,9.78E+12,eng,320,628745,13034,10/17/2006,William Morrow,Resumen de: Freakonomics: A Rogue Economist Explores the Hidden Side of Everything,4,3,8,1
+356,Freakonomics: Un economista políticamente incorrecto explora el lado oculto de lo que nos afecta,Steven D. Levitt/Stephen J. Dubner,3.97,8466625127,9.79E+12,spa,250,193,23,08/01/06,Ediciones B,Resumen de: Freakonomics: Un economista políticamente incorrecto explora el lado oculto de lo que nos afecta,1,1,1,3
+357,Freakonomics: A Rogue Economist Explores the Hidden Side of Everything,Steven D. Levitt/Stephen J. Dubner,3.97,61245135,9.78E+12,en-US,496,98,5,12/08/06,Harper,Resumen de: Freakonomics: A Rogue Economist Explores the Hidden Side of Everything,2,2,1,1
+358,The Last Assassin (John Rain  #5),Barry Eisler,4.27,399153594,9.78E+12,eng,338,189,25,06/01/06,Putnam Publishing Group,Resumen de: The Last Assassin (John Rain  #5),1,1,4,3
+359,Life of Pi,Yann Martel,3.91,156030209,9.78E+12,en-US,401,4318,668,05/03/04,Mariner Books / Harvest Books,Resumen de: Life of Pi,1,1,2,3
+360,L'Histoire de Pi,Yann Martel/Nicole Martel/Emile Martel,3.91,828808392,9.78E+12,fre,448,177,26,11/24/2005,Gallimard,Resumen de: L'Histoire de Pi,3,2,10,3
+361,Shadows and Wind: A View of Modern Vietnam,Robert Templer,3.49,140285970,9.78E+12,eng,400,102,8,09/01/99,Penguin Books,Resumen de: Shadows and Wind: A View of Modern Vietnam,2,1,10,2
+362,A Million Little Pieces,James Frey,3.65,307276902,9.78E+12,eng,515,206011,10821,9/22/2005,Anchor Books,Resumen de: A Million Little Pieces,1,1,2,1
+363,A Million Little Pieces of Feces,Python Bonkers,3.56,1411677315,9.78E+12,en-US,256,43,6,02/10/06,Lulu.com,Resumen de: A Million Little Pieces of Feces,5,5,9,1
+364,A Million Little Lies,James Pinocchio/Pablo Fenjves,3.41,61171468,9.78E+12,en-US,191,201,24,3/28/2006,William Morrow Paperbacks,Resumen de: A Million Little Lies,4,1,9,3
+365,The Leadership Challenge,James M. Kouzes/Barry Z. Posner,4.05,787968331,9.78E+12,en-US,458,873,40,08/07/03,Jossey-Bass,Resumen de: The Leadership Challenge,2,1,7,1
+366,Lincoln on Leadership: Executive Strategies for Tough Times,Donald T. Phillips,4.14,446394599,9.78E+12,eng,193,5354,281,02/01/93,Business Plus,Resumen de: Lincoln on Leadership: Executive Strategies for Tough Times,4,3,6,1
+367,Leadership in Organizations,Gary Yukl,3.68,131494848,9.78E+12,en-GB,542,55,4,07/07/05,Prentice Hall,Resumen de: Leadership in Organizations,4,4,3,3
+368,Leadership,Rudolph W. Giuliani,3.72,316861014,9.78E+12,eng,397,1820,147,10/01/02,Little  Brown,Resumen de: Leadership,4,1,7,1
+369,Men Are from Mars  Women Are from Venus,John Gray,3.55,60574216,9.78E+12,eng,368,132062,3303,04/03/12,Harper Paperbacks,Resumen de: Men Are from Mars  Women Are from Venus,1,1,2,2
+370,Mars and Venus Book of Days: 365 Inspriations to Enrich Your Relationships,John Gray,3.62,60192771,9.78E+12,en-US,368,18,1,10/21/1998,Harper,Resumen de: Mars and Venus Book of Days: 365 Inspriations to Enrich Your Relationships,2,2,8,1
+371,Men Are from Mars  Women Are from Venus,John Gray,3.55,006123205X,9.78E+12,eng,2,43,3,04/03/07,HarperAudio,Resumen de: Men Are from Mars  Women Are from Venus,1,1,2,1
+372,How to Succeed with Women,Ron  Louis/David Copeland,3.76,735200300,9.78E+12,en-US,320,82,13,10/29/1998,Prentice Hall Press,Resumen de: How to Succeed with Women,2,1,4,1
+373,The Clan of the Cave Bear (Earth's Children  #1),Jean M. Auel,4.05,553381679,9.78E+12,eng,512,184418,4432,6/25/2002,Bantam,Resumen de: The Clan of the Cave Bear (Earth's Children  #1),5,5,4,1
+374,The Clan of the Cave Bear (Earth's Children  #1),Jean M. Auel,4.05,517542021,9.78E+12,eng,468,495,67,05/04/80,Crown Publishing Group,Resumen de: The Clan of the Cave Bear (Earth's Children  #1),2,2,9,1
+375,Moneyball: The Art of Winning an Unfair Game,Michael   Lewis,4.26,393324818,9.78E+12,eng,317,85094,4155,3/17/2004,W. W. Norton  Company,Resumen de: Moneyball: The Art of Winning an Unfair Game,1,1,2,3
+376,Juiced Official Strategy Guide,Doug Walsh,0,744005612,9.78E+12,eng,112,0,0,06/01/05,BradyGames,Resumen de: Juiced Official Strategy Guide,3,3,10,3
+377,The 48 Laws of Power,Robert Greene/Joost Elffers,4.18,140280197,9.78E+12,eng,452,60946,3167,09/01/00,Penguin (Business),Resumen de: The 48 Laws of Power,5,5,5,3
+378,Gates of Fire,Steven Pressfield,4.42,055338368X,9.78E+12,eng,392,21934,1629,9/27/2005,Bantam,Resumen de: Gates of Fire,5,1,5,2
+379,Fire Sea (The Death Gate Cycle  #3),Margaret Weis/Tracy Hickman,4.07,553295411,9.78E+12,eng,414,16312,175,03/01/92,Spectra Books,Resumen de: Fire Sea (The Death Gate Cycle  #3),1,1,7,1
+380,The Gate of Fire (Oath Of Empire Book Two),Thomas Harlan,3.58,812590104,9.78E+12,en-US,721,146,4,6/18/2001,Tor Classics,Resumen de: The Gate of Fire (Oath Of Empire Book Two),2,2,1,1
+381,The Afghan Campaign,Steven Pressfield,3.96,038551641X,9.78E+12,eng,354,3002,198,07/01/06,Doubleday Books,Resumen de: The Afghan Campaign,4,2,2,3
+382,Tides of War,Steven Pressfield,3.9,553381393,9.78E+12,eng,448,3422,157,8/28/2001,Bantam,Resumen de: Tides of War,4,4,4,3
+383,Last of the Amazons,Steven Pressfield,3.76,553382047,9.78E+12,eng,400,2138,125,07/01/03,Bantam,Resumen de: Last of the Amazons,2,1,8,1
+384,The War of Art: Break Through the Blocks & Win Your Inner Creative Battles,Steven Pressfield/Robert McKee,4,446691437,9.78E+12,eng,168,53653,4702,04/01/03,Warner Books,Resumen de: The War of Art: Break Through the Blocks & Win Your Inner Creative Battles,3,3,1,2
+385,Gita on the Green,Stephen J. Rosen/Steven Pressfield,3.78,826413013,9.78E+12,en-US,176,14,2,5/30/2002,Continuum,Resumen de: Gita on the Green,2,2,4,1
+386,Blood Stripes: The Grunt's View of the War in Iraq,David J. Danelo/Steven Pressfield,3.91,811701646,9.78E+12,eng,340,85,6,4/24/2006,Stackpole Books,Resumen de: Blood Stripes: The Grunt's View of the War in Iraq,2,2,9,3
+387,Phaedrus and Letters VII and VIII,Plato/Walter Hamilton,4.1,140442758,9.78E+12,en-US,160,226,20,1/30/1973,Penguin Classics,Resumen de: Phaedrus and Letters VII and VIII,1,1,5,3
+388,Phaedrus,Plato/Robin Waterfield,3.92,192802771,9.78E+12,eng,128,29,6,1/16/2003,Oxford University Press  USA,Resumen de: Phaedrus,1,1,5,2
+389,Phaedrus,Plato/C.J. Rowe,3.92,140449744,9.78E+12,eng,176,236,22,8/25/2005,Penguin Classics,Resumen de: Phaedrus,5,1,6,3
+390,Lysis/Phaedrus/Symposium: Plato on Homosexuality,Plato/Benjamin Jowett,4.47,879756322,9.78E+12,eng,157,14,0,12/01/91,Prometheus Books,Resumen de: Lysis/Phaedrus/Symposium: Plato on Homosexuality,5,2,6,2
+391,Enthusiasm and Divine Madness,Josef Pieper/Richard Winston/Clara Winston,4.5,189031823X,9.78E+12,eng,125,26,4,02/11/19,St. Augustines Press,Resumen de: Enthusiasm and Divine Madness,3,3,1,1
+392,On Love: Lysis/Symposium/Phaedrus/Alcibiades/Selections from Republic & Laws,Plato/C.D.C. Reeve,4.06,872207889,9.78E+12,eng,272,154,4,6/15/2006,Hackett Publishing Company  Inc.,Resumen de: On Love: Lysis/Symposium/Phaedrus/Alcibiades/Selections from Republic & Laws,5,3,3,3
+393,Gorgias/Phaedrus (Agora),Plato/James H. Nichols Jr.,4.35,801435307,9.78E+12,eng,233,18,1,09/01/98,Cornell University Press,Resumen de: Gorgias/Phaedrus (Agora),4,1,4,1
+394,Statesman,Plato/C.J. Rowe,3.85,872204626,9.78E+12,eng,128,28,7,3/15/1999,Hackett Publishing Company  Inc.,Resumen de: Statesman,2,2,4,2
+395,Gorgias,Plato/Walter Hamilton/Chris Emlyn-Jones,3.95,140449043,9.78E+12,en-GB,208,8186,198,1/29/2004,Penguin Classics,Resumen de: Gorgias,2,1,7,3
+396,The Histories,Herodotus/Aubrey de Sélincourt/John M. Marincola,3.99,140449086,9.78E+12,eng,716,34727,597,1/30/2003,Penguin Books,Resumen de: The Histories,1,1,3,1
+397,The Histories,Herodotus/Aubrey de Sélincourt/John M. Marincola,3.99,140446389,9.78E+12,eng,622,227,18,09/01/54,Penguin Classics,Resumen de: The Histories,1,1,4,1
+398,The History (Great Minds),Herodotus/Henry Francis Cary,3.99,879757779,9.78E+12,en-US,613,2,0,11/01/92,Prometheus Books,Resumen de: The History (Great Minds),3,1,9,3
+399,The Histories,Herodotus/Carolyn Dewald/Robin Waterfield,3.99,192824252,9.78E+12,eng,772,271,41,11/19/1998,Oxford University Press,Resumen de: The Histories,3,1,2,3
+400,The Histories,Herodotus/Aubrey de Sélincourt/Andrew Robert Burn,3.99,140440348,9.78E+12,en-US,653,143,17,8/30/1970,Penguin Classics,Resumen de: The Histories,3,1,7,2
+401,The Histories,Herodotus/Jennifer Tolbert Roberts/Walter Blanco,3.99,393959465,9.78E+12,en-US,464,40,5,1/17/1992,W.W. Norton & Company,Resumen de: The Histories,5,2,8,3
+402,The Histories,Herodotus/Edward Henry Blakeney/George Rawlinson/Rosalind Thomas,3.99,375400613,9.78E+12,en-US,816,132,10,3/25/1997,Everyman's Library 234,Resumen de: The Histories,5,5,6,2
+403,The History,Herodotus/Peter Grene,3.99,226327701,9.78E+12,en-US,710,36,6,3/14/1987,University of Chicago Press,Resumen de: The History,4,2,5,1
+404,The Iliad,Homer/Robert Fagles/Bernard Knox,3.86,140275363,9.78E+12,eng,683,288792,3423,4/29/1999,Penguin Classics,Resumen de: The Iliad,5,1,3,2
+405,Iliad,Homer/Stanley Lombardo/Sheila Murnaghan,3.86,872203522,9.78E+12,en-US,574,1058,137,03/12/97,Hackett Publishing Company  Inc.,Resumen de: Iliad,5,2,5,2
+406,The Iliad,Homer/Robert Fitzgerald/Andrew Ford,3.86,374529051,9.78E+12,en-US,588,692,81,04/03/04,Farrar  Straus and Giroux,Resumen de: The Iliad,1,1,5,3
+407,The Iliad/The Odyssey,Homer/Robert Fagles/Bernard Knox,4.04,147712556,9.78E+12,eng,1556,54939,380,11/01/99,Penguin Classics,Resumen de: The Iliad/The Odyssey,1,1,7,3
+408,The Iliad,Homer/E.V. Rieu/Peter Jones/D.C.H. Rieu,3.86,140447946,9.78E+12,eng,462,1919,118,1/30/2003,Penguin Classics,Resumen de: The Iliad,4,1,2,2
+409,The Iliad,Homer/W.H.D. Rouse,3.86,451527372,9.78E+12,en-US,312,158,15,08/01/99,Signet Classics,Resumen de: The Iliad,5,3,5,3
+410,The Essential Iliad,Homer/Sheila Murnaghan/Stanley Lombardo,3.86,872205428,9.78E+12,en-US,216,212,18,9/15/2000,Hackett Publishing Company  Inc.,Resumen de: The Essential Iliad,2,2,2,2
+411,The Odyssey,Homer/Robert Fagles/Bernard Knox,3.76,143039954,9.78E+12,eng,541,760871,6557,11/30/2006,Penguin Classics,Resumen de: The Odyssey,2,1,8,3
+412,The Odyssey,Homer/Robert Fitzgerald/D.S. Carne-Ross,3.76,374525749,9.78E+12,eng,515,1713,179,11/05/98,Farrar  Straus and Giroux,Resumen de: The Odyssey,1,1,10,3
+413,The Odyssey,Homer/Richmond Lattimore,3.76,60931957,9.78E+12,eng,374,1131,78,06/01/99,Harper Perennial,Resumen de: The Odyssey,5,4,10,2
+414,The Odyssey,Homer/E.V. Rieu/Peter Jones/D.C.H. Rieu,3.76,140449116,9.78E+12,eng,324,2543,167,1/30/2003,Penguin Classics,Resumen de: The Odyssey,2,1,1,1
+415,The Odyssey,Homer/W.H.D. Rouse,3.76,451527364,9.78E+12,eng,304,262,24,08/01/99,Signet Classics,Resumen de: The Odyssey,5,2,3,1
+416,Aeneid: Selections from Books 1  2  4  6  10  12,Virgil/Barbara Weiden Boyd,4.35,086516584X,9.78E+12,eng,161,69,6,01/01/01,Bolchazy-Carducci Publishers,Resumen de: Aeneid: Selections from Books 1  2  4  6  10  12,5,1,1,1
+417,Eclogues. Georgics. Aeneid: Books 1-6,Virgil/Henry Rushton Fairclough/G.P. Goold,4.22,067499583X,9.78E+12,mul,607,414,10,10/01/99,Harvard University Press,Resumen de: Eclogues. Georgics. Aeneid: Books 1-6,1,1,9,1
+418,City Eclogue,Ed Roberson,4.13,1891190237,9.78E+12,eng,136,67,7,1/30/2006,Atelos Press,Resumen de: City Eclogue,3,2,4,2
+419,The Eclogues and The Georgics,Virgil/Cecil Day-Lewis,3.8,192837680,9.78E+12,eng,180,259,15,09/02/99,Oxford University Press,Resumen de: The Eclogues and The Georgics,2,2,4,2
+420,Paul Kirk's Championship Barbecue Sauces: 175 Make-Your-Own Sauces  Marinades  Dry Rubs  Wet Rubs  Mops and Salsas,Paul  Kirk,3.94,155832125X,9.78E+12,eng,272,55,0,12/03/97,Harvard Common Press,Resumen de: Paul Kirk's Championship Barbecue Sauces: 175 Make-Your-Own Sauces  Marinades  Dry Rubs  Wet Rubs  Mops and Salsas,2,2,8,2
+421,The Complete Pelican Shakespeare,William Shakespeare/Stephen Orgel/A.R. Braunmuller,4.5,141000589,9.78E+12,eng,1808,578,25,11/07/02,Viking,Resumen de: The Complete Pelican Shakespeare,5,4,2,1
+422,The Complete Works,William Shakespeare,4.5,517092948,9.78E+12,eng,1248,62,6,10/13/1991,Gramercy,Resumen de: The Complete Works,4,1,2,1
+423,Hamlet,William Shakespeare/Harold Bloom/Rex Gibson,4.02,521618746,9.78E+12,eng,289,609271,7139,08/01/05,Cambridge University Press,Resumen de: Hamlet,5,3,2,1
+424,The Compleat Works of Wllm Shkspr (abridged),Reduced Shakespeare Company/Adam Long/Daniel Singer/Jess Winfield,4.44,1557831572,9.78E+12,eng,137,8159,118,02/01/94,Applause Books,Resumen de: The Compleat Works of Wllm Shkspr (abridged),1,1,4,2
+425,The Pilgrimage: A Contemporary Quest for Ancient Wisdom,Paulo Coelho/Alan R. Clarke,3.64,006251279X,9.78E+12,en-US,272,888,92,05/01/95,HarperOne,Resumen de: The Pilgrimage: A Contemporary Quest for Ancient Wisdom,4,2,2,1
+426,The Valkyries,Paulo Coelho/Alan R. Clarke,3.31,62513346,9.78E+12,en-US,212,1204,79,9/28/1996,HarperOne,Resumen de: The Valkyries,2,1,5,2
+427,Warrior of the Light,Paulo Coelho,3.7,60527986,9.78E+12,en-US,142,22662,945,3/30/2004,HarperOne,Resumen de: Warrior of the Light,3,3,3,1
+428,The Zahir,Paulo Coelho/Margaret Jull Costa,3.57,60832819,9.78E+12,eng,336,58917,2575,07/03/06,HarperOne,Resumen de: The Zahir,5,5,5,1
+429,By the River Piedra I Sat Down and Wept,Paulo Coelho/Alan R. Clarke,3.57,61122092,9.78E+12,eng,208,70760,2702,5/23/2006,HarperOne,Resumen de: By the River Piedra I Sat Down and Wept,1,1,1,1
+430,The Fifth Mountain,Paulo Coelho/Clifford E. Landers,3.62,60930136,9.78E+12,en-US,256,1415,68,4/26/2000,HarperOne,Resumen de: The Fifth Mountain,5,5,1,2
+431,Veronika Decides to Die,Paulo Coelho/Margaret Jull Costa/Kâmuran Şipal,3.7,61124265,9.78E+12,eng,210,132064,5452,06/01/06,Harper Perennial,Resumen de: Veronika Decides to Die,3,2,10,1
+432,Hamlet,William Shakespeare/Stephen Orgel/A.R. Braunmuller,4.02,140714545,9.78E+12,eng,148,1658,125,12/01/01,Penguin Books,Resumen de: Hamlet,2,1,10,3
+433,Cliffs Notes on Shakespeare's Hamlet,Carla Lynn Stockton,3.69,764586033,9.78E+12,en-US,129,65,6,5/30/2000,Cliffs Notes,Resumen de: Cliffs Notes on Shakespeare's Hamlet,5,5,8,1
+434,Shakespeare's Hamlet,William Shakespeare/Terri Mategrano,4.02,764585681,9.78E+12,eng,240,102,16,5/29/2000,Cliffs Notes,Resumen de: Shakespeare's Hamlet,2,1,7,2
+435,Hamlet's Mill: An Essay Investigating the Origins of Human Knowledge and Its Transmission Through Myth,Giorgio De Santillana/Hertha Von Dechend,4.29,879232153,9.78E+12,eng,450,489,57,3/24/2015,Nonpareil Books,Resumen de: Hamlet's Mill: An Essay Investigating the Origins of Human Knowledge and Its Transmission Through Myth,5,4,1,3
+436,History of the Peloponnesian War: Bk. 1-2,Thucydides/C.F. Smith,4.32,674991206,9.78E+12,mul,496,208,7,01/01/19,Harvard University Press,Resumen de: History of the Peloponnesian War: Bk. 1-2,1,1,8,1
+437,On Justice  Power and Human Nature: Selections from The History of the Peloponnesian War,Thucydides/Paul Woodruff,3.72,872201686,9.78E+12,eng,172,610,15,10/01/93,Hackett Publishing Company  Inc.,Resumen de: On Justice  Power and Human Nature: Selections from The History of the Peloponnesian War,2,2,5,2
+438,History of the Peloponnesian War: Bk. 5-6,Thucydides/C.F. Smith,4.35,674991222,9.78E+12,mul,400,38,0,01/01/21,Harvard University Press,Resumen de: History of the Peloponnesian War: Bk. 5-6,1,1,5,3
+439,The Peloponnesian War,Thucydides/Steven Lattimore,3.9,872203948,9.78E+12,eng,530,154,21,06/01/98,Hackett Publishing Company  Inc.,Resumen de: The Peloponnesian War,2,2,1,2
+440,The Peloponnesian War: A New Translation  Backgrounds  Interpretations,Thucydides/Jennifer Tolbert Roberts/Walter Blanco,3.9,393971678,9.78E+12,eng,554,24,4,7/17/1998,W. W. Norton & Company,Resumen de: The Peloponnesian War: A New Translation  Backgrounds  Interpretations,5,4,3,2
+441,History of the Peloponnesian War  Bk. 7-8,Thucydides/C.F. Smith,4.29,674991877,9.78E+12,eng,480,35,0,01/01/23,Harvard University Press,Resumen de: History of the Peloponnesian War  Bk. 7-8,1,1,3,2
+442,Thucydides  Book 6 Commentary,Cynthia W. Shelmerdine,4.5,929524357,9.78E+12,eng,34,2,0,1/30/1989,Bryn Mawr Commentaries,Resumen de: Thucydides  Book 6 Commentary,5,5,6,3
+443,Euripides I: Alcestis / The Medea / The Heracleidae / Hippolytus,Euripides/Richmond Lattimore/David Grene/Rex Warner/Ralph Gladstone,4.03,226307808,9.78E+12,eng,221,4483,56,2/15/1955,University of Chicago Press,Resumen de: Euripides I: Alcestis / The Medea / The Heracleidae / Hippolytus,1,1,6,1
+444,Euripides V: Electra / The Phoenician Women / The Bacchae,Euripides/David Grene/Richmond Lattimore/Emily Townsend Vermeule/Elizabeth Wyckoff/William Arrowsmith,4.21,226307840,9.78E+12,eng,228,3334,46,1/15/1969,University of Chicago Press,Resumen de: Euripides V: Electra / The Phoenician Women / The Bacchae,3,1,5,2
+445,Euripides IV: Rhesus / The Suppliant Women / Orestes / Iphigenia in Aulis,Euripides/David Grene/Richmond Lattimore/William Arrowsmith/Frank William Jones/Charles R. Walker,4.21,226307832,9.78E+12,eng,307,560,8,11/15/1968,University of Chicago Press,Resumen de: Euripides IV: Rhesus / The Suppliant Women / Orestes / Iphigenia in Aulis,1,1,7,2
+446,Grief Lessons: Four Plays by Euripides,Anne Carson/Euripides,4.4,1590171802,9.78E+12,eng,312,679,85,08/01/06,New York Review of Books,Resumen de: Grief Lessons: Four Plays by Euripides,4,4,4,1
+447,Ten Plays,Euripides/Moses Hadas/John Maclean,4.17,553213636,9.78E+12,en-US,432,1464,21,08/01/90,Bantam Classics,Resumen de: Ten Plays,1,1,4,1
+448,Euripides III: Hecuba / Andromache / The Trojan Women / Ion (Complete Greek Tragedies  #7),Euripides/David Grene/Richmond Lattimore/William Arrowsmith/John Frederick Nims/Ronald Frederick Willetts,4,226307824,9.78E+12,eng,255,541,15,1/15/1992,University of Chicago Press,Resumen de: Euripides III: Hecuba / Andromache / The Trojan Women / Ion (Complete Greek Tragedies  #7),5,4,9,1
+449,Euripides II: The Cyclops / Heracles / Iphigenia in Tauris / Helen,Euripides/David Grene/Richmond Lattimore/Witter Bynner/William Arrowsmith,4.31,226307816,9.78E+12,eng,264,790,12,4/15/2002,University of Chicago Press,Resumen de: Euripides II: The Cyclops / Heracles / Iphigenia in Tauris / Helen,1,1,6,2
+450,Medea and Other Plays,Euripides/John Davie/Richard Rutherford,4.03,140449299,9.78E+12,eng,206,9197,120,3/27/2003,Penguin Books,Resumen de: Medea and Other Plays,5,5,1,2
+451,Cyclops / Alcestis / Medea,Euripides/David Kovacs,4.23,674995600,9.78E+12,mul,432,61,4,01/01/94,Loeb Classical Library,Resumen de: Cyclops / Alcestis / Medea,5,3,4,2
+452,Medea,Euripides/Donald J. Mastronarde,3.87,521643864,9.78E+12,grc,431,201,9,9/16/2002,Cambridge University Press,Resumen de: Medea,5,2,7,3
+453,The Bacchae and Other Plays,Euripides/John Davie/Richard Rutherford,4.14,140447261,9.78E+12,eng,360,164,8,1/26/2006,Penguin Classics,Resumen de: The Bacchae and Other Plays,3,2,6,2
+454,Bakkhai,Euripides/Reginald Gibbons/Peter H. Burian,3.88,195125983,9.78E+12,eng,160,154,13,2/22/2001,Oxford University Press  USA,Resumen de: Bakkhai,1,1,8,1
+455,Plays 1: Medea/The Phoenician Women/Bacchae,Euripides/David Thompson/J. Michael Walton,3.78,413752801,9.78E+12,eng,192,9,0,11/09/00,Bloomsbury Methuen Drama,Resumen de: Plays 1: Medea/The Phoenician Women/Bacchae,3,3,10,2
+456,The Trojan Women and Hippolytus,Euripides,3.63,486424626,9.78E+12,eng,64,34,4,7/17/2002,Dover Publications,Resumen de: The Trojan Women and Hippolytus,1,1,5,3
+457,The Bacchae of Euripides: A Communion Rite,Wole Soyinka,3.86,393325830,9.78E+12,eng,128,116,6,7/17/2004,W. W. Norton  Company,Resumen de: The Bacchae of Euripides: A Communion Rite,4,1,2,1
+458,Orestes and Other Plays,Euripides/James Morwood/Robin Waterfield,4.1,192832603,9.78E+12,eng,282,158,2,12/20/2001,Oxford University Press,Resumen de: Orestes and Other Plays,1,1,10,3
+459,Children of Heracles / Hippolytus / Andromache / Hecuba,Euripides/David Kovacs,4.26,674995333,9.78E+12,mul,528,27,5,2/15/1995,Loeb Classical Library,Resumen de: Children of Heracles / Hippolytus / Andromache / Hecuba,4,2,4,1
+460,Alcestis,Euripides/William Arrowsmith,3.83,195061667,9.78E+12,eng,142,1950,95,02/01/90,Oxford University Press  USA,Resumen de: Alcestis,4,3,1,1
+461,Suppliant Women / Electra / Heracles,Euripides/David Kovacs,4.47,067499566X,9.78E+12,mul,464,30,4,09/01/98,Loeb Classical Library,Resumen de: Suppliant Women / Electra / Heracles,1,1,3,2
+462,Medea,Euripides/Georgia Ann Machemer/Michael   Collier,3.87,195145666,9.78E+12,eng,116,367,35,08/10/06,Oxford University Press  USA,Resumen de: Medea,4,4,8,1
+463,Euripides: Medea,William Allan,4.04,071563187X,9.78E+12,eng,160,23,1,10/31/2002,Bristol Classical Press,Resumen de: Euripides: Medea,5,1,4,3
+464,CliffsNotes on Euripides' Medea and Electra,Robert J. Milch,4.2,822004240,9.78E+12,eng,69,5,0,9/13/1965,Cliffs Notes,Resumen de: CliffsNotes on Euripides' Medea and Electra,5,2,1,3
+465,Trojan Women / Iphigenia Among the Taurians / Ion,Euripides/David Kovacs,4.03,674995740,9.78E+12,mul,528,29,2,12/01/99,Loeb Classical Library,Resumen de: Trojan Women / Iphigenia Among the Taurians / Ion,3,1,10,3
+466,Helen / Phoenician Women / Orestes,Euripides/David Kovacs,4.07,674996003,9.78E+12,mul,605,25,3,6/15/2002,Loeb Classical Library,Resumen de: Helen / Phoenician Women / Orestes,3,3,4,3
+467,Euripides: Iphigenia at Aulis (Companions to Greek & Roman Tragedy),Euripides/Pantelis Michelakis,4.03,715629948,9.78E+12,eng,144,12,1,03/09/06,Bristol Classical Press,Resumen de: Euripides: Iphigenia at Aulis (Companions to Greek & Roman Tragedy),3,2,10,2
+468,The Complete Greek Tragedies  Volume 3: Euripides,Euripides/David Grene/Richmond Lattimore,4.43,226307662,9.78E+12,eng,672,46,7,08/01/92,University of Chicago Press,Resumen de: The Complete Greek Tragedies  Volume 3: Euripides,5,3,7,1
+469,Aeschylus I: Oresteia (Agamemnon  The Libation Bearers  The Eumenides),Aeschylus/David Grene/Richmond Lattimore,4.02,226307786,9.78E+12,en-US,171,712,53,5/15/1969,University of Chicago Press,Resumen de: Aeschylus I: Oresteia (Agamemnon  The Libation Bearers  The Eumenides),2,1,2,3
+470,Aeschylus II: The Suppliant Maidens  The Persians  Seven against Thebes  and Prometheus Bound (The Complete Greek Tragedies),Aeschylus/David Grene/Richmond Lattimore/Seth Benardete,4.1,226307948,9.78E+12,eng,188,389,26,02/01/92,University of Chicago Press,Resumen de: Aeschylus II: The Suppliant Maidens  The Persians  Seven against Thebes  and Prometheus Bound (The Complete Greek Tragedies),1,1,6,2
+471,The Oresteia,Aeschylus/Alan Shapiro/Peter H. Burian,4.02,019513592X,9.78E+12,eng,304,77,7,10/07/04,Oxford University Press  USA,Resumen de: The Oresteia,3,1,5,1
+472,The Oresteia: Agamemnon  The Libation Bearers  The Eumenides,Aeschylus/Robert Fagles/William Bedell Stanford,4.02,140443339,9.78E+12,eng,335,28726,591,02/07/84,Penguin Classics,Resumen de: The Oresteia: Agamemnon  The Libation Bearers  The Eumenides,1,1,4,2
+473,Oresteia,Aeschylus/Peter Meineck/Helene P. Foley,4.02,872203905,9.78E+12,eng,224,303,21,9/15/1998,Hackett Publishing Company  Inc.,Resumen de: Oresteia,5,1,2,3
+474,Prometheus Bound and Other Plays,Aeschylus/Philip Vellacott,4.1,140441123,9.78E+12,eng,160,4303,62,8/30/1961,Penguin Books,Resumen de: Prometheus Bound and Other Plays,5,3,8,3
+475,The Oresteia,Aeschylus/Ted Hughes,4.02,374527059,9.78E+12,en-US,208,215,25,09/04/04,Farrar  Straus and Giroux,Resumen de: The Oresteia,1,1,10,2
+476,Aeschylus  1: The Oresteia: Agamemnon/The Libation Bearers/The Eumenides,Aeschylus/David R. Slavitt/Smith Palmer Bovie,4.02,081221627X,9.78E+12,eng,178,12,3,11/01/97,University of Pennsylvania Press,Resumen de: Aeschylus  1: The Oresteia: Agamemnon/The Libation Bearers/The Eumenides,2,2,1,2
+477,The Complete Greek Tragedies  Volume 1: Aeschylus,Aeschylus/Richmond Lattimore/David Grene,4.1,226307646,9.78E+12,eng,358,74,7,08/01/92,University of Chicago Press,Resumen de: The Complete Greek Tragedies  Volume 1: Aeschylus,4,4,4,1
+478,Aeschylus: The Oresteia (A Student Guide: Landmarks of World Literature),Simon Goldhill,4.03,521539811,9.78E+12,eng,95,31,3,1/22/2004,Cambridge University Press,Resumen de: Aeschylus: The Oresteia (A Student Guide: Landmarks of World Literature),2,2,7,3
+479,The Oresteia: Agamemnon  Choephoroe & Eumenides (Everyman's Library  No. 260),Aeschylus/George Thomson/Richard Seaford,4.02,1400041929,9.78E+12,eng,127,63,8,1/20/2004,Everyman's Library,Resumen de: The Oresteia: Agamemnon  Choephoroe & Eumenides (Everyman's Library  No. 260),2,1,7,1
+480,Aeschylus 2: The Persians/Seven Against Thebes/The Suppliants/Prometheus Bound,Aeschylus/David R. Slavitt/Smith Palmer Bovie,4.1,812216717,9.78E+12,en-GB,232,12,2,01/01/98,University of Pennsylvania Press,Resumen de: Aeschylus 2: The Persians/Seven Against Thebes/The Suppliants/Prometheus Bound,3,2,5,3
+481,The Oresteia Trilogy: Agamemnon/The Libation-Bearers/The Furies,Aeschylus/E.D.A. Morshead,4.02,486292428,9.78E+12,eng,151,89,8,9/24/1996,Dover Publications,Resumen de: The Oresteia Trilogy: Agamemnon/The Libation-Bearers/The Furies,5,1,6,3
+482,The Suppliant Maidens/The Persians/Seven against Thebes/Prometheus Bound,Aeschylus/E.D.A. Morshead,4.1,1419150014,9.78E+12,eng,208,1,0,6/17/2004,Kessinger Publishing,Resumen de: The Suppliant Maidens/The Persians/Seven against Thebes/Prometheus Bound,1,1,3,2
+483,Sophocles II: Ajax/Women of Trachis/Electra/Philoctetes (Complete Greek Tragedies 4),Sophocles/David Grene/Richmond Lattimore/John Moore/Michael Jameson,4.14,226307867,9.78E+12,eng,254,5032,36,5/15/1969,University of Chicago Press,Resumen de: Sophocles II: Ajax/Women of Trachis/Electra/Philoctetes (Complete Greek Tragedies 4),3,2,3,2
+484,The Oedipus Plays of Sophocles: Oedipus the King; Oedipus at Colonus; Antigone,Sophocles/Paul Roche,3.97,452011671,9.78E+12,eng,288,553,46,05/01/96,Plume,Resumen de: The Oedipus Plays of Sophocles: Oedipus the King; Oedipus at Colonus; Antigone,5,3,1,3
+485,The Complete Plays,Sophocles/Paul Roche,4.27,451527844,9.78E+12,eng,420,2883,40,03/01/01,New American Library,Resumen de: The Complete Plays,2,1,1,2
+486,The Oedipus Cycle: Oedipus Rex  Oedipus at Colonus  Antigone,Sophocles/Robert Fitzgerald/Dudley Fitts,3.97,015602764X,9.78E+12,eng,259,45589,726,11/01/02,Mariner Books,Resumen de: The Oedipus Cycle: Oedipus Rex  Oedipus at Colonus  Antigone,3,1,4,1
+487,The Three Theban Plays: Antigone  Oedipus the King  Oedipus at Colonus,Sophocles/Robert Fagles/Bernard Knox,3.97,140444254,9.78E+12,eng,430,2979,288,01/03/00,Penguin Books,Resumen de: The Three Theban Plays: Antigone  Oedipus the King  Oedipus at Colonus,3,1,9,1
+488,Theban Plays,Sophocles/Peter Meineck/Paul Woodruff,3.97,872205851,9.78E+12,en-US,304,109,7,3/15/2003,Hackett Publishing Company  Inc.,Resumen de: Theban Plays,4,2,2,2
+489,The Theban Plays (Everyman's Library  #93),Sophocles/David Grene/Charles Segal,3.97,679431322,9.78E+12,en-US,223,52,3,10/18/1994,Alfred A. Knopf,Resumen de: The Theban Plays (Everyman's Library  #93),4,4,2,3
+490,Electra and Other Plays,Sophocles/E.F. Watling,4.14,140440283,9.78E+12,eng,218,135,9,4/30/1953,Penguin,Resumen de: Electra and Other Plays,2,1,1,1
+491,Antigone; Oedipus the Kingn; Electra,Sophocles/Edith Hall/H.D.F. Kitto,3.94,192835882,9.78E+12,eng,178,13358,199,9/17/1998,Oxford University Press,Resumen de: Antigone; Oedipus the Kingn; Electra,3,3,7,3
+492,Oedipus Rex  (The Theban Plays  #1),Sophocles/J.E. Thomas,3.7,1580495931,9.78E+12,eng,75,141555,1776,6/22/2006,Prestwick House - (Literary Touchstone Classic),Resumen de: Oedipus Rex  (The Theban Plays  #1),4,4,7,1
+493,The Oedipus Plays of Sophocles,Sophocles/Paul Roche,3.97,451621603,9.78E+12,eng,390,8,1,09/01/58,Signet Books (NY),Resumen de: The Oedipus Plays of Sophocles,5,4,1,1
+494,Oedipus Rex (Greek and Latin Classics),Sophocles/Roger D. Dawe,3.7,521617359,9.78E+12,grc,214,218,1,08/01/06,Cambridge University Press,Resumen de: Oedipus Rex (Greek and Latin Classics),2,1,3,3
+495,Oedipus the King,Sophocles/Bernard Knox/Cynthia Brantley Johnson,3.7,1416500332,9.78E+12,eng,144,740,57,07/01/05,Simon  Schuster,Resumen de: Oedipus the King,2,1,3,3
+496,Four Plays: The Clouds/The Birds/Lysistrata/The Frogs,Aristophanes/William Arrowsmith/Richmond Lattimore/Douglass Parker,4.06,452007178,9.78E+12,eng,624,6086,79,11/01/84,Plume,Resumen de: Four Plays: The Clouds/The Birds/Lysistrata/The Frogs,1,1,9,1
+497,Three Plays by Aristophanes: Lysistrata/Women at the Thesmophoria/Assemblywomen,Aristophanes/Jeffrey Henderson,3.94,415907446,9.78E+12,eng,256,96,8,8/27/1996,Routledge,Resumen de: Three Plays by Aristophanes: Lysistrata/Women at the Thesmophoria/Assemblywomen,2,1,2,2
+498,The Complete Plays,Aristophanes/Moses Hadas,4.21,553213431,9.78E+12,eng,577,1998,33,03/01/84,Bantam Classics,Resumen de: The Complete Plays,2,2,8,1
+499,Aristophanes 1: The Acharnians/Peace/Celebrating Ladies/Wealth,Aristophanes/David R. Slavitt,3.83,812234561,9.78E+12,eng,336,4,0,1/29/1998,University of Pennsylvania Press,Resumen de: Aristophanes 1: The Acharnians/Peace/Celebrating Ladies/Wealth,1,1,6,1
+500,Clouds/Wasps/Birds (Aristophanes 1),Aristophanes/Peter Meineck,3.77,872203611,9.78E+12,eng,480,1,0,9/15/1998,Hackett Publishing Company  Inc.,Resumen de: Clouds/Wasps/Birds (Aristophanes 1),2,2,4,1
+501,Lysistrata and Other Plays,Aristophanes/Alan H. Sommerstein,3.95,140448144,9.78E+12,en-US,241,3833,120,1/30/2003,Penguin Classics,Resumen de: Lysistrata and Other Plays,4,1,8,3
+502,Acharnians,Aristophanes/Jeffrey Henderson,3.42,1585100870,9.78E+12,eng,96,23,1,05/01/03,Focus Publishing/R. Pullins Company,Resumen de: Acharnians,4,3,7,1
+503,Clouds,Aristophanes/Kenneth James Dover,3.75,199120099,9.78E+12,eng,254,13,2,12/15/1969,Oxford University Press  USA,Resumen de: Clouds,2,2,8,2
+504,Clouds/Wasps/Peace,Aristophanes/Jeffrey Henderson,4.07,674995376,9.78E+12,grc,624,69,10,12/15/1998,Loeb Classical Library/Harvard University Press,Resumen de: Clouds/Wasps/Peace,5,2,7,2
+505,Three Plays: The Wasps / The Poet and the Women / The Frogs,Aristophanes/David B. Barrett,3.94,140441522,9.78E+12,eng,224,391,27,2/28/1964,Penguin Books,Resumen de: Three Plays: The Wasps / The Poet and the Women / The Frogs,5,4,4,1
+506,Four Comedies: Lysistrata / The Frogs / The Birds / Ladies' Day,Aristophanes/Dudley Fitts,4.03,156027658,9.78E+12,eng,400,14,2,01/06/03,Harcourt,Resumen de: Four Comedies: Lysistrata / The Frogs / The Birds / Ladies' Day,3,2,9,1
+507,Frogs/Assemblywomen/Wealth (Loeb Classical Library 180),Aristophanes/Jeffrey Henderson,4.21,674995961,9.78E+12,grc,608,58,4,05/01/02,Harvard University Press,Resumen de: Frogs/Assemblywomen/Wealth (Loeb Classical Library 180),5,1,9,2
+508,Cliffs Notes on Aristophanes' Lysistrata  The Birds  The Clouds  The Frogs,W. John Campbell,2.8,822007762,49086007763,eng,80,5,0,12/29/1983,Cliffs Notes,Resumen de: Cliffs Notes on Aristophanes' Lysistrata  The Birds  The Clouds  The Frogs,1,1,8,3
+509,Aristophanes and Athens: An Introduction to the Plays,Douglas M. MacDowell,4.07,198721595,9.78E+12,eng,376,14,3,10/01/95,Oxford University Press,Resumen de: Aristophanes and Athens: An Introduction to the Plays,5,1,6,3
+510,Lysistrata,Aristophanes/Douglass Parker,3.85,451616227,9.78E+12,eng,98,19,2,02/01/70,Signet,Resumen de: Lysistrata,3,3,5,3
+511,Peace,Aristophanes/S. Douglas Olson,3.6,198140819,9.78E+12,eng,408,262,13,2/25/1999,Oxford University Press  USA,Resumen de: Peace,2,1,9,3
+512,Lysistrata,Aristophanes/Sarah Ruden,3.85,872206033,9.78E+12,eng,132,30604,552,03/01/03,Hackett Publishing Company  Inc.,Resumen de: Lysistrata,4,2,5,3
+513,The Knights / Peace / The Birds / The Assembly Women / Wealth,Aristophanes/Alan H. Sommerstein/David B. Barrett/David Brett,3.69,140443320,9.78E+12,en-US,335,42,1,7/27/1978,Penguin Classics,Resumen de: The Knights / Peace / The Birds / The Assembly Women / Wealth,1,1,1,1
+514,Genres in Dialogue: Plato and the Construct of Philosophy,Andrea Wilson Nightingale,4.33,521774330,9.78E+12,en-GB,238,5,2,4/13/2000,Cambridge University Press,Resumen de: Genres in Dialogue: Plato and the Construct of Philosophy,3,3,8,3
+515,The Curious Incident of the Dog in the Night-Time,Mark Haddon,3.88,1400032717,9.78E+12,eng,226,1054308,35537,5/18/2004,Vintage,Resumen de: The Curious Incident of the Dog in the Night-Time,2,1,7,1
+516,The Night Gardener,George Pelecanos,3.64,316156507,9.78E+12,eng,372,4067,357,08/08/06,Little Brown and Company,Resumen de: The Night Gardener,1,1,5,3
+517,Twelfth Night,William Shakespeare,3.98,743482778,9.78E+12,eng,272,138101,2513,07/01/04,Simon Schuster,Resumen de: Twelfth Night,1,1,4,3
+518,Brokeback Mountain,Annie Proulx,3.94,743271327,9.78E+12,eng,55,24985,1751,12/02/05,Scribner,Resumen de: Brokeback Mountain,5,4,1,3
+519,Getting Things Done: The Art of Stress-Free Productivity,David    Allen,3.99,142000280,9.78E+12,en-GB,267,105507,3838,12/31/2002,Penguin Books,Resumen de: Getting Things Done: The Art of Stress-Free Productivity,3,2,10,2
+520,Getting Things Done When You Are Not in Charge,Geoffrey M. Bellman,3.46,1576751724,9.78E+12,eng,176,75,12,8/27/2001,Berrett-Koehler Publishers,Resumen de: Getting Things Done When You Are Not in Charge,5,2,8,3
+521,Formas breves,Ricardo Piglia,4.17,843392463X,9.79E+12,spa,144,240,30,06/01/01,Anagrama,Resumen de: Formas breves,2,1,3,2
+522,El último lector,Ricardo Piglia,4.14,8433968777,9.79E+12,spa,209,331,24,7/15/2009,Anagrama,Resumen de: El último lector,5,4,7,3
+523,Money to Burn,Ricardo Piglia/Amanda Hopkinson,3.76,1862076650,9.78E+12,eng,209,69,12,08/01/04,Granta UK,Resumen de: Money to Burn,1,1,4,2
+524,Respiración artificial,Ricardo Piglia,3.96,8433924710,9.79E+12,spa,218,1279,77,03/01/08,Anagrama,Resumen de: Respiración artificial,4,4,3,1
+525,Plata quemada,Ricardo Piglia,3.76,8433924621,9.79E+12,spa,227,1098,65,07/01/05,Anagrama,Resumen de: Plata quemada,4,2,4,1
+526,American Government: Continuity and Change  Alternate Edition,Karen  O'Connor/Larry J. Sabato,2.83,321317106,9.78E+12,eng,664,0,0,03/11/05,Longman Publishing Group,Resumen de: American Government: Continuity and Change  Alternate Edition,3,2,10,1
+527,Essentials of American and Texas Government: Continuity and Change,Karen  O'Connor/Larry J. Sabato,3.5,321365208,9.78E+12,eng,854,0,0,7/29/2005,Longman Publishing Group,Resumen de: Essentials of American and Texas Government: Continuity and Change,1,1,3,3
+528,El túnel,Ernesto Sabato,4.05,8432216429,9.79E+12,spa,159,453,60,07/01/03,Seix Barral,Resumen de: El túnel,2,2,10,2
+529,The Confessions (Works of Saint Augustine 1),Augustine of Hippo/John E. Rotelle/Maria Boulding,3.92,1565480848,9.78E+12,eng,416,142,24,12/01/02,New City Press,Resumen de: The Confessions (Works of Saint Augustine 1),1,1,3,2
+530,The City of God,Augustine of Hippo/Thomas Merton/Marcus Dods,3.92,679783199,9.78E+12,eng,905,104,16,09/12/00,Random House,Resumen de: The City of God,2,1,3,3
+531,The Enchiridion on Faith Hope and Love (Augustine Series 1),Augustine of Hippo/Bruce Harbert/John E. Rotelle,4.04,1565481240,9.78E+12,eng,144,271,21,10/01/99,New City Press,Resumen de: The Enchiridion on Faith Hope and Love (Augustine Series 1),4,3,10,2
+532,Augustine of Hippo: A Biography,Peter R.L. Brown,4.27,520227573,9.78E+12,en-US,576,1643,97,11/24/2000,University of California Press,Resumen de: Augustine of Hippo: A Biography,2,1,8,2
+533,On Christian Doctrine,Augustine of Hippo/D.W. Robertson Jr.,4.03,24021504,9.78E+12,eng,191,2335,67,01/11/58,Library of Liberal Arts/Bobb-Merrill (Indianapolis  IN),Resumen de: On Christian Doctrine,4,3,7,2
+534,Confessions  Books 1-13,Augustine of Hippo/Peter R.L. Brown/Frank Sheed,3.92,872201864,9.78E+12,eng,296,84,8,01/01/93,Hackett Publ. Co Inc,Resumen de: Confessions  Books 1-13,4,1,10,3
+535,Saint Augustine,Garry Wills,3.55,143035983,9.78E+12,eng,176,259,30,8/30/2005,Penguin Books,Resumen de: Saint Augustine,2,2,6,1
+536,Augustine: A Very Short Introduction,Henry Chadwick,3.71,192854526,9.78E+12,eng,144,236,33,06/07/01,Oxford University Press  USA,Resumen de: Augustine: A Very Short Introduction,4,2,4,1
+537,On Genesis/A Refutation of the Manichees/The Unfinished Literal Meaning of Genesis (Works of St Augustine 1),Augustine of Hippo/Boniface Ramsey/Edmund Hill,3.94,1565482018,9.78E+12,eng,540,29,3,05/01/04,New City Press,Resumen de: On Genesis/A Refutation of the Manichees/The Unfinished Literal Meaning of Genesis (Works of St Augustine 1),5,5,3,2
+538,Kitchen Confidential: Adventures in the Culinary Underbelly,Anthony Bourdain,4.07,60934913,9.78E+12,eng,302,2488,266,05/01/01,Ecco Press,Resumen de: Kitchen Confidential: Adventures in the Culinary Underbelly,4,3,3,1
+539,Confesiones de un chef,Anthony Bourdain,4.07,8466308954,9.79E+12,spa,478,11,0,02/01/03,Santillana USA Publishing Company,Resumen de: Confesiones de un chef,4,4,4,1
+540,The Metamorphoses of Ovid,Ovid/Allen Mandelbaum,4.05,156001268,9.78E+12,eng,559,710,64,4/15/1995,Harcourt Brace,Resumen de: The Metamorphoses of Ovid,3,1,4,3
+541,Metamorphoses,Ovid/David Raeburn/Denis Feeney,4.05,014044789X,9.78E+12,eng,723,48223,764,08/03/04,Penguin,Resumen de: Metamorphoses,2,1,9,3
+542,Metamorphoses,Ovid/Bernard Knox/Charles    Martin,4.05,393058107,9.78E+12,eng,624,30,8,11/17/2003,W. W. Norton  Company,Resumen de: Metamorphoses,2,1,8,2
+543,Ovid's Metamorphoses: Books 1-5,Ovid/William Scovil Anderson,4.27,806128941,9.78E+12,eng,584,229,16,1/15/1998,University of Oklahoma Press,Resumen de: Ovid's Metamorphoses: Books 1-5,3,3,9,2
+544,Ovid’s Metamorphoses: Books 6-10,Ovid/William Scovil Anderson,4.32,806114568,9.78E+12,eng,560,32,3,1/15/1978,University of Oklahoma Press,Resumen de: Ovid’s Metamorphoses: Books 6-10,2,2,3,2
+545,Latin Via Ovid: A First Course,Norma Goldman/Jacob E. Nyenhuis,4.36,814317324,9.78E+12,en-US,524,78,8,09/01/82,Wayne State University Press,Resumen de: Latin Via Ovid: A First Course,2,1,8,1
+546,The Art of Love and Other Poems,Ovid/J.H. Mozley/G.P. Goold,4.02,674992555,9.78E+12,eng,400,98,5,01/01/29,Harvard University Press,Resumen de: The Art of Love and Other Poems,2,2,8,3
+547,The Poems of Exile: Tristia and the Black Sea Letters,Ovid/Peter Green,4.12,520242602,9.78E+12,eng,451,432,14,1/18/2005,University of California Press,Resumen de: The Poems of Exile: Tristia and the Black Sea Letters,5,4,6,1
+548,Metamorphoses: Volume 2  Books IX-XV,Ovid/Frank Justus Miller,4.52,674990471,9.78E+12,eng,499,61,4,01/01/85,Harvard University Press,Resumen de: Metamorphoses: Volume 2  Books IX-XV,4,1,4,2
+549,Metamorphoses: Volume I  Books I-VIII,Ovid/Frank Justus Miller,4.42,674990463,9.78E+12,eng,496,813,14,01/01/77,Harvard University Press,Resumen de: Metamorphoses: Volume I  Books I-VIII,4,4,4,1
+550,Practice! Practice!: A Latin Via Ovid Workbook,Norma Goldman/Michael  Rossi,4.08,814326110,9.78E+12,eng,152,12,0,07/01/95,Wayne State University Press,Resumen de: Practice! Practice!: A Latin Via Ovid Workbook,2,2,2,1
+551,Tibullus: A Commentary,Michael C.J. Putnam,3.71,806115602,9.78E+12,eng,222,7,1,11/15/1979,University of Oklahoma Press,Resumen de: Tibullus: A Commentary,2,2,1,1
+552,Dionysiac Poetics and Euripides' Bacchae,Charles Segal,4.62,069101597X,9.78E+12,eng,440,12,0,11/16/1997,Princeton University Press,Resumen de: Dionysiac Poetics and Euripides' Bacchae,5,4,8,1
+553,Antigone,Sophocles/Reginald Gibbons/Charles Segal,3.64,195143108,9.78E+12,eng,197,36,5,09/01/07,Oxford University Press,Resumen de: Antigone,1,1,9,1
+554,Antigone,Sophocles/Reginald Gibbons/Charles Segal,3.64,195143736,9.78E+12,eng,208,264,14,06/05/03,Oxford University Press  USA,Resumen de: Antigone,5,3,10,1
+555,Object-Oriented Programming in C++,Richard Johnsonbaugh/Martin Kalin,4.07,130158852,9.78E+12,eng,640,14,0,8/13/1999,Prentice Hall,Resumen de: Object-Oriented Programming in C++,3,2,7,3
+556,The Iliad,Homer/Robert Fitzgerald,3.86,1857150600,9.78E+12,eng,594,30,2,3/19/1992,Everyman,Resumen de: The Iliad,4,3,8,3
+557,Love  Sex & Tragedy: How the Ancient World Shapes Our Lives,Simon Goldhill,3.79,226301192,9.78E+12,eng,345,122,16,11/01/05,University of Chicago Press,Resumen de: Love  Sex & Tragedy: How the Ancient World Shapes Our Lives,1,1,6,3
+558,Reading Greek Tragedy,Simon Goldhill,4.12,521315794,9.78E+12,eng,302,32,3,08/05/86,Cambridge University Press,Resumen de: Reading Greek Tragedy,4,2,8,3
+559,Who Needs Greek? Contests in the Cultural History of Hellenism,Simon Goldhill,3.4,521011760,9.78E+12,eng,334,10,1,04/04/02,Cambridge University Press,Resumen de: Who Needs Greek? Contests in the Cultural History of Hellenism,1,1,2,1
+560,Foucault's Virginity: Ancient Erotic Fiction & the History of Sexuality (Stanford Memorial Lecture),Simon Goldhill,3.73,521479347,9.78E+12,eng,212,10,0,1/26/1995,Cambridge University Press,Resumen de: Foucault's Virginity: Ancient Erotic Fiction & the History of Sexuality (Stanford Memorial Lecture),5,4,4,2
+561,2012: The Return of Quetzalcoatl,Daniel Pinchbeck,3.42,1585424838,9.78E+12,en-US,408,1416,217,05/04/06,Tarcher,Resumen de: 2012: The Return of Quetzalcoatl,1,1,3,1
+562,Breaking Open the Head: A Psychedelic Journey Into the Heart of Contemporary Shamanism,Daniel Pinchbeck/Lee Fukui,4.06,767907434,9.78E+12,en-US,336,2799,166,08/12/03,Three Rivers Press (CA),Resumen de: Breaking Open the Head: A Psychedelic Journey Into the Heart of Contemporary Shamanism,4,4,6,1
+563,Them: Adventures with Extremists,Jon Ronson,3.95,743233212,9.78E+12,eng,336,11990,831,01/07/03,Simon  Schuster,Resumen de: Them: Adventures with Extremists,1,1,8,1
+564,The Men Who Stare at Goats,Jon Ronson,3.61,743270606,9.78E+12,eng,259,10679,899,04/10/06,Simon  Schuster,Resumen de: The Men Who Stare at Goats,5,4,3,2
+565,Guns  Germs and Steel: The Fates of Human Societies,Jared Diamond,4.03,393061310,9.78E+12,eng,518,4356,404,07/11/05,W.W. Norton,Resumen de: Guns  Germs and Steel: The Fates of Human Societies,1,1,7,3
+566,Caught Inside: A Surfer's Year on the California Coast,Daniel Duane,3.87,865475091,9.78E+12,eng,256,633,60,04/10/97,North Point Press,Resumen de: Caught Inside: A Surfer's Year on the California Coast,1,1,5,3
+567,Into the Wild,Jon Krakauer,3.98,385486804,9.78E+12,eng,207,800349,18198,1/20/1997,Anchor Books,Resumen de: Into the Wild,2,2,9,1
+568,Wild at Heart: Discovering the Secret of a Man's Soul,John Eldredge,3.92,785268839,9.78E+12,eng,256,55106,1503,04/01/01,Thomas Nelson,Resumen de: Wild at Heart: Discovering the Secret of a Man's Soul,2,2,6,2
+569,Wild Swans: Three Daughters of China,Jung Chang,4.26,743246985,9.78E+12,eng,562,73572,4280,08/12/03,Simon  Schuster,Resumen de: Wild Swans: Three Daughters of China,5,2,2,3
+570,Wild Fire (John Corey  #4),Nelson DeMille,4.01,044657967X,9.78E+12,eng,519,20909,944,11/06/06,Warner Books (NY),Resumen de: Wild Fire (John Corey  #4),3,3,3,2
+571,Born to Be Wild,Catherine Coulter,3.78,515142395,9.78E+12,eng,354,2456,115,7/25/2006,Jove,Resumen de: Born to Be Wild,1,1,1,2
+572,The Call of the Wild,Jack London/Avi,3.86,439227143,9.78E+12,eng,172,274649,7203,01/01/01,Scholastic,Resumen de: The Call of the Wild,3,2,5,1
+573,Wild About Books,Judy Sierra/Marc Brown,4.17,037582538X,9.78E+12,eng,40,4541,378,08/10/04,Alfred A. Knopf Books for Young Readers,Resumen de: Wild About Books,1,1,10,3
+574,In Web Design for Libraries,Charles P. Rubenstein,2.67,1591583667,9.78E+12,eng,196,9,2,12/01/06,Libraries Unlimited,Resumen de: In Web Design for Libraries,2,2,5,1
+575,Nickel and Dimed: On (Not) Getting by in America,Barbara Ehrenreich,3.63,805063897,9.78E+12,eng,240,168362,5762,05/01/02,Owl Books (Henry Holt),Resumen de: Nickel and Dimed: On (Not) Getting by in America,1,1,6,1
+576,The History of Sexuality 1: An Introduction,Michel Foucault/Robert Hurley,4.04,394417755,9.78E+12,eng,168,15,3,10/01/78,Pantheon Books (NY),Resumen de: The History of Sexuality 1: An Introduction,4,3,4,3
+577,The History of Sexuality  Volume 1: The Will to Knowledge,Michel Foucault/Robert Hurley,4.04,140268685,9.78E+12,eng,168,313,27,10/29/1998,Penguin,Resumen de: The History of Sexuality  Volume 1: The Will to Knowledge,2,2,10,3
+578,The History of Sexuality  Volume 2: The Use of Pleasure,Michel Foucault/Robert Hurley,4.08,140137343,9.78E+12,eng,304,51,2,7/30/1998,Penguin,Resumen de: The History of Sexuality  Volume 2: The Use of Pleasure,5,3,2,3
+579,The Making of Pride and Prejudice,Sue Birtwistle/Sue Conklin/Susie Conklin,4.45,014025157X,9.78E+12,eng,128,4244,99,09/07/95,Penguin Books Ltd,Resumen de: The Making of Pride and Prejudice,5,1,9,2
+580,Pride and Prejudice,Jane Austen,4.26,192802380,9.78E+12,eng,333,2399,253,02/11/04,Oxford University Press,Resumen de: Pride and Prejudice,1,1,6,1
+581,Pride & Prejudice,Jane Austen/Vivien Jones,4.26,143036238,9.78E+12,eng,392,1821,210,09/01/05,Penguin Books,Resumen de: Pride & Prejudice,4,3,5,2
+582,Pride and Prejudice,Jane Austen/George Saintsbury/Hugh  Thomson,4.26,486440915,9.78E+12,eng,476,1146,166,05/05/05,Dover Publications,Resumen de: Pride and Prejudice,2,2,10,3
+583,Pride and Prejudice,Jane Austen/Carol Howard,4.26,1593083246,9.78E+12,eng,392,1628,171,9/20/2004,Barnes  Noble Classics,Resumen de: Pride and Prejudice,1,1,9,2
+584,Under the Banner of Heaven: A Story of Violent Faith,Jon Krakauer,4,1400032806,9.78E+12,eng,399,7481,1022,07/10/03,Anchor Books,Resumen de: Under the Banner of Heaven: A Story of Violent Faith,1,1,6,1
+585,Iceland: Land of the Sagas,David  Roberts/Jon Krakauer,3.71,375752676,9.78E+12,eng,160,330,40,10/06/98,Villard,Resumen de: Iceland: Land of the Sagas,3,1,7,1
+586,Into Thin Air: A Personal Account of the Mount Everest Disaster,Jon Krakauer,4.17,385494785,9.78E+12,eng,368,351406,11701,10/19/1999,Anchor Books,Resumen de: Into Thin Air: A Personal Account of the Mount Everest Disaster,5,3,5,2
+587,In the Land of White Death: An Epic Story of Survival in the Siberian Arctic,Valerian Albanov/Jon Krakauer/David  Roberts/Alison Anderson/Валериан Альбанов,4.01,067978361X,9.78E+12,eng,288,1910,136,09/04/01,Modern Library,Resumen de: In the Land of White Death: An Epic Story of Survival in the Siberian Arctic,2,1,6,2
+588,The World Is Flat: A Brief History of the Twenty-first Century,Thomas L. Friedman,3.68,374292795,9.78E+12,eng,616,87570,2800,4/18/2006,Farrar  Straus and Giroux (NY),Resumen de: The World Is Flat: A Brief History of the Twenty-first Century,1,1,9,2
+589,La Tierra es plana: Breve historia del mundo globalizado del siglo XXI,Thomas L. Friedman,3.68,8427032226,9.79E+12,spa,495,38,0,01/01/06,Planeta Publishing,Resumen de: La Tierra es plana: Breve historia del mundo globalizado del siglo XXI,1,1,5,1
+590,The Avalanche Handbook,David McClung/Peter Schaerer,4.07,898868092,9.78E+12,eng,342,43,1,10/12/06,Mountaineers Books,Resumen de: The Avalanche Handbook,2,2,7,1
+591,Avalanche,Arthur J. Roth,3.65,590422677,9.78E+12,eng,144,273,36,01/01/89,Scholastic,Resumen de: Avalanche,2,1,2,1
+592,Little Women,Louisa May Alcott,4.07,451529308,9.78E+12,eng,449,1479727,18458,04/06/04,Signet Classics,Resumen de: Little Women,5,4,10,2
+593,Little Women (Little Women  #1),Louisa May Alcott/Scott McKowen,4.07,1402714580,9.78E+12,eng,536,1395,131,10/01/04,Sterling,Resumen de: Little Women (Little Women  #1),2,2,9,2
+594,Little Women,Louisa May Alcott/Paula Danziger,4.07,439101360,9.78E+12,eng,562,462,45,01/01/00,Scholastic Paperbacks,Resumen de: Little Women,2,2,1,3
+595,Little Women,Louisa May Alcott/Jessie Willcox Smith/Frank T. Merrill,4.07,517221160,9.78E+12,eng,389,166,9,09/03/02,Gramercy Books,Resumen de: Little Women,2,1,9,3
+596,Little Women  Little Men  Jo's Boys,Louisa May Alcott/Elaine Showalter,4.33,1931082731,9.78E+12,eng,1064,3124,87,2/17/2005,Library of America,Resumen de: Little Women  Little Men  Jo's Boys,3,3,1,3
+597,Little Women,Louisa May Alcott,4.07,1904633277,9.78E+12,eng,327,83,9,02/01/04,Collector's Library,Resumen de: Little Women,2,1,7,2
+598,A Tale of Two Cities,Charles Dickens/Keith Cox/Cynthia Brantley Johnson,3.84,743487605,9.78E+12,eng,496,131,28,05/01/04,Simon  Schuster,Resumen de: A Tale of Two Cities,2,1,1,2
+599,A Tale of Two Cities,Charles Dickens/Gillen D'Arcy Wood,3.84,1593081383,9.78E+12,eng,409,1343,183,7/25/2004,Barnes & Noble Classics,Resumen de: A Tale of Two Cities,3,3,5,2
+600,A Tale of Two Cities: Charles Dickens,SparkNotes,4,158663352X,9.78E+12,eng,96,10,1,01/10/02,Spark Publishing,Resumen de: A Tale of Two Cities: Charles Dickens,5,1,8,3
+601,A Tale of Two Cities,Charles Dickens/Gillen D'Arcy Wood,3.84,1593080557,9.78E+12,en-US,429,730,88,12/01/03,Barnes  Noble Classics,Resumen de: A Tale of Two Cities,4,4,9,1
+602,A Tale of Two Cities,Charles Dickens/Simon Schama,3.84,1857151437,9.78E+12,eng,432,39,9,3/18/1993,Everyman's Library,Resumen de: A Tale of Two Cities,2,1,3,1
+603,Den of Thieves,James B. Stewart,4.16,067179227X,9.78E+12,en-US,592,9718,216,09/01/92,Simon  Schuster,Resumen de: Den of Thieves,1,1,8,3
+604,Den of Thieves (Cat Royal  #3),Julia Golding,4.21,1405228180,9.78E+12,eng,416,1432,61,1/31/2007,Egmont Books Ltd,Resumen de: Den of Thieves (Cat Royal  #3),5,2,2,2
+605,Charles Dickens: Four Novels:  Great Expectations  Hard Times  A Christmas Carol  and A Tale of Two Cities,Charles Dickens,4.3,517093391,9.78E+12,en-US,848,32,2,10/02/93,Gramercy,Resumen de: Charles Dickens: Four Novels:  Great Expectations  Hard Times  A Christmas Carol  and A Tale of Two Cities,1,1,8,2
+606,Bleak House,Charles Dickens/Mary Gaitskill/Hablot Knight Browne,4.01,375760059,9.78E+12,eng,887,1235,146,07/09/02,Modern Library,Resumen de: Bleak House,4,4,1,1
+607,David Copperfield,Charles Dickens/Gish Jen,3.99,451530047,9.78E+12,eng,928,355,17,02/07/06,Signet,Resumen de: David Copperfield,5,4,7,1
+608,What Jane Austen Ate and Charles Dickens Knew: From Fox Hunting to Whist—the Facts of Daily Life in 19th-Century England,Daniel Pool,3.85,671882368,9.78E+12,en-US,416,4873,501,4/21/1994,Touchstone,Resumen de: What Jane Austen Ate and Charles Dickens Knew: From Fox Hunting to Whist—the Facts of Daily Life in 19th-Century England,5,2,5,3
+609,Charles Dickens,Jane Smiley,3.82,670030775,9.78E+12,eng,224,552,81,5/13/2002,Viking,Resumen de: Charles Dickens,1,1,5,1
+610,Martin Chuzzlewit,Charles Dickens/Patricia Ingham/Hablot Knight Browne,3.83,140436146,9.78E+12,eng,830,13212,394,11/25/1999,Penguin Classics,Resumen de: Martin Chuzzlewit,4,2,6,2
+611,Why Is Sex Fun? The Evolution of Human Sexuality (Science Masters),Jared Diamond,3.71,465031269,9.78E+12,eng,176,4532,278,9/25/1998,Basic Books,Resumen de: Why Is Sex Fun? The Evolution of Human Sexuality (Science Masters),2,2,1,1
+612,The Third Chimpanzee: The Evolution & Future of the Human Animal,Jared Diamond,4.06,60183071,9.78E+12,eng,407,59,1,01/01/92,HarperCollins Publishers,Resumen de: The Third Chimpanzee: The Evolution & Future of the Human Animal,2,2,1,3
+613,J.K.Rowling,Colleen Sexton,3.84,822533898,9.78E+12,eng,112,127,10,09/01/05,Lerner Publications,Resumen de: J.K.Rowling,1,1,4,2
+614,Harry Potter Schoolbooks Box Set: Two Classic Books from the Library of Hogwarts School of Witchcraft and Wizardry,J.K. Rowling,4.4,043932162X,9.78E+12,eng,240,11515,139,11/01/01,Arthur A. Levine,Resumen de: Harry Potter Schoolbooks Box Set: Two Classic Books from the Library of Hogwarts School of Witchcraft and Wizardry,4,2,5,3
+615,J.K. Rowling's Harry Potter Novels: A Reader's Guide,Philip Nel,3.58,826452329,9.78E+12,eng,96,78,9,9/26/2001,Bloomsbury Academic,Resumen de: J.K. Rowling's Harry Potter Novels: A Reader's Guide,1,1,2,2
+616,Harry Potter and the Half-Blood Prince (Harry Potter  #6),J.K. Rowling,4.57,747584664,9.78E+12,eng,768,1213,78,6/23/2006,Bloomsbury Publishing,Resumen de: Harry Potter and the Half-Blood Prince (Harry Potter  #6),5,3,7,1
+617,The Santaroga Barrier,Frank Herbert,3.66,765342510,9.78E+12,eng,256,1625,85,9/16/2002,Tor Books,Resumen de: The Santaroga Barrier,5,5,1,3
+618,The Dosadi Experiment (ConSentiency Universe  #2),Frank Herbert,3.81,765342537,9.78E+12,eng,320,6146,150,9/16/2002,Tor Books,Resumen de: The Dosadi Experiment (ConSentiency Universe  #2),1,1,3,1
+619,The Eyes of Heisenberg,Frank Herbert,3.43,765342529,9.78E+12,eng,192,1485,76,9/16/2002,Tor Books,Resumen de: The Eyes of Heisenberg,4,4,4,3
+620,The Birds (Methuen Drama),Sean O'Brien,2.67,413772780,9.78E+12,en-GB,96,3,1,7/22/2002,Bloomsbury Methuen Drama,Resumen de: The Birds (Methuen Drama),3,3,3,3
+621,The Frogs,Aristophanes/B.B. Rogers,3.8,1420926713,9.78E+12,en-US,88,3,1,01/01/05,Digireads.com,Resumen de: The Frogs,2,1,8,1
+622,Lysistrata,Aristophanes/Jeffrey Henderson,3.85,198144962,9.78E+12,eng,320,76,6,6/21/1990,OUP Oxford,Resumen de: Lysistrata,3,1,9,2
+623,"Myths of the Underworld Journey: Plato  Aristophanes  and the ""Orphic"" Gold Tablets",Radcliffe G. Edmonds III,3.75,521834341,9.78E+12,eng,276,3,0,11/18/2004,Cambridge University Press,"Resumen de: Myths of the Underworld Journey: Plato  Aristophanes  and the ""Orphic"" Gold Tablets",1,1,2,3
+624,Assembly of Women (Literary Classics),Aristophanes/Robert Mayhew,3.77,1573921335,9.78E+12,en-GB,124,56,4,04/01/97,Prometheus Books,Resumen de: Assembly of Women (Literary Classics),4,1,3,2
+625,Comoediae 1: Acharenses/Equites/Nubes/Vespae/Pax/Aves,Aristophanes/F.W. Hall/W.M. Geldart,5,198145047,9.78E+12,grc,364,0,0,2/22/1922,Oxford University Press  USA,Resumen de: Comoediae 1: Acharenses/Equites/Nubes/Vespae/Pax/Aves,3,1,7,2
+626,Aristophanes and His Theatre of the Absurd,Paul Anthony Cartledge,3.86,1853991147,9.78E+12,eng,127,7,1,06/01/91,Bristol Classical Press,Resumen de: Aristophanes and His Theatre of the Absurd,1,1,10,3
+627,Later Novels and Other Writings: The Lady in the Lake / The Little Sister / The Long Goodbye / Playback / Double Indemnity (screenplay) / Selected Essays and Letters,Raymond Chandler/Frank MacShane,4.47,1883011086,9.78E+12,eng,1076,1107,48,10/01/95,Library of America,Resumen de: Later Novels and Other Writings: The Lady in the Lake / The Little Sister / The Long Goodbye / Playback / Double Indemnity (screenplay) / Selected Essays and Letters,1,1,8,2
+628,Stories and Early Novels: Pulp Stories / The Big Sleep / Farewell  My Lovely / The High Window,Raymond Chandler/Frank MacShane,4.5,1883011078,9.78E+12,eng,1199,1324,66,10/01/95,Library of America,Resumen de: Stories and Early Novels: Pulp Stories / The Big Sleep / Farewell  My Lovely / The High Window,1,1,9,2
+629,The Lady in the Lake  The Little Sister  The Long Goodbye  Playback (Everyman's Library),Raymond Chandler/Tom Hiney,4.45,375415025,9.78E+12,eng,1016,241,11,10/15/2002,Everyman's Library,Resumen de: The Lady in the Lake  The Little Sister  The Long Goodbye  Playback (Everyman's Library),2,2,1,2
+630,The High Window (Philip Marlowe  #3),Raymond Chandler,4.08,394758269,9.78E+12,eng,265,13233,570,08/12/92,Vintage Crime/Black Lizard,Resumen de: The High Window (Philip Marlowe  #3),2,1,9,3
+631,The Simple Art of Murder,Raymond Chandler,4.16,394757653,9.78E+12,eng,384,4952,162,09/12/88,Vintage Crime/Black Lizard,Resumen de: The Simple Art of Murder,4,4,3,3
+632,The Big Sleep (Philip Marlowe  #1),Raymond Chandler,4.01,394758285,9.78E+12,eng,231,103400,4076,07/12/88,Vintage Crime,Resumen de: The Big Sleep (Philip Marlowe  #1),4,4,7,2
+633,The Long Goodbye (Philip Marlowe  #6),Raymond Chandler,4.22,394757688,9.78E+12,eng,379,26389,1619,08/12/88,Vintage Crime/Black Lizard,Resumen de: The Long Goodbye (Philip Marlowe  #6),3,2,7,2
+634,An Evening of Long Goodbyes,Paul Murray,3.6,812970403,9.78E+12,eng,448,983,130,9/13/2005,Random House Trade Paperbacks,Resumen de: An Evening of Long Goodbyes,4,4,3,1
+635,The Long Goodbye: Memories of My Father,Patti   Davis,3.82,452286875,9.78E+12,eng,205,214,31,10/01/05,Plume Books,Resumen de: The Long Goodbye: Memories of My Father,4,4,9,1
+636,Ghost In the Shell 2: Innocence: After the Long Goodbye,Masaki Yamada/Yuji Oniki/Carl Gustav Horn,3.97,1421501562,9.78E+12,eng,196,250,12,10/11/05,VIZ Media LLC,Resumen de: Ghost In the Shell 2: Innocence: After the Long Goodbye,5,3,2,1
+637,The Long Goodbye (Philip Marlowe  #6),Raymond Chandler,4.22,056352474X,9.78E+12,eng,2,10,2,9/20/2004,BBC Worldwide,Resumen de: The Long Goodbye (Philip Marlowe  #6),1,1,9,3
+638,Breaking the Spell: Religion as a Natural Phenomenon,Daniel C. Dennett,3.89,067003472X,9.78E+12,eng,448,10135,330,2/24/2006,Viking Books,Resumen de: Breaking the Spell: Religion as a Natural Phenomenon,2,2,5,2
+639,Darwin's Dangerous Idea: Evolution and the Meanings of Life,Daniel C. Dennett,4.04,068482471X,9.78E+12,eng,588,13563,235,06/12/96,Simon  Schuster,Resumen de: Darwin's Dangerous Idea: Evolution and the Meanings of Life,4,4,5,3
+640,Freedom Evolves,Daniel C. Dennett,3.83,142003840,9.78E+12,eng,368,2324,88,1/27/2004,Penguin,Resumen de: Freedom Evolves,2,1,4,1
+641,Brainstorms: Philosophical Essays on Mind and Psychology,Daniel C. Dennett,3.95,262540371,9.78E+12,eng,424,573,11,7/13/1981,MIT Press,Resumen de: Brainstorms: Philosophical Essays on Mind and Psychology,3,3,10,3
+642,Kinds of Minds: Towards an Understanding of Consciousness,Daniel C. Dennett,3.82,465073514,9.78E+12,eng,192,1555,63,06/12/97,Basic Books,Resumen de: Kinds of Minds: Towards an Understanding of Consciousness,1,1,3,2
+643,Leaps of Faith: Science  Miracles & the Search for Supernatural Consolation,Nicholas Humphrey/Daniel C. Dennett,3.61,387987207,9.78E+12,en-US,244,21,3,06/04/99,Copernicus Books,Resumen de: Leaps of Faith: Science  Miracles & the Search for Supernatural Consolation,5,5,1,3
+644,Elbow Room: The Varieties of Free Will Worth Wanting,Daniel C. Dennett,3.92,262540428,9.78E+12,eng,212,515,37,11/21/1984,MIT Press,Resumen de: Elbow Room: The Varieties of Free Will Worth Wanting,2,1,5,2
+645,The Mind’s I: Fantasies and Reflections on Self and Soul,Douglas R. Hofstadter/Daniel C. Dennett,4.14,553345842,9.78E+12,eng,512,4786,92,04/01/85,Bantam Books,Resumen de: The Mind’s I: Fantasies and Reflections on Self and Soul,4,3,7,3
+646,The Illustrated A Brief History of Time,Stephen Hawking,4.17,553103741,9.78E+12,eng,256,817,63,11/01/96,Bantam Books,Resumen de: The Illustrated A Brief History of Time,2,2,3,2
+647,A Briefer History of Time,Stephen Hawking/Leonard Mlodinow,4.22,553804367,9.78E+12,eng,176,24035,828,9/27/2005,Bantam,Resumen de: A Briefer History of Time,2,1,9,1
+648,The Universe in a Nutshell,Stephen Hawking,4.15,055380202X,9.78E+12,eng,216,29607,645,11/06/01,Bantam,Resumen de: The Universe in a Nutshell,5,1,3,1
+649,God Created the Integers: The Mathematical Breakthroughs That Changed History,Stephen Hawking,4.07,762419229,9.78E+12,eng,1160,1682,51,10/04/05,Running Press Book Publishers,Resumen de: God Created the Integers: The Mathematical Breakthroughs That Changed History,4,2,7,1
+650,Stephen Hawking's Universe: The Cosmos Explained,David Filkin/Stephen Hawking,4.29,465081983,9.78E+12,eng,304,1469,22,10/09/98,Basic Books,Resumen de: Stephen Hawking's Universe: The Cosmos Explained,3,2,7,1
+651,The Future of Spacetime,Stephen Hawking/Kip S. Thorne/Igor Novikov/Timothy Ferris/Alan Lightman/Richard     Price,3.94,039332446X,9.78E+12,eng,224,257,10,6/17/2003,W. W. Norton  Company,Resumen de: The Future of Spacetime,2,2,7,3
+652,Stephen Hawking's Universe,John Boslough,4.02,380707632,9.78E+12,eng,160,674,30,06/01/89,Avon,Resumen de: Stephen Hawking's Universe,4,1,3,2
+653,The Nature of Space and Time,Stephen Hawking/Roger Penrose,4.09,691050848,9.78E+12,eng,152,989,40,10/08/00,Princeton University Press,Resumen de: The Nature of Space and Time,2,2,8,1
+654,The Physics of Star Trek,Lawrence M. Krauss/Stephen Hawking,3.83,60977108,9.78E+12,eng,188,4774,178,8/16/1996,ReganBooks,Resumen de: The Physics of Star Trek,1,1,8,3
+655,Falconry & Hawking,Phillip Glasier,4.31,713484071,9.78E+12,eng,352,51,5,02/01/06,Batsford,Resumen de: Falconry & Hawking,2,2,10,1
+656,The World Treasury of Physics  Astronomy & Mathematics from Albert Einstein to Stephen W. Hawking & from Annie Dillard to John Updike,Timothy Ferris,4.13,316281336,9.78E+12,eng,859,371,12,6/30/1993,Back Bay Books,Resumen de: The World Treasury of Physics  Astronomy & Mathematics from Albert Einstein to Stephen W. Hawking & from Annie Dillard to John Updike,3,3,1,3
+657,The Art of Nonfiction: A Guide for Writers and Readers,Ayn Rand/Robert Mayhew/Peter   Schwartz,3.96,452282314,9.78E+12,en-US,192,429,39,02/01/01,New American Library,Resumen de: The Art of Nonfiction: A Guide for Writers and Readers,1,1,4,2
+658,The Journals of Ayn Rand,Ayn Rand/Leonard Peikoff/David Harriman,3.94,452278872,9.78E+12,eng,752,317,14,08/01/99,NAL,Resumen de: The Journals of Ayn Rand,2,1,3,2
+659,The Fountainhead,Ayn Rand/Leonard Peikoff,3.87,451191153,9.78E+12,eng,704,271754,10063,09/01/96,Signet Book,Resumen de: The Fountainhead,5,3,4,2
+660,The 36-Hour Day: A Family Guide to Caring for Persons with Alzheimer Disease  Related Dementing Illnesses  and Memory Loss in Later Life,Nancy L. Mace/Peter V. Rabins,4.24,446618764,9.78E+12,eng,624,69,6,11/01/06,Grand Central Life & Style,Resumen de: The 36-Hour Day: A Family Guide to Caring for Persons with Alzheimer Disease  Related Dementing Illnesses  and Memory Loss in Later Life,1,1,10,3
+661,The 3-Hour Diet: On the Go,Jorge Cruise,3.1,60793198,9.78E+12,en-US,192,31,2,10/18/2005,William Morrow Paperbacks,Resumen de: The 3-Hour Diet: On the Go,1,1,5,2
+662,The Last Hours of Ancient Sunlight: The Fate of the World and What We Can Do Before It's Too Late,Thom Hartmann/Joseph Chilton Pearce/Neale Donald Walsch,4.23,1400051576,9.78E+12,en-US,400,1392,136,4/27/2004,Broadway Books,Resumen de: The Last Hours of Ancient Sunlight: The Fate of the World and What We Can Do Before It's Too Late,1,1,2,2
+663,Specimen Days,Michael Cunningham,3.58,312425023,9.78E+12,eng,336,4462,446,4/18/2006,Picador USA,Resumen de: Specimen Days,5,5,10,3
+664,A Home at the End of the World,Michael Cunningham,3.91,312424086,9.78E+12,eng,342,14769,658,07/01/04,Picador,Resumen de: A Home at the End of the World,4,2,2,1
+665,Blink: The Power of Thinking Without Thinking,Malcolm Gladwell,3.93,316172324,9.78E+12,en-US,277,4254,355,01/11/05,Little  Brown and Company,Resumen de: Blink: The Power of Thinking Without Thinking,1,1,10,3
+666,Blink,Ted Dekker,4.17,849945119,9.78E+12,eng,400,13334,502,10/11/04,Thomas Nelson,Resumen de: Blink,5,5,5,3
+667,Blink-182: Tales from Beneath Your Mom,Mark Hoppus/Anne Hoppus/Alex Gaskarth,4.39,743422074,9.78E+12,eng,112,169,22,10/02/01,MTV Books,Resumen de: Blink-182: Tales from Beneath Your Mom,3,1,6,1
+668,The Complete Novels,Jane Austen/Hugh  Thomson,4.55,517147688,9.78E+12,eng,1103,300,31,09/03/95,Gramercy Books,Resumen de: The Complete Novels,1,1,3,3
+669,The Jane Austen Book Club,Karen Joy Fowler,3.08,452286530,9.78E+12,eng,288,57720,3535,4/26/2005,G.P. Putnam's Sons,Resumen de: The Jane Austen Book Club,4,2,8,2
+670,Jane Austen: The Complete Novels,Jane Austen,4.55,517118297,9.78E+12,eng,1103,267,24,06/01/94,Gramercy Books,Resumen de: Jane Austen: The Complete Novels,5,5,10,1
+671,Jane Austen's Letters,Jane Austen/Deirdre Le Faye,4.16,192832972,9.78E+12,eng,672,2278,69,04/03/97,Oxford University Press  USA,Resumen de: Jane Austen's Letters,1,1,4,3
+672,Persuasion,Jane Austen/James Kinsley/Anna Massey/Richard S. Hartmetz/Maurgaux Motin/Deidre Shauna Lynch,4.14,192802631,9.78E+12,eng,249,441462,11308,3/18/2004,Oxford University Press,Resumen de: Persuasion,5,5,9,2
+673,Tea with Jane Austen,Kim Wilson/Tom Carpenter,3.79,097212179X,9.78E+12,eng,128,1442,108,09/03/04,Jones Books,Resumen de: Tea with Jane Austen,3,3,8,3
+674,The Old Man and the Sea,Ernest Hemingway/Donald Sutherland,3.77,743564367,9.78E+12,eng,3,393,77,05/01/06,Simon  Schuster Audio,Resumen de: The Old Man and the Sea,1,1,9,1
+675,Cliffs Notes on Hemingway's The Old Man and the Sea,Jeanne Sallade Criswell/Gary Carey,2.83,764586602,9.78E+12,en-US,80,4,0,12/05/00,Cliffs Notes,Resumen de: Cliffs Notes on Hemingway's The Old Man and the Sea,4,4,4,1
+676,Flaubert's Parrot,Julian Barnes,3.66,679731369,9.78E+12,eng,190,9373,606,11/27/1990,Vintage,Resumen de: Flaubert's Parrot,3,1,9,2
+677,Flaubert in Egypt: A Sensibility on Tour,Gustave Flaubert/Francis Steegmuller,3.62,140435824,9.78E+12,eng,230,378,31,3/30/1996,Penguin Books (Penguin Classics),Resumen de: Flaubert in Egypt: A Sensibility on Tour,4,1,10,1
+678,A Sentimental Education,Gustave Flaubert/Douglas Parmée,3.83,192836226,9.78E+12,eng,464,105,7,5/18/2000,Oxford University Press,Resumen de: A Sentimental Education,5,3,7,2
+679,Three Tales,Gustave Flaubert/Roger Whitehouse/Geoffrey Wall,3.69,140448004,9.78E+12,eng,110,3190,150,1/27/2005,Penguin Classics,Resumen de: Three Tales,3,1,9,1
+680,Sentimental Education,Gustave Flaubert/Robert Baldick/Geoffrey Wall,3.83,140447970,9.78E+12,eng,460,13499,388,02/05/04,Penguin Classics,Resumen de: Sentimental Education,5,2,10,2
+681,The Family Idiot 5: Gustave Flaubert 1821-1857,Jean-Paul Sartre/Carol Cosman,3.8,226735192,9.78E+12,en-US,632,5,1,1/26/1994,University of Chicago Press,Resumen de: The Family Idiot 5: Gustave Flaubert 1821-1857,4,3,10,3
+682,Middlesex,Jeffrey Eugenides,4,312422156,9.78E+12,eng,529,540349,19548,9/16/2003,Picador USA,Resumen de: Middlesex,3,2,10,1
+683,Team of Rivals: The Political Genius of Abraham Lincoln,Doris Kearns Goodwin,4.28,743270754,9.78E+12,eng,916,133840,6118,9/26/2006,Simon & Schuster,Resumen de: Team of Rivals: The Political Genius of Abraham Lincoln,2,1,6,1
+684,John Adams,David McCullough,4.06,743223136,9.78E+12,eng,751,282649,5325,5/22/2001,Simon & Schuster Paperbacks,Resumen de: John Adams,5,1,10,3
+685,The John Adams Reader: Eseential Writings on an American Composer,Thomas May/John   Adams,3.5,1574671324,9.78E+12,eng,455,20,5,06/01/06,Amadeus,Resumen de: The John Adams Reader: Eseential Writings on an American Composer,5,2,8,1
+686,The Letters of John and Abigail Adams,Abigail Adams/Frank Shuffelton,4.14,142437115,9.78E+12,eng,512,275,28,12/30/2003,Penguin Classics,Resumen de: The Letters of John and Abigail Adams,5,2,7,3
+687,Passionate Sage: The Character and Legacy of John Adams,Joseph J. Ellis,4.05,393311333,9.78E+12,eng,288,2622,78,2/17/2001,W. W. Norton  Company,Resumen de: Passionate Sage: The Character and Legacy of John Adams,1,1,1,3
+688,The Portable John Adams,John  Adams/John Patrick Diggins,4.17,142437786,9.78E+12,eng,533,57,0,6/29/2004,Penguin Books,Resumen de: The Portable John Adams,4,3,3,3
+689,Sex For Dummies,Ruth Westheimer,3.65,076455302X,9.78E+12,eng,432,10,0,12/28/2000,For Dummies,Resumen de: Sex For Dummies,4,2,2,2
+690,Baby Signing For Dummies,Jennifer Watson,3.64,471773867,9.78E+12,eng,257,37,9,10/01/06,John Wiley & Sons,Resumen de: Baby Signing For Dummies,3,2,1,1
+691,The Feeling Good Handbook,David D. Burns,4,452281326,9.78E+12,eng,729,4797,124,10/28/1999,Penguin,Resumen de: The Feeling Good Handbook,3,2,2,3
+692,On Death and Dying,Elisabeth Kübler-Ross,4.16,684842238,9.78E+12,eng,288,144,10,07/02/97,Scribner,Resumen de: On Death and Dying,1,1,9,3
+693,Questions and Answers on Death and Dying: A Companion Volume to On Death and Dying,Elisabeth Kübler-Ross,4.07,684839377,9.78E+12,eng,192,197,7,06/09/97,Scribner,Resumen de: Questions and Answers on Death and Dying: A Companion Volume to On Death and Dying,5,4,1,1
+694,The Last Dance: Encountering Death and Dying,Lynne Ann DeSpelder/Albert Lee Strickland,3.77,72920963,9.78E+12,eng,664,123,13,02/06/04,McGraw-Hill Humanities/Social Sciences/Languages,Resumen de: The Last Dance: Encountering Death and Dying,4,2,7,3
+695,Mahatma Gandhi and His Myths: Civil Disobedience  Nonviolence  and Satyagraha in the Real World (Plus Why It's Gandhi  Not Ghandi),Mark Shepard,3.62,938497197,9.78E+12,eng,46,55,7,01/01/02,Simple Productions,Resumen de: Mahatma Gandhi and His Myths: Civil Disobedience  Nonviolence  and Satyagraha in the Real World (Plus Why It's Gandhi  Not Ghandi),4,4,8,3
+696,The Seven Habits of Highly Effective People,Stephen R. Covey,4.1,671708635,9.78E+12,eng,368,2505,233,9/15/1990,Free Press,Resumen de: The Seven Habits of Highly Effective People,1,1,4,2
+697,The 7 Habits of Highly Effective People Personal Workbook,Stephen R. Covey,4.24,743250974,9.78E+12,eng,192,1874,114,01/06/04,Simon  Schuster,Resumen de: The 7 Habits of Highly Effective People Personal Workbook,1,1,3,3
+698,Daily Reflections For Highly Effective People: Living the 7 Habits of Highly Successful People Every Day,Stephen R. Covey,3.9,671887173,9.78E+12,eng,384,336,26,3/21/1994,Simon  Schuster,Resumen de: Daily Reflections For Highly Effective People: Living the 7 Habits of Highly Successful People Every Day,2,2,8,1
+699,Way of the Peaceful Warrior: A Book That Changes Lives,Dan Millman,4.14,1932073205,9.78E+12,en-US,240,39947,1622,4/13/2006,HJ Kramer,Resumen de: Way of the Peaceful Warrior: A Book That Changes Lives,4,1,8,2
+700,Secret of the Peaceful Warrior,Dan Millman/Robert D. San Souci/T. Taylor Bruce,4.15,915811235,9.78E+12,en-US,32,156,13,12/28/1992,HJ Kramer,Resumen de: Secret of the Peaceful Warrior,4,2,2,2
+701,It's Not about the Bike: My Journey Back to Life,Lance Armstrong/Sally Jenkins,3.72,425179613,9.78E+12,eng,294,35050,1833,09/01/01,Berkley Publishing Group,Resumen de: It's Not about the Bike: My Journey Back to Life,1,1,2,1
+702,23 Days in July: Inside the Tour de France and Lance Armstrong's Record-Breaking Victory,John Wilcockson/Graham   Watson,3.67,306814552,9.78E+12,eng,344,360,26,6/15/2005,Da Capo Press,Resumen de: 23 Days in July: Inside the Tour de France and Lance Armstrong's Record-Breaking Victory,2,1,9,2
+703,Truman,David McCullough,4.12,671869205,9.78E+12,eng,1120,71764,1937,6/14/1993,Simon  Schuster,Resumen de: Truman,3,3,3,1
+704,The Complete Stories of Truman Capote,Truman Capote/Reynolds Price,4.2,140009691X,9.78E+12,eng,320,3993,217,9/13/2005,Vintage,Resumen de: The Complete Stories of Truman Capote,4,3,6,2
+705,Breakfast at Tiffany's: A Short Novel and Three Stories,Truman Capote,3.89,067960085X,9.78E+12,eng,162,5658,699,1/13/1994,Modern Library,Resumen de: Breakfast at Tiffany's: A Short Novel and Three Stories,4,4,5,3
+706,Murder at The Washington Tribune (Capital Crimes  #21),Margaret Truman,3.58,345478207,9.78E+12,eng,384,585,78,10/31/2006,Ballantine Books,Resumen de: Murder at The Washington Tribune (Capital Crimes  #21),4,2,1,1
+707,Murder at Ford's Theatre (Capital Crimes  #19),Margaret Truman,3.74,449007383,9.78E+12,en-US,376,623,68,9/30/2003,Fawcett,Resumen de: Murder at Ford's Theatre (Capital Crimes  #19),5,4,4,1
+708,Other Voices  Other Rooms,Truman Capote,3.8,679745645,9.78E+12,eng,232,10635,656,02/01/94,Vintage,Resumen de: Other Voices  Other Rooms,1,1,6,2
+709,In Cold Blood,Truman Capote/Scott Brick,4.07,073933364X,9.78E+12,eng,15,563,133,01/03/06,Random House Audio,Resumen de: In Cold Blood,1,1,10,2
+710,Emergence: The Connected Lives of Ants  Brains  Cities  and Software,Steven Johnson,3.96,684868768,9.78E+12,en-US,288,2769,200,09/10/02,Scribner,Resumen de: Emergence: The Connected Lives of Ants  Brains  Cities  and Software,2,1,4,3
+711,Emergence: Labeled Autistic,Temple Grandin/Margaret M. Scariano,4.07,446671827,9.78E+12,en-GB,200,1827,154,09/01/96,Grand Central Publishing,Resumen de: Emergence: Labeled Autistic,3,3,5,2
+712,The Emergence of Life on Earth: A Historical and Scientific Overview,Iris Fry,4.02,813527406,9.78E+12,eng,344,48,5,02/01/00,Rutgers University Press,Resumen de: The Emergence of Life on Earth: A Historical and Scientific Overview,3,1,9,2
+713,The Ghost Stories of Edith Wharton,Edith Wharton/Laszlo Kubinyi,3.89,684842572,9.78E+12,eng,303,2842,182,10/10/97,Scribner,Resumen de: The Ghost Stories of Edith Wharton,4,4,9,1
+714,The House of Mirth / The Reef / The Custom of the Country / The Age of Innocence,Edith Wharton/R.W.B. Lewis,4.3,940450313,9.78E+12,eng,1328,446,29,05/12/86,Library of America,Resumen de: The House of Mirth / The Reef / The Custom of the Country / The Age of Innocence,3,1,6,3
+715,Collected Stories  1911-1937,Edith Wharton/Maureen Howard,4.25,1883011949,9.78E+12,eng,848,55,9,1/29/2001,Library of America,Resumen de: Collected Stories  1911-1937,4,4,10,3
+716,Novellas and Other Writings: Madame de Treymes / Ethan Frome / Summer / Old New York / The Mother’s Recompense / A Backward Glance,Edith Wharton/Cynthia Griffin Wolff,4.22,940450534,9.78E+12,eng,1137,67,9,04/01/90,Library of America,Resumen de: Novellas and Other Writings: Madame de Treymes / Ethan Frome / Summer / Old New York / The Mother’s Recompense / A Backward Glance,5,2,7,1
+717,The House of Mirth,Edith Wharton,3.95,486420493,9.78E+12,eng,272,749,62,08/06/02,Dover Publications,Resumen de: The House of Mirth,5,5,6,2
+718,Below the Root,Zilpha Keatley Snyder/Alton Raible,4.08,689304579,9.78E+12,eng,231,41,9,01/01/75,Atheneum Books,Resumen de: Below the Root,3,3,5,1
+719,The Witches of Worm,Zilpha Keatley Snyder,3.69,440802504,9.78E+12,eng,183,40,12,05/01/91,Dell Yearling,Resumen de: The Witches of Worm,5,3,8,3
+720,The Deeper Meaning of Liff,Douglas Adams/John Lloyd,3.93,307236013,9.78E+12,eng,192,3986,85,4/19/2005,Three Rivers Press,Resumen de: The Deeper Meaning of Liff,4,3,3,3
+721,Dirk Gently's Holistic Detective Agency (Dirk Gently #1),Douglas Adams,3.98,1597770078,9.78E+12,eng,6,58,15,9/30/2005,Phoenix Audio,Resumen de: Dirk Gently's Holistic Detective Agency (Dirk Gently #1),4,4,6,1
+722,The Letters of J.R.R. Tolkien,J.R.R. Tolkien/Humphrey Carpenter/Christopher Tolkien,4.15,618056998,9.78E+12,eng,502,4689,171,06/06/00,Mariner Books,Resumen de: The Letters of J.R.R. Tolkien,4,1,7,2
+723,The History of the Lord of the Rings (The History of Middle-earth #6-9),J.R.R. Tolkien/Christopher Tolkien,4.38,618083553,9.78E+12,en-US,1680,237,3,09/01/00,Mariner Books,Resumen de: The History of the Lord of the Rings (The History of Middle-earth #6-9),2,2,3,3
+724,The Languages of Tolkien's Middle-Earth,Ruth S. Noel/J.R.R. Tolkien,3.98,395291305,9.78E+12,eng,207,4685,74,5/28/1980,Houghton Mifflin Company,Resumen de: The Languages of Tolkien's Middle-Earth,5,2,6,1
+725,The Lord of the Rings- 3 volumes set (The Lord of the Rings  #1-3),J.R.R. Tolkien,4.5,618574999,9.78E+12,en-US,1438,232,9,06/01/05,Mariner Books,Resumen de: The Lord of the Rings- 3 volumes set (The Lord of the Rings  #1-3),4,3,4,2
+726,Farmer Giles of Ham,J.R.R. Tolkien/Christina Scull/Wayne G. Hammond,3.85,618009361,9.78E+12,eng,127,5526,225,11/15/1999,Houghton Mifflin Harcourt,Resumen de: Farmer Giles of Ham,5,5,7,1
+727,Tandia,Bryce Courtenay,4.05,140272925,9.78E+12,eng,905,8461,369,8/31/1998,Penguin Books Australia Ltd.,Resumen de: Tandia,1,1,2,3
+728,Matthew Flinders' Cat,Bryce Courtenay,3.8,670910619,9.78E+12,eng,611,2737,161,12/31/2002,Viking,Resumen de: Matthew Flinders' Cat,4,2,9,1
+729,Solomon's Song (The Potato Factory  #3),Bryce Courtenay,4.01,140271570,9.78E+12,eng,671,3920,132,8/31/2001,Penguin Books Australia Ltd.,Resumen de: Solomon's Song (The Potato Factory  #3),1,1,6,1
+730,An Introduction to Old Norse,E.V. Gordon/A.R. Taylor,4.1,198111843,9.78E+12,eng,412,104,7,7/23/1981,Oxford University Press,Resumen de: An Introduction to Old Norse,3,1,9,1
+731,Cold Counsel: Women in Old Norse Literature and Myth,Sarah M.  Anderson/Karen Swenson,3.68,815319665,9.78E+12,eng,320,19,2,12/21/2002,Routledge,Resumen de: Cold Counsel: Women in Old Norse Literature and Myth,5,2,4,3
+732,Brave Companions: Portraits in History,David McCullough,3.98,671792768,9.78E+12,eng,240,3460,482,11/01/92,Simon Schuster,Resumen de: Brave Companions: Portraits in History,1,1,6,3
+733,Mornings on Horseback: The Story of an Extraordinary Family  a Vanished Way of Life  and the Unique Child Who Became Theodore Roosevelt,David McCullough,4.12,671447548,9.78E+12,eng,445,23064,1191,05/12/82,Simon  Schuster,Resumen de: Mornings on Horseback: The Story of an Extraordinary Family  a Vanished Way of Life  and the Unique Child Who Became Theodore Roosevelt,4,1,10,3
+734,John Adams,David McCullough,4.06,684813637,9.78E+12,en-US,752,1852,285,05/01/01,Simon & Schuster,Resumen de: John Adams,4,4,1,2
+735,The Johnstown Flood,David McCullough,4.11,844662925,9.78E+12,eng,302,14739,1199,01/01/90,Peter Smith Publisher,Resumen de: The Johnstown Flood,5,1,1,2
+736,The Path Between the Seas: The Creation of the Panama Canal  1870-1914,David McCullough,4.2,743262131,9.78E+12,eng,697,12178,1042,06/01/04,Simon  Schuster,Resumen de: The Path Between the Seas: The Creation of the Panama Canal  1870-1914,2,1,5,3
+737,The Bone Collector (Lincoln Rhyme  #1),Jeffery Deaver,4.19,451188454,9.78E+12,eng,528,140014,1753,04/01/98,Signet Book,Resumen de: The Bone Collector (Lincoln Rhyme  #1),3,2,9,1
+738,The Bone Collector's Son,Paul Yee,3.27,761452427,9.78E+12,eng,137,117,19,01/01/04,Two Lions,Resumen de: The Bone Collector's Son,4,1,5,2
+739,El Coleccionista De Huesos (Lincoln Rhyme  #1),Jeffery Deaver,4.19,8466305130,9.79E+12,spa,640,26,2,06/01/03,Punto de Lectura,Resumen de: El Coleccionista De Huesos (Lincoln Rhyme  #1),1,1,1,3
+740,Moby Dick,Herman Melville/William Hootkins,3.5,9626343583,9.79E+12,eng,25,67,17,09/01/05,Naxos Audiobooks,Resumen de: Moby Dick,1,1,9,2
+741,Moby-Dick,Jan Needle/Patrick Benson/Herman Melville,3.71,763630187,9.78E+12,eng,192,161,16,09/12/06,Candlewick Press,Resumen de: Moby-Dick,3,1,10,3
+742,Moby Dick,Herman Melville/William Hootkins,3.5,143058096,9.78E+12,eng,6,8858,885,6/16/2005,Penguin Audio,Resumen de: Moby Dick,5,4,2,1
+743,Moby-Dick,Herman Melville/Carl F. Hovde,3.5,1593080182,9.78E+12,eng,707,1260,207,04/01/03,Barnes  Noble Classics,Resumen de: Moby-Dick,4,2,1,2
+744,Herman Melville's Moby-Dick: A Routledge Study Guide and Sourcebook,Michael J. Davey/Duncan Wu,3.61,415247713,9.78E+12,eng,208,50,7,9/18/2003,Routledge,Resumen de: Herman Melville's Moby-Dick: A Routledge Study Guide and Sourcebook,5,3,6,3
+745,Moby Dick: or The White Whale (Oxford Illustrated Classics),Geraldine McCaughrean/Victor G. Ambrus/Herman Melville,3.82,192781537,9.78E+12,eng,104,39,5,4/16/1998,Oxford University Press  USA,Resumen de: Moby Dick: or The White Whale (Oxford Illustrated Classics),2,2,8,3
+746,Melville's Moby Dick: An American Nekyia (Studies in Jungian Psychology by Jungian Analysts),Edward F. Edinger,3.93,919123708,9.78E+12,eng,156,23,4,4/30/2004,Inner City Books,Resumen de: Melville's Moby Dick: An American Nekyia (Studies in Jungian Psychology by Jungian Analysts),3,3,9,3
+747,Moby Dick: Or  the White Whale (Oxford Illustrated Classics Series),Geraldine McCaughrean/Victor G. Ambrus/Herman Melville,3.82,019274156X,9.78E+12,eng,102,6,0,04/03/97,Oxford University Press  USA,Resumen de: Moby Dick: Or  the White Whale (Oxford Illustrated Classics Series),4,4,4,2
+748,Melville and the politics of identity: From *King Lear* to *Moby-Dick*,Julian Markels,3.33,252063023,9.78E+12,eng,164,0,0,07/01/93,University of Illinois Press,Resumen de: Melville and the politics of identity: From *King Lear* to *Moby-Dick*,3,2,10,2
+749,"Unpainted to the Last: ""Moby Dick"" and Twentieth-century American Art",Elizabeth A. Schultz,4.28,700607420,9.78E+12,eng,400,16,1,10/20/1995,University Press of Kansas,"Resumen de: Unpainted to the Last: ""Moby Dick"" and Twentieth-century American Art",1,1,8,3
+750,Double Tap (Paul Madriani  #8),Steve Martini,3.92,515139734,9.78E+12,en-US,401,2790,159,12/27/2005,Jove Books,Resumen de: Double Tap (Paul Madriani  #8),1,1,3,1
+751,The List,Steve Martini,3.96,515121495,9.78E+12,eng,451,12534,141,12/01/97,Jove,Resumen de: The List,3,3,9,3
+752,Witches Abroad (Discworld  #12; Witches #3),Terry Pratchett,4.22,61020613,9.78E+12,eng,374,58408,1272,7/30/2002,HarperTorch,Resumen de: Witches Abroad (Discworld  #12; Witches #3),4,4,6,1
+753,The Innocents Abroad,Mark Twain/Grover Gardner,3.86,812967054,9.78E+12,eng,560,8879,693,02/11/03,Modern Library,Resumen de: The Innocents Abroad,3,3,5,3
+754,Teaching English Abroad,Susan  Griffith,3.57,1854583522,9.78E+12,eng,576,38,6,01/01/07,Vacation Work Publications,Resumen de: Teaching English Abroad,4,3,7,1
+755,Theocritus: Select Poems: Select Poems,Theocritus/Kenneth James Dover,3,862921473,9.78E+12,grc,395,1,1,06/01/91,Bristol Classical Press,Resumen de: Theocritus: Select Poems: Select Poems,5,1,2,3
+756,The Shield. Catalogue of Women. Other Fragments. (Hesiod II),Hesiod/Glenn W. Most,4.03,674996232,9.78E+12,eng,434,33,1,03/01/07,Harvard University Press,Resumen de: The Shield. Catalogue of Women. Other Fragments. (Hesiod II),2,2,7,3
+757,Death and the King's Horseman,Wole Soyinka/Simon Gikandi,3.76,393977617,9.78E+12,en-US,254,259,30,11/05/02,W. W. Norton & Company,Resumen de: Death and the King's Horseman,5,1,4,1
+758,The Time Machine,H.G. Wells/Patrick Parrinder/Steven McLean/Marina Warner,3.89,141439971,9.78E+12,eng,104,3094,301,3/31/2005,Penguin Books Ltd,Resumen de: The Time Machine,2,1,2,1
+759,The Time Machine,H.G. Wells/Cynthia Brantley Johnson/Benjamin Beard,3.89,743487737,9.78E+12,eng,150,372,36,07/01/04,Simon  Schuster,Resumen de: The Time Machine,1,1,9,2
+760,The Ultimate Time Machine: A Remote Viewer's Perception of Time & Predictions for the New Millennium,Joseph McMoneagle,3.59,157174102X,9.78E+12,en-GB,275,68,6,10/01/98,Hampton Roads Publishing Company,Resumen de: The Ultimate Time Machine: A Remote Viewer's Perception of Time & Predictions for the New Millennium,4,4,8,2
+761,The Time Machine,H.G. Wells/Melvin Burgess,3.89,439436540,9.78E+12,eng,123,284,35,03/01/04,Scholastic Paperbacks,Resumen de: The Time Machine,5,5,7,2
+762,The Complete Short Stories,H.G. Wells/John R. Hammond,4.14,1842124021,9.78E+12,eng,864,875,33,05/01/01,Orion Publishing,Resumen de: The Complete Short Stories,1,1,9,2
+763,Selected Stories,H.G. Wells/Ursula K. Le Guin,3.93,812970756,9.78E+12,en-US,432,80,11,7/13/2004,Modern Library,Resumen de: Selected Stories,5,1,4,3
+764,Tono-Bungay,H.G. Wells/Edward Mendelson/Patrick Parrinder,3.42,141441119,9.78E+12,eng,414,856,111,6/28/2005,Penguin Classics,Resumen de: Tono-Bungay,4,4,3,1
+765,The Name of the Rose (Everyman's Library (Cloth)),Umberto Eco,4.12,307264890,9.78E+12,en-US,560,1338,113,9/26/2006,Everyman's Library,Resumen de: The Name of the Rose (Everyman's Library (Cloth)),3,1,3,3
+766,In the Name of Jesus: Reflections on Christian Leadership,Henri J.M. Nouwen,4.34,824512596,9.78E+12,en-US,120,8228,410,10/01/92,Crossroad,Resumen de: In the Name of Jesus: Reflections on Christian Leadership,4,1,7,3
+767,Blood Done Sign My Name: A True Story,Timothy B. Tyson,4.15,1400083117,9.78E+12,eng,368,2594,403,05/03/05,Broadway Books,Resumen de: Blood Done Sign My Name: A True Story,4,3,9,2
+768,Blindness,José Saramago/Giovanni Pontiero,4.11,156007754,9.78E+12,eng,326,107455,7778,10/04/99,Mariner Books,Resumen de: Blindness,4,2,6,2
+769,The Gospel According to Jesus Christ,José Saramago/Giovanni Pontiero,4.29,156001411,9.78E+12,eng,377,799,107,9/28/1994,Harcourt,Resumen de: The Gospel According to Jesus Christ,5,1,7,3
+770,All the Names,José Saramago/Margaret Jull Costa,3.89,156010593,9.78E+12,eng,245,11016,734,10/05/01,Mariner Books,Resumen de: All the Names,1,1,7,1
+771,The Tale of the Unknown Island,José Saramago/Peter Sís/Margaret Jull Costa,3.89,156013037,9.78E+12,eng,64,3331,242,10/05/00,Mariner Books,Resumen de: The Tale of the Unknown Island,3,3,5,2
+772,Baltasar and Blimunda,José Saramago/Giovanni Pontiero,3.92,156005204,9.78E+12,eng,346,6184,284,10/16/1998,Mariner Books,Resumen de: Baltasar and Blimunda,5,5,10,3
+773,The Cave,José Saramago/Margaret Jull Costa,3.84,156028794,9.78E+12,eng,307,7649,548,10/15/2003,Mariner Books,Resumen de: The Cave,4,2,2,2
+774,The Stone Raft,José Saramago/Giovanni Pontiero,3.8,156004011,9.78E+12,en-US,292,308,30,6/14/1996,Mariner Books,Resumen de: The Stone Raft,4,2,6,3
+775,The Year of the Death of Ricardo Reis,José Saramago/Giovanni Pontiero,4.02,1860465021,9.78E+12,eng,384,3826,191,9/17/1998,Vintage Classics,Resumen de: The Year of the Death of Ricardo Reis,5,4,1,3
+776,El hombre duplicado,José Saramago/Pilar del Río,3.89,8466312803,9.79E+12,spa,380,1295,106,09/01/04,Punto de Lectura,Resumen de: El hombre duplicado,1,1,10,1
+777,Ensayo sobre la lucidez,José Saramago/Pilar del Río,3.8,8466314741,9.79E+12,spa,461,1744,124,01/01/05,Punto de Lectura,Resumen de: Ensayo sobre la lucidez,1,1,5,2
+778,La caverna,José Saramago/Pilar del Río,3.84,846630679X,9.79E+12,spa,441,842,69,02/01/03,Punto de Lectura,Resumen de: La caverna,2,2,9,3
+779,The History of the Siege of Lisbon,José Saramago/Giovanni Pontiero,3.81,156006243,9.78E+12,eng,314,331,62,09/01/98,Mariner Books,Resumen de: The History of the Siege of Lisbon,2,2,4,2
+780,Las intermitencias de la muerte,José Saramago/Pilar del Río,4,9587043642,9.79E+12,spa,274,2862,306,12/01/05,Alfaguara,Resumen de: Las intermitencias de la muerte,1,1,3,1
+781,The Treasured Writings of Kahlil Gibran,Kahlil Gibran,4.42,089009389X,9.78E+12,eng,902,1432,45,10/06/09,Castle Books,Resumen de: The Treasured Writings of Kahlil Gibran,2,2,3,2
+782,The Prophet,Kahlil Gibran/جبران خليل جبران/Jihad El,4.23,000100039X,9.78E+12,eng,127,184293,5418,01/01/10,Rupa & Co,Resumen de: The Prophet,3,1,7,1
+783,A Tear and a Smile,Kahlil Gibran/جبران خليل جبران/H.M. Nahmad/Robert Hillyer,4.03,394448049,9.78E+12,eng,228,2094,104,6/27/1950,Alfred A.Knopf,Resumen de: A Tear and a Smile,2,2,3,2
+784,On the Road,Jack Kerouac,3.63,143036386,9.78E+12,eng,320,488,39,09/06/05,Penguin Books,Resumen de: On the Road,4,2,9,2
+785,On the Road,Jack Kerouac/Ann Charters,3.63,141182679,9.78E+12,eng,281,5575,502,2/24/2000,Penguin Books,Resumen de: On the Road,4,2,2,3
+786,De Kooning: An American Master,Mark Stevens/Annalyn Swan,4.11,375711163,9.78E+12,eng,732,2732,105,04/04/06,Knopf Publishing Group,Resumen de: De Kooning: An American Master,3,3,2,2
+787,Willem de Kooning: Late Paintings,Julie Sylvester/David Sylvester,5,382960226X,9.78E+12,eng,83,1,0,09/01/06,Schirmer Mosel,Resumen de: Willem de Kooning: Late Paintings,3,3,7,2
+788,Aké: The Years of Childhood,Wole Soyinka,3.93,679725407,9.78E+12,eng,230,1284,90,10/23/1989,Vintage,Resumen de: Aké: The Years of Childhood,4,1,4,1
+789,Ready for Anything: 52 Productivity Principles for Getting Things Done,David    Allen,3.85,143034545,9.78E+12,eng,165,3832,178,12/28/2004,Penguin Books,Resumen de: Ready for Anything: 52 Productivity Principles for Getting Things Done,2,1,4,2
+790,The Facilitator's Book of Questions: Tools for Looking Together at Student and Teacher Work,David  Allen/Tina Blythe/Gene Thompson-Grove,4,807744689,9.78E+12,eng,142,54,4,4/29/2004,Teachers College Press,Resumen de: The Facilitator's Book of Questions: Tools for Looking Together at Student and Teacher Work,1,1,10,2
+791,Sun Tzu and the Art of Business: Six Strategic Principles for Managers,Sun Tzu/Mark McNeilly,3.89,195137892,9.78E+12,eng,272,125,13,04/01/00,Oxford University Press  USA,Resumen de: Sun Tzu and the Art of Business: Six Strategic Principles for Managers,2,1,2,2
+792,Marketing Warfare,Al Ries/Jack Trout,4.11,71460829,9.78E+12,eng,216,942,59,12/13/2005,McGraw-Hill Education,Resumen de: Marketing Warfare,3,2,3,3
+793,The Tipping Point: How Little Things Can Make a Big Difference,Malcolm Gladwell,3.97,316346624,9.78E+12,eng,301,633037,11898,01/07/02,Back Bay Books,Resumen de: The Tipping Point: How Little Things Can Make a Big Difference,4,2,5,3
+794,Unleashing the Ideavirus: Stop Marketing AT People! Turn Your Ideas into Epidemics by Helping Your Customers Do the Marketing thing for You.,Seth Godin/Malcolm Gladwell,3.98,786887176,9.78E+12,en-US,234,4600,88,10/10/01,Hachette Books,Resumen de: Unleashing the Ideavirus: Stop Marketing AT People! Turn Your Ideas into Epidemics by Helping Your Customers Do the Marketing thing for You.,3,2,9,1
+795,The Innovator's Dilemma: The Revolutionary Book that Will Change the Way You Do Business,Clayton M. Christensen/L.J. Ganser,3.99,60521996,9.78E+12,eng,286,32079,752,01/07/03,Harper Paperbacks,Resumen de: The Innovator's Dilemma: The Revolutionary Book that Will Change the Way You Do Business,2,1,4,3
+796,Great Expectations,Charles Dickens/David Trotter/Charlotte Mitchell,3.77,141439564,9.78E+12,eng,512,14228,668,12/31/2002,Penguin Books,Resumen de: Great Expectations,2,1,3,1
+797,Great Expectations: Authoritative Text  Backgrounds  Contexts  Criticism,Charles Dickens/Edgar Rosenberg,3.77,393960692,9.78E+12,eng,776,573,38,1/19/1999,W.W. Norton & Company,Resumen de: Great Expectations: Authoritative Text  Backgrounds  Contexts  Criticism,3,1,10,3
+798,Luther and Erasmus: Free Will and Salvation (Library of Christian Classics),Erasmus/Martin Luther/Philip S. Watson/E. Gordon Rupp,3.8,664241581,9.78E+12,eng,364,108,13,01/01/69,Westminster John Knox Press,Resumen de: Luther and Erasmus: Free Will and Salvation (Library of Christian Classics),2,1,4,3
+799,To Kill a Mockingbird,Harper Lee,4.27,60935464,9.78E+12,eng,323,10524,898,07/05/05,Harper Perennial Modern Classics,Resumen de: To Kill a Mockingbird,5,2,5,2
+800,To Kill a Mockingbird,Harper Lee/Sissy Spacek,4.27,60888695,9.78E+12,eng,11,697,180,8/22/2006,Caedmon,Resumen de: To Kill a Mockingbird,4,2,10,1
+801,To Kill a Mockingbird,Harper Lee,4.27,61205699,9.78E+12,en-US,323,271,34,10/17/2006,Harper,Resumen de: To Kill a Mockingbird,2,1,6,2
+802,The Wealthy Barber: Everyone's Common-Sense Guide to Becoming Financially Independent,David H. Chilton,4.02,761501665,9.78E+12,eng,199,66,4,9/20/1995,Prima Lifestyles,Resumen de: The Wealthy Barber: Everyone's Common-Sense Guide to Becoming Financially Independent,5,5,3,2
+803,A Modest Proposal and Other Satirical Works,Jonathan Swift,4.05,486287599,9.78E+12,eng,64,13562,141,02/02/96,Dover Publications,Resumen de: A Modest Proposal and Other Satirical Works,3,3,7,2
+804,Gulliver's Travels / A Modest Proposal,Jonathan Swift/Jesse Gale,3.79,1416500391,9.78E+12,eng,416,2161,50,08/01/05,Simon  Schuster,Resumen de: Gulliver's Travels / A Modest Proposal,1,1,1,1
+805,Empire 2.0: A Modest Proposal for a United States of the West (Terra Nova),Xavier de C./Xavier de C./Joseph Rowe,4.67,1556434952,9.78E+12,eng,144,3,0,05/04/04,North Atlantic Books,Resumen de: Empire 2.0: A Modest Proposal for a United States of the West (Terra Nova),1,1,8,3
+806,The Bostonians,Henry James/R.D. Gooder,3.59,192834428,9.78E+12,eng,504,85,12,7/23/1998,Oxford University Press,Resumen de: The Bostonians,1,1,5,3
+807,Novels 1896–1899: The Other House / The Spoils of Poynton / What Maisie Knew / The Awkward Age,Henry James/Myra Jehlen,4.28,1931082308,9.78E+12,eng,1035,25,4,03/10/03,Library of America,Resumen de: Novels 1896–1899: The Other House / The Spoils of Poynton / What Maisie Knew / The Awkward Age,3,1,6,3
+808,Novels 1901–1902: The Sacred Fount / The Wings of the Dove,Henry James/Leo Bersani,4.63,193108288X,9.78E+12,eng,713,27,3,02/02/06,Library of America,Resumen de: Novels 1901–1902: The Sacred Fount / The Wings of the Dove,3,1,7,1
+809,Complete Stories 1892–1898,Henry James/John Hollander/David Bromwich,4.22,1883011094,9.78E+12,eng,958,198,7,01/01/96,Library of America,Resumen de: Complete Stories 1892–1898,1,1,9,1
+810,The Canterbury Tales,Geoffrey Chaucer/Nevill Coghill,3.49,140424385,9.78E+12,eng,504,168559,2365,1/30/2003,Penguin Classics,Resumen de: The Canterbury Tales,2,2,3,1
+811,The Canterbury Tales,Geoffrey Chaucer/David  Wright,3.49,019283360X,9.78E+12,eng,465,257,22,07/09/98,Oxford University Press,Resumen de: The Canterbury Tales,1,1,4,2
+812,The Canterbury Tales (original-spelling edition),Geoffrey Chaucer/Jill Mann,3.49,014042234X,9.78E+12,enm,1254,792,59,04/07/05,Penguin Classics,Resumen de: The Canterbury Tales (original-spelling edition),3,2,6,2
+813,Chaucer's Canterbury Tales (Selected): An Interlinear Translation,Geoffrey Chaucer/Vincent Foster Hopper,3.8,812000390,9.78E+12,eng,530,73,5,12/31/1977,Barrons Educational Series,Resumen de: Chaucer's Canterbury Tales (Selected): An Interlinear Translation,3,1,3,3
+814,Oxford Guides to Chaucer: The Canterbury Tales,Helen  Cooper,4.02,198711557,9.78E+12,eng,456,84,4,5/23/1996,Oxford University Press  USA,Resumen de: Oxford Guides to Chaucer: The Canterbury Tales,1,1,3,3
+815,Love Visions,Geoffrey Chaucer/Brian Stone,3.61,140444084,9.78E+12,eng,272,70,6,5/26/1983,Penguin Classics,Resumen de: Love Visions,5,1,7,3
+816,Chaucer's Canterbury Tales,Geoffrey Chaucer,3.49,671475029,9.78E+12,eng,383,36,5,1/28/1964,Washington Square Press,Resumen de: Chaucer's Canterbury Tales,5,3,8,1
+817,The Riverside Chaucer,Geoffrey Chaucer/Larry Dean Benson/F.N. Robinson,4.18,395290317,9.78E+12,enm,1327,7760,152,12/12/87,Houghton Mifflin,Resumen de: The Riverside Chaucer,4,4,7,2
+818,The Portable Chaucer,Geoffrey Chaucer/Theodore Morrison,3.86,140150811,9.78E+12,eng,611,70,8,5/26/1977,Penguin Books,Resumen de: The Portable Chaucer,1,1,5,3
+819,Salt: A World History,Mark Kurlansky,3.74,142001619,9.78E+12,eng,484,50335,3012,1/28/2003,Penguin Books,Resumen de: Salt: A World History,4,1,5,3
+820,Salt in His Shoes: Michael Jordan in Pursuit of a Dream,Deloris Jordan/Kadir Nelson/Roslyn M. Jordan,4.2,689834195,9.78E+12,eng,32,1178,173,11/01/03,Simon  Schuster Books for Young Readers,Resumen de: Salt in His Shoes: Michael Jordan in Pursuit of a Dream,5,4,9,3
+821,The Book of Salt,Monique Truong,3.52,618446885,9.78E+12,eng,261,4411,629,6/15/2004,Mariner Books,Resumen de: The Book of Salt,1,1,4,1
+822,Cities of Salt (مدن الملح #1),Abdul Rahman Munif/Peter Theroux,4.13,039475526X,9.78E+12,eng,627,856,105,7/17/1989,Vintage,Resumen de: Cities of Salt (مدن الملح #1),3,3,10,2
+823,The Years of Rice and Salt,Kim Stanley Robinson,3.73,553580078,9.78E+12,eng,763,9344,995,06/03/03,Bantam Books,Resumen de: The Years of Rice and Salt,3,3,5,1
+824,Illuminations: Essays and Reflections,Walter Benjamin/Hannah Arendt/Harry Zohn/Leon Wieseltier,4.29,805202412,9.78E+12,eng,288,9254,194,1/13/1969,Schocken,Resumen de: Illuminations: Essays and Reflections,4,1,4,3
+825,Saul Steinberg: Illuminations,Saul Steinberg/Joel Smith/Charles Simic,4.51,300115865,9.78E+12,eng,288,39,5,11/01/06,Yale University Press,Resumen de: Saul Steinberg: Illuminations,4,2,10,3
+826,Advanced Global Illumination,Philip Dutre,4.5,1568813074,9.78E+12,eng,366,17,2,8/30/2006,A K PETERS,Resumen de: Advanced Global Illumination,4,2,7,2
+827,Snow Falling On Cedars,David Guterson,3.83,074754655X,9.78E+12,eng,404,588,46,10/21/1999,Bloomsbury Publishing PLC,Resumen de: Snow Falling On Cedars,2,2,9,1
+828,The Lost Boy (Dave Pelzer #2),Dave Pelzer,4.1,1558745157,9.78E+12,eng,331,52028,2513,08/01/97,Health Communications Inc,Resumen de: The Lost Boy (Dave Pelzer #2),4,4,3,1
+829,Real Boys: Rescuing Our Sons from the Myths of Boyhood,William S. Pollack/Mary Pipher,3.83,805061835,9.78E+12,en-US,480,1397,128,05/10/99,Owl Publishing Company,Resumen de: Real Boys: Rescuing Our Sons from the Myths of Boyhood,4,1,10,1
+830,Microserfs,Douglas Coupland,3.88,7179812,9.78E+12,eng,371,442,38,01/01/08,Harper Perennial,Resumen de: Microserfs,3,1,3,2
+831,New Media Language,Jean Aitchison/Diana M. Lewis,3,415283043,9.78E+12,eng,209,2,0,5/22/2003,Routledge,Resumen de: New Media Language,5,1,5,1
+832,The Denial of Death,Ernest Becker/Sam Keen/Daniel Goleman,4.16,684832402,9.78E+12,eng,336,6599,635,05/08/97,Free Press,Resumen de: The Denial of Death,3,1,8,3
+833,A People's History of the United States,Howard Zinn,4.08,60838655,9.78E+12,eng,729,167321,4711,08/02/05,Harper Perennial,Resumen de: A People's History of the United States,2,1,4,1
+834,A People's History of the United States,Howard Zinn/Kathy Emery/Ellen Gordon Reeves,4.08,1565848268,9.78E+12,eng,619,39,3,07/01/03,The New Press,Resumen de: A People's History of the United States,4,3,8,3
+835,A People's History of the United States: The Civil War to the Present,Howard Zinn/Kathy Emery/Ellen Gordon Reeves,4,1565847253,9.78E+12,eng,496,22,0,08/01/03,The New Press,Resumen de: A People's History of the United States: The Civil War to the Present,4,1,7,2
+836,Graphic Design: A Concise History (World of Art),Richard Hollis,4,500203474,9.78E+12,en-US,232,675,12,5/17/2002,Thames  Hudson,Resumen de: Graphic Design: A Concise History (World of Art),1,1,8,2
+837,Immigrant Acts: On Asian American Cultural Politics,Lisa Lowe,4,822318644,9.78E+12,eng,272,206,9,10/21/1996,Duke University Press Books,Resumen de: Immigrant Acts: On Asian American Cultural Politics,4,3,2,2
+838,The Old Way of Seeing: How Architecture Lost Its Magic - And How to Get It Back,Jonathan Hale,3.92,039574010X,9.78E+12,eng,256,81,12,09/01/95,Mariner Books,Resumen de: The Old Way of Seeing: How Architecture Lost Its Magic - And How to Get It Back,4,1,6,1
+839,The Crying of Lot 49,Thomas Pynchon,3.69,006091307X,9.78E+12,eng,152,57011,3332,10/17/2006,Harper Perennial,Resumen de: The Crying of Lot 49,1,1,8,1
+840,E=mc²: A Biography of the World's Most Famous Equation,David Bodanis,4.09,425181642,9.78E+12,eng,337,6368,321,10/01/00,Berkley Trade,Resumen de: E=mc²: A Biography of the World's Most Famous Equation,3,1,5,1
+841,Passionate Minds,David Bodanis,4.1,307237206,9.78E+12,en-US,373,717,112,10/10/06,Crown Publishing Group (NY),Resumen de: Passionate Minds,3,2,6,3
+842,Christian Mythmakers: C.S. Lewis  Madeleine L'Engle  J.R.R. Tolkien  George MacDonald  G.K. Chesterton  Charles Williams  Dante Alighieri  John Bunyan  Walter Wangerin  Robert Siegel  and Hannah Hurnard,Rolland Hein/Clyde S. Kilby,3.93,094089548X,9.78E+12,eng,303,448,18,12/01/02,Cornerstone Press Chicago,Resumen de: Christian Mythmakers: C.S. Lewis  Madeleine L'Engle  J.R.R. Tolkien  George MacDonald  G.K. Chesterton  Charles Williams  Dante Alighieri  John Bunyan  Walter Wangerin  Robert Siegel  and Hannah Hurnard,2,2,6,3
+843,A House Like a Lotus (O'Keefe Family  #3),Madeleine L'Engle,3.76,440936853,9.78E+12,eng,307,3976,163,11/01/85,Dell,Resumen de: A House Like a Lotus (O'Keefe Family  #3),3,3,7,2
+844,The Rock That Is Higher: Story as Truth,Madeleine L'Engle,4.12,877887268,9.78E+12,eng,320,496,48,3/19/2002,Shaw Books,Resumen de: The Rock That Is Higher: Story as Truth,3,1,10,2
+845,The Glorious Impossible,Madeleine L'Engle/Giotto di Bondone,4.25,671686909,9.78E+12,eng,64,367,38,9/30/1990,Simon & Schuster Children's Publishing,Resumen de: The Glorious Impossible,3,2,4,1
+846,A Full House: An Austin Family Christmas (Austin Family  #5.6),Madeleine L'Engle/Mary Chambers,3.98,877880204,9.78E+12,eng,48,235,4,03/07/00,Shaw,Resumen de: A Full House: An Austin Family Christmas (Austin Family  #5.6),2,1,5,2
+847,A Circle of Quiet (Crosswicks Journals #1),Madeleine L'Engle,4.21,62545035,9.78E+12,en-CA,246,5236,506,01/01/84,HarperOne,Resumen de: A Circle of Quiet (Crosswicks Journals #1),2,1,7,1
+848,The Birth of Tragedy and Other Writings,Friedrich Nietzsche/Raymond Geuss/Ronald Speirs,4.04,521639875,9.78E+12,eng,204,388,23,4/22/1999,Cambridge University Press,Resumen de: The Birth of Tragedy and Other Writings,1,1,1,2
+849,The Birth of Tragedy/The Genealogy of Morals,Friedrich Nietzsche/Francis Golffing,4.01,385092105,9.78E+12,en-US,320,843,42,05/07/90,Anchor,Resumen de: The Birth of Tragedy/The Genealogy of Morals,1,1,10,2
+850,The Birth of Tragedy,Friedrich Nietzsche,3.98,1419154079,9.78E+12,eng,84,32,0,6/17/2004,Kessinger Publishing,Resumen de: The Birth of Tragedy,4,4,5,3
+851,The Birth of Tragedy,Friedrich Nietzsche/Michael Tanner/Shaun Whiteside,3.98,140433392,9.78E+12,en-US,160,10147,301,11/27/2003,Penguin Classics,Resumen de: The Birth of Tragedy,1,1,1,1
+852,Birth Of A Tragedy: Kashmir 1947,Alastair Lamb,4,907129072,9.78E+12,eng,179,9,2,3/14/2008,Roxford Books,Resumen de: Birth Of A Tragedy: Kashmir 1947,3,2,1,1
+853,The Tragedy of Pudd'nhead Wilson/Those Extraordinary Twins,Mark Twain/David Lionel Smith/Sherley Anne Williams,3.79,195114159,9.78E+12,eng,512,3664,58,03/06/97,Oxford University Press  USA,Resumen de: The Tragedy of Pudd'nhead Wilson/Those Extraordinary Twins,2,2,8,2
+854,The Tragedy of Pudd'nhead Wilson,Mark Twain/Michael Prichard,3.79,140015068X,9.78E+12,eng,0,3,0,01/01/03,Tantor Media,Resumen de: The Tragedy of Pudd'nhead Wilson,3,1,7,1
+855,Bridge to Terabithia,Katherine Paterson/Donna Diamond,4,60734019,9.78E+12,en-US,191,1811,152,07/01/08,HarperTeen,Resumen de: Bridge to Terabithia,2,2,1,3
+856,Literature Circle Guide: Bridge to Terabithia: Everything You Need For Successful Literature Circles That Get Kids Thinking  Talking  Writing—and Loving Literature,Tara MacCarthy,5,439271711,9.78E+12,eng,32,4,1,01/01/02,Teaching Resources,Resumen de: Literature Circle Guide: Bridge to Terabithia: Everything You Need For Successful Literature Circles That Get Kids Thinking  Talking  Writing—and Loving Literature,5,4,3,2
+857,Bread and Roses  Too,Katherine Paterson,3.76,618654798,9.78E+12,eng,275,2018,294,09/04/06,Clarion Books,Resumen de: Bread and Roses  Too,5,3,8,1
+858,The Invisible Child,Katherine Paterson,4.27,525464824,9.78E+12,eng,266,99,27,12/31/2001,Dutton Juvenile,Resumen de: The Invisible Child,2,2,1,1
+859,A Short History of Decay,Emil M. Cioran/Richard Howard,4.25,1559704640,9.78E+12,eng,186,1771,99,9/15/1998,Arcade Publishing,Resumen de: A Short History of Decay,4,4,9,1
+860,Scholar of Decay (Ravenloft  #14),Tanya Huff,3.46,078690206X,9.78E+12,eng,313,38,1,05/01/00,TSR,Resumen de: Scholar of Decay (Ravenloft  #14),1,1,9,2
+861,Girl with a Pearl Earring,Tracy Chevalier,3.88,452284937,9.78E+12,eng,233,1162,127,9/30/2003,Plume Books,Resumen de: Girl with a Pearl Earring,1,1,2,1
+862,The Golden Tulip,Rosalind Laker,3.94,385415605,9.78E+12,eng,585,29,4,09/01/91,Doubleday,Resumen de: The Golden Tulip,2,2,6,2
+863,Burning Bright,Tracy Chevalier,3.36,052594978X,9.78E+12,eng,320,10919,1113,3/20/2007,Dutton,Resumen de: Burning Bright,4,2,2,2
+864,Falling Angels,Tracy Chevalier,3.58,452283205,9.78E+12,eng,336,20321,1214,9/24/2002,Penguin Books,Resumen de: Falling Angels,1,1,6,2
+865,The Virgin Blue,Tracy Chevalier,3.66,452284449,9.78E+12,eng,304,26029,1588,6/24/2003,Penguin Books,Resumen de: The Virgin Blue,3,3,5,2
+866,Wenn Engel fallen,Tracy Chevalier,3.58,3471772537,9.78E+12,ger,384,6,1,02/01/02,List,Resumen de: Wenn Engel fallen,1,1,6,2
+867,Tom Hunter: Living in Hell and Other Stories,Tom Hunter/Tracy Chevalier/Colin Wiggins,3.64,1857093313,9.78E+12,en-GB,80,42,0,03/08/06,National Gallery London,Resumen de: Tom Hunter: Living in Hell and Other Stories,5,4,7,3
+868,Bleach  Volume 15,Tite Kubo,4.42,1421506130,9.78E+12,eng,208,19945,76,10/03/06,VIZ Media LLC,Resumen de: Bleach  Volume 15,2,2,5,3
+869,Bleach  Volume 01,Tite Kubo,4.22,1591164419,9.78E+12,eng,200,140403,1063,5/19/2004,VIZ Media LLC,Resumen de: Bleach  Volume 01,3,1,6,3
+870,Bleach  Volume 14,Tite Kubo,4.38,1421506122,9.78E+12,eng,208,10356,79,08/01/06,VIZ Media LLC,Resumen de: Bleach  Volume 14,1,1,8,2
+871,Bleach  Volume 11,Tite Kubo,4.36,1421502712,9.78E+12,eng,208,8773,84,02/07/06,VIZ Media LLC,Resumen de: Bleach  Volume 11,5,2,4,3
+872,Bleach  Volume 12,Tite Kubo,4.36,1421504030,9.78E+12,eng,208,8948,86,04/04/06,VIZ Media LLC,Resumen de: Bleach  Volume 12,2,2,6,3
+873,DEATH NOTE デスノート 1,Tsugumi Ohba/Takeshi Obata/大場 つぐみ/小畑 健,4.43,4088736214,9.78E+12,jpn,195,227,38,04/02/04,集英社,Resumen de: DEATH NOTE デスノート 1,5,4,5,1
+874,Death Note  Vol. 4: 恋心 (Death Note  #4),Tsugumi Ohba/Takeshi Obata,4.39,4088736710,9.78E+12,jpn,204,452,13,11/11/04,Shueisha,Resumen de: Death Note  Vol. 4: 恋心 (Death Note  #4),3,2,4,2
+875,Death Note  Vol. 3: 激走 (Death Note  #3),Tsugumi Ohba/Takeshi Obata,4.43,4088736524,9.78E+12,jpn,194,400,11,09/03/04,Shueisha,Resumen de: Death Note  Vol. 3: 激走 (Death Note  #3),2,1,1,3
+876,Love Artist (Harlequin Romance #2860),Valerie Parv,3.25,373028601,9.78E+12,eng,187,3,1,7/24/1987,Harlequin Romance,Resumen de: Love Artist (Harlequin Romance #2860),1,1,1,3
+877,Perfume: The Story of a Murderer,Patrick Süskind/John E. Woods,4.02,307277763,9.78E+12,eng,255,1124,191,2/13/2001,Vintage International,Resumen de: Perfume: The Story of a Murderer,5,4,1,1
+878,Das Parfum. Die Geschichte eines Mörders,Patrick Süskind,4.02,3257228007,9.78E+12,ger,321,9674,343,06/01/94,Diogenes,Resumen de: Das Parfum. Die Geschichte eines Mörders,4,1,1,2
+879,Three Stories and a Reflection,Patrick Süskind,3.57,747534934,9.78E+12,eng,128,24,3,11/13/1997,Bloomsbury Publishing PLC,Resumen de: Three Stories and a Reflection,3,2,4,2
+880,The Pigeon,Patrick Süskind,3.68,140105832,9.78E+12,eng,77,6254,423,6/29/1989,Penguin,Resumen de: The Pigeon,3,1,10,3
+881,The Story of Mr Sommer,Patrick Süskind/Jean-Jacques Sempé,3.84,747566755,9.78E+12,eng,128,2061,104,11/03/03,Not Avail,Resumen de: The Story of Mr Sommer,2,1,6,1
+882,Bleach―ブリーチ― 1 [Burīchi 1] (Bleach  #1),Tite Kubo,4.22,4088732138,9.78E+12,jpn,189,41,3,01/05/02,Shueisha,Resumen de: Bleach―ブリーチ― 1 [Burīchi 1] (Bleach  #1),1,1,4,1
+883,Bleach  Tome 1: The Death and the Strawberry,Tite Kubo,4.22,2723442276,9.78E+12,fre,192,54,4,07/02/03,Glénat,Resumen de: Bleach  Tome 1: The Death and the Strawberry,1,1,10,3
+884,Escape from Fire Mountain (World of Adventure  #3),Gary Paulsen/Steve Chorney,3.67,440410258,9.78E+12,eng,80,114,17,01/01/95,Yearling,Resumen de: Escape from Fire Mountain (World of Adventure  #3),5,4,7,3
+885,How Angel Peterson Got His Name,Gary Paulsen,3.93,440229359,9.78E+12,eng,111,1177,218,08/10/04,Yearling,Resumen de: How Angel Peterson Got His Name,5,5,5,3
+886,Tucket's Travels: Francis Tucket's Adventures In The West  1847-1849 (The Tucket Adventures  #1-5),Gary Paulsen,4.44,440419670,9.78E+12,en-US,560,557,46,09/09/03,Yearling,Resumen de: Tucket's Travels: Francis Tucket's Adventures In The West  1847-1849 (The Tucket Adventures  #1-5),1,1,5,2
+887,Chicago Blues: The City and the Music,Mike  Rowe/Ronald Radano,3.92,306801450,9.78E+12,eng,226,25,2,8/22/1981,Da Capo Press,Resumen de: Chicago Blues: The City and the Music,2,2,7,2
+888,Winterdance: The Fine Madness of Running the Iditarod,Gary Paulsen,4.26,156001454,9.78E+12,eng,272,5437,830,2/17/1995,Mariner Books,Resumen de: Winterdance: The Fine Madness of Running the Iditarod,3,3,2,2
+889,Brian's Winter,Gary Paulsen,4.01,385321988,9.78E+12,en-US,133,76,12,01/01/96,Delacorte Books for Young Readers,Resumen de: Brian's Winter,1,1,8,1
+890,Robinson Crusoe (Robinson Crusoe #1),Daniel Defoe/Virginia Woolf,3.67,375757325,9.78E+12,eng,320,209122,4131,06/12/01,Modern Library,Resumen de: Robinson Crusoe (Robinson Crusoe #1),1,1,1,1
+891,Robinson Crusoe,Daniel Defoe/John J. Richetti,3.67,141439823,9.78E+12,eng,286,1507,142,3/27/2003,Penguin Classics,Resumen de: Robinson Crusoe,4,1,1,2
+892,Robinson Crusoe,Daniel Defoe/Michael Shinagel,3.67,393964523,9.78E+12,en-US,436,585,63,12/19/1994,W.W. Norton & Company,Resumen de: Robinson Crusoe,3,2,6,1
+893,Robinson Crusoe,Daniel Defoe/Avi,3.67,689844085,9.78E+12,eng,482,204,32,07/01/01,Aladdin,Resumen de: Robinson Crusoe,4,1,8,2
+894,Robinson Crusoe,Daniel Defoe,3.67,1587263882,9.78E+12,eng,288,311,18,7/14/2006,Ann Arbor Media,Resumen de: Robinson Crusoe,3,1,8,1
+895,A General History of the Pyrates,Daniel Defoe/Manuel Schonhorn/Charles   Johnson,3.72,486404889,9.78E+12,eng,733,577,36,1/26/1999,Dover Publications,Resumen de: A General History of the Pyrates,4,4,5,3
+896,Huck Finn & Tom Sawyer among the Indians & Other Unfinished Stories (Mark Twain Library),Mark Twain/Paul Baender/Dahlia Armon/Walter Blair,3.85,520238958,9.78E+12,eng,389,5,0,3/15/2003,University of California Press,Resumen de: Huck Finn & Tom Sawyer among the Indians & Other Unfinished Stories (Mark Twain Library),1,1,10,2
+897,Huck Finn and Tom Sawyer Among the Indians,Mark Twain/Lee Nelson,3.57,1555176801,9.78E+12,eng,277,242,29,4/22/2003,Council Press,Resumen de: Huck Finn and Tom Sawyer Among the Indians,4,3,5,1
+898,Huck Finn/Pudd'nhead Wilson/No 44 Mysterious Stranger other Writings,Mark Twain/Guy Cardwell/Louis J. Budd,4.06,1883011884,9.78E+12,en-US,808,33,3,08/01/00,Library of America,Resumen de: Huck Finn/Pudd'nhead Wilson/No 44 Mysterious Stranger other Writings,5,2,9,3
+899,The Adventures of Huckleberry Finn (Adventures of Tom and Huck  #2),Mark Twain/Guy Cardwell/John Seelye/Walter Trier,3.82,142437174,9.78E+12,eng,327,1049912,11391,12/31/2002,Penguin Classics,Resumen de: The Adventures of Huckleberry Finn (Adventures of Tom and Huck  #2),1,1,8,2
+900,Adventures of Huckleberry Finn,Mark Twain/E.W. Kemble,3.82,486443221,9.78E+12,eng,368,144,17,05/06/05,Dover Publications,Resumen de: Adventures of Huckleberry Finn,1,1,4,1
+901,Adventures of Huckleberry Finn,Mark Twain/George Saunders,3.82,375757376,9.78E+12,eng,244,687,37,8/14/2001,The Modern Library,Resumen de: Adventures of Huckleberry Finn,5,5,7,2
+902,The Annotated Huckleberry Finn,Mark Twain/Michael Patrick Hearn/E.W. Kemble,3.82,393020398,9.78E+12,eng,656,185,18,10/17/2001,W. W. Norton  Company,Resumen de: The Annotated Huckleberry Finn,5,4,2,2
+903,The Wit and Wisdom of Mark Twain,Mark Twain,4.2,486406644,9.78E+12,eng,64,970,53,12/23/1998,Dover Publications,Resumen de: The Wit and Wisdom of Mark Twain,4,4,5,1
+904,Mark Twain's Helpful Hints for Good Living: A Handbook for the Damned Human Race,Mark Twain/Lin Salamo/Victor Fischer/Michael B. Frank,3.86,520242459,9.78E+12,eng,221,513,71,10/18/2004,University of California Press,Resumen de: Mark Twain's Helpful Hints for Good Living: A Handbook for the Damned Human Race,3,2,4,1
+905,The Complete Short Stories of Mark Twain,Mark Twain/Charles Neider,4.28,553211951,9.78E+12,eng,848,5710,142,03/01/84,Bantam Classics,Resumen de: The Complete Short Stories of Mark Twain,3,1,9,3
+906,The Autobiography of Mark Twain,Mark Twain/Charles Neider,4.05,60955422,9.78E+12,eng,508,2871,209,11/28/2000,Harper Perennial,Resumen de: The Autobiography of Mark Twain,2,2,10,1
+907,Collected Tales  Sketches  Speeches  & Essays 1891–1910,Mark Twain/Louis J. Budd,4.39,940450739,9.78E+12,eng,1050,207,10,10/15/1992,Library of America,Resumen de: Collected Tales  Sketches  Speeches  & Essays 1891–1910,3,3,9,2
+908,Lost Horizon,James Hilton,3.92,60594527,9.78E+12,eng,241,11892,955,6/15/2004,Harper Perennial,Resumen de: Lost Horizon,5,1,3,3
+909,Louisa May Alcott's Christmas Treasury,Louisa May Alcott/C. Michael Dudash/Stephen W. Hines,3.96,1589199502,9.78E+12,eng,282,715,44,06/01/02,David C Cook,Resumen de: Louisa May Alcott's Christmas Treasury,2,2,10,3
+910,My Secret Garden: Women's Sexual Fantasies,Nancy Friday,3.68,671019872,9.78E+12,eng,361,1817,123,10/28/2003,Pocket Books,Resumen de: My Secret Garden: Women's Sexual Fantasies,2,2,7,3
+911,The Secret Garden,Frances Hodgson Burnett,4.13,517189607,9.78E+12,eng,331,764134,11796,09/01/98,Children's Classics,Resumen de: The Secret Garden,2,2,10,2
+912,The Secret Garden,Frances Hodgson Burnett/Sandra M. Gilbert,4.13,451528832,9.78E+12,eng,281,1739,116,07/01/03,Signet,Resumen de: The Secret Garden,2,1,8,2
+913,The Secret Garden,Martha Hailey DuBose/Frances Hodgson Burnett/Lucy Corvino/Arthur Pober,4.33,1402713193,9.78E+12,eng,160,1653,76,03/01/05,Sterling,Resumen de: The Secret Garden,3,3,2,3
+914,The Secret Garden,Frances Hodgson Burnett/Alison Lurie,4.13,142437050,9.78E+12,en-GB,288,517,13,1/30/2003,Penguin Classics,Resumen de: The Secret Garden,2,1,5,3
+915,A Little Princess,Frances Hodgson Burnett/Nancy Bond,4.2,142437018,9.78E+12,eng,242,238192,4392,2/26/2002,Penguin Books,Resumen de: A Little Princess,3,3,8,1
+916,Waiting for the Party: The Life of Frances Hodgson Burnett  1849-1924,Ann Thwaite,3.8,879237902,9.78E+12,eng,274,23,7,09/01/94,David R. Godine Publisher,Resumen de: Waiting for the Party: The Life of Frances Hodgson Burnett  1849-1924,2,2,6,3
+917,The Secret Garden Cookbook: Recipes Inspired by Frances Hodgson Burnett's The Secret Garden,Amy Cotler/Frances Hodgson Burnett/Prudence See,4.3,60277408,9.78E+12,eng,128,150,23,3/19/1999,Festival,Resumen de: The Secret Garden Cookbook: Recipes Inspired by Frances Hodgson Burnett's The Secret Garden,4,3,3,3
+918,Basic Economics: A Citizen's Guide to the Economy,Thomas Sowell,4.32,465081452,9.78E+12,eng,448,5899,475,12/24/2003,Basic Books,Resumen de: Basic Economics: A Citizen's Guide to the Economy,2,2,8,1
+919,Basic Economics: A Common Sense Guide to the Economy,Thomas Sowell,4.32,465002609,9.78E+12,eng,627,328,43,04/03/07,Basic Books (AZ),Resumen de: Basic Economics: A Common Sense Guide to the Economy,4,2,10,2
+920,Black Rednecks and White Liberals,Thomas Sowell,4.38,1594030863,9.78E+12,eng,372,2579,301,06/01/05,Encounter Books,Resumen de: Black Rednecks and White Liberals,1,1,4,2
+921,Applied Economics: Thinking Beyond Stage One,Thomas Sowell,4.14,465081436,9.78E+12,eng,256,1546,122,11/13/2003,Basic Books,Resumen de: Applied Economics: Thinking Beyond Stage One,3,2,9,2
+922,Knowledge And Decisions,Thomas Sowell,4.39,465037380,9.78E+12,eng,422,766,47,10/04/96,Basic Books,Resumen de: Knowledge And Decisions,4,4,3,1
+923,A Conflict of Visions: Ideological Origins of Political Struggles,Thomas Sowell,4.31,465081428,9.78E+12,eng,304,1797,166,01/03/02,Basic Books,Resumen de: A Conflict of Visions: Ideological Origins of Political Struggles,2,1,7,3
+924,Sir Gawain and the Green Knight,Selina Shirley Hastings/Juan Wijngaard,3.91,744520053,9.78E+12,eng,29,65,9,6/27/1991,Walker Books Ltd,Resumen de: Sir Gawain and the Green Knight,4,2,5,2
+925,Alcoholics Anonymous,Alcoholics Anonymous,4.45,916856593,9.78E+12,eng,250,22,0,08/01/93,Alcoholics Anonymous World Services Inc,Resumen de: Alcoholics Anonymous,4,1,1,2
+926,Alcoholics Anonymous,Alcoholics Anonymous,4.45,1893007162,9.78E+12,en-US,576,495,30,02/10/02,AA World Services,Resumen de: Alcoholics Anonymous,1,1,4,1
+927,The Twelve Steps & Twelve Traditions of Overeaters Anonymous,Overeaters Anonymous,4.36,960989862,9.78E+12,en-US,221,213,10,01/01/93,Overeaters Anonymous  Incorporated,Resumen de: The Twelve Steps & Twelve Traditions of Overeaters Anonymous,1,1,8,3
+928,The Natural Way to Draw,Kimon Nicolaides/Mamie Harmon,3.9,395530075,9.78E+12,en-US,240,39369,80,02/01/90,Mariner Books,Resumen de: The Natural Way to Draw,3,3,2,1
+929,Natural Health  Natural Medicine,Andrew Weil,4.11,618479031,9.78E+12,en-US,448,580,41,12/09/04,Mariner Books,Resumen de: Natural Health  Natural Medicine,1,1,5,3
+930,The Fixer,Bernard Malamud/Jonathan Safran Foer,3.96,374529388,9.78E+12,eng,335,8624,409,05/05/04,Farrar  Straus and Giroux,Resumen de: The Fixer,2,1,9,1
+931,The Complete Stories,Bernard Malamud/Robert Giroux,4.22,374525757,9.78E+12,en-US,656,712,51,10/12/98,Farrar  Straus and Giroux,Resumen de: The Complete Stories,4,2,6,2
+932,The Assistant,Bernard Malamud/Jonathan Rosen,3.89,374504849,9.78E+12,en-US,246,8073,319,07/07/03,Farrar Straus and Giroux,Resumen de: The Assistant,3,1,4,2
+933,Conversations with Bernard Malamud (Literary Conversations),Lawrence M. Lasher,4,878054901,9.78E+12,eng,184,4,0,03/01/91,University Press of Mississippi,Resumen de: Conversations with Bernard Malamud (Literary Conversations),5,3,3,1
+934,The Tenants,Bernard Malamud/Aleksandar Hemon,3.65,374521026,9.78E+12,eng,248,662,50,9/18/2003,Farrar  Straus and Giroux,Resumen de: The Tenants,3,1,3,3
+935,Enchanted April: Acting Edition,Matthew Barber/Elizabeth von Arnim,3.61,822219751,9.78E+12,eng,73,67,6,04/07/04,Dramatists Play Service,Resumen de: Enchanted April: Acting Edition,3,2,9,3
+936,April  May und June,Elizabeth von Arnim,3.88,345833422X,9.78E+12,ger,88,0,0,04/01/95,Insel  Frankfurt,Resumen de: April  May und June,2,1,3,2
+937,A Room with a View,E.M. Forster,3.91,1420925431,9.78E+12,eng,119,128596,3422,01/01/05,Digireads.com,Resumen de: A Room with a View,4,4,6,1
+938,A Room with a View / Howards End,E.M. Forster/Benjamin DeMott,4.1,451521412,9.78E+12,eng,449,2450,113,02/04/86,Signet,Resumen de: A Room with a View / Howards End,2,2,2,1
+939,E.M. Forster: Critical Guidebook,Lionel Trilling/E.M. Forster,3.51,811202100,9.78E+12,eng,208,6,0,1/17/1971,New Directions,Resumen de: E.M. Forster: Critical Guidebook,5,3,2,1
+940,The Longest Journey,E.M. Forster/Gilbert Adair/Elizabeth Heine,3.48,141441488,9.78E+12,eng,396,1665,125,7/27/2006,Penguin Classics,Resumen de: The Longest Journey,4,2,2,3
+941,Howards End,E.M. Forster,3.96,486424545,9.78E+12,eng,246,54765,1437,10/29/2002,Dover Publications,Resumen de: Howards End,1,1,10,3
+942,Maurice,E.M. Forster,4.03,393310329,9.78E+12,eng,256,21997,1005,12/17/2005,W. W. Norton  Company,Resumen de: Maurice,4,4,2,1
+943,E. M. Forster: A Life,P.N. Furbank,4.14,156286513,9.78E+12,eng,648,141,11,05/02/94,Mariner Books,Resumen de: E. M. Forster: A Life,3,2,4,3
+944,Howards End,E.M. Forster,3.96,141183357,9.78E+12,eng,352,368,26,9/28/2000,Penguin Books,Resumen de: Howards End,4,4,10,3
+945,The Sixteen Pleasures,Robert Hellenga,3.59,385314698,9.78E+12,eng,384,2699,336,05/01/95,Delta,Resumen de: The Sixteen Pleasures,2,2,5,1
+946,Revolutionary Characters: What Made the Founders Different,Gordon S. Wood,3.97,1594200939,9.78E+12,eng,336,3259,187,5/18/2006,Penguin Press HC  The,Resumen de: Revolutionary Characters: What Made the Founders Different,3,3,5,1
+947,The Rescue (Kidnapped  #3),Gordon Korman,4.11,439847796,9.78E+12,eng,140,1864,117,09/01/06,Scholastic Books,Resumen de: The Rescue (Kidnapped  #3),4,3,9,2
+948,Hunting the Hunter (On the Run  #6),Gordon Korman,4.21,439651417,9.78E+12,eng,151,1928,85,02/01/06,Scholastic,Resumen de: Hunting the Hunter (On the Run  #6),3,3,8,2
+949,Public Enemies (On The Run  #5),Gordon Korman,4.19,439651409,9.78E+12,eng,150,2050,76,12/01/05,Scholastic,Resumen de: Public Enemies (On The Run  #5),1,1,5,2
+950,Runaway Bride,Deborah  Gordon,4.25,380777584,9.78E+12,eng,390,8,0,9/28/1994,Avon,Resumen de: Runaway Bride,5,5,7,3
+951,The Bridge over the Drina,Ivo Andrić/William H. McNeill,4.33,1860460585,9.78E+12,eng,314,254,35,04/05/95,The Harvill Press,Resumen de: The Bridge over the Drina,1,1,5,1
+952,Drina Dances in Paris,Jean Estoril,4.16,750000333,9.78E+12,eng,194,14,4,04/01/91,Simon and Schuster,Resumen de: Drina Dances in Paris,2,1,4,3
+953,Drina Ballerina,Jean Estoril,4.16,750005947,9.78E+12,eng,188,8,1,1/17/1991,Hodder,Resumen de: Drina Ballerina,2,1,2,2
+954,Le Pont sur la Drina,Ivo Andrić/Pascale Delpech,4.33,225393321X,9.78E+12,fre,384,69,10,07/05/99,Livre de Poche,Resumen de: Le Pont sur la Drina,2,2,8,3
+955,Drina Dances in Italy,Jean Estoril,4.08,750012633,9.78E+12,eng,191,21,0,8/31/1992,Hodder,Resumen de: Drina Dances in Italy,2,2,9,3
+956,Drina Goes on Tour,Jean Estoril/Mabel Esther Allan,4.26,750002468,9.78E+12,eng,188,112,7,10/20/1991,Simon and Schuster,Resumen de: Drina Goes on Tour,5,1,3,1
+957,Drina Dances in Madeira,Jean Estoril/Mabel Esther Allan,4.09,750002425,9.78E+12,eng,164,139,6,02/06/91,Simon and Schuster,Resumen de: Drina Dances in Madeira,1,1,10,3
+958,Phaedrus/Apology/Crito/Symposium,Plato/Benjamin Jowett,3,1420926845,9.78E+12,en-US,144,19,0,01/01/06,Digireads.com,Resumen de: Phaedrus/Apology/Crito/Symposium,3,1,3,1
+959,The Dialogues of Plato  Volume 1: Euthyphro  Apology  Crito  Meno  Gorgias  Menexenus,Plato/Reginald E. Allen,4.17,300044887,9.78E+12,eng,352,114,11,09/10/89,Yale University Press,Resumen de: The Dialogues of Plato  Volume 1: Euthyphro  Apology  Crito  Meno  Gorgias  Menexenus,2,1,10,2
+960,Gorgias/Timaeus,Plato/Benjamin Jowett,3.74,486427595,9.78E+12,eng,256,34,5,7/15/2003,Dover Publications,Resumen de: Gorgias/Timaeus,2,1,6,1
+961,Minor Works: On Colours/On Things Heard/Physiognomics/On Plants/On Marvellous Things Heard/Mechanical Problems/On Indivisible Lines/The...Gorgias,Aristotle/W.S. Hett,4.57,674993381,9.78E+12,grc,528,14,0,6/28/1963,Loeb Classical Library 307,Resumen de: Minor Works: On Colours/On Things Heard/Physiognomics/On Plants/On Marvellous Things Heard/Mechanical Problems/On Indivisible Lines/The...Gorgias,1,1,4,3
+962,Aristophanes I: Clouds/Wasps/Birds,Aristophanes/Peter Meineck/Ian C. Storey,3.77,872203603,9.78E+12,eng,480,100,9,09/01/98,Hackett Publishing Company  Inc. (USA),Resumen de: Aristophanes I: Clouds/Wasps/Birds,3,2,3,2
+963,The Trojan Women,Euripides/Gilbert Murray,3.89,1420927329,9.78E+12,eng,80,4577,126,01/01/06,Digireads.com,Resumen de: The Trojan Women,5,4,6,2
+964,Greek Tragedies  Volume 2,David Grene/Richmond Lattimore/Aeschylus/Sophocles/Euripides,4.29,226307751,9.78E+12,eng,304,327,12,2/15/1960,University Of Chicago Press,Resumen de: Greek Tragedies  Volume 2,2,2,1,3
+965,Moloka'i (Moloka'i #1),Alan Brennert,4.17,312304358,9.78E+12,eng,405,91395,8192,10/04/04,St. Martin's Griffin,Resumen de: Moloka'i (Moloka'i #1),5,5,4,3
+966,Teaching with the Brain in Mind,Eric Jensen,4.11,1416600302,9.78E+12,eng,186,592,49,6/15/2005,Association for Supervision & Curriculum Development,Resumen de: Teaching with the Brain in Mind,2,1,1,3
+967,Introducing Mind and Brain (Introducing...),Angus Gellatly/Oscar Zárate/Richard Appignanesi,3.54,1840466383,9.78E+12,en-GB,176,26,1,05/10/01,Totem Books,Resumen de: Introducing Mind and Brain (Introducing...),3,1,2,2
+968,Eva Luna,Isabel Allende/Margaret Sayers Peden,3.97,553383825,9.78E+12,eng,320,430,23,8/30/2005,Dial Press,Resumen de: Eva Luna,2,2,1,3
+969,The Stories of Eva Luna,Isabel Allende,3.97,743217187,9.78E+12,eng,352,12839,375,11/13/2001,Scribner,Resumen de: The Stories of Eva Luna,1,1,9,3
+970,Diez Cuentos de Eva Luna Con Guia de Comprension y Repaso de Gramatica,Isabel Allende/Richard D. Woods/Kenneth M. Taggart,3.97,007001356X,9.78E+12,eng,256,10,1,12/01/94,McGraw-Hill Humanities/Social Sciences/Languages,Resumen de: Diez Cuentos de Eva Luna Con Guia de Comprension y Repaso de Gramatica,5,1,9,3
+971,El bosque de los pigmeos,Isabel Allende,3.77,60816198,9.78E+12,spa,304,1099,46,09/06/05,HarperCollins Espanol,Resumen de: El bosque de los pigmeos,1,1,7,2
+972,Inés of My Soul,Isabel Allende/Margaret Sayers Peden,3.93,61161535,9.78E+12,eng,321,15345,1075,11/07/06,Harper,Resumen de: Inés of My Soul,1,1,4,2
+973,La casa de los espíritus,Isabel Allende,4.23,60951303,9.78E+12,spa,454,608,38,9/18/2001,HarperCollins Espanol,Resumen de: La casa de los espíritus,2,2,10,2
+974,El plan infinito,Isabel Allende,3.72,60951273,9.78E+12,spa,336,514,33,5/14/2002,Harper Perennial,Resumen de: El plan infinito,2,2,7,2
+975,El reino del dragón de oro,Isabel Allende,3.84,60591714,9.78E+12,spa,432,1189,51,09/07/04,HarperCollins Espanol,Resumen de: El reino del dragón de oro,2,2,4,2
+976,City of the Beasts (Eagle and Jaguar  #1),Isabel Allende/Margaret Sayers Peden,3.71,60535032,9.78E+12,eng,408,17962,778,4/27/2004,Rayo,Resumen de: City of the Beasts (Eagle and Jaguar  #1),2,2,3,2
+977,Self,Yann Martel,3.43,571219764,9.78E+12,eng,331,2359,146,04/07/03,Faber  Faber,Resumen de: Self,5,5,1,3
+978,Die Brücke über die Drina,Ivo Andrić/Ernst E. Jonas,4.33,3518399608,9.78E+12,ger,407,9,0,03/01/03,Suhrkamp,Resumen de: Die Brücke über die Drina,2,1,5,2
+979,Drina Dances in Switzerland,Jean Estoril/Jenny Sanders,4.02,750002441,9.78E+12,eng,188,13,1,8/23/1993,Hodder Children's Books,Resumen de: Drina Dances in Switzerland,5,2,1,3
+980,The Story of Salt,Mark Kurlansky/S.D. Schindler,4.08,399239987,9.78E+12,eng,48,382,85,09/07/06,G.P. Putnam's Sons Books for Young Readers,Resumen de: The Story of Salt,5,5,7,1
+981,Nonviolence: Twenty-Five Lessons from the History of a Dangerous Idea,Mark Kurlansky/Dalai Lama XIV,4,679643354,9.78E+12,eng,203,768,96,09/12/06,Modern Library,Resumen de: Nonviolence: Twenty-Five Lessons from the History of a Dangerous Idea,3,3,5,3
+982,Boogaloo on 2nd Avenue,Mark Kurlansky,3.17,345448197,9.78E+12,eng,319,191,26,2/28/2006,Random House Trade,Resumen de: Boogaloo on 2nd Avenue,3,3,8,1
+983,Cod: A Biography of the Fish That Changed the World,Mark Kurlansky,3.91,140275010,9.78E+12,eng,294,970,104,07/01/98,Penguin Books,Resumen de: Cod: A Biography of the Fish That Changed the World,2,1,6,2
+984,1968: The Year That Rocked the World,Mark Kurlansky,3.78,345455827,9.78E+12,eng,480,2046,248,01/11/05,Random House Trade Paperbacks,Resumen de: 1968: The Year That Rocked the World,3,2,4,3
+985,A Chosen Few: The Resurrection of European Jewry (Reader's Circle),Mark Kurlansky,3.87,345448146,9.78E+12,eng,456,51,2,3/26/2002,Ballantine Books,Resumen de: A Chosen Few: The Resurrection of European Jewry (Reader's Circle),5,2,6,3
+986,The Basque History of the World: The Story of a Nation,Mark Kurlansky,3.85,140298517,9.78E+12,eng,400,3457,329,02/01/01,Penguin Books,Resumen de: The Basque History of the World: The Story of a Nation,4,1,8,2
+987,The Cod's Tale,Mark Kurlansky/S.D. Schindler,3.91,399234764,9.78E+12,eng,48,127,25,09/10/01,G.P. Putnam's Sons Books for Young Readers,Resumen de: The Cod's Tale,1,1,10,3
+988,Open City 6: The Only Woman He Ever Left,Open City Magazine/James Purdy/Daniel Pinchbeck/Michael Cunningham/Deborah Garrison/Rem Koolhaas/Rick Moody/Strawberry Saroyan/Debra Garrison,0,189044717X,9.78E+12,eng,200,0,0,10/13/2000,Grove Press  Open City Books,Resumen de: Open City 6: The Only Woman He Ever Left,3,1,8,3
+989,Harry Potter Y La Piedra Filosofal (Harry Potter  #1),J.K. Rowling,4.47,613359607,9.78E+12,spa,254,142,12,03/06/01,Turtleback Books,Resumen de: Harry Potter Y La Piedra Filosofal (Harry Potter  #1),3,3,10,2
+990,Angle of Repose,Wallace Stegner/Jackson J. Benson,4.27,141185473,9.78E+12,eng,557,856,146,12/01/00,Penguin Classics,Resumen de: Angle of Repose,1,1,8,3
+991,Don't Make Me Think: A Common Sense Approach to Web Usability,Steve Krug,4.25,321344758,9.78E+12,en-US,201,7736,641,8/28/2005,New Riders Publishing,Resumen de: Don't Make Me Think: A Common Sense Approach to Web Usability,1,1,3,3
+992,Girlfriend in a Coma,Douglas Coupland,3.62,60987324,9.78E+12,eng,288,15798,612,03/01/99,ReganBooks,Resumen de: Girlfriend in a Coma,3,1,1,2
+993,Corelli's Mandolin,Louis de Bernières,3.98,067976397X,9.78E+12,eng,437,62954,1791,8/29/1995,Vintage,Resumen de: Corelli's Mandolin,1,1,8,1
+994,Kiffe Kiffe Tomorrow,Faïza Guène/Sarah    Adams,3.4,156030489,9.78E+12,eng,179,1084,131,07/03/06,Mariner Books,Resumen de: Kiffe Kiffe Tomorrow,4,3,4,2
+995,Our Kind of People: Inside America's Black Upper Class,Lawrence Otis Graham,3.72,60984384,9.78E+12,en-US,406,1170,117,12/22/1999,Harper Perennial,Resumen de: Our Kind of People: Inside America's Black Upper Class,5,5,1,1
+996,The Senator and the Socialite: The True Story of America's First Black Dynasty,Lawrence Otis Graham,3.95,60184124,9.78E+12,eng,480,138,29,6/27/2006,Harper,Resumen de: The Senator and the Socialite: The True Story of America's First Black Dynasty,1,1,10,2
+997,Temptations,Otis Williams/Patricia Romanowski,4.19,815412185,9.78E+12,eng,304,99,16,6/25/2002,Cooper Square Press,Resumen de: Temptations,3,2,1,1
+998,The Thorn Birds,Colleen McCullough,4.23,60837551,9.78E+12,eng,673,533,66,09/06/05,Avon Books,Resumen de: The Thorn Birds,1,1,7,3
+999,Caesar (Masters of Rome  #5),Colleen McCullough,4.37,60510854,9.78E+12,eng,928,5991,120,1/28/2003,Avon,Resumen de: Caesar (Masters of Rome  #5),1,1,7,3

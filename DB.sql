@@ -46,12 +46,13 @@ CREATE TABLE DATOS_LIBRO(
 	ID_DATOS_LIBRO INT PRIMARY KEY AUTO_INCREMENT,
 	ISBN VARCHAR(13),
 	ID_GENERO INT,
-	TITULO VARCHAR(100),
-	EDITORIAL VARCHAR(100),
+	TITULO VARCHAR(500),
+	EDITORIAL VARCHAR(500),
 	EDICION INT,
 	FECHA_PUBLICACION DATE,
 	IDIOMA VARCHAR(50),
-	AUTORES VARCHAR(500),
+	AUTORES VARCHAR(5000),
+	PAGINAS INT,
 	FOREIGN KEY (ID_GENERO) REFERENCES CATALOGO_GENEROS(ID_GENERO)
 );
 
@@ -78,7 +79,7 @@ CREATE TABLE VALORACIONES_LIBROS(
 	ID_VALORACION INT PRIMARY KEY AUTO_INCREMENT,
 	ID_DATOS_LIBRO INT,
 	ID_USUARIO INT,
-	VALORACION INT,
+	VALORACION FLOAT,
 	COMENTARIO VARCHAR(500),
 	FOREIGN KEY (ID_DATOS_LIBRO) REFERENCES DATOS_LIBRO(ID_DATOS_LIBRO),
 	FOREIGN KEY (ID_USUARIO) REFERENCES USUARIOS(ID_USUARIO)
@@ -466,6 +467,17 @@ BEGIN
 END //
 
 
+CREATE PROCEDURE ObtenerDatosLibrosPorUsuario(
+	IN p_id_usuario INT
+)
+BEGIN
+	SELECT dl.*
+	FROM DATOS_LIBRO dl
+	JOIN VALORACIONES_LIBROS vl ON dl.ID_DATOS_LIBRO = vl.ID_DATOS_LIBRO
+	WHERE vl.ID_USUARIO = p_id_usuario;
+END //
+
+
 
 
 #============================================= FIN DE LOS PROCEDIMIENTOS =============================================#
@@ -485,11 +497,18 @@ DO
 
 #============================================= INICIO VISTAS =============================================#
 	
+-- Esta si tiene genero  
+-- CREATE VIEW VistaLibrosVirtuales AS
+-- SELECT dl.ID_DATOS_LIBRO, dl.TITULO, dl.EDITORIAL, dl.EDICION, lv.RESUMEN, lv.ID_LIBRO_VIRTUAL, dl.FECHA_PUBLICACION, cg.NOMBRE_GENERO, lv.archivo, lv.imagen
+-- FROM DATOS_LIBRO dl
+-- JOIN LIBRO_VIRTUAL lv ON dl.ID_DATOS_LIBRO = lv.ID_DATOS_LIBRO
+-- JOIN CATALOGO_GENEROS cg ON dl.ID_GENERO = cg.ID_GENERO;
+
+-- Esta no tiene genero 
 CREATE VIEW VistaLibrosVirtuales AS
-SELECT dl.ID_DATOS_LIBRO, dl.TITULO, dl.EDITORIAL, dl.EDICION, lv.RESUMEN, lv.ID_LIBRO_VIRTUAL, dl.FECHA_PUBLICACION, cg.NOMBRE_GENERO, lv.archivo, lv.imagen
+SELECT dl.ID_DATOS_LIBRO, dl.TITULO, dl.EDITORIAL, dl.EDICION, lv.RESUMEN, lv.ID_LIBRO_VIRTUAL, dl.FECHA_PUBLICACION,  lv.archivo, lv.imagen
 FROM DATOS_LIBRO dl
-JOIN LIBRO_VIRTUAL lv ON dl.ID_DATOS_LIBRO = lv.ID_DATOS_LIBRO
-JOIN CATALOGO_GENEROS cg ON dl.ID_GENERO = cg.ID_GENERO;
+JOIN LIBRO_VIRTUAL lv ON dl.ID_DATOS_LIBRO = lv.ID_DATOS_LIBRO;
 
 #============================================= FIN VISTAS =============================================#
 
@@ -551,31 +570,31 @@ insert into catalogo_generos (NOMBRE_GENERO) values
 ('Suspenso');
 
 
-insert into datos_libro (ID_GENERO, TITULO, EDITORIAL, EDICION, FECHA_PUBLICACION) values 
-(1, 'Procesamiento digital de imagenes', 'Editorial 1', 1, '2021-01-01'),
-(2, 'Advance Amateur Astronomy', 'Editorial 2', 1, '2021-04-12'),
-(3, 'Competitive programming handbook', 'Editorial 3', 1, '2005-05-25'),
-(4, 'Introduction to algorithms', 'Editorial 4', 1, '2001-05-31'),
-(5, 'Automata theory', 'Editorial 5', 1, '2021-01-01'),
-(6, 'Libro de Historia 1', 'Editorial 6', 1, '2021-01-01'),
-(7, 'Libro de Horror 1', 'Editorial 7', 1, '2021-01-01'),
-(8, 'Libro de Misterio 1', 'Editorial 8', 1, '2021-01-01'),
-(9, 'Libro de Romance 1', 'Editorial 9', 1, '2021-01-01'),
-(10, 'Libro de Suspenso 1', 'Editorial 10', 1, '2021-01-01');
+-- insert into datos_libro (ID_GENERO, TITULO, EDITORIAL, EDICION, FECHA_PUBLICACION) values 
+-- (1, 'Procesamiento digital de imagenes', 'Editorial 1', 1, '2021-01-01'),
+-- (2, 'Advance Amateur Astronomy', 'Editorial 2', 1, '2021-04-12'),
+-- (3, 'Competitive programming handbook', 'Editorial 3', 1, '2005-05-25'),
+-- (4, 'Introduction to algorithms', 'Editorial 4', 1, '2001-05-31'),
+-- (5, 'Automata theory', 'Editorial 5', 1, '2021-01-01'),
+-- (6, 'Libro de Historia 1', 'Editorial 6', 1, '2021-01-01'),
+-- (7, 'Libro de Horror 1', 'Editorial 7', 1, '2021-01-01'),
+-- (8, 'Libro de Misterio 1', 'Editorial 8', 1, '2021-01-01'),
+-- (9, 'Libro de Romance 1', 'Editorial 9', 1, '2021-01-01'),
+-- (10, 'Libro de Suspenso 1', 'Editorial 10', 1, '2021-01-01');
 
-insert into libro_fisico (ID_DATOS_LIBRO, NUMERO_EJEMPLARES, DISPONIBILIDAD, PASILLO, ESTANTE) values 
-(1, 10, 10, 1, 1),
-(2, 8, 8, 1, 2),
-(3, 5, 5, 1, 3),
-(4, 7, 7, 1, 4),
-(5, 6, 6, 1, 5);
+-- insert into libro_fisico (ID_DATOS_LIBRO, NUMERO_EJEMPLARES, DISPONIBILIDAD, PASILLO, ESTANTE) values 
+-- (1, 10, 10, 1, 1),
+-- (2, 8, 8, 1, 2),
+-- (3, 5, 5, 1, 3),
+-- (4, 7, 7, 1, 4),
+-- (5, 6, 6, 1, 5);
 
-insert into libro_virtual (ID_DATOS_LIBRO, RESUMEN) values 
-(1, 'Resumen del libro de Accion 1'),
-(2, 'Resumen del libro de Aventura 1'),
-(3, 'Resumen del libro de Comedia 1'),
-(4, 'Resumen del libro de Drama 1'),
-(5, 'Resumen del libro de Fantasia 1');
+-- insert into libro_virtual (ID_DATOS_LIBRO, RESUMEN) values 
+-- (1, 'Resumen del libro de Accion 1'),
+-- (2, 'Resumen del libro de Aventura 1'),
+-- (3, 'Resumen del libro de Comedia 1'),
+-- (4, 'Resumen del libro de Drama 1'),
+-- (5, 'Resumen del libro de Fantasia 1');
 
 #============================================= FIN DATOS =============================================#
 
