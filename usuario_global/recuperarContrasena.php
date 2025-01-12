@@ -21,35 +21,76 @@
 			<div id="wrapper">
 
 			<?php
+				// use PHPMailer\PHPMailer\PHPMailer;
+				// use PHPMailer\PHPMailer\Exception;
+				// require 'vendor/autoload.php';
+
+				
+				
 				require_once('Conexion.php');
 				$base = new Conexion();
 				$conn = $base->getConn();
 				$userMail = $_POST['userMail'] ?? null;
-				if($userMail != ""){
-					
-					$stmt = $conn->prepare("CALL ObtenerContrasena(?)");
-					$stmt->bind_param("s", $userMail);
-					$stmt->execute();
-					$result = $stmt->get_result();
-					
-					if ($result->num_rows > 0) {	
-						while($row = $result->fetch_assoc()) {
-							$pass = $row["CONTRASENA"];
-							$to = $userMail;
-							$subject = "Recuperación de contraseña";
-							$message = "Tu contraseña es: ".$pass;
-							$headers = "From:" . $userMail;
-							$ans = mail($to,$subject,$message,$headers);
-							echo $ans;
-							echo "<script>Swal.fire('Tu contraseña es: $pass')</script>";
+				if(isset($userMail)){
+					if($userMail != null){
+						$stmt = $conn->prepare("CALL ObtenerContrasena(?)");
+						$stmt->bind_param("s", $userMail);
+						$stmt->execute();
+						$result = $stmt->get_result();
+						
+						if ($result->num_rows > 0) {	
+							while($row = $result->fetch_assoc()) {
+								// $mail = new PHPMailer(true);
+								
+								
+								$pass = $row["CONTRASENA"];
+								$to = $userMail;
+								$subject = "Recuperación de contraseña";
+								$message = "Tu contraseña es: ".$pass;
+								$headers = "From: no-reply@byteandbook.com";
+								// $ans = mail($to, $subject, $message, $headers);
+								
+								
+								// try {
+								// 	// Configuración del servidor SMTP
+								// 	$mail->isSMTP();
+								// 	$mail->Host = 'smtp.gmail.com';
+								// 	$mail->SMTPAuth = true;
+								// 	$mail->Username = 'byteandbook@gmail.com';
+								// 	$mail->Password = 'byteandbook123';
+								// 	$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+								// 	$mail->Port = 587;
+								// 
+								// 	// Configuración del correo
+								// 	$mail->setFrom('no-reply@byteandbook.com', 'Byte and Book');
+								// 	$mail->addAddress('$userMail');
+								// 	$mail->Subject = 'Recuperación de contraseña';
+								// 	$mail->Body = 'Tu contraseña es: $pass';
+								// 
+								// 	// Enviar el correo
+								// 	$mail->send();
+								// 	echo "Correo enviado correctamente.";
+								// } catch (Exception $e) {
+								// 	echo "Error al enviar el correo: {$mail->ErrorInfo}";
+								// }
+								// echo $ans;
+							
+								echo "<script>Swal.fire({
+									title: 'Tu contraseña ha sido enviada a tu correo',
+									icon: 'success',
+									confirmButtonText: '<a href=\"index.php\">Aceptar</a>',
+																		
+								});</script>";
+								// header("Location: index.php");
+							}
+						}else{
+							echo "<script>Swal.fire('Correo no registrado')</script>";
 						}
+						// header("Location: index.php");
+						// exit();
 					}else{
-						echo "<script>Swal.fire('Correo no registrado')</script>";
+						echo "<script>Swal.fire('Ingresa un correo')</script>";
 					}
-					// header("Location: index.php");
-					// exit();
-				}else{
-					echo "<script>Swal.fire('Ingresa un correo')</script>";
 				}
 								
 				?>

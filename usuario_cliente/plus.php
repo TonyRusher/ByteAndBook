@@ -32,6 +32,8 @@
 					$header->getHeader($TYPE);
 				?>
 				<div id="main">
+					
+				
 				<?php
 					require_once('../usuario_global/Conexion.php');
 					require_once('getValoracion.php');
@@ -59,6 +61,59 @@
 						exit();
 					}
 				?>
+				
+				
+				<?php 
+					if($_SESSION["SUBSCRIPTION"] == 0){
+				?>
+				
+				<article class="post">
+					<header>
+						<div class="title">
+							<h2>¡Bienvenido a la version plus!</h2>
+							<p>!Subscríbete para disfrutar de todos los beneficios!</p>
+						</div>
+					</header>
+					<section>
+						<form method="post" action="subscribir.php">
+						<div class = "row gtr-uniform">
+							<div class = "col-8">
+								<label for="tarjeta">Selecciona una tarjeta</label>
+								<select name="tarjeta" id="tarjeta">	
+									<?php
+									$sql = "SELECT ID_TARJETA, NUMERO_TARJETA, FECHA_VENCIMIENTO FROM TARJETAS  WHERE ID_USUARIO = $idUsuario";
+									$result = mysqli_query($conn, $sql);
+									while($row = mysqli_fetch_assoc($result)){
+										$numero = $row["NUMERO_TARJETA"];
+										$vencimiento = $row["FECHA_VENCIMIENTO"];
+										$idTarjeta = $row["ID_TARJETA"];
+										echo "<option value='$idTarjeta' >$numero</option>";
+									}
+									?>
+								</select>
+							</div>
+							<div>
+								<label for="">.</label>
+								<input type="submit" value="Subscribirse" class="button primary" />
+							</div>
+						</div>
+						</form>
+					</section>
+				
+				
+				
+				
+				<?php
+					}else{
+				?>
+				
+				
+				
+				
+				
+				
+				
+				
 					<article class= "post">
 						<section>
 							<h3>Buscar libros </h3>
@@ -73,9 +128,9 @@
 									<div class="col-1 col-6-xsmall">
 										<button type="submit" value="" class="button icon solid fa-search" ></button>	
 									</div>
-									<div class="col-3 col-6-small">
-									<a href="registrar_libro.php" class="button fit">Registrar libro </a>
-									</div>
+									<!-- <div class="col-3 col-6-small">
+									<a href="registrar_libro.php" class="button fit">  </a>
+									</div> -->
 								</div>
 							</form>
 							
@@ -197,7 +252,10 @@
 				</section>
 					
 			</div>
-			
+				<?php
+					}
+				
+				?>
 			<div id="modal" class="modal">
 				<div class="modal-content">
 					<span class="close">&times;</span>
@@ -215,43 +273,43 @@
 			</div>
 			<script>
 				// Select all slider containers
-const sliderContainers = document.querySelectorAll('.slider-container');
+				const sliderContainers = document.querySelectorAll('.slider-container');
 
-// Loop through each container and initialize the slider
-sliderContainers.forEach((container) => {
-    const slider = container.querySelector('.slider');
-    const prevBtn = document.createElement('div');
-    const nextBtn = document.createElement('div');
+				// Loop through each container and initialize the slider
+				sliderContainers.forEach((container) => {
+					const slider = container.querySelector('.slider');
+					const prevBtn = document.createElement('div');
+					const nextBtn = document.createElement('div');
 
-    // Create navigation buttons
-    prevBtn.classList.add('prev');
-    nextBtn.classList.add('next');
-    prevBtn.innerText = '←';
-    nextBtn.innerText = '→';
+					// Create navigation buttons
+					prevBtn.classList.add('prev');
+					nextBtn.classList.add('next');
+					prevBtn.innerText = '←';
+					nextBtn.innerText = '→';
 
-    // Append buttons to the container
-    container.appendChild(prevBtn);
-    container.appendChild(nextBtn);
+					// Append buttons to the container
+					container.appendChild(prevBtn);
+					container.appendChild(nextBtn);
 
-    // Set initial index for the slider
-    let index = 0;
+					// Set initial index for the slider
+					let index = 0;
 
-    // Function to move to the next slide
-    nextBtn.addEventListener('click', () => {
-        if (index < slider.children.length - 1) {
-            index++;
-            slider.style.transform = `translateX(-${index * 320}px)`; // Move left
-        }
-    });
+					// Function to move to the next slide
+					nextBtn.addEventListener('click', () => {
+						if (index < slider.children.length - 1) {
+							index++;
+							slider.style.transform = `translateX(-${index * 320}px)`; // Move left
+						}
+					});
 
-    // Function to move to the previous slide
-    prevBtn.addEventListener('click', () => {
-        if (index > 0) {
-            index--;
-            slider.style.transform = `translateX(-${index * 320}px)`; // Move right
-        }
-    });
-});
+					// Function to move to the previous slide
+					prevBtn.addEventListener('click', () => {
+						if (index > 0) {
+							index--;
+							slider.style.transform = `translateX(-${index * 320}px)`; // Move right
+						}
+					});
+				});
 
 
 				
