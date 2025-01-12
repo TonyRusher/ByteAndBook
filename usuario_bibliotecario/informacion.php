@@ -27,7 +27,7 @@ WHERE ID_DATOS_LIBRO = ? ";
         }
         echo "</ul>";
     } else {
-        echo "<p>Informacion no encontrada". $idLibro."</p>";
+        echo "<p>Informacion no encontrada</p>";
     }
     $conn->close();
 } else {
