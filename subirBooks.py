@@ -82,10 +82,14 @@ def insertar_valoraciones_libros(connection, row):
     VALUES (%s, %s, %s, %s)
     """
     try:
+        valoracionesRandom = ["Muy buen libro", "Excelente libro", "Muy recomendado", "No me gustó", "Interesante", "Me encantó", "No lo recomiendo", "Regular", "Buen libro", "Me aburrió"]
         id_datos_libro = row["bookID"]  # Usamos el ID del libro como referencia
+        id_datos_libro = int(id_datos_libro)
         valoracion = row["average_rating"]  # Valoración del libro
-        id_usuario = id_datos_libro % 3 + 1  # ID de usuario (del 1 al 3)
-        comentario = "Valoración generada automáticamente."  # Texto predeterminado
+        valoracion = float(valoracion)
+        id_usuario = id_datos_libro % 4 + 1  # ID de usuario (del 1 al 4)
+        
+        comentario = valoracionesRandom[random.randint(0, len(valoracionesRandom) - 1)]  # Comentario aleatorio
 
         if valoracion is not None:
             with connection.cursor() as cursor:

@@ -19,7 +19,7 @@
 			
 		<!-- Wrapper -->
 			<div id="wrapper">
-			<?php
+				<?php
 					session_start();
 					if(isset($_SESSION["TYPE"]) && $_SESSION["TYPE"] == 1){
 						$TYPE = $_SESSION["TYPE"];
@@ -34,6 +34,7 @@
 				<div id="main">
 				<?php
 					require_once('../usuario_global/Conexion.php');
+					require_once('getValoracion.php');
 					$base = new Conexion();
 					$conn = $base->getConn();
 					
@@ -58,22 +59,97 @@
 						exit();
 					}
 				?>
-					
+					<article class= "post">
+						<section>
+							<h3>Buscar libros </h3>
+							<form id="search" action="plus.php" method="post">
+								<div class="row gtr-uniform">
+									<div class="col-12"> 
+											
+									</div>
+									<div class="col-8 col-12-xsmall">
+										<input type="text" name="search" id="search" value="<?php echo isset($_POST['search']) ? htmlspecialchars($_POST['search']) : ''; ?>" placeholder="Ingresa el nombre o id del libro " />
+									</div>
+									<div class="col-1 col-6-xsmall">
+										<button type="submit" value="" class="button icon solid fa-search" ></button>	
+									</div>
+									<div class="col-3 col-6-small">
+									<a href="registrar_libro.php" class="button fit">Registrar libro </a>
+									</div>
+								</div>
+							</form>
+							
+							<div class="slider-container" id="slider1">
+								<div class="slider">
+								<?php
+								require_once('../usuario_global/Conexion.php');
+								
+								if ($_SERVER["REQUEST_METHOD"] === "POST" && !empty($_POST["search"])) {
+									$base = new Conexion();
+									$conn = $base->getConn();
+									if ($conn->connect_error) {
+										die("Error en la conexión: " . $conn->connect_error);
+									}
+
+									$search = $conn->real_escape_string($_POST["search"]);
+									$sql = "CALL BuscarLibrosVirtuales(?)";
+									$stmt = $conn->prepare($sql);
+									$stmt->bind_param("s", $search);
+									$stmt->execute();
+									$result = $stmt->get_result();
+									if ($result->num_rows > 0) {
+										while ($row = $result->fetch_assoc()) {
+											$idLibro = $row['ID_DATOS_LIBRO'];
+											$idLibroVirtual = $row['ID_LIBRO_VIRTUAL'];
+											$titulo = $row['TITULO'];
+											$editorial = $row['EDITORIAL'];
+											$edicion = $row['EDICION'];
+											$link = "actualizar_historial.php?id=$idLibroVirtual";
+											$resumen = $row['RESUMEN'];
+											$fecha = $row['FECHA_PUBLICACION'];
+											// $genero = $row['NOMBRE_GENERO'];
+											$autores = $row['AUTORES'];
+											$valoracion = $row['VALORACION'];
+											
+											echo "<article class='mini-post' data-title='$titulo' data-author='$autores' data-published='$fecha' data-description='$resumen' data-link='$link' data-genero='$valoracion'>
+												<header>
+													<h3><a href='#'>$titulo</a></h3>
+													<time class='published' datetime='2015-10-20'>$fecha</time>
+													<img src='../usuario_global/imagen.php?id=$idLibroVirtual' alt='' />
+												</header>
+											</article>";
+										}
+									} else {
+										echo '<p>No se encontraron resultados.</p>';
+									}
+									$conn->close();
+								}
+								?>
+								</div>
+								
+							</div>
+							
+						</section>
+					</article>
 					
 					<article class= "post">
 						<header>
 							<div class="title">
-								<h2><a href="#">Todos los libros</a></h2>
+								<h2><a href="#">Libros mejor valorados </a></h2>
 							</div>
 							<!-- <div class="meta">
 								<h2 href="cambiarDatos.php" class="icon solid fa-pen"><span class="label">Twitter</span></h2>
 								<a class="published" href="cambiarDatos.php">Editar información</a>
 							</div> -->
 						</header>
-						<div class="slider-container">
+						<div class="slider-container" id="slider2">
 							<div class="slider">
 								<?php 
-									$query = "SELECT * FROM VistaLibrosVirtuales";
+									
+									$base = new Conexion();
+									$conn = $base->getConn();
+									
+									$query = "SELECT * FROM VistaMejoresLibrosConIDVirtual";
 									$result = $conn->query($query);
 									if($result->num_rows > 0){
 										while($row = $result->fetch_assoc()){
@@ -85,10 +161,13 @@
 											$link = "actualizar_historial.php?id=$idLibroVirtual";
 											$resumen = $row['RESUMEN'];
 											$fecha = $row['FECHA_PUBLICACION'];
-											$genero = $row['NOMBRE_GENERO'];
-											$autores = "ninguno";
+											// $genero = $row['NOMBRE_GENERO'];
+											$autores = $row['AUTORES'];
 											
-											echo "<article class='mini-post' data-title='$titulo' data-author='$autores' data-published='$fecha' data-description='$resumen' data-link='$link' data-genero='$genero'>
+
+											$valoracion = $row['VALORACION_PROMEDIO'];
+											
+											echo "<article class='mini-post' data-title='$titulo' data-author='$autores' data-published='$fecha' data-description='$resumen' data-link='$link' data-genero='$valoracion'>
 												<header>
 													<h3><a href='#'>$titulo</a></h3>
 													<time class='published' datetime='2015-10-20'>$fecha</time>
@@ -97,10 +176,13 @@
 											</article>";
 										}
 									}
+									
+									// conn->close();
 								
 								?>
 								
 							</div>
+							
 						</div>
 									
 					</article>
@@ -122,7 +204,7 @@
 					<h2 id="modal-title">Book Title</h2>
 					<p><strong>Author:</strong> <span id="modal-author">Author Name</span></p>
 					<p><strong>Published:</strong> <span id="modal-published">Date</span></p>
-					<p><strong>Género:</strong> <span id="modal-genero">Genre</span></p>
+					<p><strong>Valoración:</strong> <span id="modal-genero">Genre</span></p>
 					<p id="modal-description-summary">
 						This is a long description to test scrolling. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 					</p>
@@ -132,41 +214,46 @@
 				</div>
 			</div>
 			<script>
-								// Get the slider and the buttons
-				const slider = document.querySelector('.slider');
-				const prevBtn = document.createElement('div');
-				const nextBtn = document.createElement('div');
-				
+				// Select all slider containers
+const sliderContainers = document.querySelectorAll('.slider-container');
 
-				// Create buttons for navigation
-				prevBtn.classList.add('prev');
-				nextBtn.classList.add('next');
-				prevBtn.innerText = '←';
-				nextBtn.innerText = '→';
+// Loop through each container and initialize the slider
+sliderContainers.forEach((container) => {
+    const slider = container.querySelector('.slider');
+    const prevBtn = document.createElement('div');
+    const nextBtn = document.createElement('div');
 
-				// Append buttons to the container
-				const container = document.querySelector('.slider-container');
-				container.appendChild(prevBtn);
-				container.appendChild(nextBtn);
+    // Create navigation buttons
+    prevBtn.classList.add('prev');
+    nextBtn.classList.add('next');
+    prevBtn.innerText = '←';
+    nextBtn.innerText = '→';
 
-				// Set initial index for the slider
-				let index = 0;
+    // Append buttons to the container
+    container.appendChild(prevBtn);
+    container.appendChild(nextBtn);
 
-				// Function to move to the next slide
-				nextBtn.addEventListener('click', () => {
-					if (index < slider.children.length - 1) {
-						index++;
-						slider.style.transform = `translateX(-${index * 320}px)`; // Move left
-					}
-				});
+    // Set initial index for the slider
+    let index = 0;
 
-				// Function to move to the previous slide
-				prevBtn.addEventListener('click', () => {
-					if (index > 0) {
-						index--;
-						slider.style.transform = `translateX(-${index * 320}px)`; // Move right
-					}
-				});
+    // Function to move to the next slide
+    nextBtn.addEventListener('click', () => {
+        if (index < slider.children.length - 1) {
+            index++;
+            slider.style.transform = `translateX(-${index * 320}px)`; // Move left
+        }
+    });
+
+    // Function to move to the previous slide
+    prevBtn.addEventListener('click', () => {
+        if (index > 0) {
+            index--;
+            slider.style.transform = `translateX(-${index * 320}px)`; // Move right
+        }
+    });
+});
+
+
 				
 				
 				const modal = document.getElementById("modal");

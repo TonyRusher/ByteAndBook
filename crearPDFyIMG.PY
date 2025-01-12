@@ -3,6 +3,7 @@ from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 from PIL import Image, ImageDraw, ImageFont
 import os
+import random
 
 # Función para crear un PDF con el título del libro
 def crear_pdf_titulo(titulo, archivo_pdf):
@@ -14,8 +15,8 @@ def crear_pdf_titulo(titulo, archivo_pdf):
 
 # Función para crear una imagen con el título del libro
 def crear_imagen_titulo(titulo, archivo_imagen):
-    ancho, alto = 800, 400
-    imagen = Image.new("RGB", (ancho, alto), color="white")
+    ancho, alto = 400, 500
+    imagen = Image.new("RGB", (ancho, alto), color=(random.randint(200, 255), random.randint(200, 255), random.randint(200, 255)))
     draw = ImageDraw.Draw(imagen)
     
     try:
@@ -51,11 +52,11 @@ try:
             titulo = row["title"]  # Ajustar según el encabezado en el CSV
             
             # Nombres de archivo usando el ID
-            archivo_pdf = os.path.join(output_folder, f"{book_id}.pdf")
+            # archivo_pdf = os.path.join(output_folder, f"{book_id}.pdf")
             archivo_imagen = os.path.join(output_folder, f"{book_id}.png")
             
             # Generar PDF e imagen
-            crear_pdf_titulo(titulo, archivo_pdf)
+            # crear_pdf_titulo(titulo, archivo_pdf)
             crear_imagen_titulo(titulo, archivo_imagen)
             
         print(f"Archivos generados en la carpeta '{output_folder}'")
