@@ -6,7 +6,9 @@ if (isset($_GET['id'])) {
 	$base = new Conexion();
 	$conn = $base->getConn();
 
-    $sql = "SELECT dl.ISBN,g.NOMBRE_GENERO,dl.EDITORIAL,dl.EDICION,dl.FECHA_PUBLICACION,dl.IDIOMA,dl.AUTORES FROM DATOS_LIBRO dl JOIN CATALOGO_GENEROS g ON dl.ID_GENERO=g.ID_GENERO WHERE ID_DATOS_LIBRO = ?";
+    $sql = "SELECT dl.ISBN,dl.EDITORIAL,dl.EDICION,dl.FECHA_PUBLICACION,dl.IDIOMA,dl.AUTORES 
+FROM DATOS_LIBRO dl 
+WHERE ID_DATOS_LIBRO = ? ";
     $stmt = $conn->prepare($sql);
     $stmt->bind_param("i", $idLibro);
     $stmt->execute();
@@ -15,8 +17,8 @@ if (isset($_GET['id'])) {
     if ($result->num_rows > 0) {
         echo "<h2>Información</h2><ul>";
         while ($row = $result->fetch_assoc()) {
-            echo "<li><strong>ISBN:</strong> " . htmlspecialchars($row['ISBN']) . "</li>";
-            echo "<li><strong>Genero:</strong> " . htmlspecialchars($row['NOMBRE_GENERO']) . "</li>";
+			echo "<li><strong>ISBN:</strong> " . htmlspecialchars(number_format($row['ISBN'], 0, '', '')) . "</li>";
+            // echo "<li><strong>Genero:</strong> " . htmlspecialchars($row['NOMBRE_GENERO']) . "</li>";
             echo "<li><strong>Editorial:</strong> " . htmlspecialchars($row['EDITORIAL']) . "</li>";
             echo "<li><strong>Edicion:</strong> " . htmlspecialchars($row['EDICION']) . "</li>";
             echo "<li><strong>Fecha de Publicacion:</strong> " . htmlspecialchars($row['FECHA_PUBLICACION']) . "</li>";
