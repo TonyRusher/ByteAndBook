@@ -44,12 +44,8 @@
         <!-- Wrapper -->
         <div id="wrapper">
             <article class="post">
-                <header>
-					<div class="title">
-						<h2><a href="#">Registrar Prestamo</a></h2>
-					</div>
-				</header>
                 <section>
+                    <h3>Registrar Prestamo</h3>
                     <form method="post" action="registrar_prestamo.php" id="registrar_prestamo">
                         <div class="row gtr-uniform">
                             <div class="col-12">
@@ -135,12 +131,6 @@
                                 ?>
                             </div>
                             <div class="col-6 col-12-small">
-                                <h5>ISBN del Libro</h5>
-                            </div>
-                            <div class="col-6 col-12-small">
-                                <h5>No. Credencial Usuario</h5>
-                            </div>
-                            <div class="col-6 col-12-small">
                                 <input type="text" name="Id_libro_fisico" id="idlibro" value="<?php echo $idlibro; ?>" placeholder="ISBN del Libro" />
                             </div>
                             <div class="col-6 col-12-small">
@@ -166,12 +156,8 @@
                 </section>
             </article>
             <article class="post">
-                <header>
-                    <div class="title">
-                        <h2><a href="#">Registrar Devolucion</a></h2>
-                    </div>
-                </header>
                 <section>
+                    <h3>Registrar Devolucion</h3>
                     <form method="post" action="registrar_prestamo.php" id="formDevolucion">
                         <div class="row gtr-uniform">
                             <div class="col-12">
@@ -201,12 +187,6 @@
                                     }
                                 }
                                 ?>
-                            </div>
-                            <div class="col-6 col-12-small">
-                                <h5>ISBN del Libro</h5>
-                            </div>
-                            <div class="col-6 col-12-small">
-                                <h5>No. Credencial Usuario</h5>
                             </div>
                             <div class="col-6 col-12-small">
                                 <input type="text" name="Id_libro_fisico_1" id="idlibro1" value="<?php echo $idlibro1; ?>" placeholder="ISBN del Libro" />

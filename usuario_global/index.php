@@ -76,6 +76,7 @@
 				$colonia = $row["COLONIA"];
 				$alcaldia = $row["ALCALDIA"];
 				$codigoPostal = $row["CODIGO_POSTAL"];
+				$suscripcion = $row["SUBSCRIPTION"];
 				// echo "Datos obtenidos";
 				
 				
@@ -87,6 +88,7 @@
 				$_SESSION["TELEFONO"] = $telefono;
 				$_SESSION["CORREO"] = $userMail;
 				$_SESSION["CONTRASENA"] = $userPassword;
+				$_SESSION["SUBSCRIPTION"] = $suscripcion;
 				
 				$_SESSION["CALLE"] = $calle;
 				$_SESSION["NUMERO_EXT"] = $numeroExt;
