@@ -281,13 +281,14 @@ BEGIN
 END //
 
 CREATE PROCEDURE BuscarUsuarios(
-	IN p_clave VARCHAR(50)
+	IN p_clave VARCHAR(50),
+	IN p_tipo_usuario INT
 )
 BEGIN
 	SELECT ID_USUARIO, CONCAT(NOMBRE, ' ', APELLIDO_1, ' ', APELLIDO_2) AS nombre_completo
 	FROM DATOS_PERSONALES dp
 	INNER JOIN USUARIOS u ON dp.ID_DATOS_PERSONALES = u.ID_DATOS_PERSONALES
-	WHERE (NOMBRE LIKE CONCAT('%', p_clave, '%') OR APELLIDO_1 LIKE CONCAT('%', p_clave, '%') OR APELLIDO_2 LIKE CONCAT('%', p_clave, '%')) AND TIPO_USUARIO = 1;
+	WHERE (NOMBRE LIKE CONCAT('%', p_clave, '%') OR APELLIDO_1 LIKE CONCAT('%', p_clave, '%') OR APELLIDO_2 LIKE CONCAT('%', p_clave, '%')) AND TIPO_USUARIO = p_tipo_usuario;
 END //
 
 CREATE PROCEDURE BuscarLibros(
