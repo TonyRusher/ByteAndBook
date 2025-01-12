@@ -65,39 +65,48 @@
 							</div>
 						</header>
 						<div class = "row">
-							<div class = "col-4">
-								<h3><?php echo $nombre?></h3>
+							<div class = "col-3 col-12-small">
+								<h3>Nombre: </h3>
 								<p></p>
 							</div>
-							<div class = "col-4">
-								<h3><?php echo $apellido1?></h3>
+							<div class = "col-3 col-4-small">
+								<p><?php echo $nombre?></p>
+								<p></p>
 							</div>
-							<div class = "col-4">
-								<h3><?php echo $apellido2?></h3>
+							<div class = "col-3 col-4-small">
+								<p><?php echo $apellido1?></p>
 							</div>
-							<div class = "col-4">
-								<h3><?php echo $telefono?></h3>
+							<div class = "col-3 col-4-small">
+								<p><?php echo $apellido2?></p>
 							</div>
-							<div class = "col-4">
-								<h3><?php echo $correo?></h3>
+							<div class = "col-3 col-6-small">
+								<h3>Teléfono: </h3>
 							</div>
-							<div class = "col-4">
-								<a href="cambiarDatos.php">Editar</a>
+							<div class = "col-3 col-6-small">
+								<p><?php echo $telefono?></p>
 							</div>
-							<div class = "col-8">
-								<h3>Dirección</h3>
+							<div class = "col-3 col-6-small">
+								<h3>Correo: </h3>
 							</div>
-							<div class = "col-4">
-								<a href="agregarDireccion.php">agregar dirección</a>
+							<div class = "col-3 col-6-small">
+								<p><?php echo $correo?></p>
 							</div>
-							<div class = "col-8">
-								<p><?php echo $calle . " " . $numeroExt . " " . $numeroInt . " " . $colonia . " " . $alcaldia . " " . $codigo_postal?></p>
+							
+							
+							<div class = "col-12">
+								<section>
+									<hr/>
+									<div class = "col-8">
+										<h3>Dirección</h3>
+									</div>
+									<div class = "col-8">
+										<p><?php echo $calle . " " . $numeroExt . " " . $numeroInt . " " . $colonia . " " . $alcaldia . " " . $codigo_postal?></p>
+									</div>
+								</section>
 							</div>
+							
 						</div>
 					</article>
-					
-					
-					
 				</div>
 				
 				<section id="sidebar">

@@ -25,7 +25,7 @@ if (isset($_GET['id'])) {
         }
         echo "</ul>";
     } else {
-        echo "<p>Informacion no encontrada.</p>";
+        echo "<p>Informacion no encontrada". $idLibro."</p>";
     }
     $conn->close();
 } else {

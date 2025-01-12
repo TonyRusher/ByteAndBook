@@ -8,8 +8,9 @@
 						<ul>
 							<li><a href='registrar_prestamo.php'>Préstamos</a></li>
 							<li><a href='libros.php'>Libros</a></li>
-							<li><a href='registrar_usuarios.php'>Registrar usuario</a></li>
 							<li><a href='busqueda_usuarios.php'>Buscar usuarios</a></li>
+							<li><a href='registrar_usuarios.php'>Registrar usuario</a></li>
+							<li><a href='registrar_libro.php'>Registrar Libro</a></li>
 							<li><a href='../usuario_global/cerrarSesion.php'>Cerrar sesión</a></li>
 						</ul>
 					</nav>";
@@ -50,15 +51,21 @@
 										</a>
 									</li>
 									<li>
-										<a href='busqueda_usuario.php'>
-											<h3>Buscar usuarios</h3>
-											<p>Revisa y actualiza el perfil de los usuarios</p>
-										</a>
-									</li>
-									<li>
 										<a href='libros.php'>
 											<h3>Libros</h3>
 											<p>Agrega, modifica o visualiza los libros</p>
+										</a>
+									</li>
+									<li>
+										<a href='mi_cuenta_bibliotecario.php'>
+											<h3>Mi cuenta</h3>
+											<p>Revisa y actualiza tu perfil</p>
+										</a>
+									</li>
+									<li>
+										<a href='busqueda_usuario.php'>
+											<h3>Buscar usuarios</h3>
+											<p>Revisa y actualiza el perfil de los usuarios</p>
 										</a>
 									</li>
 									<li>
@@ -94,7 +101,7 @@
 		<script>
 			import Swal from 'sweetalert2/dist/sweetalert2.js'
 			import 'sweetalert2/src/sweetalert2.scss'
-		</script>'";
+		</script>";
 		}
 	}
 ?>

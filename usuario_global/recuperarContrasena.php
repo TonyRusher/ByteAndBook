@@ -24,10 +24,6 @@
 				require_once('Conexion.php');
 				$base = new Conexion();
 				$conn = $base->getConn();
-				
-				require_once('../usuario_cliente/Constantes.php');
-				$header = new Constantes();
-				$header->getHeader(0);
 				$userMail = $_POST['userMail'] ?? null;
 				if($userMail != ""){
 					
@@ -69,15 +65,23 @@
 									<div class="">
 										<div class="row">
 											<div class="col-8 col-12-small">
-												<section id="">
-													<a href="#" class="logo"><img src="images/logo.jpg" alt="" /></a>
-													<header>
-														<h2>Byte & Book</h2>
-														<p>Tu servicio de libros favorito <a href="http://html5up.net">HTML5 UP</a></p>
-													</header>
-												</section>
+												<div class="row gtr-uniform wrap">
+													<div class="col-3 col-12-small"></div>
+													<div class="col-8">
+														<section id="">
+														<a href="#" class="logo"><img src="../images/logo.jpg" alt="" /></a>
+														<header>
+															<h2>Byte & Book</h2>
+															<p>Tu servicio de libros favorito <a href="http://html5up.net">HTML5 UP</a></p>
+														</header>
+														</section>
+													</div>
+													<div class="col-3 col-12-small"></div>
+												</div>
+												
 											</div>
 											<div class="col-4 col-12-small ">
+												<article class="post">
 												<section>
 													<h3>Recuperar contraseña</h3>
 													<form method="post" action="recuperarContrasena.php">
@@ -92,7 +96,8 @@
 																<a href="registro.php">Eres nuevo usuario? Regístrate Aquí</a>
 															</div>
 														</div>
-													</form>
+													</form>													
+												</article>
 												</section>
 											</div>
 										</div>

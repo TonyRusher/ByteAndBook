@@ -38,7 +38,7 @@
 			$alcaldia = $_POST["alcaldia"] ?? null;
 			$codigo_postal = $_POST["codigo_postal"] ?? null;
 
-			$fechaNacimiento = $_POST["fechaNacimiento"] ;
+			$fechaNacimiento = $_POST["fechaNacimiento"] ?? null;
 			$correo = $_POST["correo"] ?? null;
 			$pass1 = $_POST["pass1"] ?? null;
 			$pass2 = $_POST["pass2"] ?? null;

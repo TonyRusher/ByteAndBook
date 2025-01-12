@@ -36,8 +36,13 @@
         ?>
 		<div id="wrapper">
 		<article class="post">
+		<header>
+					<div class="title">
+						<h2>Busca un usuario</h2>
+					</div>
+				</header>
 			<section>
-			<h1>Buscador de Usuarios</h1>
+				
 			<div class="search-bar">
 				<form method="POST" action="busqueda_usuarios.php">
 				<div class="row gtr-uniform">
@@ -62,7 +67,7 @@
 					}
 
 					$search = $conn->real_escape_string($_POST["search"]);
-					$sql = "CALL BuscarUsuarios(?)";
+					$sql = "CALL BuscarUsuarios(?,1)";
 					$stmt = $conn->prepare($sql);
 					$stmt->bind_param("s", $search);
 					$stmt->execute();
