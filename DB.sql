@@ -326,6 +326,17 @@ BEGIN
     WHERE p.ID_USUARIO = p_id_usuario AND p.ESTADO = 1;
 END //
 
+CREATE PROCEDURE getPrestamos(
+	IN p_id_usuario INT
+)
+BEGIN
+	SELECT l.TITULO, p.FECHA_PRESTAMO, p.FECHA_ENTREGA, p.ESTADO
+    FROM PRESTAMOS p
+    INNER JOIN LIBRO_FISICO lf ON p.ID_LIBRO_FISICO = lf.ID_LIBRO_FISICO
+    INNER JOIN DATOS_LIBRO l ON lf.ID_LIBRO_FISICO = l.ID_DATOS_LIBRO
+    WHERE p.ID_USUARIO = p_id_usuario;
+END //
+
 CREATE PROCEDURE ObtenerAdeudosUsuario(
 	IN p_id_usuario INT
 )
@@ -513,12 +524,20 @@ BEGIN
     WHERE ID_USUARIO = p_id_usuario;
 END //
 
+#============================================= FIN PROCEDIMIENTOS =============================================#
+#============================================= INICIO TRIGGERS =============================================#
 
+CREATE TRIGGER actualizar_estado_prestamo
+BEFORE INSERT ON PRESTAMOS
+FOR EACH ROW
+BEGIN
+	IF NEW.FECHA_ENTREGA < CURDATE() THEN
+		SET NEW.ESTADO = 2;
+	END IF;
+END //
 
-
-
-#============================================= FIN DE LOS PROCEDIMIENTOS =============================================#
 DELIMITER ;
+#============================================= FIN DE LOS PROCEDIMIENTOS =============================================#
 
 
 #============================================= INICIO EVENTOS =============================================#
@@ -530,6 +549,8 @@ DO
     UPDATE PRESTAMOS
     SET ESTADO = 2
     WHERE CURDATE() > FECHA_ENTREGA AND ESTADO = 1;
+	
+	
 #============================================= FIN EVENTOS =============================================#
 
 #============================================= INICIO VISTAS =============================================#

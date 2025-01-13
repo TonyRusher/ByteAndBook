@@ -79,6 +79,7 @@
 								<div class="row gtr-uniform">
 									<div class="col-6 col-12-small">
 										<h3>' . htmlspecialchars($row["nombre_completo"]) . '</h3>
+										<p>ID: ' . htmlspecialchars($row["ID_USUARIO"]) . '</p>
 									</div>
 									<div class="col-6 col-12-small">
 												<button onclick="abrirModal(\'actualizar\', ' . $row["ID_USUARIO"] . ')">Actualizar</button>

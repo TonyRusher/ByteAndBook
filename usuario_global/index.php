@@ -77,6 +77,7 @@
 				$alcaldia = $row["ALCALDIA"];
 				$codigoPostal = $row["CODIGO_POSTAL"];
 				$suscripcion = $row["SUBSCRIPTION"];
+				$fechaNacimiento = $row["FECHA_NACIMIENTO"];
 				// echo "Datos obtenidos";
 				
 				
@@ -89,6 +90,7 @@
 				$_SESSION["CORREO"] = $userMail;
 				$_SESSION["CONTRASENA"] = $userPassword;
 				$_SESSION["SUBSCRIPTION"] = $suscripcion;
+				$_SESSION["FECHA_NACIMIENTO"] = $fechaNacimiento;
 				
 				$_SESSION["CALLE"] = $calle;
 				$_SESSION["NUMERO_EXT"] = $numeroExt;
@@ -142,10 +144,10 @@
 						<article>	
 							<section>
 								<div class="">
-									<div class="row">
-										<div class="col-8 col-12-small">
-											<div class = "row gtr-uniform wrap">
-												<div class="col-3 col-2-small"></div>
+									<div class="row gtr-uniform">
+										<div class="col-7 col-12-small">
+											<div class = "row gtr-uniform ">
+												<div class="col-2 col-2-small"></div>
 												<div class="col-8">
 												<a href="#" class=""><img src="../images/logo.jpg" alt="logo de la compañia" /></a>
 													
@@ -153,10 +155,10 @@
 													<p>Tu servicio de libros favorito</a></p>
 
 												</div>
-												<div class="col-1 col-2-small"></div>
+												<div class="col-2 col-2-small"></div>
 											</div>
 										</div>
-										<div class="col-4 col-12-small ">
+										<div class="col-5 col-12-small ">
 											<article class = "post">
 											<section>
 												<h3>Inicia Sesion</h3>
@@ -167,7 +169,7 @@
 														</div>
 														<div class="col-6 col-12-large">
 															<input type="password" name="userPassword" id="userPassword" value="" placeholder="Contraseña" />
-															<a href="recuperarContrasena.php">Recuperar contrasena</a>
+															<a href="recuperarContrasena.php">Recuperar contraseña</a>
 														</div>
 														
 														<div class="col-12">
@@ -175,8 +177,7 @@
 																<li><input type="submit" value="Acceder" /></li>
 																<li><input type="reset" value="Borrar" /></li>
 															</ul>
-															<a href="registro.php">Eres nuevo usuario? Regístrate Aquí</a>
-														
+															<a href="registro.php">¿Eres nuevo usuario?   Regístrate Aquí</a>
 														</div>
 													</div>
 												</form>

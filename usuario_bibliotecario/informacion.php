@@ -6,9 +6,10 @@ if (isset($_GET['id'])) {
 	$base = new Conexion();
 	$conn = $base->getConn();
 
-    $sql = "SELECT dl.ISBN,dl.EDITORIAL,dl.EDICION,dl.FECHA_PUBLICACION,dl.IDIOMA,dl.AUTORES 
+    $sql = "SELECT dlf.ID_LIBRO_FISICO,dl.ISBN,dl.EDITORIAL,dl.EDICION,dl.FECHA_PUBLICACION,dl.IDIOMA,dl.AUTORES 
 FROM DATOS_LIBRO dl 
-WHERE ID_DATOS_LIBRO = ? ";
+join LIBRO_FISICO dlf on dl.ID_DATOS_LIBRO = dlf.ID_DATOS_LIBRO
+WHERE dl.ID_DATOS_LIBRO = ? ";
     $stmt = $conn->prepare($sql);
     $stmt->bind_param("i", $idLibro);
     $stmt->execute();
@@ -17,6 +18,7 @@ WHERE ID_DATOS_LIBRO = ? ";
     if ($result->num_rows > 0) {
         echo "<h2>Información</h2><ul>";
         while ($row = $result->fetch_assoc()) {
+			echo "<li><strong>ID_libro:</strong> " . htmlspecialchars(number_format($row['ID_LIBRO_FISICO'], 0, '', '')) . "</li>";
 			echo "<li><strong>ISBN:</strong> " . htmlspecialchars(number_format($row['ISBN'], 0, '', '')) . "</li>";
             // echo "<li><strong>Genero:</strong> " . htmlspecialchars($row['NOMBRE_GENERO']) . "</li>";
             echo "<li><strong>Editorial:</strong> " . htmlspecialchars($row['EDITORIAL']) . "</li>";

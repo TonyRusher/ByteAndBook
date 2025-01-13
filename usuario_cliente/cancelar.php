@@ -40,40 +40,21 @@
 					$conn = $base->getConn();
 					
 					
-					if ($_SERVER['REQUEST_METHOD'] == 'POST'){
-						if (!isset($_POST['tarjeta'])) {
-							echo "<script>Swal.fire({
-								title: 'Registra una tarjeta para subscribirte',
-								icon: 'error',
-								confirmButtonText: '<a href=\"plus.php\">Aceptar</a>',
-																
-							});</script>";
-						}
-						$opcionSeleccionada = $_POST['tarjeta'];
+					// if ($_SERVER['REQUEST_METHOD'] == 'POST'){
+						$idUsuario = $_SESSION['ID_USUARIO'];
+						$_SESSION['SUBSCRIPTION'] = 0;
 						
-						if($opcionSeleccionada == 1){
-							echo "<script>Swal.fire({
-								title: 'Selecciona una tarjeta',
-								icon: 'error',
-								confirmButtonText: '<a href=\"plus.php\">Aceptar</a>',
-																
-							});</script>";
-						}else{
-							$idUsuario = $_SESSION['ID_USUARIO'];
-							$_SESSION['SUBSCRIPTION'] = 1;
-							
-							$sql = "CALL ActualizarSubscription('$idUsuario', 1)";
-							$result = $conn->query($sql);
-							
-							echo "<script>Swal.fire({
-								title: 'Actualización exitosa ',
-								icon: 'success',
-								confirmButtonText: '<a href=\"plus.php\">Aceptar</a>',
-																
-							});</script>";
-						}
+						$sql = "CALL ActualizarSubscription('$idUsuario', 0)";
+						$result = $conn->query($sql);
 						
-					}
+						echo "<script>Swal.fire({
+							title: 'Cancelación exitosa',
+							icon: 'success',
+							confirmButtonText: '<a href=\"plus.php\">Aceptar</a>',
+																
+						});</script>";
+						
+					// }
 					
 					
 					

@@ -79,7 +79,8 @@
 						<div class = "row gtr-uniform">
 							<div class = "col-8">
 								<label for="tarjeta">Selecciona una tarjeta</label>
-								<select name="tarjeta" id="tarjeta">	
+								<select name="tarjeta" id="tarjeta">
+									<option value='1' >Selecciona una tarjeta</option>	
 									<?php
 									$sql = "SELECT ID_TARJETA, NUMERO_TARJETA, FECHA_VENCIMIENTO FROM TARJETAS  WHERE ID_USUARIO = $idUsuario";
 									$result = mysqli_query($conn, $sql);
@@ -128,9 +129,10 @@
 									<div class="col-1 col-6-xsmall">
 										<button type="submit" value="" class="button icon solid fa-search" ></button>	
 									</div>
-									<!-- <div class="col-3 col-6-small">
-									<a href="registrar_libro.php" class="button fit">  </a>
-									</div> -->
+									<div class="col-3 col-6-small">
+									<!-- <a href="cancelar.php" class="button fit"> Cancelar subscripción </a> -->
+									<a href="cancelar.php" class="button fit" onclick="return confirm('¿Estás seguro de que deseas cancelar tu suscripción?');">Cancelar subscripción</a>
+									</div>
 								</div>
 							</form>
 							

@@ -246,7 +246,7 @@
 									<input type="password" value="" name = "currentPassword" id = "currentPassword" />
 								</div>
 								<div class = "col-6">
-									<label for = "alcaldia">Alcaldía</label>
+									<label for = ""> _____</label>
 									<input type="submit" value="Actualizar datos" name = "Actualizar" />
 								</div>
 								<div class="col-12">
