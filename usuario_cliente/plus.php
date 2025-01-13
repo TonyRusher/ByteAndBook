@@ -243,6 +243,63 @@
 						</div>
 									
 					</article>
+					
+					
+					<article class= "post">
+						<header>
+							<div class="title">
+								<h2><a href="#">Sugerencias especialmente para ti </a></h2>
+							</div>
+							<!-- <div class="meta">
+								<h2 href="cambiarDatos.php" class="icon solid fa-pen"><span class="label">Twitter</span></h2>
+								<a class="published" href="cambiarDatos.php">Editar información</a>
+							</div> -->
+						</header>
+						<div class="slider-container" id="slider2">
+							<div class="slider">
+								<?php 
+									
+									$base = new Conexion();
+									$conn = $base->getConn();
+									
+									// $query = "CALL ObtenerHistorial($idUsuario)";
+									$query = "CALL ObtenerHistorial20($idUsuario)";
+									$result = $conn->query($query);
+									if($result->num_rows > 0){
+										while($row = $result->fetch_assoc()){
+											$idLibro = $row['ID_DATOS_LIBRO'];
+											$idLibroVirtual = $row['ID_LIBRO_VIRTUAL'];
+											$titulo = $row['TITULO'];
+											$editorial = $row['EDITORIAL'];
+											$edicion = $row['EDICION'];
+											$link = "actualizar_historial.php?id=$idLibroVirtual";
+											$resumen = $row['RESUMEN'];
+											$fecha = $row['FECHA_PUBLICACION'];
+											// $genero = $row['NOMBRE_GENERO'];
+											$autores = $row['AUTORES'];
+											
+
+											$valoracion = $row['VALORACION_PROMEDIO'];
+											
+											echo "<article class='mini-post' data-title='$titulo' data-author='$autores' data-published='$fecha' data-description='$resumen' data-link='$link' data-genero='$valoracion'>
+												<header>
+													<h3><a href='#'>$titulo</a></h3>
+													<time class='published' datetime='2015-10-20'>$fecha</time>
+													<img src='../usuario_global/imagen.php?id=$idLibroVirtual' alt='' />
+												</header>
+											</article>";
+										}
+									}
+									
+									// conn->close();
+								
+								?>
+								
+							</div>
+							
+						</div>
+									
+					</article>
 				</div>
 				
 				<section id="sidebar">
