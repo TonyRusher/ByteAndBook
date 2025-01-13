@@ -67,7 +67,7 @@
 					}
 
 					$search = $conn->real_escape_string($_POST["search"]);
-					$sql = "CALL BuscarUsuarios(?)";
+					$sql = "CALL BuscarUsuarios(?,1)";
 					$stmt = $conn->prepare($sql);
 					$stmt->bind_param("s", $search);
 					$stmt->execute();

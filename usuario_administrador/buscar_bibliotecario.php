@@ -38,7 +38,7 @@
 		<article class="post">
 		<header>
 					<div class="title">
-						<h2>Busca un usuario</h2>
+						<h2>Buscar bibliotecario</h2>
 					</div>
 				</header>
 			<section>
