@@ -128,8 +128,8 @@
 												<tr>
 													<th>Numero</th>
 													<th>fecha vencimiento</th>
-													<th></th>
-													<th></th>
+													<!-- <th></th>
+													<th></th> -->
 												</tr>
 											</thead>
 											<tbody>
@@ -145,8 +145,8 @@
 													<tr>
 														<td><?php echo $numero?></td>
 														<td><?php echo $vencimiento?></td>
-														<td><a href="editarTarjeta.php" class="icon solid fa-pen"><span class="label">Twitter</span></a></td>
-														<td><a href="borrarTarjeta.php" class="icon solid fa-trash"><span class="label">Twitter</span></a></td>
+														<!-- <td><a href="editarTarjeta.php" class="icon solid fa-pen"><span class="label">Twitter</span></a></td> -->
+														<!-- <td><a href="borrarTarjeta.php" class="icon solid fa-trash"><span class="label">Twitter</span></a></td> -->
 													</tr>
 											<?php
 												}
