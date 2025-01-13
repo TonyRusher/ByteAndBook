@@ -35,25 +35,25 @@
 									<li>
 										<a href='registrar_prestamo.php'>
 											<h3>Préstamos</h3>
-											<p>Registra los préstamos</p>
-										</a>
-									</li>
-									<li>
-										<a href='registrar_devolucion.php'>
-											<h3>Devoluciones</h3>
-											<p>Registra las devoluciones</p>
-										</a>
-									</li>
-									<li>
-										<a href='registrar_usuarios.php'>
-											<h3>Registrar Usuarios</h3>
-											<p>Registra a los nuevos usuarios</p>
+											<p>Registra los préstamos y devoluciones</p>
 										</a>
 									</li>
 									<li>
 										<a href='libros.php'>
-											<h3>Libros</h3>
-											<p>Agrega, modifica o visualiza los libros</p>
+											<h3>Libros </h3>
+											<p>Buscar y registrar libros</p>
+										</a>
+									</li>
+									<li>
+										<a href='busqueda_usuarios.php'>
+											<h3>Buscar usuarios</h3>
+											<p>Busca la información de un usuario </p>
+										</a>
+									</li>
+									<li>
+										<a href='registrar_usuarios.php'>
+											<h3>Registrar usuarios</h3>
+											<p>Registra nuevos usuarios</p>
 										</a>
 									</li>
 									<li>
