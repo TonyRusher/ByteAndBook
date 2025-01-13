@@ -37,8 +37,12 @@
 		
 		<div id="wrapper">
 		<article class= "post">
+			<header>
+				<div class="title">
+					<h2><a href="#">Busqueda de libros</a></h2>
+				</div>
+			</header>
 			<section>
-				<h3>Busca un libro </h3>
 				<form id="search" action="libros.php" method="post">
 					<div class="row gtr-uniform">
 						<div class="col-12"> 
