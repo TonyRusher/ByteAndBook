@@ -88,7 +88,7 @@
 											$idLibroVirtual = $row['ID_LIBRO_VIRTUAL'];
 											
 											echo "<article class='mini-post' data-title='$titulo' data-author='$autores' 
-											data-valoracino = '$valoracion' data-comentario = '$comentario' data-id-valoracion = '$idValoracion' data-id-libro-virtual = '$idLibroVirtual'>
+											data-valoracion = '$valoracion' data-comentario = '$comentario' data-id-valoracion = '$idValoracion' data-id-libro-virtual = '$idLibroVirtual'>
 												<header>
 													<h3><a href='#'>$titulo</a></h3>
 													<time class='published' datetime='2015-10-20'>$autores</time>
@@ -166,64 +166,83 @@
 				
 				
 				const modal = document.getElementById("modal");
-				const closeButton = document.querySelector(".close");
-				const readMoreBtn = document.getElementById("read-more-btn");
-				// const modalDescriptionSummary = document.getElementById("modal-description-summary");
-				// const modalFullDescription = document.getElementById("modal-full-description");
-				const modalImage = document.getElementById("modal-image");
+const closeButton = document.querySelector(".close");
+const readMoreBtn = document.getElementById("read-more-btn");
+const modalImage = document.getElementById("modal-image");
 
-				// Open modal when a mini-post is clicked
-				const miniPosts = document.querySelectorAll('.mini-post');
-				miniPosts.forEach(post => {
-					post.addEventListener('click', () => {
-						const title = post.getAttribute('data-title');
-						const author = post.getAttribute('data-author');
-						// const published = post.getAttribute('data-published');
-						// const description = post.getAttribute('data-description');
-						// const genero = post.getAttribute('data-genero');
-						const imageSrc = post.querySelector('img').src; // Get the image source
-						link = post.getAttribute('data-link');
-						// Set modal content
-						document.getElementById("modal-title").innerText = title;
-						document.getElementById("modal-author").innerText = author;
-						// document.getElementById("modal-published").innerText = published;
-						// document.getElementById("modal-genero").innerText = genero;
-						
+// Open modal when a mini-post is clicked
+const miniPosts = document.querySelectorAll('.mini-post');
+miniPosts.forEach(post => {
+    post.addEventListener('click', () => {
+        const title = post.getAttribute('data-title');
+        const author = post.getAttribute('data-author');
+        const valoracion = post.getAttribute('data-valoracion');
+        const comentario = post.getAttribute('data-comentario');
+        const idValoracion = post.getAttribute('data-id-valoracion');
+        const imageSrc = post.querySelector('img').src;
+        link = post.getAttribute('data-link');
 
-						// Show only the summary initially
-						// const summary = description.substring(0, 150) + '...'; // Summary of first 150 characters
-						// modalDescriptionSummary.innerText = summary;
-						// modalFullDescription.innerText = description; // Full description
+        // Set modal content
+        document.getElementById("modal-title").innerText = title;
+        document.getElementById("modal-author").innerText = author;
+        modalImage.src = imageSrc;
 
-						// Set the image for the modal
-						modalImage.src = imageSrc;
+        // Remove any existing content after the author
+        const formContainer = modal.querySelector('.form-container');
+        if (formContainer) {
+            formContainer.remove();
+        }
 
-						// Show modal
-						modal.style.display = "block";
-						document.body.style.overflow = "hidden"; // Lock the body scroll
-					});
-				});
+        // Create a new container for the form or rating details
+        const newFormContainer = document.createElement('div');
+        newFormContainer.classList.add('form-container');
+		console.log('Valoracion:', valoracion);
+        if (valoracion === 'null' || valoracion === null || valoracion === undefined || valoracion === ' ' || valoracion === '' || !valoracion) {
+            // Create the form
+            const formHTML = `
+                <form id="rating-form" method="post" action="subirRating.php">
+                    <input type="hidden" id="id_valoracion" name="id_valoracion" value="${idValoracion}" />
+                    <label for="rating">Rate this book (1-5):</label>
+                    <input type="number" id="rating" name="rating" min="1" max="5" required />
+                    <label for="comment">Your comment:</label>
+                    <textarea id="comment" name="comment" rows="4" required></textarea>
+                    <button type="submit" name="Actualizar">Submit</button>
+                </form>
+            `;
+            newFormContainer.innerHTML = formHTML;
+        } else {
+            // Display rating details
+            newFormContainer.innerHTML = `
+                <p><strong>Rating:</strong> ${valoracion}/5</p>
+                <p><strong>Comment:</strong> ${comentario || 'No comment available.'}</p>
+            `;
+        }
 
-				// Close modal when clicking on the close button
-				closeButton.addEventListener('click', () => {
-					modal.style.display = "none";
-					document.body.style.overflow = "auto"; // Unlock the body scroll
-				});
+        // Append the new container after the author
+        const authorElement = document.getElementById("modal-author").parentNode;
+        authorElement.insertAdjacentElement('afterend', newFormContainer);
 
-				// Close modal if the user clicks outside of the modal content
-				window.addEventListener('click', (e) => {
-					if (e.target === modal) {
-						modal.style.display = "none";
-						document.body.style.overflow = "auto";
-					}
-				});
+        // Show modal
+        modal.style.display = "block";
+        document.body.style.overflow = "hidden"; // Lock the body scroll
+    });
+});
 
-				// Show the full description when 'Read More' is clicked
-				readMoreBtn.addEventListener('click', () => {
-					if (link) {
-						window.location.href = link; // Redirect to the book link
-					}
-				});
+// Close modal when clicking on the close button
+closeButton.addEventListener('click', () => {
+    modal.style.display = "none";
+    document.body.style.overflow = "auto"; // Unlock the body scroll
+});
+
+// Close modal if the user clicks outside of the modal content
+window.addEventListener('click', (e) => {
+    if (e.target === modal) {
+        modal.style.display = "none";
+        document.body.style.overflow = "auto";
+    }
+});
+
+
 			</script>
 				
 			<script src="../assets/js/jquery.min.js"></script>

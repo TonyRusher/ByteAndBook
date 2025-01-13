@@ -123,3 +123,35 @@ input[type="date"], input[type="time"], input[type="number"] {
 th {
     text-align: center;
 }
+
+.modal-content form {
+    margin-top: 20px;
+}
+
+.modal-content form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.modal-content form input,
+.modal-content form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.modal-content form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.modal-content form button:hover {
+    background-color: #0056b3;
+}

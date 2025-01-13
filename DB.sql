@@ -450,24 +450,24 @@ BEGIN
 END //
 
 CREATE PROCEDURE AgregarValoracionYComentario(
-	IN p_id_datos_libro INT,
-	IN p_id_usuario INT,
-	IN p_valoracion INT,
-	IN p_comentario VARCHAR(500)
+    IN p_id_valoracion INT,
+    IN p_valoracion INT,
+    IN p_comentario VARCHAR(500)
 )
 BEGIN
-	IF EXISTS (
-		SELECT 1 
-		FROM VALORACIONES_LIBROS 
-		WHERE ID_DATOS_LIBRO = p_id_datos_libro AND ID_USUARIO = p_id_usuario
-	) THEN
-		UPDATE VALORACIONES_LIBROS
-		SET VALORACION = p_valoracion, COMENTARIO = p_comentario
-		WHERE ID_DATOS_LIBRO = p_id_datos_libro AND ID_USUARIO = p_id_usuario;
-	ELSE
-		INSERT INTO VALORACIONES_LIBROS (ID_DATOS_LIBRO, ID_USUARIO, VALORACION, COMENTARIO)
-		VALUES (p_id_datos_libro, p_id_usuario, p_valoracion, p_comentario);
-	END IF;
+    IF EXISTS (
+        SELECT 1 
+        FROM VALORACIONES_LIBROS 
+        WHERE ID_VALORACION = p_id_valoracion
+    ) THEN
+        UPDATE VALORACIONES_LIBROS
+        SET VALORACION = p_valoracion, COMENTARIO = p_comentario
+        WHERE ID_VALORACION = p_id_valoracion;
+    ELSE
+        -- Si no existe la valoración, puedes decidir qué hacer aquí. 
+        -- Por ejemplo, lanzar un error o insertar una nueva valoración.
+        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Valoración no encontrada';
+    END IF;
 END //
 
 
@@ -537,6 +537,8 @@ BEGIN
     SET SUBSCRIPTION = p_nueva_suscripcion
     WHERE ID_USUARIO = p_id_usuario;
 END //
+
+
 
 #============================================= FIN PROCEDIMIENTOS =============================================#
 #============================================= INICIO TRIGGERS =============================================#

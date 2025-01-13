@@ -80,7 +80,7 @@
 							<div class = "col-8">
 								<label for="tarjeta">Selecciona una tarjeta</label>
 								<select name="tarjeta" id="tarjeta">
-									<option value='1' >Selecciona una tarjeta</option>	
+									<option value='0' >Selecciona una tarjeta</option>	
 									<?php
 									$sql = "SELECT ID_TARJETA, NUMERO_TARJETA, FECHA_VENCIMIENTO FROM TARJETAS  WHERE ID_USUARIO = $idUsuario";
 									$result = mysqli_query($conn, $sql);

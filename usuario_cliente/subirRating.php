@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Plus</title>
+		<title>Mi cuenta usuario</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<?php
@@ -19,7 +19,7 @@
 			
 		<!-- Wrapper -->
 			<div id="wrapper">
-				<?php
+			<?php
 					session_start();
 					if(isset($_SESSION["TYPE"]) && $_SESSION["TYPE"] == 1){
 						$TYPE = $_SESSION["TYPE"];
@@ -32,55 +32,35 @@
 					$header->getHeader($TYPE);
 				?>
 				<div id="main">
-					
-				
 				<?php
 					require_once('../usuario_global/Conexion.php');
 					$base = new Conexion();
 					$conn = $base->getConn();
 					
-					
-					if ($_SERVER['REQUEST_METHOD'] == 'POST'){
-						if (!isset($_POST['tarjeta'])) {
-							$opcionSeleccionada = $_POST['tarjeta'];
-							echo "<script>Swal.fire({
-								title: 'Registra una tarjeta para subscribirte  $opcionSeleccionada',
-								icon: 'error',
-								confirmButtonText: '<a href=\"plus.php\">Aceptar</a>',
-																
-							});</script>";
-						}
-						$opcionSeleccionada = $_POST['tarjeta'];
+					if(isset($_POST["Actualizar"])){
+						$id_valoracion = $_POST["id_valoracion"];
+						$rating = $_POST["rating"];
+						$comentario = $_POST["comment"];
 						
-						if($opcionSeleccionada == 0){
-							echo "<script>Swal.fire({
-								title: 'Selecciona una tarjetaa $opcionSeleccionada',
-								icon: 'error',
-								confirmButtonText: '<a href=\"plus.php\">Aceptar</a>',
-																
-							});</script>";
-						}else{
-							$idUsuario = $_SESSION['ID_USUARIO'];
-							$_SESSION['SUBSCRIPTION'] = 1;
-							
-							$sql = "CALL ActualizarSubscription('$idUsuario', 1)";
-							$result = $conn->query($sql);
-							
-							echo "<script>Swal.fire({
-								title: 'Actualización exitosa ',
-								icon: 'success',
-								confirmButtonText: '<a href=\"plus.php\">Aceptar</a>',
-																
-							});</script>";
-						}
+						$stm = "CALL AgregarValoracionYComentario('$id_valoracion', '$rating', '$comentario')";
+						$conn->query($stm);
+						
+						echo "
+						<script>Swal.fire({
+							title: 'Valoración y comentario agregados',
+							icon: 'success',
+							confirmButtonText: '<a href=\"historial.php\">Aceptar</a>',
+															
+						});</script>";
 						
 					}
-					
-					
-					
-					
 				?>
+				</div>
 				
+					
+			</div>
+			
+			
 				
 			<script src="../assets/js/jquery.min.js"></script>
 			<script src="../assets/js/browser.min.js"></script>
